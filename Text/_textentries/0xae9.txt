@@ -1,4 +1,4 @@
-[OpenMidRight][LoadRoshal][OpenFarRight][LoadZorua][OpenFarLeft][LoadBen][OpenMidLeft][LoadOstrava][OpenMidLeft]Geez,[....] who designed this place? It's like a[NL]
+[OpenMidRight][LoadFace][0x108][OpenFarRight][LoadFace][0x103][OpenFarLeft][LoadFace][0x105][OpenMidLeft][LoadFace][0x102][OpenMidLeft]Geez,[....] who designed this place? It's like a[NL]
 box, in a box, inside of forty other boxes.[A]
 [OpenFarRight]And those forty boxes have cells[NL]
 everywhere?[A]

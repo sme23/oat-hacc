@@ -47,3 +47,10 @@
 // ElizabethThiefPalette
 	setPalette(0xB,ElizabethThiefPalette)
 	setCBSP(0xB,Elizabeth, 0x1, Thief_F)
+
+// SalvCav_generics
+	setGenericPalette(52,SalvCav_generics)
+	setGenericPalette(53,SalvCav_generics)
+	setGenericPalette(54,SalvCav_generics)
+	setGenericPalette(146,SalvCav_generics)
+	setGenericPalette(147,SalvCav_generics)

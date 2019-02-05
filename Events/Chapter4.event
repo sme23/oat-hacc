@@ -23,13 +23,14 @@ ReturningUnit(Zo,1,25)
 ReturningUnit(Zo,1,24)
 
 StartUnits:
-ReturningUnit(Ostrava,6,24)
+ReturningUnit(Ostrava,5,24)
 ReturningUnit(Zo,4,25)
 ReturningUnit(Ben,3,24)
 ReturningUnit(Yanik,3,26)
 ReturningUnit(Juli,2,25)
 ReturningUnit(Roshal,1,25)
 ReturningUnit(Kat,1,24)
+ReturningUnit(Glazette,5,26)
 UNIT
 
 EnemyUnits:
@@ -97,7 +98,7 @@ LOAD1 0x1 ThiefTimer
 ENUN
 FADU 10
 Text(PlaceholderText)
-GotoPrepScreen
+//GotoPrepScreen
 NoFade
 ENDA
 

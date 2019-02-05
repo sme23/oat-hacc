@@ -34,3 +34,6 @@ JuliBowCavPalette:
 ElizabethThiefPalette:
 	#incbin "./_palettes/ElizabethThiefPalette.lzpal" 
 
+SalvCav_generics:
+	#incbin "./_palettes/SalvCav_generics.lzpal" 
+
