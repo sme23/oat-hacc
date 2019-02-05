@@ -1,0 +1,404 @@
+#define FreeSpace 0xb2a610
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define IsPointer 0x08000000
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+#ifndef DebuffTable
+    #define DebuffTable 0x203F100
+#endif
+#ifndef WeaponDebuffTable
+    #define WeaponDebuffTable DebuffTable
+#endif
+
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet
+
+#include "Engine Hacks/Skill System/skill_definitions.event"
+//#include "Tables/Table Definitions.txt"
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+#define __ESCAPE__
+//Event Helpers
+
+#define EndConvo "CALL $9EE2C4"
+
+#define GiveItem(item,character) "SVAL 0x3 item; GIVEITEMTO character"
+
+//Character Defs
+
+#define Ostrava 1
+#define Ben 2
+#define Zorua 3
+#define Yanik 4
+#define Juli 5
+#define Kat 6
+#define Roshal 7
+#define Jeanne 8
+#define Natsumi 9
+#define Hex 10
+#define Junpei 11
+#define Glazette 12
+#define Doc 13
+#define Ciel 14
+#define Blank 15
+#define Samantha 16
+#define Fleurette 17
+#define Fei 18
+#define Smegbert 19
+#define George 20
+#define Alban 21
+#define Ramona 22
+#define Jamie 23
+#define William 24
+#define Sieghardt 25
+#define Orvald 26
+#define Darien 28
+#define Elizabeth Kat
+#define Zo Zorua
+#define Juliana Juli
+#define Fleur Fleurette
+#define Sme Smegbert
+#define FEier Fei
+#define Alben Alban
+#define Darian Darien
+
+#define Vass ONeill
+#define Vaas Vass
+#define Odarit Breguet
+#define Pholis Bone
+#define Kendrick Bazba
+#define Thatch 0x49
+#define Perkus Saar
+#define Zygos Novala
+#define Alfred Murray
+#define Sulbahn Tirado
+#define DMarco Binks
+#define Geraht Pablo
+#define Gotthard 0x50
+#define Trident Aias
+#define Doran Carlyle
+#define Randall Caellach
+#define Michael Pablo
+#define Abul 0x54
+#define Kris 0x55
+#define Lance 0x56
+#define Maajal 0x57
+#define Abelus 0x58
+#define Sen 0x59
+#define Belisarius 0x5A
+#define Raime 0x5B
+#define Brandon 0x5C
+#define Orion 0x5D
+#define RoshalBoss 0x5E
+
+//Class Defs
+
+#define Forrester 0x1
+#define Lancer 0x2
+#define Epizon 0x3
+#define Ruler 0x4
+#define SwdCav 0x5
+#define SwdCav_F 0x6
+#define SilverKnight 0x7
+#define SilverKnight_F 0x8
+#define LncKnight 0x9
+#define SwdKnight 0xA
+#define AxeKnight 0xC
+#define Thief_F 0xE
+#define IceDragon 55
+#define LncCav 56
+#define LncCav_F 57
+#define AxeCav 58
+#define AxeCav_F 59
+#define FireManakete 60
+#define BowCav 61
+#define BowCav_F 62
+#define Rogue_F 71
+#define GoldKnight 82
+#define GoldKnight_F 83
+#define Raider 84
+#define ChaosBringer 85
+#define Halberdier 86
+#define Halberdier_F 87
+#define Soldier_F 88
+#define Monk_F 89
+#define PegasusKnight_F PegasusKnight
+#define Necrodragon 0x65
+#define Falcoknight FalcoKnight
+
+//Item Defs
+
+#define PracticeAxe 9
+#define FireTome 56
+#define ElfireTome 57
+#define ArcfireTome 58
+#define BolganoneTome 59
+#define MeteorTome 60
+#define ThunderTome 61
+#define ElthunderTome 62
+#define ArcthunderTome 63
+#define ThoronTome 64
+#define BoltingTome 65
+#define WindTome 66
+#define ElwindTome 67
+#define ArcwindTome 68
+#define FimbulvetrTome 69 //nice
+#define BlizzardTome 70
+#define LightTome 71
+#define EllightTome 72
+#define ShineTome 73
+#define ResireTome 74
+#define FluxTome 171
+#define LunaTome 172
+#define NosferatuTome 173
+#define EclipseTome 174
+#define FenrirTome 175
+#define GustSaber 194
+#define GaleBlade 163
+#define Greatsword 132
+#define Claymore 134
+#define Zweihander 138
+#define IronGreatlance 139
+#define SteelGreatlance 144
+#define SilverGreatlance 166
+#define IronPoleaxe 167
+#define SteelPoleaxe 168
+#define SilverPoleaxe 169
+#define ShortAxe 193
+#define YotsmungandTome 189
+#define BlackFlameTome 190
+#define DarkHandTome 191
+#define Concoction 121
+#define GoldenTincture 192
+#define Lucerne 120
+#define MasterSword 129
+#define MasterLance 130
+#define MasterAxe 131
+#define Rhongominant 133
+#define Aine 135
+#define Eleos 140
+#define GaeDirge 142
+#define Styx 143
+#define Ea 145
+#define Clarent 146
+#define TreeBranch 147
+#define Labrys 148
+#define AvalonBrant 152
+#define CoronaryBand 153
+
+//Affinity
+
+#define AffinityNone 0
+#define AffinityFire 1
+#define AffinityThunder 2
+#define AffinityWind 3
+#define AffinityIce 4
+#define AffinityDark 5
+#define AffinityLight 6
+#define AffinityAnima 7
+#define AffinityLightning AffinityThunder
+#define AfinnityAnima AffinityAnima
+
+
+//item stat boost sets
+
+#define StatBoosts(HP,Str,Skl,Spd,Def,Res,Lck,Mov,Con) "BYTE HP Str Skl Spd Def Res Lck Mov Con 0x00 0x00 0x00"
+
+//updated promotion list sets, works identically to effectiveness lists
+
+HeroCrestPromos:
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter 0x00
+
+KnightCrestPromos:
+BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Soldier Soldier_F  0x00
+
+OrionsBoltPromos:
+BYTE Archer Archer_F BowCav BowCav_F 0x00
+
+ElysianWhipPromos:
+BYTE PegasusKnight WyvernRider WyvernRider_F 0x00
+
+GuidingRingPromos:
+BYTE Mage Mage_F Shaman Shaman_F Monk Monk_F Priest Cleric Troubadour 0x00
+
+MasterSealPromos:
+BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Thief Thief_F Mercenary Mercenary_F Myrmidon Myrmidon_F Archer Archer_F WyvernRider WyvernRider_F Mage Mage_F Shaman Shaman_F Fighter Brigand Pirate Monk Monk_F Priest Cleric PegasusKnight Troubadour Soldier Soldier_F 0x00
+
+LunarBracePromos:
+BYTE Forrester 0x00
+
+SolarBracePromos:
+BYTE Lancer 0x00
+
+OceanSealPromos:
+BYTE Thief Thief_F Brigand Pirate 0x00
+
+HeavenSealPromos:
+BYTE Forrester Lancer 0x00
+
+//updated move costs
+
+ArmoredMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/Armored.dmp"
+
+FliersMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/Fliers.dmp"
+
+MagicMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/Magic.dmp"
+
+NPCMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/NPC.dmp"
+
+PirateMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/Pirate.dmp"
+
+PromotedCavalryMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/PromotedCavalry.dmp"
+
+PromotedInfantryMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/PromotedInfantry.dmp"
+
+ThiefMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/Thief.dmp"
+
+UnpromotedCavalryMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/UnpromotedCavalry.dmp"
+
+UnpromotedInfantryMoveCost:
+#incbin "Tables/ClassMoveCosts/ClearSky/UnpromotedInfantry.dmp"
+
+//terrain bonuses
+
+TerrainAvoidBonus:
+#incbin "Tables/ClassMoveCosts/TerrainAvo.dmp"
+
+TerrainDefBonus:
+#incbin "Tables/ClassMoveCosts/TerrainDef.dmp"
+
+TerrainResBonus:
+#incbin "Tables/ClassMoveCosts/TerrainRes.dmp"
+
+//edited class skill level up learnsets
+
+#include "Tables/ClassSkillLists.txt"
+
+//new super weapon effectiveness U deluxe
+
+//Music Definitions
+
+//#define __NewMusicDefs__
+
+#define Song_MainTheme 0x43
+#define Song_Battle 0x19
+#define Song_BossBattle 0x1B
+#define Song_CombatMission 0x26
+#define Song_EnemyBattle 0x1A
+#define Song_EnemyPhase 0x13
+#define Song_ArenaBattle 0x39
+#define Song_VictoryIsNear 0x10
+#define Song_TogetherWeRide 0x30
+#define Song_UnderThisFlag 0x9
+#define Song_DragonBattle 0x1F
+#define Song_DragonAppear 0x28
+#define Song_GotohSage 0x2D
+
+//Dumb shit
+
+#define UnlockAllGuideEntries "ENUT 0xB4;ENUT 0xB5;ENUT 0xB6;ENUT 0xB7;ENUT 0xB8;ENUT 0xB9;ENUT 0xBA;ENUT 0xBB;ENUT 0xBC;ENUT 0xBD;ENUT 0xBE;ENUT 0xBF;ENUT 0xC0;ENUT 0xC1;ENUT 0xC2;ENUT 0xC3;ENUT 0xC4;ENUT 0xC5;ENUT 0xC6;ENUT 0xC7;ENUT 0xC8;ENUT 0xC9;ENUT 0xCA;ENUT 0xCB;ENUT 0xCC;ENUT 0xCD;ENUT 0xCE;ENUT 0xCF;ENUT 0xD0;ENUT 0xD1;ENUT 0xD2;ENUT 0xD3;ENUT 0xD4;ENUT 0xD5;ENUT 0xD6;ENUT 0xD7;ENUT 0xD8;ENUT 0xD9;ENUT 0xDA;ENUT 0xDB;ENUT 0xDC;ENUT 0xDD;ENUT 0xDE;ENUT 0xDF;ENUT 0xE0;ENUT 0xE1;ENUT 0xE2;ENUT 0xE3;ENUT 0xE4;ENUT 0xE5;ENUT 0xE6;ENUT 0xE7;ENUT 0xE8;ENUT 0xE9;ENUT 0xEA;ENUT 0xEB"
+
+#define ReturningUnit(charID,x,y) "UNIT charID 0x0 0x0 0x0 [x,y] 0x0 0x0 0x0 0x1 NoItems NoAI"
+
+#define ResetGlobalFlags "ENUF 102;ENUF 103;ENUF 104;ENUF 105;ENUF 106;ENUF 107;ENUF 108;ENUF 109;ENUF 110;ENUF 111;ENUF 112;ENUF 113;ENUF 114;ENUF 115;ENUF 116;ENUF 117;ENUF 118;ENUF 119;ENUF 120;ENUF 121;ENUF 122;ENUF 123;ENUF 124;ENUF 125;ENUF 126;ENUF 127;ENUF 128;ENUF 129;ENUF 130;ENUF 131;ENUF 132;ENUF 133;ENUF 134;ENUF 135;ENUF 136;ENUF 137;ENUF 138;ENUF 139;ENUF 140;ENUF 141;ENUF 142;ENUF 143;ENUF 144;ENUF 145;ENUF 146;ENUF 147;ENUF 148;ENUF 149;ENUF 150;ENUF 151;ENUF 152;ENUF 153;ENUF 154;ENUF 155;ENUF 156;ENUF 157;ENUF 158;ENUF 159;ENUF 160;ENUF 161;ENUF 162;ENUF 163;ENUF 164;ENUF 165;ENUF 166;ENUF 167;ENUF 168;ENUF 169;ENUF 170;ENUF 171;ENUF 172;ENUF 173;ENUF 174;ENUF 175;ENUF 176;ENUF 177;ENUF 178;ENUF 179;ENUF 236;ENUF 237;ENUF 238;ENUF 239"
+
+//Goal text defs
+
+#define SurviveWindowText 0x19C
+#define DefeatBossWindowText 0x19D
+#define RoutWindowText 0x19E
+#define SeizeGateWindowText 0x19F
+#define SeizeThroneWindowText 0x1A1
+
+
+//Chapter IDs
+
+#define PrologueID 0
+#define Chapter1ID 1
+#define Chapter2ID 2
+#define Chapter3ID 3
+#define Chapter4ID 4
+#define Chapter5ID 6
+#define Chapter6ID 7
+#define Chapter7ID 8
+#define Chapter8ID 9
+#define Chapter9ID 10
+#define Chapter9xID 11
+#define Chapter10ID 12
+#define Chapter11ID 13
+#define Chapter12ID 14
+#define Chapter13ID 15
+#define Chapter14ID 16
+#define Chapter15ID 17
+#define Chapter15xID 18
+#define Chapter16ID 19
+#define Chapter17ID 20
+#define Chapter18ID 21
+#define Chapter19ID 22
+#define Chapter20ID 23
+#define Chapter20xID 24
+#define Chapter21ID 25
+#define Chapter22ID 26
+#define Chapter22xID 27
+#define Chapter23ID 28
+#define EndgameID 29
+
+//Spell anim IDs
+#define HandAxeAnim 0x1
+#define ArrowAnim 0x2
+#define FireAnim 0x16
+#define ElfireAnim 0x17
+#define ThunderAnim 0x19
+#define BoltingAnim 0x1A
+#define FimbulvetrAnim 0x1B
+#define FluxAnim 0x1D
+#define NosferatuAnim 0x1E
+#define LightningAnim 0x1F
+#define PurgeAnim 0x20
+#define DivineAnim 0x22
+#define EclipseAnim 0x24
+#define FenrirAnim 0x25
+#define ShineAnim 0x33
+#define LunaSpellAnim 0x34
+#define ExcaliburAnim 0x35
+#define AuraAnim 0x37
+#define StoneAnim 0x3E
+#define IvaldiAnim 0x3F
+#define DemonLightAnim 0x40
+#define GleipnirAnim 0x41
+#define CrimsonEyeAnim 0x42
+#define EvilEyeAnim 0x43
+#define ShadowshotAnim 0x44
+#define DemonSurgeAnim 0x45
+#define NaglfarAnim 0x46
+#define WretchedBreathAnim 0x47
+
+#define ArcfireAnim 0x48
+#define ArcthunderAnim 0x49
+#define ArcwindAnim 0x4A
+#define BlackFlameAnim 0x4B
+#define BolganoneAnim 0x4C
+#define DarkHandAnim 0x4D
+#define ElthunderAnim 0x4E
+#define ElwindAnim 0x4F
+#define MeteorAnim 0x50
+#define ThoronAnim 0x51
+#define TornadoAnim 0x52
+#define WindAnim 0x53
+#define YotsmungandAnim 0x54
+

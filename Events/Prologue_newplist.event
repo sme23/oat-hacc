@@ -1,0 +1,175 @@
+
+EventPointerTable(3,Chapter0)
+
+Chapter0:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Ostrava Forrester 0x0 Level(1,Ally,0) [1,2] 0x0 0x0 0x1 REDA5R3 [9] NoAI
+UNIT
+
+Turn1Player1:
+UNIT Zorua Mage_F Ostrava Level(1,Ally,0) [14,9] 0x0 0x0 0x1 REDA12R8 [Fire,Vulnerary] NoAI
+UNIT
+
+Turn1Player2:
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [14,9] 0x0 0x0 0x1 REDA13R7 [IronSword] NoAI
+UNIT
+
+EnemyUnits:
+UNIT 0x8E Brigand 0x68 Level(1,Enemy,1) [8,0] 0x0 0x0 0x1 REDA6R2 [IronAxe] NoAI
+UNIT 0x8E Brigand 0x68 Level(1,Enemy,1) [8,0] 0x0 0x0 0x1 REDA9R5 [IronAxe] NoAI
+UNIT 0x8E Brigand 0x68 Level(2,Enemy,1) [8,0] 0x0 0x0 0x1 REDA11R3 [IronAxe] NoAI
+UNIT 0x8E Brigand 0x68 Level(2,Enemy,1) [8,0] 0x0 0x0 0x1 REDA8R7 [IronAxe] NoAI
+UNIT 0x68 Brigand 0x68 Level(4,Enemy,1) [8,0] 0x0 0x0 0x1 REDA9R2 [HandAxe] NeverMoveAI
+UNIT 
+
+DeadGuy:
+UNIT 0x6 0x7B 0x0 Level(0,NPC,1) [6,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+EndingEnemies:
+UNIT 0x48 Warrior 0x48 Level(0,Enemy,0) [9,0] 0x0 0x0 0x1 REDA7R2 NoItems NoAI
+UNIT 0x8F Brigand 0x48 Level(0,Enemy,0) [0,4] 0x0 0x0 0x1 REDA5R4 NoItems NoAI
+UNIT 0x8F Brigand 0x48 Level(0,Enemy,0) [0,3] 0x0 0x0 0x1 REDA6R2 NoItems NoAI
+UNIT 0x8F Brigand 0x48 Level(0,Enemy,0) [6,9] 0x0 0x0 0x1 REDA7R5 NoItems NoAI
+UNIT 0x8F Brigand 0x48 Level(0,Enemy,0) [12,9] 0x0 0x0 0x1 REDA10R4 NoItems NoAI
+UNIT 0x8F Brigand 0x48 Level(0,Enemy,0) [14,8] 0x0 0x0 0x1 REDA9R5 NoItems NoAI
+UNIT 0x8F Brigand 0x48 Level(0,Enemy,0) [14,1] 0x0 0x0 0x1 REDA10R3 NoItems NoAI
+UNIT 0x8F Brigand 0x48 Level(0,Enemy,0) [11,0] 0x0 0x0 0x1 REDA9R2 NoItems NoAI
+UNIT
+
+EndingPlayers:
+UNIT Ostrava Forrester 0x0 Level(1,Ally,0) [7,3] 0x0 0x0 0x0 0x1 NoItems NoAI 
+UNIT Zorua Mage_F 0x0 Level(1,Ally,0) [8,3] 0x0 0x0 0x0 0x1 NoItems NoAI 
+UNIT Ben Myrmidon 0x0 Level(1,Ally,0) [8,4] 0x0 0x0 0x0 0x1 NoItems NoAI 
+UNIT
+
+TurnBasedEvents:
+TurnEventPlayer(9,Turn2Event,2)
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(10,ZoruaOstravaTalk,Ostrava,Zorua)
+CharacterEventBothWays(10,BenOstravaTalk,Ostrava,Ben)
+END_MAIN
+
+LocationBasedEvents:
+House(11,HouseEvent,3,1)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+UnlockAllGuideEntries
+MUSC Song_GotohSage
+FADU 30
+LOAD1 0x1 DeadGuy
+LOAD1 0x1 PlayerUnits
+ENUN
+CUMO 0x6
+STAL 40
+CURE
+Text(PrologueOpen1)
+SET_SOMETHING 0x6
+DISA_IF 0x6
+MUSC Song_CombatMission
+STAL 5
+LOAD1 0x1 EnemyUnits
+ENUN
+CUMO 0x68
+STAL 40
+CURE
+Text(PrologueOpen2)
+ENUT 0x22
+NoFade
+ENDA
+
+EndingScene:
+FADI 10
+CLEA 0x0
+LOAD3 0x1 EndingPlayers
+ENUN
+MUSC Victory
+FADU 10
+CUMO 0x1
+STAL 40
+CURE
+Text(Forest,PrologueEndingText)
+MUSC Raid
+LOAD1 0x1 EndingEnemies
+ENUN
+CUMO 0x48
+STAL 40
+CURE
+Text(PrologueEndingText2)
+SVAL 1 0
+ASMC (ClearInventory+1)
+SVAL 1 1
+ASMC (ClearInventory+1)
+SVAL 1 2
+ASMC (ClearInventory+1)
+MNC2 1
+ENDA
+
+Turn2Event:
+Text(PrologueFirstTurn1)
+MUSS Comrades
+Text(PrologueFirstTurn1point5ponit5)
+LOAD1 0x1 Turn1Player2
+ENUN
+CUMO Ben
+STAL 40
+CURE
+STAL 10
+Text(PrologueFirstTurn1point5)
+LOAD1 0x1 Turn1Player1
+ENUN
+Text(PrologueFirstTurn2)
+MURE 5
+NoFade
+ENDA
+
+ZoruaOstravaTalk:
+Text(PrologueTalkZoruaOstrava)
+CALL $591F40
+SVAL 3 Vulnerary
+GIVEITEMTO Ostrava
+NoFade
+ENDA
+
+BenOstravaTalk:
+Text(PrologueTalkBenOstrava)
+CALL $591F40
+SVAL 3 Vulnerary
+GIVEITEMTO Ostrava
+NoFade
+ENDA
+
+HouseEvent:
+Text(HouseBG,PrologueHouse)
+NoFade
+ENDA

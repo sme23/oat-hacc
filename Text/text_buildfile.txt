@@ -1,0 +1,86 @@
+#include "chapter_names.txt"
+
+# 0x0094
+HP Bars[.][X]
+
+# 0x00B2
+Set health bar display[X]
+
+#0x3A LearnedSkillText
+#first text ID in the free block
+Learned  [X]
+
+#include "statscreen_text.txt"
+
+#include "unitmenu_text.txt"
+
+#0x903 EscapeName
+ Escape[X]
+
+## EscapeDesc
+Escape the map.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Arrive at a designated point.[X]
+
+## SS_RatingRText
+Added total of unit's stats.[N]
+Does not include HP.[X]
+
+## RatingsTID 
+Rating[X]
+
+## HouseText
+#first text ID in the free block
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+
+## VillageText
+[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+#for identity problems
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## PlaceholderText
+[OpenMidRight][LoadOstrava]
+This is placeholder text![A][X]
+
+#include "skilldesc_text.txt"
+
+#include "objective_text.txt"
+
+#include "class_text.txt"
+
+#include "unit_text.txt"
+
+#include "item_text.txt"
+
+#include "death_text.txt"
+
+#include "escape_text.txt"
+
+#include "music_text.txt"
+
+#include "prologue_text.txt"
+
+#include "chapter1_text.txt"
+
+#include "chapter2_text.txt"
+
+#include "chapter3_text.txt"
+
+
+#include "support_text.txt"

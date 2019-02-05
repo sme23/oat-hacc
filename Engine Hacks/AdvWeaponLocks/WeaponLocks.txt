@@ -1,0 +1,41 @@
+/* 
+   in AdvWeaponLocks.txt:
+#define LockPointerTable (WeaponLockArray-0x4)
+*/
+
+ALIGN 4
+WeaponLockArray:
+POIN SoftCharWeaponLock
+POIN HardCharWeaponLock
+POIN SoftClassWeaponLock
+POIN HardClassWeaponLock
+POIN SoftCharMultipleTypeWeaponLock
+POIN SoftCharAnyTypeWeaponLock
+
+
+#define SoftChar 0x0
+#define HardChar 0x1
+#define SoftClass 0x2
+#define HardClass 0x3
+
+
+SoftCharWeaponLock:
+BYTE SoftChar 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x00 //characters 1-7 get it at any weapon level, everyone else gets it at set weapon level
+
+HardCharWeaponLock:
+BYTE HardChar 0x1 0x00 //character 0x1 gets it at any weapon level, nobody else can wield it
+
+SoftClassWeaponLock:
+BYTE SoftClass 0x7 0x8 0x9 0xA 0x00 //classes 0x7-0xA get it at any weapon level, everyone else gets it at set weapon level
+
+HardClassWeaponLock:
+BYTE HardClass 0x3 //class 0x3 gets it at any weapon level, nobody else can wield it
+//all 4 lists can be as long as needed as well
+
+SoftCharMultipleTypeWeaponLock:
+BYTE SoftChar+0x8 0 0 0 0 1 31 71 121 0x1 0x2 0x3 0x4 0x5 0x00 //characters 1-5 get it once they have all of the weapon ranks defined in the first 8 bytes
+
+SoftCharAnyTypeWeaponLock:
+BYTE SoftChar+0x4 121 121 121 0 0 0 0 0 0x2 0x5 0xC //characters 2, 5, and 12 get it once they have any of thte weapon ranks defined in the first 8 bytes
+
+//set item's Ability 4 to the corresponding entry in WeaponLockArray; set to 0 for no lock, set to 1+ for each sequential entry in the array

@@ -1,0 +1,44 @@
+##AkeniaAnthemName
+Akenia Anthem[X]
+
+##FireEmblemThemeName
+Fire Emblem Theme[X]
+
+##XCMainThemeName
+Title (Xenoblade Chronicles)[X]
+
+##ArenaBattleThemeName
+Arena Fight (Partners in Time)[X]
+
+##EnemyBattleThemeName
+Adversary[X]
+
+##TogetherWeRideThemeName
+Together We Ride[X]
+
+##PlayerBattleThemeName
+Strike![X]
+
+##CombatMissionThemeName
+Combat Mission[X]
+
+##DragonFightThemeName
+Ancient Horrors (Chrono Trigger)[X]
+
+##DragonAppearsThemeName
+Dragon Appears (Chrono Trigger)[X]
+
+##EnemyPhaseThemeName
+Bandits (Madou Monogatari)[X]
+
+##BossFightThemeName
+Boss (Madou Monogatari)[X]
+
+##GotohSageThemeName
+Thoughtful Woes[X]
+
+##UnderThisFlagThemeName
+Under This Flag[X]
+
+##NearVictoryThemeName
+Victory is Near! (EarthBound)[X]

@@ -1,0 +1,77 @@
+
+EventPointerTable(12,Chapter3)
+
+Chapter3:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Ostrava EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA4R10 NoItems NoAI
+UNIT Ben EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA5R9 NoItems NoAI
+UNIT Zo EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA3R9 NoItems NoAI
+UNIT Yanik EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA4R8 NoItems NoAI
+UNIT Juliana EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA2R8 NoItems NoAI
+UNIT Elizabeth EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA1R9 NoItems NoAI
+UNIT Roshal EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA6R10 NoItems NoAI
+UNIT 
+
+NewUnit:
+UNIT Glazette EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA2R10 NoItems NoAI
+UNIT
+
+EnemyUnits:
+UNIT Bone LncKnight Bone Level(8,Enemy,0) [18,2] 0x0 0x0 0x0 0x1 [Javelin,IronLance] NeverMoveAI
+UNIT 0x6E Fighter Bone Level(4,Enemy,1) [4,5] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x6E Mage Bone Level(4,Enemy,1) [18,4] 0x0 0x0 0x0 0x1 [FireTome] AttackInRangeAI
+UNIT 0x6E Soldier Bone Level(4,Enemy,1) [14,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 0x6E Soldier Bone Level(4,Enemy,1) [7,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 0x6E Fighter Bone Level(4,Enemy,1) [2,3] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x6E Fighter Bone Level(4,Enemy,1) [13,3] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x6E Fighter Bone Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x6E Archer Bone Level(4,Enemy,1) [10,8] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
+UNIT 0x6E Fighter Bone Level(4,Enemy,1) [15,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x6E Soldier Bone Level(4,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+TILECHANGE 0
+LOAD2 0x1 PlayerUnits
+LOAD1 0x1 NewUnit
+ENUN
+ENDA
+
+EndingScene:
+ENDA

@@ -1,0 +1,22 @@
+#incext PFinder "FE8_clean.gba" 0xc00008 ClassAnimTable.bin
+
+ALIGN 4
+ClassAnimTable:
+#incbin "expandanimtable.bin"
+
+PUSH
+ORG $59BD8
+POIN ClassAnimTable
+ORG $5A600
+POIN ClassAnimTable
+ORG $5A694
+POIN ClassAnimTable
+ORG $5A82C
+POIN ClassAnimTable
+ORG $6F6A8
+POIN ClassAnimTable
+ORG $70940
+POIN ClassAnimTable
+ORG $70A60
+POIN ClassAnimTable
+POP

@@ -1,0 +1,220 @@
+## OstravaName
+Ostrava[X]
+
+## OstravaBio
+A warrior-in-training.[NL]
+Seeks a place to call his own.[X]
+
+## ZoruaName
+Zo[X]
+
+## ZoruaBio
+A traveling mage who loves music.[NL]
+Good friends with Ben.[X]
+
+## BenName
+Ben[X]
+
+## BenBio
+"Bringer of Chaos" and good[NL]
+friends with Zo. Very over the top.[X]
+
+## YanikName
+Yanik[X]
+
+## YanikBio
+A skilled horseman who has issues with[NL]
+his emotions. Loves his girlfriend, Juli.[X]
+
+## JulianaName
+Juliana[X]
+
+## JuliBio
+A young cavalier who adores art, but,[NL]
+she loves her boyfriend, Yanik, more.[X]
+
+## KatName
+Elizabeth[X]
+
+## KatBio
+An orphaned thief. Is searching[NL]
+for her brother to enact revenge.[X]
+
+## RoshalName
+Roshal[X]
+
+## RoshalBio
+A timid boy good with a bow.[NL]
+He wants to overcome his many fears.[X]
+
+## JeanneName
+Jeanne[X]
+
+## JeanneBio
+Princess of Vernet.[NL]
+Has a strong sense of justice.[X]
+
+## NatsumiName
+Natsumi[X]
+
+## NatsumiBio
+A scholar and practitioner of[NL]
+dark magic. Wants to be helpful.[X]
+
+## HexName
+Hex[X]
+
+## HexBio
+A close friend of Ostrava.[NL]
+Has a maternal aura.[X]
+
+## JunpeiName
+Junpei[X]
+
+## JunpeiBio
+A master Axe fighter.[NL]
+Surrogate mother to Ostrava.[X]
+
+## GlazetteName
+Glazette[X]
+
+## GlazetteBio
+A blind cleric with a boundless[NL]
+desire to help others.[X]
+
+## DocName
+Doc[X]
+
+## DocBio
+A greedy merc that desires immortality.[NL]
+Likes to provoke people.[X]
+
+## CielName
+Ciel[X]
+
+## CielBio
+Nonbinary wyvern rider from Norwhick.[NL]
+Puts on a cold exterior.[X]
+
+
+
+## BlankName
+Blank[X]
+
+## BlankBio
+A blind wanderer.[NL]
+Knows no boundaries.[X]
+
+## SamanthaName
+Samantha[X]
+
+## SamanthaBio
+Lively pegasus knight with a snarky[NL]
+side. Likes to write stories.[X]
+
+## FleuretteName
+Fleurette[X]
+
+## FleuretteBio
+A quiet but kind dancer who[NL]
+sees her career as an art form.[X]
+
+## FeiName
+Fei[X]
+
+## FeiBio
+A local monk who seeks[NL]
+the path of enlightenment.[X]
+
+## SmegbertName
+Smegbert[X]
+
+## SmegbertBio
+Smee is a Smee, silly![X]
+
+## GeorgeName
+George[X]
+
+## GeorgeBio
+A mighty axeman who seeks[NL]
+Sir William. Loyal to a fault.[X]
+
+## AlbanName
+Alban[X]
+
+## AlbanBio
+A timid man from Norwhick with[NL]
+onflicting loyalties. Indecisive.[X]
+
+## RamonaName
+Ramona[X]
+
+## RamonaBio
+A strong paladin from Norwhick[NL]
+looking for her son.[X]
+
+## JamieName
+Jamie[X]
+
+## JamieBio
+A soldier who has only survived[NL]
+this long due to her outstanding luck.[X]
+
+## WilliamName
+William[X]
+
+## WilliamBio
+Once a mighty hero who has[NL]
+since retired from the limelight.[X]
+
+
+
+## SieghardtName
+Sieghardt[X]
+
+## SieghardtBio
+Foreign adventurer made Vernet general.[NL]
+Puts honor above all else.[X]
+
+## OrvaldName
+Orvald[X]
+
+## OrvaldBio
+Leader of an enormous collective of bandits.[NL]
+Kind, but horrible about keeping his men in check.[X]
+
+## DarienName
+Darien[X]
+
+## DarienBio
+Head of the Norwhick church.[NL]
+A kindhearted woman.[X]
+
+
+
+## VassName
+Vass[X]
+
+## VassBio
+A notable brigand.[NL]
+Not to be taken lightly.[X]
+
+## OdaritName
+Odarit[X]
+
+## OdaritBio
+Former infantry captain. Turned to[NL]
+a life of crime after his retirement.[X]
+
+## PholisName
+Pholis[X]
+
+## PholisBio
+Bandit strongman in charge of loot.[NL]
+Greedy and insensitive.[X]
+
+## KendrickName
+Kendrick[X]
+
+## KendrickBio
+Guard of the bandits' deeper prison.[X]

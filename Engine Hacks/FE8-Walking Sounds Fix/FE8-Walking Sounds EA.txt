@@ -1,0 +1,157 @@
+
+	
+PUSH
+#define WalkingSoundsTable1 0x78D90
+#define WalkingSoundsTable2 0x78E90
+#define WalkingSound(Class,SoundID) "ORG (WalkingSoundsTable1 + Class ) ; BYTE SoundID"
+#define FootSound 0x0
+#define HorseSound 0x1
+#define WyvernSound 0x2
+#define PegasusSound 0x3
+#define ArmorSound 0x4
+#define FleetSound 0x5
+#define FlyingManaketeSound 0x6
+#define ZombieSound 0x7
+#define SkeletonSound 0x8
+#define SpiderSound 0x9
+#define HellhoundSound 0xA
+#define MogallSound 0xB
+#define GorgonSound 0xC
+
+ORG WalkingSoundsTable1
+#incbin walking_sounds_class_dict.dmp
+ORG WalkingSoundsTable2
+#incbin walking_sounds_pointer_table.dmp
+
+ORG 0x78D78
+BYTE 0x03 0x49 0x08 0x5C 0x03 0x49 0x80 0x00 0x09 0x18 0x0D 0x68 0x33 0xE1 0xC0 0x46
+POIN WalkingSoundsTable1
+POIN WalkingSoundsTable2
+
+WalkingSound(Forrester,FootSound)
+WalkingSound(Lancer,FootSound)
+WalkingSound(Epizon,HorseSound)
+WalkingSound(Ruler,PegasusSound)
+WalkingSound(SwdCav,HorseSound)
+WalkingSound(SwdCav_F,HorseSound)
+WalkingSound(SilverKnight,HorseSound)
+WalkingSound(SilverKnight_F,HorseSound)
+WalkingSound(LncKnight,ArmorSound)
+WalkingSound(SwdKnight,ArmorSound)
+WalkingSound(AxeKnight,ArmorSound)
+WalkingSound(Thief,FootSound)
+WalkingSound(Thief_F,FootSound)
+WalkingSound(Mercenary,FootSound)
+WalkingSound(Mercenary_F,FootSound)
+WalkingSound(Hero,FootSound)
+WalkingSound(Hero_F,FootSound)
+WalkingSound(Myrmidon,FootSound)
+WalkingSound(Myrmidon_F,FootSound)
+WalkingSound(Swordmaster,FootSound)
+WalkingSound(Swordmaster_F,FootSound)
+WalkingSound(Assassin,FootSound)
+WalkingSound(Assassin_F,FootSound)
+WalkingSound(Archer,FootSound)
+WalkingSound(Archer_F,FootSound)
+WalkingSound(Sniper,FootSound)
+WalkingSound(Sniper_F,FootSound)
+WalkingSound(Ranger,HorseSound)
+WalkingSound(Ranger_F,HorseSound)
+WalkingSound(WyvernRider,WyvernSound)
+WalkingSound(WyvernRider_F,WyvernSound)
+WalkingSound(WyvernLord,WyvernSound)
+WalkingSound(WyvernLord_F,WyvernSound)
+WalkingSound(WyvernKnight,WyvernSound)
+WalkingSound(WyvernKnight_F,WyvernSound)
+WalkingSound(Mage,FootSound)
+WalkingSound(Mage_F,FootSound)
+WalkingSound(Sage,FootSound)
+WalkingSound(Sage_F,FootSound)
+WalkingSound(MageKnight,HorseSound)
+WalkingSound(MageKnight_F,HorseSound)
+WalkingSound(Bishop,FootSound)
+WalkingSound(Bishop_F,FootSound)
+WalkingSound(Shaman,FootSound)
+WalkingSound(Shaman_F,FootSound)
+WalkingSound(Druid,FootSound)
+WalkingSound(Druid_F,FootSound)
+WalkingSound(Summoner,FootSound)
+WalkingSound(Summoner_F,FootSound)
+WalkingSound(Rogue,FootSound)
+WalkingSound(GorgonEgg,GorgonSound)
+WalkingSound(GreatKnight,ArmorSound)
+WalkingSound(GreatKnight_F,ArmorSound)
+WalkingSound(IceDragon,ArmorSound)
+WalkingSound(LncCav,HorseSound)
+WalkingSound(LncCav_F,HorseSound)
+WalkingSound(AxeCav,HorseSound)
+WalkingSound(AxeCav_F,HorseSound)
+WalkingSound(FireManakete,FootSound)
+WalkingSound(BowCav,HorseSound)
+WalkingSound(BowCav_F,HorseSound)
+WalkingSound(Fighter,FootSound)
+WalkingSound(Warrior,FootSound)
+WalkingSound(Brigand,FootSound)
+WalkingSound(Pirate,FootSound)
+WalkingSound(Berserker,FootSound)
+WalkingSound(Monk,FootSound)
+WalkingSound(Priest,FootSound)
+WalkingSound(Bard,FootSound)
+WalkingSound(Rogue_F,FootSound)
+WalkingSound(PegasusKnight,PegasusSound)
+WalkingSound(FalcoKnight,PegasusSound)
+WalkingSound(Cleric,FootSound)
+WalkingSound(Troubadour,HorseSound)
+WalkingSound(Valkyrie,HorseSound)
+WalkingSound(Dancer,FootSound)
+WalkingSound(Soldier,FootSound)
+WalkingSound(Necromancer,FootSound)
+WalkingSound(Fleet,FootSound)
+WalkingSound(GhostFighter,MogallSound)
+WalkingSound(GoldKnight,HorseSound)
+WalkingSound(GoldKnight_F,HorseSound)
+WalkingSound(Raider,HorseSound)
+WalkingSound(ChaosBringer,FootSound)
+WalkingSound(Halberdier,FootSound)
+WalkingSound(Halberdier_F,FootSound)
+WalkingSound(Soldier_F,FootSound)
+WalkingSound(Monk_F,FootSound)
+WalkingSound(Cyclops,FootSound)
+WalkingSound(Mauthedoog,HellhoundSound)
+WalkingSound(Gwyllgi,HellhoundSound)
+WalkingSound(Tarvos,HorseSound)
+WalkingSound(Maelduin,HorseSound)
+WalkingSound(Mogall,MogallSound)
+WalkingSound(ArchMogall,MogallSound)
+WalkingSound(Gorgon,GorgonSound)
+WalkingSound(GorgonEgg_2,GorgonSound)
+WalkingSound(Gargoyle,WyvernSound)
+WalkingSound(Deathgoyle,WyvernSound)
+WalkingSound(DracoZombie,ArmorSound)
+WalkingSound(DemonKing,FootSound)
+WalkingSound(ArcheronBallista,ArmorSound)
+WalkingSound(ArcheronIronBallista,ArmorSound)
+WalkingSound(ArcheronKillerBallista,ArmorSound)
+WalkingSound(EmptyBallista,FootSound)
+WalkingSound(EmptyIronBallista,FootSound)
+WalkingSound(EmptyKillerBallista,FootSound)
+WalkingSound(Civilian,FootSound)
+WalkingSound(Civilian_F,FootSound)
+WalkingSound(Civilian_2,FootSound)
+WalkingSound(Civilian_F_2,FootSound)
+WalkingSound(Civilian_3,FootSound)
+WalkingSound(Civilian_F_3,FootSound)
+WalkingSound(Peer,FootSound)
+WalkingSound(Queen,FootSound)
+WalkingSound(Prince,FootSound)
+WalkingSound(Queen_2,FootSound)
+WalkingSound(FallenPrince,FootSound)
+WalkingSound(Tent,FootSound)
+WalkingSound(Pontifex,FootSound)
+WalkingSound(FallenPeer,FootSound)
+WalkingSound(Cyclops_2,FootSound)
+WalkingSound(ElderBael_2,SpiderSound)
+WalkingSound(Journeyman_2,FootSound)
+WalkingSound(Pupil_2,FootSound)
+
+POP

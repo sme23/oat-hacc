@@ -1,0 +1,48 @@
+
+ORG 0xb2a610
+
+#include "EAstdlib.event"
+#include "Custom Definitions.event"
+//#include "Tables/PointerTableReorganized.event"
+
+//Text first for Text ID definitions
+#include "Text/Install Text Data.event"
+MESSAGE Used text space ends at currentOffset
+
+//Graphics
+#include "Graphics/Mugs/Mug Installer.event"
+#include "Graphics/Map Sprites/Map Sprites Installer.event"
+#include "Graphics/Tileset Installer.event"
+#include "Palettes/Palette Setup.event"
+#include "Graphics/Item Icons/Item Icon Installer.event"
+
+MESSAGE First block ends at currentOffset
+
+ASSERT 0xC00000 - CURRENTOFFSET
+
+ORG 0xEFB2E0
+
+#include "Animations/_Master Animation Installer.event"
+#include "Graphics/Spells/Master Spell Installer.event"
+
+//CSV tables
+#include "Tables/Table Installer.event"
+MESSAGE Used table space ends at currentOffset
+
+//Engine Hacks
+#include "Engine Hacks/_MasterHackInstaller.event"
+MESSAGE Used hax space ends at currentOffset
+
+//Maps
+#include "Maps/Master Map Installer.event"
+	
+//Music
+#include "Music/_Music Installer.event"
+	
+//Events
+#include "Events/Master Event Installer.event"
+#include "Events/World Map Events Installer.event"
+
+
+MESSAGE Used free space ends at currentOffset
+MESSAGE Proc_Counter

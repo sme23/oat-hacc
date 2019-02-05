@@ -1,0 +1,2 @@
+Added total of unit's stats.[N]
+Does not include HP.[X]

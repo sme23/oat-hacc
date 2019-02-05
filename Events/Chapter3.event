@@ -1,0 +1,168 @@
+
+EventPointerTable(0x14,Chapter3)
+
+Chapter3:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Ostrava EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA4R10 NoItems NoAI
+UNIT Ben EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA5R9 NoItems NoAI
+UNIT Zo EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA3R9 NoItems NoAI
+UNIT Yanik EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA4R8 NoItems NoAI
+UNIT Juliana EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA2R8 NoItems NoAI
+UNIT Elizabeth EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA1R9 NoItems NoAI
+UNIT Roshal EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA6R10 NoItems NoAI
+UNIT Glazette EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA2R10 NoItems NoAI
+UNIT 
+
+EnemyUnits:
+UNIT Bazba LncKnight Bazba Level(8,Enemy,0) [18,2] 0x0 0x0 0x0 0x1 [Javelin,IronLance] NeverMoveAI
+UNIT 0x8E Fighter Bazba Level(4,Enemy,1) [4,5] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x8E Mage Bazba Level(4,Enemy,1) [18,4] 0x0 0x0 0x0 0x1 [FireTome] AttackInRangeAI
+UNIT 0x8E Soldier Bazba Level(4,Enemy,1) [14,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 0x8E Soldier Bazba Level(4,Enemy,1) [7,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 0x8E Fighter Bazba Level(4,Enemy,1) [2,3] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x8E Fighter Bazba Level(4,Enemy,1) [13,3] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x8E Fighter Bazba Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x8E Archer Bazba Level(4,Enemy,1) [10,8] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
+UNIT 0x8E Fighter Bazba Level(4,Enemy,1) [15,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 0x8E Soldier Bazba Level(4,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT
+
+EnemyReinforcements:
+UNIT 0x8E SwdCav Bazba Level(5,Enemy,1) [19,8] 0x0 0x0 0x0 0x1 [SteelSword] DefaultAI
+UNIT 0x8E LncCav Bazba Level(4,Enemy,1) [19,9] 0x0 0x0 0x0 0x1 [SteelLance] DefaultAI
+UNIT 0x8E AxeCav Bazba Level(4,Enemy,1) [19,10] 0x2 0x0 0x0 0x1 [Hammer] DefaultAI
+UNIT
+
+CutsceneUnitBoisThatGetLoad1:
+UNIT Glazette Cleric Ostrava Level(3,Ally,0) [0,1] 0x0 0x0 0x0 0x1 [Mend,Vulnerary] NoAI
+UNIT
+
+CutsceneUnitBoisThatGetLoad2:
+UNIT Ostrava EphraimLord Ostrava 0x1 [11,9] 0x0 0x0 0x1 REDA19R5 NoItems NoAI
+UNIT Zo EphraimLord Ostrava 0x1 [12,9] 0x0 0x0 0x1 REDA18R6 NoItems NoAI
+UNIT Ben EphraimLord Ostrava 0x1 [12,9] 0x0 0x0 0x1 REDA17R6 NoItems NoAI
+UNIT Roshal EphraimLord Ostrava 0x1 [11,9] 0x0 0x0 0x1 REDA17R5 NoItems NoAI
+UNIT
+
+CutsceneUnitBoisThatAlsoGetLoad1:
+UNIT 0x8E Brigand Bazba Level(0,Enemy,0) [10,9] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0x8E Brigand Bazba Level(0,Enemy,0) [11,9] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+TurnBasedEvents:
+TurnEventPlayer(0,ReinforcementsSpawnEvent,3)
+TurnEventPlayer(0,ReinforcementsWarningEvent,2)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+//right here we'll do the cutscene map
+LOMA 0x3F
+CAM1 [13,5]
+FADU 10
+LOAD1 0x1 CutsceneUnitBoisThatGetLoad1
+LOAD2 0x1 CutsceneUnitBoisThatGetLoad2
+ENUN
+Text(Chapter3IntroPt1)
+CAM1 [5,5]
+MOVE 0 Ostrava [2,5]
+MOVE 0 Zo [1,5]
+MOVE 0 Ben [2,4]
+MOVE 0 Roshal [3,6]
+ENUN
+Text(Chapter3IntroPt2)
+MOVE 0 Zo [1,4]
+ENUN
+STAL 5
+MOVE 0 Zo [1,5]
+ENUN
+STAL 5
+SOUN 0xAF
+TILECHANGE 0
+STAL 10
+MOVE 0 Glazette [1,4]
+ENUN
+Text(Chapter3IntroPt3)
+MOVE 0 Ostrava [10,4]
+MOVE 0 Roshal [11,4]
+ENUN
+MOVE 0 Zo [10,6]
+MOVE 9 Ben [11,6]
+MOVE 0 Glazette [10,5]
+LOAD1 0x1 CutsceneUnitBoisThatAlsoGetLoad1
+ENUN
+Text(Chapter3IntroPt4)
+MOVE 0 Ostrava [10,0]
+MOVE 0 Roshal [10,0]
+MOVE 0 Zo [10,0]
+MOVE 0 Glazette [10,0]
+FADI 40
+ENUN
+CLEA 0x0
+CLEE 0x0
+
+
+//now the actual map starts
+LOMA 3
+CAM1 [5,7]
+STAL 20
+FADU 10
+SOUN 0xB1
+TILECHANGE 0
+STAL 10
+LOAD3 0x1 PlayerUnits
+LOAD1 0x1 EnemyUnits
+ENUN
+NoFade
+ENDA
+
+ALIGN 4
+EndingScene:
+MUSS Victory
+Text(0x13,Chapter3EndingDialogue)
+MNC2 4
+ENDA
+
+ReinforcementsSpawnEvent:
+CAM1 [7,7]
+LOAD1 0x1 EnemyReinforcements
+ENUN
+NoFade
+ENDA
+
+ReinforcementsWarningEvent:
+Text(IncomingReinforcements)
+NoFade
+ENDA

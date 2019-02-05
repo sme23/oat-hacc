@@ -1,0 +1,811 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	SongOfOat_grp  voicegroup000
+	#define	SongOfOat_pri  0
+	#define	SongOfOat_rev  0
+	#define	SongOfOat_mvl  85
+	#define	SongOfOat_key  0
+	#define	SongOfOat_tbs  1
+	#define	SongOfOat_exg  0
+	#define	SongOfOat_cmp  1
+
+	// .rodata
+	//	SongOfOat
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+SongOfOat_1:
+	BYTE	KEYSH   SongOfOat_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   79*SongOfOat_tbs/2
+	BYTE		VOICE   76
+	BYTE		VOL     100*SongOfOat_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+SongOfOat_1_B1:
+// 006   ----------------------------------------
+	BYTE		N23     Fs4   v080
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		        Bn4 
+	BYTE	W24
+	BYTE		N68     An4 
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE	W48
+	BYTE		N23     Fs4 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		N68     An4 
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE		N11     Dn5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		N32     An4 
+	BYTE	W36
+	BYTE		N11     Bn4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N32     Dn4 
+	BYTE	W36
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		N23     Dn4 
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		N68     Dn4 
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W72
+	BYTE		N23   
+	BYTE	W24
+// 013   ----------------------------------------
+	BYTE		        En4 
+	BYTE	W24
+	BYTE		        Bn4 
+	BYTE	W24
+	BYTE		N68     An4 
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N23     Dn4 
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W24
+	BYTE		        Bn4 
+	BYTE	W24
+// 015   ----------------------------------------
+	BYTE		N68     An4 
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	SongOfOat_1_B1
+SongOfOat_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+SongOfOat_2:
+	BYTE	KEYSH   SongOfOat_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   24
+	BYTE		VOL     100*SongOfOat_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N23     Dn3   v080
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     Fs3 
+	BYTE	W12
+	BYTE		N23     An2 
+	BYTE	W12
+// 001   ----------------------------------------
+SongOfOat_2_001:
+	BYTE	W12
+	BYTE		N23     An2   v080
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     Fs3 
+	BYTE	W12
+	BYTE		N23     An2 
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     An3 
+	BYTE	W12
+	BYTE		N23     An2 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     En3 
+	BYTE	W48
+SongOfOat_2_B1:
+// 006   ----------------------------------------
+	BYTE		N23     Dn3   v080
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     Fs3 
+	BYTE	W12
+	BYTE		N23     An2 
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	SongOfOat_2_001
+// 008   ----------------------------------------
+	BYTE		N23     Gn3   v080
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     Fs3 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		N23     Dn3 
+	BYTE		N23     Fs3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N23     Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N23     Bn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     Fs3 
+	BYTE		N44     An3 
+	BYTE	W12
+	BYTE		N23     An2 
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N23     Fs3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N23     Gn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE		N23     Bn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N44     Fs3 
+	BYTE		N44     An3 
+	BYTE	W12
+	BYTE		N23     An2 
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W12
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 015   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N23     Dn3 
+	BYTE	W36
+	BYTE		N32     Gn2 
+	BYTE	W03
+	BYTE		        As2 
+	BYTE	W03
+	BYTE		N28     Dn3 
+	BYTE	W03
+	BYTE		N24     En3 
+	BYTE	W24
+	BYTE	W03
+	BYTE		N17     Fs3 
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W66
+	BYTE		N23     Cs3 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	SongOfOat_2_B1
+SongOfOat_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+SongOfOat_3:
+	BYTE	KEYSH   SongOfOat_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     100*SongOfOat_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N11     Ds3   v080
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 003   ----------------------------------------
+SongOfOat_3_003:
+	BYTE		N11     Ds3   v080
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W48
+SongOfOat_3_B1:
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	SongOfOat_3_003
+// 007   ----------------------------------------
+	BYTE		N05     Ds3   v080
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+// 009   ----------------------------------------
+SongOfOat_3_009:
+	BYTE		N11     Ds3   v080
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	SongOfOat_3_009
+// 016   ----------------------------------------
+	BYTE		N05     Ds3   v080
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W48
+// 017   ----------------------------------------
+	BYTE	W66
+	BYTE		N02     Ds3 
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	SongOfOat_3_B1
+SongOfOat_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+SongOfOat_4:
+	BYTE	KEYSH   SongOfOat_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   124
+	BYTE		VOL     100*SongOfOat_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W72
+	BYTE		N32     Fs2   v080
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W48
+SongOfOat_4_B1:
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W72
+	BYTE		N32     Fs2   v080
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W72
+	BYTE		N32   
+	BYTE	W24
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W48
+// 017   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	SongOfOat_4_B1
+SongOfOat_4_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+SongOfOat:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	SongOfOat_pri	// Priority
+	BYTE	SongOfOat_rev	// Reverb.
+
+	POIN2	SongOfOat_grp
+
+	POIN2	SongOfOat_1
+	POIN2	SongOfOat_2
+	POIN2	SongOfOat_3
+	POIN2	SongOfOat_4
+
+	

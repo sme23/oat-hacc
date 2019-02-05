@@ -1,0 +1,790 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	NierBattle_grp  voicegroup000
+	#define	NierBattle_pri  0
+	#define	NierBattle_rev  0
+	#define	NierBattle_mvl  85
+	#define	NierBattle_key  0
+	#define	NierBattle_tbs  1
+	#define	NierBattle_exg  0
+	#define	NierBattle_cmp  1
+
+	// .rodata
+	//	NierBattle
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+NierBattle_1:
+	BYTE	KEYSH   NierBattle_key+0
+NierBattle_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   140*NierBattle_tbs/2
+	BYTE		VOICE   57
+	BYTE		VOL     95*NierBattle_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		N23     Gn2   v080
+	BYTE	W12
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE		N92     Ds3 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE		N15     Fn3 
+	BYTE	W16
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		N11     Gn2 
+	BYTE	W08
+	BYTE		N15     As2 
+	BYTE	W04
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N11   
+	BYTE		TIE     Ds3 
+	BYTE	W12
+// 002   ----------------------------------------
+NierBattle_1_002:
+	BYTE		N23     Gn2   v080
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+NierBattle_1_003:
+	BYTE		N23     Gn2   v080
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W11
+	BYTE	PEND
+	BYTE		EOT     Ds3 
+	BYTE	W01
+	BYTE		N11     Gn2 
+	BYTE		N23     Dn3 
+	BYTE	W12
+// 004   ----------------------------------------
+NierBattle_1_004:
+	BYTE		N23     Gn2   v080
+	BYTE	W12
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE		N92     Ds3 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE		N15     Fn3 
+	BYTE	W16
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		N11     Gn2 
+	BYTE	W08
+	BYTE		N15     As2 
+	BYTE	W04
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N11   
+	BYTE		TIE     Gn3 
+	BYTE	W12
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_1_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_1_003
+	BYTE		EOT     Gn3 
+	BYTE	W01
+	BYTE		N11     Gn2   v080
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE		N92     Gn3 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE		N15     As3 
+	BYTE	W16
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		N11     Gn2 
+	BYTE	W08
+	BYTE		N15     Fn3 
+	BYTE	W04
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N11   
+	BYTE		N32     Fn3 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE		N23     Gn2 
+	BYTE	W24
+	BYTE		N11   
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE		TIE     Gn3 
+	BYTE	W24
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_1_003
+	BYTE		EOT     Gn3 
+	BYTE	W01
+	BYTE		N11     Gn2   v080
+	BYTE		N23     Dn3 
+	BYTE	W12
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_1_004
+// 013   ----------------------------------------
+	BYTE		N23     Gn2   v080
+	BYTE	W24
+	BYTE		N11   
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE		N15     Fn3 
+	BYTE	W16
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		N11     Gn2 
+	BYTE	W08
+	BYTE		N15     As2 
+	BYTE	W04
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N11   
+	BYTE		N92     Ds3 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		N23     Gn2 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE		N80     Fn3 
+	BYTE	W12
+// 015   ----------------------------------------
+	BYTE		N23     Gn2 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	NierBattle_1_B1
+NierBattle_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+NierBattle_2:
+	BYTE	KEYSH   NierBattle_key+0
+NierBattle_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   61
+	BYTE		VOL     127*NierBattle_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE	W24
+	BYTE		N32     Cn1   v080
+	BYTE	W12
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		        Cn1 
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N44   
+	BYTE	W12
+	BYTE		N32     Cn1 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N15     Dn3 
+	BYTE	W16
+	BYTE		        As2 
+	BYTE	W08
+	BYTE		N23     Cn1 
+	BYTE	W08
+	BYTE		N15     Gn2 
+	BYTE	W16
+	BYTE		N32     Gs0 
+	BYTE		TIE     Cn3 
+	BYTE	W12
+// 002   ----------------------------------------
+NierBattle_2_002:
+	BYTE	W24
+	BYTE		N32     Gs0   v080
+	BYTE	W36
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N32   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+NierBattle_2_003:
+	BYTE	W24
+	BYTE		N32     Gs0   v080
+	BYTE	W36
+	BYTE		N23   
+	BYTE	W23
+	BYTE	PEND
+	BYTE		EOT     Cn3 
+	BYTE	W01
+	BYTE		N32     Cn1 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE	W12
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		        Cn1 
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N44   
+	BYTE	W12
+	BYTE		N32     Cn1 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N15     Dn3 
+	BYTE	W16
+	BYTE		        As2 
+	BYTE	W08
+	BYTE		N23     Cn1 
+	BYTE	W08
+	BYTE		N15     Gn2 
+	BYTE	W16
+	BYTE		N32     Gs0 
+	BYTE		TIE     Ds3 
+	BYTE	W12
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_2_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_2_003
+	BYTE		EOT     Ds3 
+	BYTE	W01
+	BYTE		N32     Fn0   v080
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE	W12
+	BYTE		N23     Gn2 
+	BYTE	W24
+	BYTE		        Fn0 
+	BYTE		N11     Gs2 
+	BYTE	W12
+	BYTE		N44     Gn3 
+	BYTE	W12
+	BYTE		N32     Gn0 
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N15     Gn3 
+	BYTE	W16
+	BYTE		        Fn3 
+	BYTE	W08
+	BYTE		N23     Gn0 
+	BYTE	W08
+	BYTE		N15     Dn3 
+	BYTE	W16
+	BYTE		N32     Cn1 
+	BYTE		N32     Dn3 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cn1 
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W24
+	BYTE		N23     Cn1 
+	BYTE	W24
+	BYTE		N32     As0 
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N23   
+	BYTE	W23
+	BYTE		EOT     Ds3 
+	BYTE	W01
+	BYTE		N32     Gs0 
+	BYTE	W12
+// 012   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE	W12
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		        Gs0 
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N44   
+	BYTE	W12
+	BYTE		N32     Gn0 
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N15     Dn3 
+	BYTE	W16
+	BYTE		        As2 
+	BYTE	W08
+	BYTE		N23     Gn0 
+	BYTE	W08
+	BYTE		N15     Gn2 
+	BYTE	W16
+	BYTE		N32     Gs0 
+	BYTE		N92     Cn3 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N32     Gs0 
+	BYTE	W36
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N32     Gn0 
+	BYTE		N72     Bn2 
+	BYTE	W12
+// 015   ----------------------------------------
+	BYTE	W24
+	BYTE		N32     Gn0 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	NierBattle_2_B1
+NierBattle_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+NierBattle_3:
+	BYTE	KEYSH   NierBattle_key+0
+NierBattle_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   49
+	BYTE		VOL     100*NierBattle_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N23     Cn3   v080
+	BYTE	W24
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N23     Cn3 
+	BYTE	W24
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+// 001   ----------------------------------------
+NierBattle_3_001:
+	BYTE		N23     Cn3   v080
+	BYTE	W24
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N23     Cn3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+NierBattle_3_002:
+	BYTE		N23     Cn3   v080
+	BYTE	W24
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N23     Cn3 
+	BYTE	W24
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_002
+// 007   ----------------------------------------
+	BYTE		N23     Cn3   v080
+	BYTE	W24
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N23     Cn3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE		N23     Ds3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N23     Ds3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_002
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_3_002
+// 015   ----------------------------------------
+	BYTE		N23     Cn3   v080
+	BYTE	W24
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N23     Cn3 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	NierBattle_3_B1
+NierBattle_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+NierBattle_4:
+	BYTE	KEYSH   NierBattle_key+0
+NierBattle_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     63*NierBattle_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N05     Cn1   v080
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		N17     Cn1 
+	BYTE		N17     Fn1 
+	BYTE	W18
+	BYTE		N05     Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		N17     Cn1 
+	BYTE		N17     Fn1 
+	BYTE	W18
+	BYTE		N05     Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+// 001   ----------------------------------------
+NierBattle_4_001:
+	BYTE		N05     Cn1   v080
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		N17     Cn1 
+	BYTE		N17     Fn1 
+	BYTE	W18
+	BYTE		N05     Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		N17     Cn1 
+	BYTE		N17     Fn1 
+	BYTE	W18
+	BYTE		N05     Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	NierBattle_4_001
+// 015   ----------------------------------------
+	BYTE		N05     Cn1   v080
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		N17     Cn1 
+	BYTE		N17     Fn1 
+	BYTE	W18
+	BYTE		N05     Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		N17     Cn1 
+	BYTE		N17     Fn1 
+	BYTE	W18
+	BYTE		N05     Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	NierBattle_4_B1
+NierBattle_4_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+NierBattle:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	NierBattle_pri	// Priority
+	BYTE	NierBattle_rev	// Reverb.
+
+	POIN2	NierBattle_grp
+
+	POIN2	NierBattle_1
+	POIN2	NierBattle_2
+	POIN2	NierBattle_3
+	POIN2	NierBattle_4
+
+	

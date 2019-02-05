@@ -1,0 +1,299 @@
+#include "Tools/Tool Helpers.txt"
+//this file defines the macro:
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+ALIGN 16
+OstravaPortrait:
+#incext PortraitFormatter "Playables/Ostrava.png"
+
+ZoruaPortrait:
+#incext PortraitFormatter "Playables/Zo.png"
+
+JuliPortrait:
+#incext PortraitFormatter "Playables/Juli.png"
+
+BenPortrait:
+#incext PortraitFormatter "Playables/Ben.png"
+
+YanikPortrait:
+#incext PortraitFormatter "Playables/Yanik.png"
+
+KatPortrait:
+#incext PortraitFormatter "Playables/Elizabeth.png"
+
+RoshalPortrait:
+#incext PortraitFormatter "Playables/Roshal.png"
+
+JeannePortrait:
+#incext PortraitFormatter "Playables/Jeanne.png"
+
+NatsumiPortrait:
+#incext PortraitFormatter "Playables/Natsumi.png"
+
+HexPortrait:
+#incext PortraitFormatter "Playables/Hex.png"
+
+JunpeiPortrait:
+#incext PortraitFormatter "Playables/Junpei.png"
+
+GlazettePortrait:
+#incext PortraitFormatter "Playables/Glazette.png"
+
+DocPortrait:
+#incext PortraitFormatter "Playables/Doc.png"
+
+CielPortrait:
+#incext PortraitFormatter "Playables/Ciel.png"
+
+BlankPortrait:
+#incext PortraitFormatter "Playables/Blank.png"
+
+SamanthaPortrait:
+#incext PortraitFormatter "Playables/Sammy.png"
+
+FleurettePortrait:
+#incext PortraitFormatter "Playables/Fleurette.png"
+
+FeiPortrait:
+#incext PortraitFormatter "Playables/Fei.png"
+
+SmegbertPortrait:
+#incext PortraitFormatter "Playables/Smegbert.png"
+
+GeorgePortrait:
+#incext PortraitFormatter "Playables/George.png"
+
+AlbanPortrait:
+#incext PortraitFormatter "Playables/Alban.png"
+
+RamonaPortrait:
+#incext PortraitFormatter "Playables/Ramona.png"
+
+JamiePortrait:
+#incext PortraitFormatter "Playables/Jamie.png"
+
+WilliamPortrait:
+#incext PortraitFormatter "Playables/William.png"
+
+SieghardtPortrait:
+#incext PortraitFormatter "Playables/Sieghardt.png"
+
+OrvaldPortrait:
+#incext PortraitFormatter "Playables/Orvald.png"
+
+DarienPortrait:
+#incext PortraitFormatter "Playables/Darien.png"
+
+//BOSSES
+
+VassPortrait:
+#incext PortraitFormatter "Bosses/Vass.png"
+
+OdaritPortrait:
+#incext PortraitFormatter "Bosses/Odarit.png"
+
+PholisPortrait:
+#incext PortraitFormatter "Bosses/Pholis.png"
+
+KendrickPortrait:
+#incext PortraitFormatter "Bosses/Kendrick.png"
+
+ThatchPortrait:
+#incext PortraitFormatter "Bosses/Thatch.png"
+
+PerkusPortrait:
+#incext PortraitFormatter "Bosses/Perkus.png"
+
+ZygosPortrait:
+#incext PortraitFormatter "Bosses/Zygos.png"
+
+AlfredPortrait:
+#incext PortraitFormatter "Bosses/Alfred.png"
+
+SulbahnPortrait:
+#incext PortraitFormatter "Bosses/Sulbahn.png"
+
+DMarcoPortrait:
+#incext PortraitFormatter "Bosses/DMarco.png"
+
+GerahtPortrait:
+#incext PortraitFormatter "Bosses/Geraht.png"
+
+GotthardPortrait:
+#incext PortraitFormatter "Bosses/Gotthard.png"
+
+TridentPortrait:
+#incext PortraitFormatter "Bosses/Trident.png"
+
+DoranPortrait:
+#incext PortraitFormatter "Bosses/Doran.png"
+
+RandallPortrait:
+#incext PortraitFormatter "Bosses/Randall.png"
+
+MichaelPortrait:
+#incext PortraitFormatter "Bosses/Michael.png"
+
+AbulPortrait:
+#incext PortraitFormatter "Bosses/Abul.png"
+
+KrisPortrait:
+#incext PortraitFormatter "Bosses/Kris.png"
+
+LancePortrait:
+#incext PortraitFormatter "Bosses/Lance.png"
+
+MaajalPortrait:
+#incext PortraitFormatter "Bosses/Maajal.png"
+
+AbelusPortrait:
+#incext PortraitFormatter "Bosses/Abelus.png"
+
+SenPortrait:
+#incext PortraitFormatter "Bosses/Sen.png"
+
+BelisariusPortrait:
+#incext PortraitFormatter "Bosses/Belisarius.png"
+
+RaimePortrait:
+#incext PortraitFormatter "Bosses/Raime.png"
+
+BrandonPortrait:
+#incext PortraitFormatter "Bosses/Brandon.png"
+
+OrionPortrait:
+#incext PortraitFormatter "Bosses/Orion.png"
+
+//NPCS
+
+MeiluPortrait:
+#incext PortraitFormatter "NPCs/Meilu.png"
+
+EmilePortrait:
+#incext PortraitFormatter "NPCs/Emile.png"
+
+UniversityMagePortrait:
+#incext PortraitFormatter "NPCs/University Mage.png"
+
+
+
+
+#ifndef __TROUBLESHOOT__
+setMugEntry(0x2, OstravaPortrait, 3, 6, 3, 4)
+setMugEntry(0x3, ZoruaPortrait, 2, 6, 3, 4)
+setMugEntry(0x4, JuliPortrait, 2, 7, 3, 5)
+setMugEntry(0x5, BenPortrait, 2, 5, 3, 3)
+setMugEntry(0x6, YanikPortrait, 2, 5, 3, 3)
+setMugEntry(0x7, KatPortrait, 3, 5, 4, 3)
+setMugEntry(0x8, RoshalPortrait, 2, 6, 3, 4)
+setMugEntry(0x9, JeannePortrait, 2, 5, 3, 3)
+setMugEntry(0xA, NatsumiPortrait, 2, 6, 3, 4)
+setMugEntry(0xB, HexPortrait, 2, 5, 3, 3)
+setMugEntry(0xC, JunpeiPortrait, 2, 5, 3, 3)
+setMugEntry(0xD, GlazettePortrait, 2, 6, 3, 4)
+setMugEntry(0xE, DocPortrait, 2, 6, 3, 4)
+setMugEntry(0xF, CielPortrait, 2, 6, 3, 4)
+setMugEntry(0x10, BlankPortrait, 2, 5, 3, 3)
+setMugEntry(0x11, SamanthaPortrait, 2, 6, 3, 4)
+setMugEntry(0x12, FleurettePortrait, 2, 6, 3, 4)
+setMugEntry(0x13, FeiPortrait, 3, 6, 3, 4)
+setMugEntry(0x14, SmegbertPortrait, 2, 6, 3, 4)
+setMugEntry(0x15, GeorgePortrait, 1, 5, 2, 3)
+setMugEntry(0x16, AlbanPortrait, 2, 5, 3, 3)
+setMugEntry(0x17, RamonaPortrait, 2, 6, 3, 4)
+setMugEntry(0x18, JamiePortrait, 2, 6, 3, 4)
+setMugEntry(0x19, WilliamPortrait, 2, 5, 3, 3)
+setMugEntry(0x1A, SieghardtPortrait, 2, 4, 2, 2)
+setMugEntry(0x1B, OrvaldPortrait, 2, 5, 3, 3)
+setMugEntry(0x1C, DarienPortrait, 2, 5, 3, 3)
+
+
+setMugEntry(0x1D, VassPortrait, 2, 5, 3, 3)
+setMugEntry(0x1E, OdaritPortrait, 2, 5, 3, 3)
+setMugEntry(0x1F, PholisPortrait, 2, 5, 3, 3)
+setMugEntry(0x20, KendrickPortrait, 2, 5, 3, 3)
+setMugEntry(0x21, ThatchPortrait, 2, 5, 3, 3)
+setMugEntry(0x22, PerkusPortrait, 2, 6, 3, 4)
+setMugEntry(0x23, ZygosPortrait, 2, 5, 3, 3)
+setMugEntry(0x24, AlfredPortrait, 2, 5, 3, 3)
+setMugEntry(0x25, SulbahnPortrait, 2, 5, 3, 3)
+setMugEntry(0x26, DMarcoPortrait, 2, 5, 3, 3)
+setMugEntry(0x27, GerahtPortrait, 2, 5, 3, 3)
+setMugEntry(0x28, GotthardPortrait, 2, 5, 3, 3)
+setMugEntry(0x29, TridentPortrait, 2, 5, 3, 3)
+setMugEntry(0x2A, DoranPortrait, 2, 5, 3, 3)
+setMugEntry(0x2B, RandallPortrait, 2, 5, 3, 3)
+setMugEntry(0x2C, MichaelPortrait, 2, 5, 3, 3)
+setMugEntry(0x2D, AbulPortrait, 2, 5, 3, 3)
+setMugEntry(0x2E, KrisPortrait, 2, 5, 3, 3)
+setMugEntry(0x2F, LancePortrait, 2, 5, 3, 3)
+setMugEntry(0x30, MaajalPortrait, 2, 5, 3, 3)
+setMugEntry(0x31, AbelusPortrait, 2, 5, 3, 3)
+setMugEntry(0x32, SenPortrait, 2, 5, 3, 3)
+setMugEntry(0x33, BelisariusPortrait, 2, 5, 3, 3)
+setMugEntry(0x34, RaimePortrait, 2, 5, 3, 3)
+setMugEntry(0x35, BrandonPortrait, 2, 5, 3, 3)
+setMugEntry(0x36, OrionPortrait, 2, 5, 3, 3)
+
+
+setMugEntry(0x37, MeiluPortrait, 2, 6, 3, 4)
+setMugEntry(0x38, EmilePortrait, 2, 5, 2, 3)
+setMugEntry(0x39, UniversityMagePortrait, 2, 5, 3, 3)
+#endif
+
+#define OstravaMug 0x2
+#define ZoruaMug 0x3
+#define JuliMug 0x4
+#define BenMug 0x5
+#define YanikMug 0x6
+#define KatMug 7
+#define RoshalMug 8
+#define JeanneMug 9
+#define NatsumiMug 10
+#define HexMug 11
+#define JunpeiMug 12
+#define GlazetteMug 13
+#define DocMug 14
+#define CielMug 15
+#define BlankMug 16
+#define SamanthaMug 17
+#define FleuretteMug 18
+#define FeiMug 19
+#define SmegbertMug 20
+#define GeorgeMug 21
+#define AlbanMug 22
+#define RamonaMug 23
+#define JamieMug 24
+#define WilliamMug 25
+#define SieghardtMug 26
+#define OrvaldMug 27
+#define DarienMug 28
+
+#define VassMug 29
+#define OdaritMug 30
+#define PholisMug 31
+#define KendrickMug 32
+#define ThatchMug 33
+#define PerkusMug 34
+#define ZygosMug 35
+#define AlfredMug 36
+#define SulbahnMug 37
+#define DMarcoMug 38
+#define GarahtMug 39
+#define GotthardMug 40
+#define TridentMug 41
+#define DoranMug 42
+#define RandallMug 43
+#define MichaelMug 44
+#define AbulMug 45
+#define KrisMug 46
+#define LanceMug 47
+#define MaajalMug 48
+#define AbelusMug 49
+#define SenMug 50
+#define BelesariusMug 51
+#define RaimeMug 52
+#define BrandonMug 53
+#define OrionMug 54
+
+#define EmileMug 55
+#define MeiluMug 56

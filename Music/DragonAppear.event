@@ -1,0 +1,1555 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	DragonAppear_grp  voicegroup000
+	#define	DragonAppear_pri  0
+	#define	DragonAppear_rev  0
+	#define	DragonAppear_mvl  85
+	#define	DragonAppear_key  0
+	#define	DragonAppear_tbs  1
+	#define	DragonAppear_exg  0
+	#define	DragonAppear_cmp  1
+
+	// .rodata
+	//	DragonAppear
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+DragonAppear_1:
+	BYTE	KEYSH   DragonAppear_key+0
+DragonAppear_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   119*DragonAppear_tbs/2
+	BYTE		VOICE   19
+	BYTE	W48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W48
+// 001   ----------------------------------------
+DragonAppear_1_001:
+	BYTE		N23     Ds5   v116
+	BYTE	W24
+	BYTE		TIE     Dn5 
+	BYTE	W72
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W01
+// 003   ----------------------------------------
+DragonAppear_1_003:
+	BYTE		N23     Cs5   v116
+	BYTE	W24
+	BYTE		TIE     Cn5 
+	BYTE	W72
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_1_001
+// 006   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Dn5 
+	BYTE	W24
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_1_003
+// 008   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Cn5 
+	BYTE	W01
+	BYTE		VOICE   32
+	BYTE		VOL     56*DragonAppear_mvl/mxv
+	BYTE		TIE     Ds4   v116
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N92     Dn4 
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fs4 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fn4 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs4 
+	BYTE	W48
+// 015   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 016   ----------------------------------------
+DragonAppear_1_016:
+	BYTE	W48
+	BYTE		TIE     Cn4   v116
+	BYTE	W48
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOICE   38
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE	W48
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_1_001
+// 022   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Dn5 
+	BYTE	W24
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_1_003
+// 024   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Cn5 
+	BYTE	W24
+	BYTE	W01
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_1_001
+// 026   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Dn5 
+	BYTE	W24
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_1_003
+// 028   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Cn5 
+	BYTE	W01
+	BYTE		VOICE   32
+	BYTE		VOL     56*DragonAppear_mvl/mxv
+	BYTE		TIE     Ds4   v116
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N92     Dn4 
+	BYTE	W48
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fs4 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fn4 
+	BYTE	W48
+// 033   ----------------------------------------
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+// 034   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs4 
+	BYTE	W48
+// 035   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_1_016
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	DragonAppear_1_B1
+DragonAppear_1_B2:
+// 040   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Cn4 
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+DragonAppear_2:
+	BYTE	KEYSH   DragonAppear_key+0
+DragonAppear_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE	W48
+	BYTE		VOL     76*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v-24
+	BYTE	W48
+// 001   ----------------------------------------
+DragonAppear_2_001:
+	BYTE		N23     As4   v116
+	BYTE	W24
+	BYTE		TIE     An4 
+	BYTE	W72
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W01
+// 003   ----------------------------------------
+DragonAppear_2_003:
+	BYTE		N23     Gs4   v116
+	BYTE	W24
+	BYTE		TIE     Gn4 
+	BYTE	W72
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_2_001
+// 006   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     An4 
+	BYTE	W24
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_2_003
+// 008   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Gn4 
+	BYTE	W01
+	BYTE		VOL     50*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v-41
+	BYTE		TIE     As3   v116
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N92     An3 
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs4 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cn4 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fn3 
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+// 015   ----------------------------------------
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+// 016   ----------------------------------------
+DragonAppear_2_016:
+	BYTE	W48
+	BYTE		TIE     Fn3   v116
+	BYTE	W48
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     76*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v-24
+	BYTE	W48
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_2_001
+// 022   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     An4 
+	BYTE	W24
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_2_003
+// 024   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Gn4 
+	BYTE	W24
+	BYTE	W01
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_2_001
+// 026   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     An4 
+	BYTE	W24
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_2_003
+// 028   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Gn4 
+	BYTE	W01
+	BYTE		VOL     50*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v-41
+	BYTE		TIE     As3   v116
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N92     An3 
+	BYTE	W48
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs4 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cn4 
+	BYTE	W48
+// 033   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fn3 
+	BYTE	W48
+// 034   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+// 035   ----------------------------------------
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_2_016
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	DragonAppear_2_B1
+DragonAppear_2_B2:
+// 040   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Fn3 
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+DragonAppear_3:
+	BYTE	KEYSH   DragonAppear_key+0
+DragonAppear_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE	W48
+	BYTE		VOL     76*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE	W48
+// 001   ----------------------------------------
+DragonAppear_3_001:
+	BYTE		N23     Gs4   v116
+	BYTE	W24
+	BYTE		TIE     Gn4 
+	BYTE	W72
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W01
+// 003   ----------------------------------------
+DragonAppear_3_003:
+	BYTE		N23     Fs4   v116
+	BYTE	W24
+	BYTE		TIE     Fn4 
+	BYTE	W72
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_3_001
+// 006   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Gn4 
+	BYTE	W24
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_3_003
+// 008   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Fn4 
+	BYTE	W01
+	BYTE		VOL     50*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+41
+	BYTE		TIE     Gs3   v116
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N92     Gn3 
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W48
+	BYTE		        Bn3 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+// 015   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+// 016   ----------------------------------------
+DragonAppear_3_016:
+	BYTE	W48
+	BYTE		TIE     Ds3   v116
+	BYTE	W48
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     76*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE	W48
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_3_001
+// 022   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Gn4 
+	BYTE	W24
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_3_003
+// 024   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Fn4 
+	BYTE	W24
+	BYTE	W01
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_3_001
+// 026   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT     Gn4 
+	BYTE	W24
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_3_003
+// 028   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Fn4 
+	BYTE	W01
+	BYTE		VOL     50*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+41
+	BYTE		TIE     Gs3   v116
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N92     Gn3 
+	BYTE	W48
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		        Bn3 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+// 033   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE	W48
+// 034   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+// 035   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_3_016
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	DragonAppear_3_B1
+DragonAppear_3_B2:
+// 040   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+DragonAppear_4:
+	BYTE	KEYSH   DragonAppear_key+0
+DragonAppear_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   42
+	BYTE	W48
+	BYTE		VOL     82*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		TIE     Fn1   v116
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     39*DragonAppear_mvl/mxv
+	BYTE		N92   
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs1 
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE	W48
+	BYTE		        An1 
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs2 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE	W48
+	BYTE		        Dn2 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs2 
+	BYTE	W48
+// 014   ----------------------------------------
+DragonAppear_4_014:
+	BYTE	W48
+	BYTE		TIE     Bn1   v116
+	BYTE	W48
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE     As1 
+	BYTE	W48
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     82*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn1 
+	BYTE	W48
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     39*DragonAppear_mvl/mxv
+	BYTE		N92   
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs1 
+	BYTE	W48
+// 030   ----------------------------------------
+	BYTE	W48
+	BYTE		        An1 
+	BYTE	W48
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs2 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W48
+	BYTE		        Dn2 
+	BYTE	W48
+// 033   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs2 
+	BYTE	W48
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_4_014
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Bn1 
+	BYTE	W01
+	BYTE		TIE     As1   v116
+	BYTE	W48
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	DragonAppear_4_B1
+DragonAppear_4_B2:
+// 040   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     As1 
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+DragonAppear_5:
+	BYTE	KEYSH   DragonAppear_key+0
+DragonAppear_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   42
+	BYTE	W48
+	BYTE		VOL     82*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		TIE     Fn0   v116
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     53*DragonAppear_mvl/mxv
+	BYTE		N92   
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs0 
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE	W48
+	BYTE		        An0 
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs1 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE	W48
+	BYTE		        Dn1 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs1 
+	BYTE	W48
+// 014   ----------------------------------------
+DragonAppear_5_014:
+	BYTE	W48
+	BYTE		TIE     Bn0   v116
+	BYTE	W48
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE     As0 
+	BYTE	W48
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     82*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn0 
+	BYTE	W48
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W48
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     53*DragonAppear_mvl/mxv
+	BYTE		N92   
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gs0 
+	BYTE	W48
+// 030   ----------------------------------------
+	BYTE	W48
+	BYTE		        An0 
+	BYTE	W48
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs1 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W48
+	BYTE		        Dn1 
+	BYTE	W48
+// 033   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs1 
+	BYTE	W48
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DragonAppear_5_014
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     Bn0 
+	BYTE	W01
+	BYTE		TIE     As0   v116
+	BYTE	W48
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	DragonAppear_5_B1
+DragonAppear_5_B2:
+// 040   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT     As0 
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+DragonAppear_6:
+	BYTE	KEYSH   DragonAppear_key+0
+DragonAppear_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   33
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		N03     Fn0   v116
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		TIE   
+	BYTE	W48
+	BYTE	W02
+// 009   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W02
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W02
+	BYTE		PAN     c_v-48
+	BYTE		VOL     89*DragonAppear_mvl/mxv
+	BYTE		TIE     Fn2 
+	BYTE	W48
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn0 
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		TIE   
+	BYTE	W48
+	BYTE	W02
+// 029   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	DragonAppear_6_B1
+DragonAppear_6_B2:
+// 040   ----------------------------------------
+	BYTE	W02
+	BYTE		N03     Fn0   v116
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N01   
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+DragonAppear_7:
+	BYTE	KEYSH   DragonAppear_key+0
+DragonAppear_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     109*DragonAppear_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		TIE     An2   v116
+	BYTE	W88
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE	W08
+	BYTE		TIE   
+	BYTE	W88
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W07
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		TIE   
+	BYTE	W88
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	DragonAppear_7_B1
+DragonAppear_7_B2:
+// 040   ----------------------------------------
+	BYTE	W08
+	BYTE		N36     An2   v116
+	BYTE	W36
+	BYTE	W03
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+DragonAppear:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	DragonAppear_pri	// Priority
+	BYTE	DragonAppear_rev	// Reverb.
+
+	POIN2	DragonAppear_grp
+
+	POIN2	DragonAppear_1
+	POIN2	DragonAppear_2
+	POIN2	DragonAppear_3
+	POIN2	DragonAppear_4
+	POIN2	DragonAppear_5
+	POIN2	DragonAppear_6
+	POIN2	DragonAppear_7
+
+	

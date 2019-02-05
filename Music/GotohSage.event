@@ -1,0 +1,992 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	GotohSage_grp  voicegroup000
+	#define	GotohSage_pri  0
+	#define	GotohSage_rev  0
+	#define	GotohSage_mvl  85
+	#define	GotohSage_key  0
+	#define	GotohSage_tbs  1
+	#define	GotohSage_exg  0
+	#define	GotohSage_cmp  1
+
+	// .rodata
+	//	GotohSage
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+GotohSage_1:
+	BYTE	KEYSH   GotohSage_key+0
+GotohSage_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   48*GotohSage_tbs/2
+	BYTE		VOICE   75
+	BYTE		VOL     75*GotohSage_mvl/mxv
+	BYTE		PAN     c_v-14
+	BYTE		N10     An3   v116
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		N07     An3 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		N07     An3 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N11     Fn3 
+	BYTE	W12
+// 002   ----------------------------------------
+GotohSage_1_002:
+	BYTE		N07     An3   v116
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		N07     An3 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N10     An3 
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N11     Fn3 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	GotohSage_1_002
+// 006   ----------------------------------------
+	BYTE		N10     An3   v116
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		N07     An3 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		N07     An3 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N03     Cn4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		N07     Cn4 
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	GotohSage_1_B1
+GotohSage_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.3) ****************//
+
+GotohSage_2:
+	BYTE	KEYSH   GotohSage_key+0
+GotohSage_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   75
+	BYTE		VOL     70*GotohSage_mvl/mxv
+	BYTE		PAN     c_v+14
+	BYTE		N11     Cn4   v116
+	BYTE	W12
+	BYTE		N03     En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N03     En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N03     En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+// 002   ----------------------------------------
+GotohSage_2_002:
+	BYTE		N07     Cn4   v116
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N03     En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N07     Ds4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N07     Ds4 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N03     Ds4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		N07     Ds4 
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N03     En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	GotohSage_2_002
+// 006   ----------------------------------------
+	BYTE		N11     Cn4   v116
+	BYTE	W12
+	BYTE		N03     En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N03     En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N07     En4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE		N07     Ds4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N07     Ds4 
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N03     Ds4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		N07     Ds4 
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	GotohSage_2_B1
+GotohSage_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.4) ****************//
+
+GotohSage_3:
+	BYTE	KEYSH   GotohSage_key+0
+GotohSage_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   24
+	BYTE		VOL     111*GotohSage_mvl/mxv
+	BYTE		PAN     c_v-34
+	BYTE		N32     An2   v124
+	BYTE	W36
+	BYTE		        Fn2   v108
+	BYTE	W36
+	BYTE		        An2   v124
+	BYTE	W24
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		        Fn2   v108
+	BYTE	W36
+	BYTE		        An2   v124
+	BYTE	W36
+	BYTE		        Fn2   v108
+	BYTE	W12
+// 002   ----------------------------------------
+GotohSage_3_002:
+	BYTE	W24
+	BYTE		N32     An2   v124
+	BYTE	W36
+	BYTE		        Fn2   v108
+	BYTE	W36
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		        An2   v120
+	BYTE	W36
+	BYTE		        Gs2 
+	BYTE	W36
+	BYTE		N32   
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE	W12
+	BYTE		N32   
+	BYTE	W36
+	BYTE		        An2   v124
+	BYTE	W36
+	BYTE		        Fn2   v108
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	GotohSage_3_002
+// 006   ----------------------------------------
+	BYTE		N32     An2   v124
+	BYTE	W36
+	BYTE		        Fn2   v108
+	BYTE	W36
+	BYTE		        An2   v124
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE	W12
+	BYTE		        Fn2   v108
+	BYTE	W36
+	BYTE		        An2   v120
+	BYTE	W36
+	BYTE		        Gs2 
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE	W24
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N32   
+	BYTE	W32
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	GotohSage_3_B1
+GotohSage_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.5) ****************//
+
+GotohSage_4:
+	BYTE	KEYSH   GotohSage_key+0
+GotohSage_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   24
+	BYTE		VOL     105*GotohSage_mvl/mxv
+	BYTE		PAN     c_v-14
+	BYTE	W06
+	BYTE		N28     En3   v104
+	BYTE	W36
+	BYTE		        Cn3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W18
+// 001   ----------------------------------------
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W36
+	BYTE		        Cn3 
+	BYTE	W06
+// 002   ----------------------------------------
+GotohSage_4_002:
+	BYTE	W30
+	BYTE		N28     En3   v104
+	BYTE	W36
+	BYTE		        Cn3 
+	BYTE	W30
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W36
+	BYTE		        Ds3 
+	BYTE	W36
+	BYTE		N28   
+	BYTE	W18
+// 004   ----------------------------------------
+	BYTE	W18
+	BYTE		N28   
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W36
+	BYTE		        Cn3 
+	BYTE	W06
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	GotohSage_4_002
+// 006   ----------------------------------------
+	BYTE	W06
+	BYTE		N28     En3   v104
+	BYTE	W36
+	BYTE		        Cn3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W18
+// 007   ----------------------------------------
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W36
+	BYTE		        Ds3 
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE	W30
+	BYTE		N28   
+	BYTE	W36
+	BYTE		N28   
+	BYTE	W28
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	GotohSage_4_B1
+GotohSage_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.6) ****************//
+
+GotohSage_5:
+	BYTE	KEYSH   GotohSage_key+0
+GotohSage_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   24
+	BYTE		VOL     99*GotohSage_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		N19     An3   v096
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		        An3 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		        An3 
+	BYTE	W36
+// 002   ----------------------------------------
+GotohSage_5_002:
+	BYTE		N19     Fn3   v096
+	BYTE	W36
+	BYTE		        An3 
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	W12
+	BYTE		N09     Bn3   v104
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W24
+	BYTE		N09   
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE		N09   
+	BYTE	W24
+	BYTE		N21   
+	BYTE	W36
+	BYTE		N19     An3   v096
+	BYTE	W36
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	GotohSage_5_002
+// 006   ----------------------------------------
+	BYTE	W12
+	BYTE		N19     An3   v096
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		        An3 
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		N09     Bn3   v104
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W24
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W24
+	BYTE		N21   
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	GotohSage_5_B1
+GotohSage_5_B2:
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.7) ****************//
+
+GotohSage_6:
+	BYTE	KEYSH   GotohSage_key+0
+GotohSage_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   24
+	BYTE		VOL     93*GotohSage_mvl/mxv
+	BYTE		PAN     c_v+14
+	BYTE	W18
+	BYTE		N05     Bn3   v092
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N23     Cn4 
+	BYTE	W24
+	BYTE		N05     Bn3 
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N23     Cn4 
+	BYTE	W24
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W18
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N23     Cn4 
+	BYTE	W24
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+// 003   ----------------------------------------
+	BYTE	W18
+	BYTE		N11     Cn4   v104
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE	W06
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N28     Ds4 
+	BYTE	W30
+	BYTE		N05     Bn3   v092
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W18
+// 005   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N23     Cn4 
+	BYTE	W24
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N23     Cn4 
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE	W18
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N23     Cn4 
+	BYTE	W24
+	BYTE		N05     Bn3 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		N11     Cn4   v104
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W18
+// 008   ----------------------------------------
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds4 
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	GotohSage_6_B1
+GotohSage_6_B2:
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.8) ****************//
+
+GotohSage_7:
+	BYTE	KEYSH   GotohSage_key+0
+GotohSage_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   75
+	BYTE		VOL     105*GotohSage_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE		N17     En4   v092
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W12
+// 002   ----------------------------------------
+GotohSage_7_002:
+	BYTE	W06
+	BYTE		N05     Dn4   v092
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		N17     Ds4 
+	BYTE	W18
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	GotohSage_7_002
+// 006   ----------------------------------------
+	BYTE		N17     En4   v092
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		N17     Ds4 
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	GotohSage_7_B1
+GotohSage_7_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+GotohSage:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	GotohSage_pri	// Priority
+	BYTE	GotohSage_rev	// Reverb.
+
+	POIN2	GotohSage_grp
+
+	POIN2	GotohSage_1
+	POIN2	GotohSage_2
+	POIN2	GotohSage_3
+	POIN2	GotohSage_4
+	POIN2	GotohSage_5
+	POIN2	GotohSage_6
+	POIN2	GotohSage_7
+
+	

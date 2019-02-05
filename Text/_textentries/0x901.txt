@@ -1,0 +1,5 @@
+[OpenMidRight][LoadMerchant][CloseEyes][OpenMidLeft][LoadOstrava]By the gods[ToggleMouthMove]...[ToggleMouthMove][.....] What happened here?[A][NL]
+You[ToggleMouthMove]...[ToggleMouthMove][.....] boy. Please.[....] There were brigands[NL]
+near here.[....] They took her.[A][NL]
+Please[ToggleMouthMove]...[ToggleMouthMove][.....] You must[ToggleMouthMove]...[ToggleMouthMove][CloseEyes][A][NL]
+[OpenMidLeft]What? Took who?[A][X]

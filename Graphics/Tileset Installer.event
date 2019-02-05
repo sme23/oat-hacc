@@ -1,0 +1,107 @@
+MESSAGE Tiles at CURRENTOFFSET
+DesertTiles:
+#incext compress "Tileset/BetterDesert.mapchip_config"
+ALIGN 4
+
+MESSAGE Objects at CURRENTOFFSET
+DesertObjects:
+#incext Png2Dmp "Tileset/BetterDesert.png" --lz77
+ALIGN 4
+
+MESSAGE Palette at CURRENTOFFSET
+DesertPalette:
+#incbin "Tileset/BetterDesertPalette.dmp"
+ALIGN 4
+
+EventPointerTable(0x42, DesertObjects)
+EventPointerTable(0x43, DesertPalette)
+EventPointerTable(0x44, DesertTiles)
+
+//No map animations for the water. To use: Set ObjectType to 0x8b, set PaletteID to 0x8d, set TileConfig to 0x8c. 
+//Alternatively, refer to the event pointer list to find which pointers to use.
+#include "CaveAnim/CaveAnimation.event"
+
+CaveTiles:
+#incext compress "Tileset/Cave.mapchip_config"
+ALIGN 4
+
+CaveObjects:
+#incext Png2Dmp "Tileset/Cave.png" --lz77
+ALIGN 4
+
+CavePalette1:
+#incbin "Tileset/CavePalette.dmp"
+ALIGN 4
+
+CavePalette2:
+#incbin "Tileset/CavePalette2.dmp"
+ALIGN 4
+
+CavePalette3:
+#incbin "Tileset/CavePalette3.dmp"
+ALIGN 4
+
+EventPointerTable(0x8e, CaveTiles)
+EventPointerTable(0x8f, CaveObjects)
+EventPointerTable(0x90, CavePalette1)
+EventPointerTable(0x91, CavePalette2)
+EventPointerTable(0x92, CavePalette3)
+
+BridgeTiles:
+#incext compress "Tileset/Bridge.mapchip_conf"
+ALIGN 4
+
+BridgeObjects:
+#incext Png2Dmp "Tileset/Bridges.png" --lz77
+ALIGN 4
+
+BridgePalette:
+#incbin "Tileset/BridgePalette.dmp"
+ALIGN 4
+EventPointerTable(0x93, BridgeTiles)
+EventPointerTable(0x94, BridgeObjects)
+EventPointerTable(0x95, BridgePalette)
+
+DoubleCastlePalette1:
+#incext Png2Dmp "Tileset/Castle_Tileset_EX.png" --palette-only
+ALIGN 4
+DoubleCastlePalette2:
+#incext Png2Dmp "Tileset/Castle_Tileset_EX_2.png" --palette-only
+ALIGN 4
+DoubleCastlePalette3:
+#incext Png2Dmp "Tileset/Castle_Tileset_EX_3.png" --palette-only
+ALIGN 4
+DoubleCastlePalette4:
+#incext Png2Dmp "Tileset/Castle_Tileset_EX_4.png" --palette-only
+ALIGN 4
+DoubleCastleTiles:
+#incext compress "Tileset/Castles_Extra_No_Fog.mapchip_conf"
+ALIGN 4
+DoubleCastleObjects:
+#incext Png2Dmp "Tileset/Castle_Tileset_EX.png"
+ALIGN 4
+EventPointerTable(0x96, DoubleCastleTiles)
+EventPointerTable(0x97, DoubleCastleObjects)
+EventPointerTable(0x98, DoubleCastlePalette1)
+EventPointerTable(0x99, DoubleCastlePalette2)
+EventPointerTable(0x9A, DoubleCastlePalette3)
+EventPointerTable(0x9B, DoubleCastlePalette4)
+
+//Snow plains palette
+SnowPalette:
+#incbin "Tileset/Snowpalette.dmp"
+ALIGN 4
+EventPointerTable(0x9C, SnowPalette)
+
+//Wetland stuff
+ALIGN 4
+WetlandPalette:
+#incbin "Tileset/WetlandPalette.dmp"
+ALIGN 4
+WetlandObjects:
+#incext compress "Tileset/WetlandPlains.mapchip_config"
+ALIGN 4
+EventPointerTable(0x9D, WetlandObjects)
+EventPointerTable(0x9E, WetlandPalette)
+
+//TODO: set terrain 0x2D's name string to Wetland and give it halved move and -10 avoid

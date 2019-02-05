@@ -1,0 +1,55 @@
+1
+Support Partner/Level Editor by Sme
+0x9ED10C
+83
+16
+NULL
+NULL
+
+Support Partner 1
+0
+2
+NEHU
+Character List.txt
+
+Support Partner 2
+2
+2
+NEHU
+Character List.txt
+
+C Convo Text ID
+4
+2
+NEHU
+NULL
+
+B Convo Text ID
+6
+2
+NEHU
+NULL
+
+A Convo Text ID
+8
+2
+NEHU
+NULL
+
+Unknown (Always 0x0000)
+10
+2
+HEXA
+NULL
+
+Unknown (Always 0x0000)
+12
+2
+HEXA
+NULL
+
+Unknown (Always 0x0000)
+14
+2
+HEXA
+NULL

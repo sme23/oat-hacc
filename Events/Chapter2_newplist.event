@@ -1,0 +1,93 @@
+
+EventPointerTable(9,Chapter2)
+
+Chapter2:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Ostrava EphraimLord Ostrava 0x1 [3,17] 0x0 0x0 0x1 REDA3R15 NoItems NoAI
+UNIT Zorua EphraimLord Ostrava 0x1 [4,17] 0x0 0x0 0x1 REDA4R16 NoItems NoAI
+UNIT Ben EphraimLord Ostrava 0x1 [2,17] 0x0 0x0 0x1 REDA2R16 NoItems NoAI
+UNIT Yanik EphraimLord Ostrava 0x1 [3,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Juliana EphraimLord Ostrava 0x1 [1,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 
+
+EnemyUnits:
+UNIT 0x6E Mercenary Bone Level(3,Enemy,1) [4,0] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT Bone Brigand Bone Level(6,Enemy,0) [7,0] 0x0 0x0 0x0 0x1 [SteelAxe] NeverMoveAI
+UNIT
+
+ThiefAppears:
+UNIT Elizabeth Thief_F Ostrava Level(3,NPC,0) [12,17] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] StealingThiefAI
+UNIT
+
+ScaredyCat:
+UNIT Roshal Archer Ostrava Level(4,NPC,0) [2,6] 0x0 0x0 3 RoshalREDAs [KillerBow,SteelBow,Vulnerary] NoAI
+UNIT
+
+RoshalREDAs:
+REDA [2,10] 0x0 0x0 0x0 0x0
+REDA [6,10] 0x0 0x0 0x0 0x0
+REDA [6,13] 0x0 0x0 0x0 0x0
+
+
+TurnBasedEvents:
+TurnEventEnemy(9,LizShowsUp,2)
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(10,RecruitRoshal,Ostrava,Roshal)
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+LOAD2 0x1 PlayerUnits
+Text(Chapter2Opening1)
+LOAD1 0x1 ScaredyCat
+Text(Chapter2Opening2)
+LOAD1 0x1 EnemyUnits
+Text(Chapter2Opening3)
+NoFade
+ENDA
+
+EndingScene:
+MNC2 3
+ENDA
+
+LizShowsUp:
+LOAD1 0x1 ThiefAppears
+Text(Chapter2ThiefAppears)
+ENDA
+
+RecruitRoshal:
+MUSS Song_TogetherWeRide
+Text(Chapter2RoshalRecruit)
+MURE 5
+ENDA

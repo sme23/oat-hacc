@@ -1,0 +1,117 @@
+
+EventPointerTable(0x17,Chapter4)
+
+Chapter4:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+ReturningUnit(Ostrava,6,24)
+ReturningUnit(Zo,4,25)
+ReturningUnit(Zo,3,24)
+ReturningUnit(Zo,3,26)
+ReturningUnit(Zo,2,25)
+ReturningUnit(Zo,1,25)
+ReturningUnit(Zo,1,24)
+
+StartUnits:
+ReturningUnit(Ostrava,6,24)
+ReturningUnit(Zo,4,25)
+ReturningUnit(Ben,3,24)
+ReturningUnit(Yanik,3,26)
+ReturningUnit(Juli,2,25)
+ReturningUnit(Roshal,1,25)
+ReturningUnit(Kat,1,24)
+UNIT
+
+EnemyUnits:
+UNIT Thatch Fighter Thatch Level(8,Enemy,0) [14,3] 0x0 0x0 0x0 0x1 [IronPoleaxe,HandAxe] NeverMoveAI
+UNIT 0x8E SwdCav Thatch Level(3,Enemy,1) [7,20] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 0x8E BowCav Thatch Level(3,Enemy,1) [11,22] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 0x8E Brigand Thatch Level(4,Enemy,1) [15,26] 0x0 0x0 0x0 0x1 [SteelAxe] NoAI
+UNIT 0x8E Brigand Thatch Level(4,Enemy,1) [5,16] 0x0 0x0 0x0 0x1 [PoisonAxe] AttackInRangeAI
+UNIT 0x8E Mercenary Thatch Level(4,Enemy,1) [10,17] 0x0 0x0 0x0 0x1 [IronBlade] AttackInRangeAI
+UNIT 0x8E Mage Thatch Level(5,Enemy,1) [15,20] 0x2 0x0 0x0 0x1 [ElwindTome] NoAI
+UNIT 0x8E Shaman Thatch Level(5,Enemy,1) [11,10] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+UNIT 0x8E Fighter Thatch Level(5,Enemy,1) [11,7] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+UNIT 0x8E Brigand Thatch Level(5,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 0x8E Mercenary Thatch Level(5,Enemy,1) [14,22] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 0x8E LncCav Thatch Level(4,Enemy,1) [13,5] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0x8E LncCav Thatch Level(4,Enemy,1) [15,5] 0x0 0x0 0x0 0x1 [Javelin] AttackInRangeAI
+UNIT
+
+JailCell:
+UNIT Jeanne Lancer Ostrava Level(5,NPC,0) [21,4] 0x0 0x0 0x0 0x1 [0x00] NeverMoveAI
+UNIT
+
+ThiefTimer:
+UNIT 0x8E Thief Thatch Level(7,Enemy,1) [1,16] 0x0 0x0 0x0 0x1 [KillingEdge] StealingThiefAI
+UNIT
+
+EnemyReinforcements:
+UNIT 0x8E SwdCav Thatch Level(5,Enemy,1) [22,24] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 0x8E LncCav Thatch Level(5,Enemy,1) [22,25] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT 0x8E AxeCav Thatch Level(5,Enemy,1) [22,26] 0x0 0x0 0x0 0x1 [SteelAxe] NoAI
+UNIT
+
+TurnBasedEvents:
+TurnEventPlayer(0,ReinforcementsEvent,4,3)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Door(19,2)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+Seize(14,3)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+LOAD2 0x1 StartUnits
+LOAD1 0x1 JailCell
+LOAD1 0x1 EnemyUnits
+LOAD1 0x1 ThiefTimer
+ENUN
+FADU 10
+Text(PlaceholderText)
+GotoPrepScreen
+NoFade
+ENDA
+
+EndingScene:
+Text(PlaceholderText)
+ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
+STAL 120
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
+ENDA
+
+ReinforcementsEvent:
+CAM1 [18,23]
+LOAD1 0x1 EnemyReinforcements
+ENUN
+NoFade
+ENDA

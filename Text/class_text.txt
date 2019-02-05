@@ -1,0 +1,121 @@
+## ForresterName
+Forrester[X]
+
+## ForresterBio
+ForresterBio[X]
+
+## LancerName
+Lancer[X]
+
+## LancerBio
+LancerBio[X]
+
+## EpizonName
+Epizon[X]
+
+## EpizonBio
+EpizonBio[X]
+
+## RulerName
+Queen[X]
+
+## RulerBio
+RulerBio[X]
+
+## SwordCavalierName
+Swd Cavalier[X]
+
+## SwordCavalierBio
+Mounted knights with swift movement.[NL]
+Equip: Swords.[X]
+
+## LanceCavalierName
+Lnc Cavalier[X]
+
+## LanceCavalierBio
+Mounted knights with swift movement.[NL]
+Equip: Lances.[X]
+
+## AxeCavalierName
+Axe Cavalier[X]
+
+## AxeCavalierBio
+Mounted knights with swift movement.[NL]
+Equip: Axes.[X]
+
+## BowCavalierName
+Bow Cavalier[X]
+
+## BowCavalierBio
+Mounted knights with swift movement.[NL]
+Equip: Bows.[X]
+
+## LanceKnightName
+Lnc. Knight[X]
+
+## LanceKnightBio
+Heavily armored knights with poor[NL]
+movement. Equip: Lances.[X]
+
+## SwordKnightName
+Swd. Knight[X]
+
+## SwordKnightBio
+Heavily armored knights with poor[NL]
+movement. Equip: Swords.[X]
+
+## AxeKnightName
+Axe Knight[X]
+
+## AxeKnightBio
+Heavily armored knights with poor[NL]
+movement. Equip: Axes.[X]
+
+## IceDragonName
+Dagon[X]
+
+## IceDragonBio
+A mythical beast wtih breath[NL]
+colder than a blizzard.[X]
+
+## ManaketeBio
+Mysterious tribesmen who can turn[NL]
+into dragons. Equip: Dragonstone.[X]
+
+## ChaosBringerName
+Chaos Bringr[X]
+
+## ChaosBringerBio
+Lightning-fast swordsmen of peerless[NL]
+and lethal skill. Equip: Swords.[X]
+
+## RaiderName
+Raider[X]
+
+## RaiderBio
+Ruthless brigand captains.[NL]
+Equip: Axes, Bows.[X]
+
+## SilverKnightName
+Silver Knight[X]
+
+## SilverKnightBio
+Mounted knights with superior[NL]
+abilities. Equip: Lances, Bows.[X]
+
+## GoldKnightName
+Gold Knight[X]
+
+## GoldKnightBio
+Mounted knights with superior[NL]
+abilities. Equip: Swords, Axes.[X]
+
+## HalberdierName
+Halberdier[X]
+
+## HalberdierBio
+Powerful soldiers with sharp[NL]
+skills. Equip: Lances.[X]
+
+## NecrodragonName
+Necrodragon[X]

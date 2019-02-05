@@ -1,0 +1,17 @@
+##OstravaEscapeQuote
+[OpenMidRight][LoadFace][0x2][0x1]Oh, thank Werecyn.[....] Time to skidaddle![A][X]
+
+##ZoEscapeQuote
+[OpenMidRight][LoadFace][0x3][0x1][OpenMidRight]Gods, I'm finally out. I just[NL]
+hope everyone else is okay.[A][X]
+
+##BenEscapeQuote
+[OpenMidRight][LoadFace][0x5][0x1][OpenMidRight]By the gods, I did it![....][NL]
+[ToggleSmile]SUCK IT, LOSERS!! I'M HOME FREE!!![A][X]
+
+##YanikEscapeQuote
+[OpenMidRight][LoadFace][0x6][0x1][OpenMidRight]I'm going ahead! Be safe, Juliana.[A][X]
+
+##JuliEscapeQuote
+[OpenMidRight][LoadFace][0x4][0x1][OpenMidRight]Thank you, Yanik.[NL]
+Please don't be too far behind.[A][X]

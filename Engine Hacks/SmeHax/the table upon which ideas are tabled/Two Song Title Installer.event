@@ -1,0 +1,17 @@
+/*
+NewProcCallStart:
+#incbin "NewProcCallStart.dmp"
+
+NewProcCallB:
+#incbin "NewProcCallB.dmp"
+
+PUSH
+ORG 0xAA6B70
+BYTE $02 $00 $00 $00
+POIN NewProcCallStart|1
+ORG 0xA20DEC
+BYTE $02 $00 $00 $00
+POIN NewProcCallB|1
+POP
+
+*/

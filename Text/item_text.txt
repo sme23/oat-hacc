@@ -1,0 +1,311 @@
+## OstRapierName
+Practice Axe[X]
+
+## OstRapierBio
+A lightweight axe.[X]
+
+## JeanneRapierName
+Lucerne[X]
+
+## JeanneRapierBio
+#Lance with a sharp spike protruding from its side.[NL]
+Effective against infantry.[X]
+
+## ClarentName
+Clarent[X]
+
+## ClarentBio
+ClarentBio[X]
+
+## RhongominantName
+Rhongominant[X]
+
+## RhongominantBio
+RhongominantBio[X]
+
+## EaName
+Ea[X]
+
+## EaBio
+Mighty katana forged in an eastern land.[X]
+
+## LabrysName
+Labrys[X]
+
+## LabrysBio
+Hand-made by Roshal.[X]
+
+## GaeDirgeName
+Gae Dirge[X]
+
+## GaeDirgeBio
+The severed tail of a dragon.[X]
+
+## StyxName
+Styx[X]
+
+## StyxBio
+A dark tome filled with hatred.[X]
+
+## MasterSwordName
+Master Sword[X]
+
+## MasterLanceName
+Master Lance[X]
+
+## MasterAxeName
+Master Axe[X]
+
+## MasterWeaponBio
+#Pride of the Blacksmith.[NL]
+Can strike consecutively.[X]
+
+## TreeBranchName
+Lumentree Branch[X]
+
+## TreeBranchBio
+Small branch from a Lumenwood tree.[X]
+
+## AineName
+Aine[X]
+
+## AineBio
+Light magic said to[NL]
+summon the sun itself.[X]
+
+## EleosName
+Eleos[X]
+
+## EleosBio
+A staff that cures all[NL]
+wounds and ailments.[X]
+
+## WindSwordBio
+Magical sword that fires[NL]
+torrential gusts of wind.[X]
+
+## GaleBladeName
+Gale Blade[X]
+
+## GaleBladeBio
+Magical blade that fires[NL]
+torrential gusts of wind.[X]
+
+## GreatswordName
+Greatsword[X]
+
+## GreatswordBio
+Moderately-sized blade.[NL]
+Usually held with two hands.[X]
+
+## ClaymoreName
+Claymore[X]
+
+## ClaymoreBio
+Large blade.[NL]
+Usually held with two hands.[X]
+
+## ZweihanderName
+Zweihander[X]
+
+## ZweihanderBio
+Giant blade.[NL]
+Usually held with two hands.[X]
+
+## IronGreatlanceName
+Iron Greatlnc.[X]
+
+## IronGreatlanceBio
+Moderatlye-sized lance.[NL]
+Usually held with two hands.[X]
+
+## SteelGreatlanceName
+Steel Greatlnc.[X]
+
+## SteelGreatlanceBio
+Large lance.[NL]
+Usually held with two hands.[X]
+
+## SilverGreatlanceName
+Silver Greatlnc.[X]
+
+## SilverGreatlanceBio
+Giant lance.[NL]
+Usually held with two hands.[X]
+
+## IronPoleaxeName
+Iron Poleaxe[X]
+
+## IronPoleaxeBio
+Moderately-sized axe.[NL]
+Usually held with two hands.[X]
+
+## SteelPoleaxeName
+Steel Poleaxe[X]
+
+## SteelPoleaxeBio
+Large axe.[NL]
+Usually held with two hands.[X]
+
+## SilverPoleaxeName
+Silver Poleaxe[X]
+
+## SilverPoleaxeBio
+Giant axe.[NL]
+Usually held with two hands.[X]
+
+## LightName
+Light[X]
+
+## LightBio
+Standard light magic.[X]
+
+## EllightName
+Ellight[X]
+
+## EllightBio
+Mid-level light magic.[X]
+
+## ShineName
+Shine[X]
+
+## ShineBio
+High-level light magic.[X]
+
+## ResireName
+Resire[X]
+
+## ResireBio
+Syphons energy from its target.[X]
+
+## FireName
+Fire[X]
+
+## FireBio
+Standard fire magic.[X]
+
+## ElfireName
+Elfire[X]
+
+## ElfireBio
+Mid-level fire magic.[X]
+
+## ArcfireName
+Arcfire[X]
+
+## ArcfireBio
+High-level fire magic.[X]
+
+## BolganoneName
+Bolganone[X]
+
+## BolganoneBio
+Most powerful fire magic.[X]
+
+## MeteorName
+Meteor[X]
+
+## MeteorBio
+Long-range fire magic.[X]
+
+## ThunderName
+Thunder[X]
+
+## ThunderBio
+Standard thunder magic.[X]
+
+## ElthunderName
+Elthunder[X]
+
+## ElthunderBio
+Mid-level thunder magic.[X]
+
+## ArcthunderName
+Arcthunder[X]
+
+## ArcthunderBio
+High-level thunder magic.[X]
+
+## ThoronName
+Thoron[X]
+
+## ThoronBio
+Most powerful thunder magic.[X]
+
+## BoltingName
+Bolting[X]
+
+## BoltingBio
+Long-range thunder magic.[X]
+
+## WindName
+Wind[X]
+
+## WindBio
+Standard wind magic.[X]
+
+## ElwindName
+Elwind[X]
+
+## ElwindBio
+Mid-level wind magic.[X]
+
+## ArcwindName
+Arcwind[X]
+
+## ArcwindBio
+High-level wind magic.[X]
+
+## FimbulvetrName
+Fimbulvetr[X]
+
+## FimbulvetrBio
+Most powerful wind magic.[X]
+
+## BlizzardName
+Blizzard[X]
+
+## BlizzardBio
+Long-range wind magic.[X]
+
+## YotsmungandName
+Yotsmungand[X]
+
+## YotsmungandBio
+Poisons its target.[X]
+
+## ConcoctionName
+Concoction[X]
+
+## ConcoctionBio
+ConcoctionBio[X]
+
+## MineName
+Mine[X]
+
+## LightRuneName
+Light Rune[X]
+
+## DancerRingName1
+Filla's Might[X]
+
+## DancerRingName2
+Ninis's Grace[X]
+
+## DancerRingName3
+Thor's Ire[X]
+
+## DancerRingName4
+Set's Litany[X]
+
+## AvalonBrantName
+Avalon Brant[X]
+
+## AvalonBrantBio
+AvalonBrantBio[X]
+
+## CoronaryBandName
+Coronary Band[X]
+
+## CoronaryBandBio
+CoronaryBandBio[X]

@@ -1,0 +1,7 @@
+[OpenMidRight][LoadOstrava][OpenMidRight]Hey, you're the one who[NL]
+jumped the caravan, right?[A][OpenMidRight][ClearFace][OpenMidLeft][LoadVaas][OpenMidLeft]What's it ti you?[....] Big dog[NL]
+always gits what he wants.[A][NL]
+Now move before ya git bit![A][OpenMidLeft][ClearFace][OpenMidRight][LoadOstrava][OpenMidRight]If the big dog always wins,[A][NL]
+then I'm about to be the[NL]
+Great Dane to your Chihuahua.[A][OpenMidRight][ClearFace][OpenMidLeft][LoadVaas][OpenMidLeft]Wha'?[A][OpenMidLeft][ClearFace][OpenMidRight][LoadOstrava][OpenMidRight]Never mind.[....] I'm going to[NL]
+kick your ass now.[A][X]

@@ -1,0 +1,7 @@
+cant fuckign fidn the proc I'm looking for
+
+usability check would need to 1. check to see if you're at level 20 (actually at level 19 and you can't use it if you don't have a full level to grow just to be safe), in which case you can't use it, and I think that's it?
+
+effect would just be give 100 exp, which means 1. call the proc that gives exp and 2. pass it the value of 100
+
+this seems easy on the surface so let's see how difficult I make it

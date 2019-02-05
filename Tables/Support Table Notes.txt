@@ -1,0 +1,47 @@
+Support list at 8AEBC4
+Entries are not in character order but are in rough join order (rough bc route split)
+Entries are 24 bytes long
+0x0-0x6 = Support partner character IDs, 1 byte each
+0x7-0x13 = Support Partner initial values, 1 byte each
+0x14-0x20 = Support Partner growth amounts; each turn that begins when them adjacent gives them (growth*1) support points, 1 byte each
+0x21 = Number of support partners, 1 byte
+0x22 = Entry separator, 2 bytes (Always 0x0000)
+
+Empty support partner, growth, and initial value slots are 0x00
+
+CSV will probably be necessary because not in char ID order so no macro list
+
+There are 3 parts to a support; the character you support with, a base support value, and a support growth
+At the start of the game the characters will have the base support value.  Each turn that begins with two support partners adjacent to each other will raise their support value by (1*Support Growth).  When it reaches certain benchmarks, they gain access to a support conversation.
+
+Support Benchmarks:
+
+0x00-0x50 (0-80) = Unranked
+0x51 (81-176) = C rank
+0xB1-0xF0 (177-240) = B rank
+0xF1+ (241+) = A rank
+
+If base is 0 and growth is 1 then it will take 240 turns to go from start to A support
+
+Note that with exactly one exception, all vanilla supports have a growth value of at least 2 (Rennac & Tethys have 1 and a base value of 5, so it takes 235 turns to get their A support :yikes:)
+
+
+
+Above 0xF1 does nothing, caps at 0xFF
+
+
+Support Convos themselves are their own table
+
+At 9ED10C
+83 entries
+16 bytes per entry
+0x0-0x1 = Support Partner 1, character ID
+0x2-0x3 = Support Partner 2, character ID
+0x4-0x5 = C Conversation, text ID
+0x6-0x7 = B Conversation, text ID
+0x8-0x9 = A Conversation, text ID
+0xA-0xB = Unknown (Always 0x0000)
+0xC-0xD = Unknown (Always 0x0000)
+0xE-0xF = Unknown (Always 0x0000)
+
+This table, unlike the last one, does *not* have duplicates with each partner in each position

@@ -1,0 +1,24 @@
+PUSH
+ORG 0x36B4
+POIN NewItemIcons
+ORG 0x3788
+POIN NewItemIcons
+POP
+
+NewItemIcons:
+
+#incext Png2Dmp "Sheet1.png"
+
+#incext Png2Dmp "Sheet2.png"
+
+#incext Png2Dmp "Sheet3.png"
+
+#incext Png2Dmp "Sheet4.png"
+
+#incext Png2Dmp "Sheet5.png"
+
+#incext Png2Dmp "Sheet6.png"
+
+#incext Png2Dmp "Sheet7.png"
+
+#incext Png2Dmp "Sheet8.png"

@@ -1,0 +1,77 @@
+# char{0x1} "OstravaForresterPalette" set{Ostrava, 0x1, Forrester} auto{0}
+    55531D47392EB3250B19B02D4C21E9187A6FF5660D46482DE94E29426229A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x2} "BenMyrmPalette" set{Ben, 0x1, Myrmidon} auto{0}
+	007EFF7FFF6B1F4B2E19B5293019CC10567B6F5ECA49170811000A004208A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x3} "BenPromotedPalette" set{Ben, 0x3, 85} auto{0}
+	5553FF7FBE6BFD3E521DF7294F1DEA14DE7FF7621046CD10170811000A00A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x4} "ZoruaMagePalette" set{Zorua, 0x1, Mage_F} auto{0}
+	5553FF7FFF6B1F4B2E19B4253015CC10D1394D29E91C392A797AD55D0F45A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x5} "ZoruaSagePalette" set{Zorua, 0x3, Sage_F} auto{0}
+	5553FF7FFF731F4B2E193015CC108900D1394D29E91CB25E797AD55D0F45A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x6} "ZoruaMageKnightPalette" set{Zorua, 0x4, MageKnight_F} auto{0}
+	007EDF6F7D537A36B329EC182F158900B035E91C576AD14D797AF55D2F45A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x7} "RoshalArcherPalette" set{Roshal, 0x1, Archer} auto{0}
+	5553FF7FFF6B1F4B0A19DE57DA32B415F3318F25767FEA69265D0641A524A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x8} "RoshalRangerPalette" set{Roshal, 0x3, Ranger} auto{0}
+	5553FF7FFF4B9C2AF41DE738DF4F5826BC7B166B72560D4A1C3767592D11A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x9} "YanikLanceCavPalette" set{Yanik, 0x1, LncCav} auto{0}
+	5553FF7FFF5BFE42F4317C1011000A007025C9107C101100BA3AF4292D19A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0xA} "JuliBowCavPalette" set{Juli, 0x1, BowCav_F} auto{0}
+	5553FF7FFF5B4A47B229E721F6310C194A4766226605E4101D4736322D19A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0xB} "ElizabethThiefPalette" set{Elizabeth, 0x1, Thief_F} auto{0}
+	5553FF7FFF6B97498A1C2E19B329CB0CB556314AAD3910354A2DCE390825A514
+	auto
+	auto
+	auto
+	auto
+	

@@ -1,0 +1,22 @@
+MESSAGE new check at CURRENTOFFSET
+NewSuperArenaCheck:
+#incbin "SuperArena/NewSuperArenaCheck.dmp"
+
+MESSAGE win routine at CURRENTOFFSET
+SuperArena:
+#incbin "SuperArena/SuperArena.dmp"
+
+MESSAGE hook at CURRENTOFFSET
+SuperArenaHook:
+#incbin "SuperArena/SuperArenaHook.dmp"
+POIN SuperArena
+
+PUSH
+ORG 0xB5998
+jumpToHack(NewSuperArenaCheck)
+ORG 0x24E04
+jumpToHack(SuperArenaHook)
+POP
+
+
+

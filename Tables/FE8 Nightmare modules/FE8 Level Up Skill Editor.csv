@@ -1,0 +1,255 @@
+INLINE LevelUpSkillTable,Skill Pointer
+0x00 Separator/Nothing,0x0
+Forrester,ForresterSkillList|IsPointer
+Lancer,LancerSkillList|IsPointer
+Epizon,EpizonSkillList|IsPointer
+Queen,QueenSkillList|IsPointer
+Swd Cavalier,SwdCavSkillList|IsPointer
+F!Swd Cavalier,SwdCavFSkillList|IsPointer
+Silver Knight,SilverKnightSkillList|IsPointer
+F!Silver Knight,SilverKnightFSkillList|IsPointer
+Lnc Knight,LncKnightSkillList|IsPointer
+Swd Knight,SwdKnightSkillList|IsPointer
+General,GeneralMSkillList|IsPointer
+Axe Knight,AxeKnightSkillList|IsPointer
+Thief,ThiefMSkillList|IsPointer
+F!Thief,ThiefFSkillList|IsPointer
+Mercenary,MercSkillList|IsPointer
+Mercenary (F),MercFSkillList|IsPointer
+Hero,HeroMSkillList|IsPointer
+Hero (F),HeroFSkillList|IsPointer
+Myrmidon,MyrmSkillList|IsPointer
+Myrmidon (F),MyrmFSkillList|IsPointer
+Swordmaster,SMSkillList|IsPointer
+Swordmaster (F),SwordmasterFSkillList|IsPointer
+Assassin,AssassinMSkillList|IsPointer
+Assassin (F),AssassinFSkillList|IsPointer
+Archer,ArcherMSkillList|IsPointer
+Archer (F),ArcherFSkillList|IsPointer
+Sniper,SniperMSkillList|IsPointer
+Sniper (F),SniperFSkillList|IsPointer
+Ranger,RangerMSkillList|IsPointer
+Ranger (F),RangerFSkillList|IsPointer
+Wyvern Rider,WyvernRiderMSkillList|IsPointer
+Wyvern Rider (F),WyvernRiderFSkillList|IsPointer
+Wyvern Lord,WyvernLordMSkillList|IsPointer
+Wyvern Lord (F),WyvernLordFSkillList|IsPointer
+Wyvern Knight,WyvernKnightMSkillList|IsPointer
+Wyvern Knight (F),WyvernKnightFSkillList|IsPointer
+Mage,MageMSkillList|IsPointer
+Mage (F),MageFSkillList|IsPointer
+Sage,SageMSkillList|IsPointer
+Sage (F),SageFSkillList|IsPointer
+Mage Knight,MageKnightMSkillList|IsPointer
+Mage Knight (F),MageKnightFSkillList|IsPointer
+Bishop,BishopMSkillList|IsPointer
+Bishop (F),BishopFSkillList|IsPointer
+Shaman,ShamanMSkillList|IsPointer
+Shaman (F),ShamanFSkillList|IsPointer
+Druid,DruidMSkillList|IsPointer
+Druid (F),DruidFSkillList|IsPointer
+Summoner,SummonerMSkillList|IsPointer
+Summoner (F),SummonerFSkillList|IsPointer
+Rogue,RogueMSkillList|IsPointer
+Gorgon Egg,0x0
+Great Knight,GreatKnightMSkillList|IsPointer
+Great Knight (F),GreatKnightFSkillList|IsPointer
+Ice Dragon,DagonSkillList|IsPointer
+Lnc Cavalier,LncCavSkillList|IsPointer
+F!Lnc Cavalier,LncCavFSkillList|IsPointer
+Axe Cavalier,AxeCavSkillList|IsPointer
+F!Axe Cavalier,AxeCavFSkillList|IsPointer
+Manakete,ManaketeTribesmanSkillList|IsPointer
+Bow Cavalier,BowCavSkillList|IsPointer
+F!Bow Cavalier,BowCavFSkillList|IsPointer
+Fighter,FighterMSkillList|IsPointer
+Warrior,WarriorMSkillList|IsPointer
+Brigand,BrigandMSkillList|IsPointer
+Pirate,PirateMSkillList|IsPointer
+Berserker,BerserkerMSkillList|IsPointer
+Monk,MonkMSkillList|IsPointer
+Priest,PriestMSkillList|IsPointer
+Bard,0x0
+F!Rogue,RogueFSkillList|IsPointer
+Pegasus Knight,PegasusKnightFSkillList|IsPointer
+Falcon Knight,FalcoknightFSkillList|IsPointer
+Cleric,ClericFSkillList|IsPointer
+Troubadour,TroubadourFSkillList|IsPointer
+Valkyrie,ValkyrieFSkillList|IsPointer
+Dancer,DancerFSkillList|IsPointer
+Soldier,SoldierMSkillList|IsPointer
+Necromancer,NecromancerSkillList|IsPointer
+Fleet,FleetSkillList|IsPointer
+Phantom,PhantomMSkillList|IsPointer
+Gold Knight,GoldKnightSkillList|IsPointer
+F!Gold Knight,GoldKnightFSkillList|IsPointer
+Raider,RaiderMSkillList|IsPointer
+Chaos Bringer,ChaosBringerSkillList|IsPointer
+Halberdier,HalberdierMSkillList|IsPointer
+F!Halberdier,HalberdierFSkillList|IsPointer
+F!Soldier,SoldierFSkillList|IsPointer
+F!Monk,MonkFSkillList|IsPointer
+Emperor/TODO,EmperorSkillList|IsPointer
+Mauthe Doog,0x0
+Gwyllgi,0x0
+Tarvos,0x0
+Maelduin,0x0
+Mogall,0x0
+Arch Mogall,0x0
+Gorgon,0x0
+Gorgon Egg,0x0
+Gargoyle,0x0
+Deathgoyle,0x0
+Necrodragon,NecrodragonSkillList|IsPointer
+Demon King,0x0
+Archer on Ballista,0x0
+Archer on Iron Ballista,0x0
+Archer on Killer Ballista,0x0
+Ballista,0x0
+Iron Ballista,0x0
+Killer Ballista,0x0
+Civilian,0x0
+Civilian (F),0x0
+Civilian,0x0
+Civilian (F),0x0
+Civilian,0x0
+Civilian (F),0x0
+Peer,0x0
+Queen,0x0
+Prince,0x0
+Queen,0x0
+(empty),0x0
+Fallen Prince,0x0
+Tent,0x0
+Pontifex,0x0
+Dead Peer,0x0
+Cyclops,0x0
+Elder Bael,0x0
+Journeyman (2),0x0
+Pupil (2),0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0

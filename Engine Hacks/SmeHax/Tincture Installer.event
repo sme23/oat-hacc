@@ -1,0 +1,7 @@
+MESSAGE TinctureUsability at CURRENTOFFSET
+TinctureUsability:
+#incbin "GoldenTincture/TinctureUsability.dmp"
+
+MESSAGE TinctureEffect at CURRENTOFFSET
+TinctureEffect:
+#incbin "GoldenTincture/TinctureEffect.dmp"

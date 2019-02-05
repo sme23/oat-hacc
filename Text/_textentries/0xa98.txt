@@ -1,0 +1,8 @@
+[OpenMidRight][LoadYanik][CloseEyes]
+No[ToggleMouthMove]...![ToggleMouthMove][....][NL]
+Not here![....][A][NL]
+Grrk[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+No[ToggleMouthMove]...[ToggleMouthMove][....] Jules[ToggleMouthMove]...[ToggleMouthMove][....][NL]
+Where are you[ToggleMouthMove]...?[ToggleMouthMove][....][A][NL]
+I want to hear your voice[ToggleMouthMove]...[ToggleMouthMove][....][NL]
+one[ToggleMouthMove]...[ToggleMouthMove][....]last[ToggleMouthMove]...[ToggleMouthMove][....][A][X]

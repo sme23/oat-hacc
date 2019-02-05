@@ -1,0 +1,760 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+
+
+//at some point I'll get back to fixing the animation table here but until then, the hard way
+//#include "expandanimtableinstaller.event"
+
+//#define AnimTableEntry(index) "ORG ClassAnimTable + ((index-0x1) * 0x20)"
+
+//////////////Installed animations go here:
+
+
+//ORG 
+//ORG 0xF00000
+
+{
+#include "YetiZerkerAxe Installer.event"
+}
+{
+#include "AssassinF Installer.event"
+}
+{
+#include "AssassinuFUnarmed Installer.event"
+}
+{
+#include "AxeCav Installer.event"
+}
+{
+#include "Ballista Installer.event"
+}
+{
+#include "BowCav Installer.event"
+}
+{
+#include "BowCavF Installer.event"
+}
+{
+#include "BowGeneral Installer.event"
+}
+{
+#include "CavFDisarmed Installer.event"
+}
+{
+#include "DisarmedCav Installer.event"
+}
+{
+#include "EdgySwordmaster Installer.event"
+}
+{
+#include "EdgySwordmasterUnarmed Installer.event"
+}
+{
+#include "EpizonAxe Installer.event"
+}
+{
+#include "EpizonDisa Installer.event"
+}
+{
+#include "EpizonHandAxe Installer.event"
+}
+{
+#include "FHeroAxe Installer.event" //
+}
+{
+#include "FHeroDisarmed Installer.event" //
+}
+{
+#include "FHeroHandaxe Installer.event" //
+}
+{
+#include "FHeroSword Installer.event" //
+}
+{
+#include "FireDragon Installer.event" //
+}
+{
+#include "FireManaketeDis Installer.event" //
+}
+{
+#include "FireManaketeTransform Installer.event" //
+}
+{
+#include "FireManaketeUntransform Installer.event" //
+}
+{
+#include "FMerc Installer.event" //
+}
+{
+#include "FMercDisa Installer.event" //
+}
+{
+#include "FMonk Installer.event" //
+}
+{
+#include "ForresterAxe Installer.event"
+}
+{
+#include "ForresterDisarmed Installer.event"
+}
+{
+#include "ForresterHandAxe Installer.event"
+}
+{
+#include "FRogue Installer.event"
+}
+{
+#include "FRogueDis Installer.event"
+}
+{
+#include "FSoldier Installer.event"
+}
+{
+#include "FSoldierUnarmed Installer.event"
+}
+{
+#include "FSummoner Installer.event" //
+}
+{
+#include "FSummonerstaff Installer.event" //
+}
+{
+#include "FThief Installer.event"
+}
+{
+#include "Halb Installer.event"
+}
+{
+#include "HalbDis Installer.event"
+}
+{
+#include "HalbF Installer.event"
+}
+{
+#include "HalbFDisarmed Installer.event"
+}
+{
+#include "HandAxeCav Installer.event"
+}
+{
+#include "IceDragon Installer.event" 
+}
+{
+#include "LanceCav Installer.event"
+}
+{
+#include "LancerAnim Installer.event"
+}
+{
+#include "LancerDis Installer.event"
+}
+{
+#include "LilinaMage Installer.event"
+}
+{
+#include "RulerDisa Installer.event"
+}
+{
+#include "RulerLance Installer.event"
+}
+{
+#include "SwordCav Installer.event"
+}
+{
+#include "FMasterKnightAxe Installer.event"
+}
+{
+#include "FMasterKnightHandAxe Installer.event"
+}
+{
+#include "FMasterKnightSword Installer.event"
+}
+{
+#include "FMasterKnightUnarmed Installer.event"
+}
+{
+#include "FPaladinBow Installer.event"
+}
+{
+#include "MasterKnightAxe Installer.event"
+}
+{
+#include "MasterKnightHandAxe Installer.event"
+}
+{
+#include "MasterKnightSword Installer.event"
+}
+{
+#include "MasterKnightUnarmed Installer.event"
+}
+{
+#include "PaladinBow Installer.event"
+}
+{
+#include "RaiderAxe Installer.event"
+}
+{
+#include "RaiderBow Installer.event"
+}
+{
+#include "RaiderHandAxe Installer.event"
+}
+{
+#include "RaiderUnarmed Installer.event"
+}
+{
+#include "NinianDancer Installer.event"
+}
+{
+#include "Apyr Installer.event"
+}
+{
+#include "Glazette Staff Installer.event"
+}
+{
+#include "Glazette Unarmed Installer.event"
+}
+
+//////////////////////////////////////////////
+
+#define Item 9
+#define Spears 1
+#define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
+#define LanceAnim(Animation) "BYTE Spears 0x01 ; SHORT Animation"
+#define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
+#define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
+#define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
+#define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
+#define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
+#define UnarmedAnim(Animation) "BYTE Item 0x01 ; SHORT Animation"
+#define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
+#define MonsterAnim(Animation) "BYTE 0xB 0x01; SHORT Animation"
+
+///////////////////////////////////////////////
+
+ForresterAnim:
+AxeAnim(1)
+HandAxeAnim(2)
+UnarmedAnim(3)
+WORD 0x0 
+
+LancerAnim:
+LanceAnim(4)
+UnarmedAnim(5)
+WORD 0x0
+
+EpizonAnim:
+AxeAnim(6)
+HandAxeAnim(7)
+UnarmedAnim(8)
+WORD 0x0
+
+RulerAnim:
+LanceAnim(9)
+UnarmedAnim(10)
+WORD 0x0
+
+SwdCavalierAnim:
+SwordAnim(52)
+UnarmedAnim(54)
+WORD 0x0
+
+FswdCavalierAnim:
+SwordAnim(55)
+UnarmedAnim(57)
+WORD 0x0
+
+SilverKnightAnim:
+LanceAnim(59)
+BowAnim(58)
+UnarmedAnim(60)
+WORD 0x0
+
+FsilverKnightAnim:
+LanceAnim(62)
+BowAnim(61)
+UnarmedAnim(63)
+WORD 0x0
+
+LncKnightAnim:
+LanceAnim(64)
+UnarmedAnim(65)
+WORD 0x0
+
+SwdKnightAnim:
+SwordAnim(66)
+UnarmedAnim(65)
+WORD 0x0
+
+GeneralAnim:
+SwordAnim(68)
+LanceAnim(69)
+AxeAnim(70)
+HandAxeAnim(71)
+UnarmedAnim(72)
+WORD 0x0
+
+AxeKnightAnim:
+AxeAnim(67)
+HandAxeAnim(73)
+UnarmedAnim(65)
+WORD 0x0
+
+ThiefAnim:
+SwordAnim(137)
+UnarmedAnim(137)
+WORD 0x0
+
+FthiefAnim:
+SwordAnim(138)
+UnarmedAnim(138)
+WORD 0x0
+
+MercAnim:
+SwordAnim(11)
+UnarmedAnim(12)
+WORD 0x0
+
+FmercAnim:
+SwordAnim(100)
+UnarmedAnim(101)
+WORD 0x0
+
+HeroAnim:
+SwordAnim(13)
+AxeAnim(14)
+HandAxeAnim(15)
+UnarmedAnim(16)
+WORD 0x0
+
+FheroAnim:
+SwordAnim(178)
+AxeAnim(179)
+HandAxeAnim(180)
+UnarmedAnim(181)
+WORD 0x0
+
+MyrmAnim:
+SwordAnim(17)
+UnarmedAnim(18)
+WORD 0x0
+
+FmyrmAnim:
+SwordAnim(19)
+UnarmedAnim(20)
+WORD 0x0
+
+SwordmasterAnim:
+SwordAnim(157)
+UnarmedAnim(158)
+WORD 0x0
+
+FswordmasterAnim:
+SwordAnim(23)
+UnarmedAnim(24)
+WORD 0x0
+
+AssassinAnim:
+SwordAnim(139)
+UnarmedAnim(140)
+WORD 0x0
+
+FassassinAnim:
+SwordAnim(141)
+UnarmedAnim(142)
+WORD 0x0
+
+ArcherAnim:
+BowAnim(38)
+UnarmedAnim(39)
+WORD 0x0
+
+FarcherAnim:
+BowAnim(40)
+UnarmedAnim(41)
+WORD 0x0
+
+SniperAnim:
+BowAnim(42)
+UnarmedAnim(43)
+WORD 0x0
+
+FsniperAnim:
+BowAnim(44)
+UnarmedAnim(45)
+WORD 0x0
+
+RangerAnim:
+SwordAnim(46)
+BowAnim(47)
+UnarmedAnim(48)
+WORD 0x0
+
+FrangerAnim:
+SwordAnim(49)
+BowAnim(50)
+UnarmedAnim(51)
+WORD 0x0
+
+WyvernRiderAnim:
+LanceAnim(88)
+UnarmedAnim(89)
+WORD 0x0
+
+FwyvernRiderAnim:
+LanceAnim(90)
+UnarmedAnim(91)
+WORD 0x0
+
+WyvernLordAnim:
+SwordAnim(92)
+LanceAnim(93)
+UnarmedAnim(94)
+WORD 0x0
+
+FwyvernLordAnim:
+SwordAnim(92)
+LanceAnim(93)
+UnarmedAnim(94)
+WORD 0x0
+
+WyvernKnightAnim:
+LanceAnim(98)
+UnarmedAnim(99)
+WORD 0x0
+
+FwyvernKnightAnim:
+LanceAnim(98)
+UnarmedAnim(99)
+WORD 0x0
+
+MageAnim:
+AnimaAnim(107)
+LightAnim(107)
+DarkAnim(107)
+UnarmedAnim(107)
+WORD 0x0
+
+FmageAnim:
+AnimaAnim(108)
+UnarmedAnim(108)
+WORD 0x0
+
+SageAnim:
+AnimaAnim(109)
+LightAnim(109)
+DarkAnim(109)
+StaffAnim(110)
+UnarmedAnim(109)
+WORD 0x0
+
+FsageAnim:
+AnimaAnim(111)
+LightAnim(111)
+DarkAnim(111)
+StaffAnim(112)
+UnarmedAnim(111)
+WORD 0x0
+
+MageKnightAnim:
+AnimaAnim(113)
+LightAnim(113)
+DarkAnim(113)
+StaffAnim(114)
+UnarmedAnim(113)
+WORD 0x0
+
+FmageKnightAnim:
+AnimaAnim(115)
+LightAnim(115)
+DarkAnim(115)
+StaffAnim(116)
+UnarmedAnim(115)
+WORD 0x0
+
+BishopAnim:
+AnimaAnim(130)
+LightAnim(130)
+DarkAnim(130)
+StaffAnim(130)
+UnarmedAnim(129)
+WORD 0x0
+
+FbishopAnim:
+AnimaAnim(131)
+LightAnim(131)
+DarkAnim(131)
+StaffAnim(131)
+UnarmedAnim(132)
+WORD 0x0
+
+ShamanAnim:
+AnimaAnim(117)
+LightAnim(117)
+DarkAnim(117)
+UnarmedAnim(117)
+WORD 0x0
+
+FshamanAnim:
+AnimaAnim(118)
+LightAnim(118)
+DarkAnim(118)
+UnarmedAnim(118)
+WORD 0x0
+
+DruidAnim:
+AnimaAnim(119)
+LightAnim(119)
+DarkAnim(119)
+StaffAnim(120)
+UnarmedAnim(119)
+WORD 0x0
+
+FdruidAnim:
+AnimaAnim(121)
+LightAnim(121)
+DarkAnim(121)
+StaffAnim(122)
+UnarmedAnim(121)
+WORD 0x0
+
+SummonerAnim:
+AnimaAnim(123)
+LightAnim(123)
+DarkAnim(123)
+StaffAnim(124)
+UnarmedAnim(123)
+WORD 0x0
+
+FsummonerAnim:
+AnimaAnim(184)
+LightAnim(184)
+DarkAnim(184)
+StaffAnim(185)
+UnarmedAnim(184)
+WORD 0x0
+
+RogueAnim:
+SwordAnim(182)
+UnarmedAnim(183)
+WORD 0x0
+
+GreatKnightAnim:
+SwordAnim(78)
+LanceAnim(79)
+AxeAnim(80)
+HandAxeAnim(81)
+UnarmedAnim(82)
+WORD 0x0
+
+FgreatKnightAnim:
+SwordAnim(78)
+LanceAnim(79)
+AxeAnim(80)
+HandAxeAnim(81)
+UnarmedAnim(82)
+WORD 0x0
+
+IceDragonAnim:
+MonsterAnim(77)
+UnarmedAnim(77)
+WORD 0x0
+
+LncCavalierAnim:
+LanceAnim(53)
+UnarmedAnim(54)
+WORD 0x0
+
+FlncCavalierAnim:
+LanceAnim(56)
+UnarmedAnim(57)
+WORD 0x0
+
+AxeCavalierAnim:
+AxeAnim(146)
+HandAxeAnim(147)
+UnarmedAnim(54)
+WORD 0x0
+
+FaxeCavalierAnim:
+AxeAnim(149)
+HandAxeAnim(150)
+UnarmedAnim(57)
+WORD 0x0
+
+BowCavalierAnim:
+BowAnim(148)
+UnarmedAnim(54)
+WORD 0x0
+
+FbowCavalierAnim:
+BowAnim(151)
+UnarmedAnim(57)
+WORD 0x0
+
+FighterAnim:
+AxeAnim(25)
+HandAxeAnim(26)
+UnarmedAnim(27)
+WORD 0x0
+
+WarriorAnim:
+AxeAnim(28)
+HandAxeAnim(29)
+BowAnim(30)
+UnarmedAnim(31)
+WORD 0x0
+
+BrigandAnim:
+AxeAnim(32)
+HandAxeAnim(33)
+UnarmedAnim(34)
+WORD 0x0
+
+PirateAnim:
+AxeAnim(154)
+HandAxeAnim(155)
+UnarmedAnim(156)
+WORD 0x0
+
+BerserkerAnim:
+AxeAnim(35)
+HandAxeAnim(36)
+UnarmedAnim(37)
+WORD 0x0
+
+MonkAnim:
+AnimaAnim(125)
+LightAnim(125)
+DarkAnim(125)
+UnarmedAnim(125)
+WORD 0x0
+
+PriestAnim:
+StaffAnim(127)
+UnarmedAnim(126)
+WORD 0x0
+
+FrogueAnim:
+SwordAnim(182)
+UnarmedAnim(183)
+WORD 0x0
+
+PegKnightAnim:
+LanceAnim(102)
+UnarmedAnim(103)
+WORD 0x0
+
+FalcoknightAnim:
+SwordAnim(104)
+LanceAnim(105)
+UnarmedAnim(106)
+WORD 0x0
+
+ClericAnim:
+StaffAnim(128)
+UnarmedAnim(200)
+WORD 0x0
+
+TroubAnim:
+StaffAnim(134)
+UnarmedAnim(133)
+WORD 0x0
+
+ValkyrieAnim:
+AnimaAnim(135)
+LightAnim(135)
+DarkAnim(135)
+StaffAnim(136)
+UnarmedAnim(135)
+WORD 0x0
+
+DancerAnim:
+AnimaAnim(145)
+LightAnim(145)
+DarkAnim(145)
+UnarmedAnim(145)
+WORD 0x0
+
+SoldierAnim:
+LanceAnim(152)
+UnarmedAnim(153)
+WORD 0x0
+
+GoldKnightAnim:
+SwordAnim(160)
+AxeAnim(161)
+HandAxeAnim(162)
+UnarmedAnim(163)
+WORD 0x0
+
+FgoldKnightAnim:
+SwordAnim(164)
+AxeAnim(165)
+HandAxeAnim(166)
+UnarmedAnim(167)
+WORD 0x0
+
+RaiderAnim:
+AxeAnim(174)
+HandAxeAnim(175)
+BowAnim(176)
+UnarmedAnim(177)
+WORD 0x0
+
+ChaosBringerAnim:
+SwordAnim(157)
+UnarmedAnim(158)
+WORD 0x0
+
+HalberdierAnim:
+LanceAnim(170)
+UnarmedAnim(171)
+WORD 0x0
+
+FhalberdierAnim:
+LanceAnim(172)
+UnarmedAnim(173)
+WORD 0x0
+
+FsoldierAnim:
+LanceAnim(168)
+UnarmedAnim(169)
+WORD 0x0
+
+FmonkAnim:
+AnimaAnim(76)
+LightAnim(76)
+DarkAnim(76)
+UnarmedAnim(76)
+WORD 0x0
+
+FeiAnim:
+AnimaAnim(186)
+LightAnim(186)
+DarkAnim(186)
+UnarmedAnim(186)
+WORD 0x0
+
+ZoAnim:
+AnimaAnim(187)
+LightAnim(187)
+DarkAnim(187)
+UnarmedAnim(187)
+WORD 0x0
+
+GlazAnim:
+StaffAnim(188)
+UnarmedAnim(189)
+WORD 0x0
+

@@ -1,0 +1,90 @@
+# 0x160 PrologueChName
+Prologue: New Beginnings[X]
+
+##Ch1Name
+Ch. 1: Jailbreak![X]
+
+##Ch2Name
+Ch. 2: Bandits and Thieves[X]
+
+##Ch3Name
+Ch. 3: Blind Messenger[X]
+
+##Ch4Name
+Ch. 4: Fortress Falls[X]
+
+##Ch5xName
+THIS SHOULD NOT APPEAR[X]
+
+##Ch5Name
+Ch. 5: Stalking Menace[X]
+
+##Ch6Name
+Ch. 6: Taking Flight[X]
+
+##Ch7Name
+Ch. 7: Sir William[X]
+
+##Ch8Name
+Ch. 8: River Runs Red[X]
+
+##Ch9Name
+Ch. 9: Pushing Back[X]
+
+##Ch9xName
+Ch. 9x:[X]
+
+##Ch10Name
+Ch. 10: Lord of Nothing[X]
+
+##Ch11Name
+Ch. 11: Betrayal[X]
+
+##Ch12Name
+Ch. 12: Homefront[X]
+
+##Ch13Name
+Ch. 13: Sanctuary[X]
+
+##Ch14Name
+Ch. 14: Mountain Hermit[X]
+
+##Ch15Name
+Ch. 15: Nightfall Strike[X]
+
+##Ch15xName
+Ch. 15x:[X]
+
+##Ch16Name
+Ch. 16: Emile the Blacksmith[X]
+
+##Ch17Name
+Ch. 17: Declaration of War[X]
+
+##Ch18Name
+Ch. 18: Border Clash[X]
+
+##Ch19Name
+Ch. 19: Climate Change[X]
+
+##Ch20Name
+Ch. 20: Princess Leigh[X]
+
+##Ch20xName
+Ch. 20x:[X]
+
+##Ch21Name
+Ch. 21: Ealdorcroft[X]
+
+##Ch22Name
+Ch. 22: Last Line Standing[X]
+
+##Ch22xName
+Ch. 22x:[X]
+
+##Ch23Name
+Ch. 23: The Emperor[X]
+
+##EndgameName
+Endgame: Mask of Dunham[X]
+
