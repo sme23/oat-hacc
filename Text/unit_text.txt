@@ -218,3 +218,139 @@ Kendrick[X]
 
 ## KendrickBio
 Guard of the bandits' deeper prison.[X]
+
+## ThatchName
+Thatch[X]
+
+## ThatchBio
+ThatchBio[X]
+
+## PerkusName
+Perkus[X]
+
+## PerkusBio
+PerkusBio[X]
+
+## ZygosName
+Zygos[X]
+
+## ZygosBio
+ZygosBio[X]
+
+## AlfredName
+Alfred[X]
+
+## AlfredBio
+AlfredBio[X]
+
+## SulbahnName
+Sulbahn[X]
+
+## SulbahnBio
+SulbahnBio[X]
+
+## DMarcoName
+DMarco[X]
+
+## DMarcoBio
+DMarcoBio[X]
+
+## GerahtName
+Geraht[X]
+
+## GerahtBio
+GerahtBio[X]
+
+## GotthardName
+Gotthard[X]
+
+## GotthardBio
+GotthardBio[X]
+
+## TridentName
+Trident[X]
+
+## TridentBio
+TridentBio[X]
+
+## DoranName
+Doran[X]
+
+## DoranBio
+DoranBio[X]
+
+## RandallName
+Randall[X]
+
+## RandallBio
+RandallBio[X]
+
+## MichaelName
+Michael[X]
+
+## MichaelBio
+MichaelBio[X]
+
+## AbulName
+Abul[X]
+
+## AbulBio
+AbulBio[X]
+
+## KrisName
+Kris[X]
+
+## KrisBio
+KrisBio[X]
+
+## LanceName
+Lance[X]
+
+## LanceBio
+LanceBio[X]
+
+## MaajalName
+Maajal[X]
+
+## MaajalBio
+MaajalBio[X]
+
+## AbelusName
+Abelus[X]
+
+## AbelusBio
+AbelusBio[X]
+
+## SenName
+Sen[X]
+
+## SenBio
+SenBio[X]
+
+## BelisariusName
+Belisarius[X]
+
+## BelisariusBio
+BelisariusBio[X]
+
+## RaimeName
+Raime[X]
+
+## RaimeBio
+RaimeBio[X]
+
+## BrandonName
+Brandon[X]
+
+## BrandonBio
+BrandonBio[X]
+
+## OrionName
+Orion[X]
+
+## OrionBio
+OrionBio[X]
+
+## RoshalBossBio
+RoshalBossBio[X]
+

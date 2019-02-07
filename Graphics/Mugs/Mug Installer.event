@@ -278,7 +278,7 @@ setMugEntry(0x39, UniversityMagePortrait, 2, 5, 3, 3)
 #define AlfredMug 36
 #define SulbahnMug 37
 #define DMarcoMug 38
-#define GarahtMug 39
+#define GerahtMug 39
 #define GotthardMug 40
 #define TridentMug 41
 #define DoranMug 42
@@ -290,7 +290,7 @@ setMugEntry(0x39, UniversityMagePortrait, 2, 5, 3, 3)
 #define MaajalMug 48
 #define AbelusMug 49
 #define SenMug 50
-#define BelesariusMug 51
+#define BelisariusMug 51
 #define RaimeMug 52
 #define BrandonMug 53
 #define OrionMug 54

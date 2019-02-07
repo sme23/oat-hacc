@@ -1,1 +1,3 @@
-Oof[X]
+[OpenMidLeft][LoadYanik]Juliana, where are you?![A][NL]
+[OpenMidLeft][MoveMidLeft][OpenMidLeft]Damn you, brigands! I'm going to make[NL]
+you scream in agony if you dare touch her![A][X]

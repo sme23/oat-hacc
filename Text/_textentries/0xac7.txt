@@ -1,5 +1,2 @@
-[OpenRight][LoadVaas]'Ooks like we fergot one, boys.[A]
-[OpenLeft][LoadBandit]Bu' boss, we already 'ave da--[A]
-[OpenRight]Shadup an' catch dat one![NL]
-Maybe we'll git an extra coin for 'im![A][OpenLeft][ClearFace][OpenRight][ClearFace]
-[OpenMidLeft][LoadOstrava][OpenMidLeft][MoveMidLeft][OpenMidLeft]Dammit![....] Not now![A][X]
+[OpenMidRight][LoadElizabeth][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
+sins? Screw you, too gods[ToggleMouthMove]...[A][X]

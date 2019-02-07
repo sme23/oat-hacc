@@ -1,4 +1,1 @@
-[OpenMidRight][LoadJuli][CloseEyes]
-Yanik[ToggleMouthMove]...[ToggleMouthMove][....][NL]
-Help me[ToggleMouthMove]...[ToggleMouthMove][....][A][NL]
-It hurts[ToggleMouthMove]...[ToggleMouthMove][....][ToggleMouthMove][A][X]
+Mid-level fire magic.[X]

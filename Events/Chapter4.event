@@ -91,18 +91,84 @@ TrapData:
 END_MAIN
 
 BeginningScene:
+FADU 1
+Text(Fort,PlaceholderText)
 LOAD2 0x1 StartUnits
 LOAD1 0x1 JailCell
 LOAD1 0x1 EnemyUnits
+ENUN
+CAM1 [14,3]
+FADU 10
+CAM1 [2,15]
+ENUN
+CUMO [1,16]
+STAL 40
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
 LOAD1 0x1 ThiefTimer
 ENUN
-FADU 10
-Text(PlaceholderText)
+TEXTCONT
+TEXTEND
 //GotoPrepScreen
 NoFade
 ENDA
 
+EndingCutsceneUnits:
+ReturningUnit(Ostrava,18,3)
+ReturningUnit(Zo,18,4)
+ReturningUnit(Ben,17,3)
+ReturningUnit(Yanik,15,13)
+ReturningUnit(Juli,15,14)
+ReturningUnit(Roshal,17,4)
+ReturningUnit(Kat,18,6)
+ReturningUnit(Glazette,16,5)
+UNIT
+
+EndingCutsceneJeanne:
+UNIT Jeanne Lancer Ostrava Level(5,NPC,0) [21,4] 0x0 0x0 0x0 0x1 [0x00] NeverMoveAI
+UNIT
+
+EndingCutsceneUnits2:
+UNIT Ostrava 1 1 Level(0,Ally,0) [7,2] 0x0 0x0 0x1 REDA8R8 [0x00] NoAI
+UNIT Zo 1 1 Level(0,Ally,0) [5,0] 0x0 0x0 0x1 REDA8R7 [0x00] NoAI
+UNIT Ben 1 1 Level(0,Ally,0) [6,0] 0x0 0x0 0x1 REDA9R7 [0x00] NoAI
+UNIT Yanik 1 1 Level(0,Ally,0) [7,0] 0x0 0x0 0x1 REDA6R7 [0x00] NoAI
+UNIT Juli 1 1 Level(0,Ally,0) [8,0] 0x0 0x0 0x1 REDA6R8 [0x00] NoAI
+UNIT Roshal 1 1 Level(0,Ally,0) [7,1] 0x0 0x0 0x1 REDA7R8 [0x00] NoAI
+UNIT Kat 1 1 Level(0,Ally,0) [9,0] 0x0 0x0 0x1 REDA10R6 [0x00] NoAI
+UNIT Glazette 1 1 Level(0,Ally,0) [10,0] 0x0 0x0 0x1 REDA9R6 [0x00] NoAI
+UNIT
+
+PlayerJeanne:
+UNIT Jeanne Lancer Jeanne Level(5,Ally,0) [6,2] 0x0 0x0 0x1 REDA9R8 [Lucerne,Elixir] NoAI
+UNIT
+
+
 EndingScene:
+FADI 10
+CLEE 0x0
+CLEA 0x0
+CLEN Jeanne
+Text(Fort,PlaceholderText)
+FADI 10
+CAM1 [19,3]
+FADU 10
+LOAD1 0x1 EndingCutsceneJeanne
+LOAD2 0x1 EndingCutsceneUnits
+TILECHANGE 0
+MOVE 0 Jeanne [19,3]
+ENUN
+Text(PlaceholderText)
+FADI 20
+LOMA 0x40
+STAL 10
+FADU 10
+
+LOAD1 0x1 PlayerJeanne
+LOAD2 0x1 EndingCutsceneUnits2
+ENUN
 Text(PlaceholderText)
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120

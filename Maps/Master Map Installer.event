@@ -28,7 +28,10 @@
 #include "Chapter9.event"
 }
 {
-#include "CutsceneMap.event"
+#include "CutsceneMap1.event"
+}
+{
+#include "CutsceneMap2.event"
 }
 {
 #include "Prologue.event"

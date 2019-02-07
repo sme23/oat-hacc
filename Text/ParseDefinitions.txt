@@ -15,6 +15,7 @@
 [LoadPholis] = [LoadFace][0x1F][0x1]
 [LoadGlazette] = [LoadFace][0xD][0x1]
 [LoadKendrick] = [LoadFace][0x20][0x1]
+[LoadJeanne] = [LoadFace][0x9][0x1]
 
 [N] = [NL]
 [n] = [N]

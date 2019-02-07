@@ -1,215 +1,215 @@
 ##OstravaRoshalCSupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaRoshalBSupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaRoshalASupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaJeanneCSupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaJeanneBSupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaJeanneASupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaHexCSupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaHexBSupport
-Oof[X]
+Oof[A][X]
 
 ##OstravaHexASupport
-Oof[X]
+Oof[A][X]
 
 ##BenZoCSupport
-Oof[X]
+Oof[A][X]
 
 ##BenZoBSupport
-Oof[X]
+Oof[A][X]
 
 ##BenZoASupport
-Oof[X]
+Oof[A][X]
 
 ##BenHexCSupport
-Oof[X]
+Oof[A][X]
 
 ##BenHexBSupport
-Oof[X]
+Oof[A][X]
 
 ##BenHexASupport
-Oof[X]
+Oof[A][X]
 
 ##BenJunpeiCSupport
-Oof[X]
+Oof[A][X]
 
 ##BenJunpeiBSupport
-Oof[X]
+Oof[A][X]
 
 ##BenJunpeiASupport
-Oof[X]
+Oof[A][X]
 
 ##ZoHexCSupport
-Oof[X]
+Oof[A][X]
 
 ##ZoHexBSupport
-Oof[X]
+Oof[A][X]
 
 ##ZoHexASupport
-Oof[X]
+Oof[A][X]
 
 ##ZoFeiCSupport
-Oof[X]
+Oof[A][X]
 
 ##ZoFeiBSupport
-Oof[X]
+Oof[A][X]
 
 ##ZoFeiASupport
-Oof[X]
+Oof[A][X]
 
 ##YanikJulianaCSupport
-Oof[X]
+Oof[A][X]
 
 ##YanikJulianaBSupport
-Oof[X]
+Oof[A][X]
 
 ##YanikJulianaASupport
-Oof[X]
+Oof[A][X]
 
 ##ElizabethOrvaldCSupport
-Oof[X]
+Oof[A][X]
 
 ##ElizabethOrvaldBSupport
-Oof[X]
+Oof[A][X]
 
 ##ElizabethOrvaldASupport
-Oof[X]
+Oof[A][X]
 
 ##ElizabethDocCSupport
-Oof[X]
+Oof[A][X]
 
 ##ElizabethDocBSupport
-Oof[X]
+Oof[A][X]
 
 ##ElizabethDocASupport
-Oof[X]
+Oof[A][X]
 
 ##RoshalJeanneCSupport
-Oof[X]
+Oof[A][X]
 
 ##RoshalJeanneBSupport
-Oof[X]
+Oof[A][X]
 
 ##RoshalJeanneASupport
-Oof[X]
+Oof[A][X]
 
 ##JeanneJunpeiCSupport
-Oof[X]
+Oof[A][X]
 
 ##JeanneJunpeiBSupport
-Oof[X]
+Oof[A][X]
 
 ##JeanneJunpeiASupport
-Oof[X]
+Oof[A][X]
 
 ##JunpeiRamonaCSupport
-Oof[X]
+Oof[A][X]
 
 ##JunpeiRamonaBSupport
-Oof[X]
+Oof[A][X]
 
 ##JunpeiRamonaASupport
-Oof[X]
+Oof[A][X]
 
 ##CielSamanthaCSupport
-Oof[X]
+Oof[A][X]
 
 ##CielSamanthaBSupport
-Oof[X]
+Oof[A][X]
 
 ##CielSamanthaASupport
-Oof[X]
+Oof[A][X]
 
 ##CielRamonaCSupport
-Oof[X]
+Oof[A][X]
 
 ##CielRamonaBSupport
-Oof[X]
+Oof[A][X]
 
 ##CielRamonaASupport
-Oof[X]
+Oof[A][X]
 
 ##SamanthaFeiCSupport
-Oof[X]
+Oof[A][X]
 
 ##SamanthaFeiBSupport
-Oof[X]
+Oof[A][X]
 
 ##SamanthaFeiASupport
-Oof[X]
+Oof[A][X]
 
 ##SamanthaOrvaldCSupport
-Oof[X]
+Oof[A][X]
 
 ##SamanthaOrvaldBSupport
-Oof[X]
+Oof[A][X]
 
 ##SamanthaOrvaldASupport
-Oof[X]
+Oof[A][X]
 
 ##FleuretteAlbenCSupport
-Oof[X]
+Oof[A][X]
 
 ##FleuretteAlbenBSupport
-Oof[X]
+Oof[A][X]
 
 ##FleuretteAlbenASupport
-Oof[X]
+Oof[A][X]
 
 ##FeiSmegbertCSupport
-Oof[X]
+Oof[A][X]
 
 ##FeiSmegbertBSupport
-Oof[X]
+Oof[A][X]
 
 ##FeiSmegbertASupport
-Oof[X]
+Oof[A][X]
 
 ##GeorgeSieghardtCSupport
-Oof[X]
+Oof[A][X]
 
 ##GeorgeSieghardtBSupport
-Oof[X]
+Oof[A][X]
 
 ##GeorgeSieghardtASupport
-Oof[X]
+Oof[A][X]
 
 ##GeorgeJamieCSupport
-Oof[X]
+Oof[A][X]
 
 ##GeorgeJamieBSupport
-Oof[X]
+Oof[A][X]
 
 ##GeorgeJamieASupport
-Oof[X]
+Oof[A][X]
 
 ##AlbenRamonaCSupport
-Oof[X]
+Oof[A][X]
 
 ##AlbenRamonaBSupport
-Oof[X]
+Oof[A][X]
 
 ##AlbenRamonaASupport
-Oof[X]
+Oof[A][X]
 
 ##WilliamDarianCSupport
-Oof[X]
+Oof[A][X]
 
 ##WilliamDarianBSupport
-Oof[X]
+Oof[A][X]
 
 ##WilliamDarianASupport
-Oof[X]
+Oof[A][X]

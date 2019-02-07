@@ -1,1 +1,3 @@
-Oof[X]
+[OpenMidLeft][LoadOdarit]Eh?[....] How did you escape?[A][NL]
+Well, no matter.[NL]
+You won't go any further![A][X]

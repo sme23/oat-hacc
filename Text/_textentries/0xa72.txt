@@ -1,1 +1,2 @@
-Long-range fire magic.[X]
+#Pride of the Blacksmith.[NL]
+Can strike consecutively.[X]
