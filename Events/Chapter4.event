@@ -54,7 +54,7 @@ UNIT Jeanne Lancer Ostrava Level(5,NPC,0) [21,4] 0x0 0x0 0x0 0x1 [0x00] NeverMov
 UNIT
 
 ThiefTimer:
-UNIT 0x8E Thief Thatch Level(7,Enemy,1) [1,16] 0x0 0x0 0x0 0x1 [KillingEdge] StealingThiefAI
+UNIT 0x8E Thief Thatch Level(7,Enemy,1) [1,16] 0x0 0x0 0x0 0x1 [KillingEdge] [0x00,0x04,0x00,0x00]
 UNIT
 
 EnemyReinforcements:
@@ -71,7 +71,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Door(19,2)
+Door(19,3)
 END_MAIN
 
 MiscBasedEvents:
@@ -91,26 +91,34 @@ TrapData:
 END_MAIN
 
 BeginningScene:
-FADU 1
-Text(Fort,PlaceholderText)
+CAM1 [5,24]
+
+Text(Fort,Chapter4Intro1)
+
 LOAD2 0x1 StartUnits
 LOAD1 0x1 JailCell
 LOAD1 0x1 EnemyUnits
 ENUN
-CAM1 [14,3]
 FADU 10
+CAM1 [14,3]
+STAL 40
 CAM1 [2,15]
+ENUN
+
+TEXTSTART
+TEXTSHOW Chapter4Intro2
+TEXTEND
+LOAD1 0x1 ThiefTimer
 ENUN
 CUMO [1,16]
 STAL 40
 CURE
-TEXTSTART
-TEXTSHOW PlaceholderText
-TEXTEND
-LOAD1 0x1 ThiefTimer
-ENUN
 TEXTCONT
 TEXTEND
+REMA
+
+CAM1 [5,24]
+Text(Chapter4Intro3)
 //GotoPrepScreen
 NoFade
 ENDA
@@ -151,16 +159,21 @@ FADI 10
 CLEE 0x0
 CLEA 0x0
 CLEN Jeanne
-Text(Fort,PlaceholderText)
+Text(Fort,Chapter4Ending1)
 FADI 10
 CAM1 [19,3]
 FADU 10
 LOAD1 0x1 EndingCutsceneJeanne
 LOAD2 0x1 EndingCutsceneUnits
+TEXTSTART
+TEXTSHOW Chapter4Ending2
+TEXTEND
 TILECHANGE 0
 MOVE 0 Jeanne [19,3]
 ENUN
-Text(PlaceholderText)
+TEXTCONT
+TEXTEND
+REMA
 FADI 20
 LOMA 0x40
 STAL 10
@@ -169,7 +182,8 @@ FADU 10
 LOAD1 0x1 PlayerJeanne
 LOAD2 0x1 EndingCutsceneUnits2
 ENUN
-Text(PlaceholderText)
+Text(Chapter4Ending3)
+Text(Fort,Chapter4Ending4)
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120
 EVBIT_F 0x2

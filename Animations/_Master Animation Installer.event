@@ -217,10 +217,22 @@
 #include "Apyr Installer.event"
 }
 {
-#include "Glazette Staff Installer.event"
+//#include "Glazette Staff Installer.event"
 }
 {
-#include "Glazette Unarmed Installer.event"
+//#include "Glazette Unarmed Installer.event"
+}
+{
+#include "LancemanLance Installer.event"
+}
+{
+#include "LancemanUnarmed Installer.event"
+}
+{
+#include "ClericStaff Installer.event"
+}
+{
+#include "ClericUnarmed Installer.event"
 }
 
 //////////////////////////////////////////////
@@ -758,3 +770,7 @@ StaffAnim(188)
 UnarmedAnim(189)
 WORD 0x0
 
+LanceBanditAnim:
+LanceAnim(190)
+UnarmedAnim(191)
+WORD 0x0

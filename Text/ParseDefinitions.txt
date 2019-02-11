@@ -16,6 +16,8 @@
 [LoadGlazette] = [LoadFace][0xD][0x1]
 [LoadKendrick] = [LoadFace][0x20][0x1]
 [LoadJeanne] = [LoadFace][0x9][0x1]
+[LoadSmegbert] = [LoadFace][0x14][0x1]
+[LoadSme] = [LoadSmegbert]
 
 [N] = [NL]
 [n] = [N]

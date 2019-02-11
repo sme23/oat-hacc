@@ -65,9 +65,10 @@ UNIT
 
 ALIGN 4
 TurnBasedEvents:
-TurnEventEnemy(0,ActualEnemies,6)
-TurnEventEnemy(0,BanditsAreHere,15,23)
-TurnEventEnemy(0,YouTookTooLong,25)
+TurnEventPlayer(0,EnemyWarning,8)
+TurnEventPlayer(0,ActualEnemies,9)
+TurnEventPlayer(0,BanditsAreHere,16,24)
+TurnEventPlayer(0,YouTookTooLong,26)
 END_MAIN
 
 ALIGN 4
@@ -210,6 +211,12 @@ Text(Ch1LiteralAssPull)
 CALL $591F40
 SVAL 3 Vulnerary
 GIVEITEMTO Ben
+NoFade
+ENDA
+
+ALIGN 4
+EnemyWarning:
+Text(PlaceholderText)
 NoFade
 ENDA
 

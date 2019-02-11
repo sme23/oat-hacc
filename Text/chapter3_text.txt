@@ -65,6 +65,7 @@ through here while trying to escape.[A]
 [OpenMidLeft]From the[ToggleMouthMove]...[....][ToggleMouthMove] north, I think.[A][NL]
 I remember taking a turn before finding[NL]
 the courtyard, then I ran through.[A]
+[LoadOverworldFaces]
 [OpenFarLeft][LoadZorua][OpenFarLeft]Guys,[....] we've got company.[NL]
 There are guards here.[A]
 [OpenMidRight][MoveMidRight][OpenMidRight][CloseEyes]Darn it all.[....][OpenEyes] You said north, right?[A]
@@ -81,17 +82,17 @@ sure they don't get themselves killed.[A]
 [OpenMidRight]I will do as I must.[A][X]
 
 ##IncomingReinforcements
-[OpenMidRight][LoadKendrick][OpenMidRight]Damn it all![....] Where are those damn[NL]
+[OpenMidRight][LoadPholis][OpenMidRight]Damn it all![....] Where are those damn[NL]
 reinforcements?[A][X]
 
 ##Chapter3BossBattleQuote
-[OpenMidLeft][LoadKendrick][OpenMidLeft]Wha--?[....] How the hell did ya[NL]
+[OpenMidLeft][LoadPholis][OpenMidLeft]Wha--?[....] How the hell did ya[NL]
 make it this far? Whatever.[A][NL]
 You're gunna die, here and[NL]
 now![A][X]
 
 ##Chapter3BossDeathQuote
-[OpenMidLeft][LoadKendrick]Urk[ToggleMouthMove]...[....][ToggleMouthMove] You[ToggleMouthMove]...[....][ToggleMouthMove] damn[ToggleMouthMove]...[A][X]
+[OpenMidLeft][LoadPholis]Urk[ToggleMouthMove]...[....][ToggleMouthMove] You[ToggleMouthMove]...[....][ToggleMouthMove] damn[ToggleMouthMove]...[A][X]
 
 ##Chapter3EndingDialogue
 [OpenMidLeft][LoadOstrava][OpenMidRight][LoadGlazette][OpenLeft][LoadBen][OpenLeft][MoveLeft][OpenLeft]And that's what you Gib-faced foozlers[NL]

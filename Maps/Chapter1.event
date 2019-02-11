@@ -13,7 +13,6 @@ TileMap(1,7,12,1,1,ChestM2)
 TileMap(2,10,12,1,1,ChestM3)
 TileMap(3,2,6,1,1,ChestTL)
 TileMap(4,1,16,1,1,ChestBL)
-TileMap(5,15,10,1,1,ChestMR)
 TileMap(6,1,13,1,2,DoorBL)
 TileMap(7,1,9,1,2,DoorML)
 TileMap(8,1,5,1,2,DoorTL)
@@ -29,6 +28,7 @@ TileMap(17,3,14,2,2,WallBL)
 TileMap(18,14,6,2,2,WallTR)
 TileMap(19,14,10,2,2,WallMR)
 TileMap(20,14,14,2,2,WallBR)
+TileMap(5,15,10,1,1,ChestMR)
 TileMapEnd
 
 ChestM1:
@@ -48,10 +48,6 @@ SHORT 0x104
 ALIGN 4
 
 ChestBL:
-SHORT 0x104 
-ALIGN 4
-
-ChestMR:
 SHORT 0x104 
 ALIGN 4
 
@@ -113,5 +109,9 @@ ALIGN 4
 
 WallBR:
 SHORT 0x7a8 0x0 0xce0 0xb44 
+ALIGN 4
+
+ChestMR:
+SHORT 0x104 
 ALIGN 4
 

@@ -54,3 +54,7 @@
 	setGenericPalette(54,SalvCav_generics)
 	setGenericPalette(146,SalvCav_generics)
 	setGenericPalette(147,SalvCav_generics)
+
+// GlazetteClericPalette
+	setPalette(0xC,GlazetteClericPalette)
+	setCBSP(0xC,Glazette, 0x1, Cleric)

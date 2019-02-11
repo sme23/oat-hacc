@@ -82,5 +82,6 @@ This is placeholder text![A][X]
 
 #include "chapter3_text.txt"
 
+#include "chapter4_text.txt"
 
 #include "support_text.txt"

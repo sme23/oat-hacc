@@ -37,3 +37,6 @@ ElizabethThiefPalette:
 SalvCav_generics:
 	#incbin "./_palettes/SalvCav_generics.lzpal" 
 
+GlazetteClericPalette:
+	#incbin "./_palettes/GlazetteClericPalette.lzpal" 
+

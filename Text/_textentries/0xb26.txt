@@ -1,1 +1,3 @@
-Oof[A][X]
+[OpenFarLeft][LoadBen]Not for you, though.[NL]
+Your journey ends here.[A]
+[OpenLeft][LoadZorua][OpenFarRight][LoadSme][OpenRight][LoadOstrava][OpenRight][ToggleSmile]Thanks for playing![A][X]

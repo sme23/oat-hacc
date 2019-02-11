@@ -2707,3 +2707,39 @@ TxtData0xb65:
 #incext ParseFile "_textentries\0xb65.txt"
 setText(0xb65,TxtData0xb65)
 
+TxtData0xb66:
+#incext ParseFile "_textentries\0xb66.txt"
+setText(0xb66,TxtData0xb66)
+
+TxtData0xb67:
+#incext ParseFile "_textentries\0xb67.txt"
+setText(0xb67,TxtData0xb67)
+
+TxtData0xb68:
+#incext ParseFile "_textentries\0xb68.txt"
+setText(0xb68,TxtData0xb68)
+
+TxtData0xb69:
+#incext ParseFile "_textentries\0xb69.txt"
+setText(0xb69,TxtData0xb69)
+
+TxtData0xb6a:
+#incext ParseFile "_textentries\0xb6a.txt"
+setText(0xb6a,TxtData0xb6a)
+
+TxtData0xb6b:
+#incext ParseFile "_textentries\0xb6b.txt"
+setText(0xb6b,TxtData0xb6b)
+
+TxtData0xb6c:
+#incext ParseFile "_textentries\0xb6c.txt"
+setText(0xb6c,TxtData0xb6c)
+
+TxtData0xb6d:
+#incext ParseFile "_textentries\0xb6d.txt"
+setText(0xb6d,TxtData0xb6d)
+
+TxtData0xb6e:
+#incext ParseFile "_textentries\0xb6e.txt"
+setText(0xb6e,TxtData0xb6e)
+

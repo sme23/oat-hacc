@@ -35,11 +35,11 @@ BYTE 0x00
 BYTE 0x00
 POIN ZoAnim
 
-BYTE Glazette
-BYTE Cleric
+BYTE 0x8E
+BYTE Soldier
 BYTE 0x00
 BYTE 0x00
-POIN GlazAnim
+POIN LanceBanditAnim
 
 BYTE 0x00  //Unit: term data
 BYTE 0x00  //dummy
