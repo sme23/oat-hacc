@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="21" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" name="3C00CE3E" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="tilesets/3C00CE3E.png" width="512" height="512"/>
+ </tileset>
+ <layer id="4" name="Tile Layer 1" width="21" height="10">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="0x3F"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x67"/>
+   <property name="MapID" value="0xD6"/>
+   <property name="ObjectType" value="0x3C"/>
+   <property name="PaletteID" value="0x68"/>
+   <property name="TileConfig" value="0x3E"/>
+  </properties>
+  <data encoding="csv">
+821,822,822,459,821,822,822,459,821,822,597,629,822,822,459,821,822,822,459,821,822,
+821,822,822,459,821,822,822,459,821,720,563,629,720,821,459,821,822,822,459,821,822,
+821,822,822,459,821,822,822,459,821,815,597,629,815,853,459,821,822,822,459,821,822,
+427,481,427,427,427,481,427,430,821,822,597,629,822,822,429,427,481,427,427,427,481,
+825,825,825,825,825,825,825,825,822,720,563,629,720,821,825,825,825,825,825,825,825,
+822,822,822,822,822,822,822,822,822,815,597,629,815,853,822,822,822,822,822,822,822,
+822,822,822,822,822,822,822,822,822,822,597,629,822,822,822,822,822,822,822,822,822,
+425,425,425,425,425,425,425,490,821,720,563,629,720,821,489,425,425,425,425,425,425,
+425,425,425,425,425,425,425,490,821,815,597,629,815,853,489,425,425,425,425,425,425,
+425,425,425,425,425,425,425,490,821,822,597,629,822,822,489,425,425,425,425,425,425
+</data>
+ </layer>
+ <layer id="6" name="Tile Layer 3" width="21" height="10" visible="0">
+  <properties>
+   <property name="Height" value="2"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="1"/>
+   <property name="Y" value="3"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,821,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,822,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

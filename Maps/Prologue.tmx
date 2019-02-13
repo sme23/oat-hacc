@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="01000203" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="tilesets/01000203.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="5"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="0"/>
+   <property name="MapID" value="4"/>
+   <property name="ObjectType" value="1"/>
+   <property name="PaletteID" value="2"/>
+   <property name="TileConfig" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJx1UbsNwjAQPeMCJAqyBB0NrGBvEhYARiALELEBWSCwBBUSU1CxA3e694SJQvHk8/l9znYbRVrgqrgpOhE5KraKpGiw9gW3hGmW0TWGWlHpPqO+iNf9SJadLbCa9jlxLusatc1wgnYaRB7oUZcBZrFXA9SuVbsKzqvib47NkXDvjPOu0B6i8xp4ZnDNq8OeHvShlnrOluSb2QxmzfAbvvceHsxiBjNNOw/+Pvc//0UP8i17h95b641qz4pZGP9rehDDu73E9R8mVkVU
+  </data>
+ </layer>
+</map>
