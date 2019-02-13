@@ -105,3 +105,10 @@ EventPointerTable(0x9D, WetlandObjects)
 EventPointerTable(0x9E, WetlandPalette)
 
 //TODO: set terrain 0x2D's name string to Wetland and give it halved move and -10 avoid
+
+ALIGN 4
+NightVillagePalette:
+#incbin "Tileset/nightvillage.bin"
+
+EventPointerTable(0x9F, NightVillagePalette)
+

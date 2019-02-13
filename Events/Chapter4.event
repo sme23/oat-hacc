@@ -91,19 +91,17 @@ TrapData:
 END_MAIN
 
 BeginningScene:
-CAM1 [5,24]
-
-Text(Fort,Chapter4Intro1)
-
 LOAD2 0x1 StartUnits
 LOAD1 0x1 JailCell
 LOAD1 0x1 EnemyUnits
 ENUN
-FADU 10
+CAM1 [5,24]
+Text(Fort,Chapter4Intro1)
+
 CAM1 [14,3]
 STAL 40
 CAM1 [2,15]
-ENUN
+
 
 TEXTSTART
 TEXTSHOW Chapter4Intro2
@@ -155,16 +153,20 @@ UNIT
 
 
 EndingScene:
+MUSC Victory
 FADI 10
 CLEE 0x0
 CLEA 0x0
 CLEN Jeanne
-Text(Fort,Chapter4Ending1)
-FADI 10
 CAM1 [19,3]
-FADU 10
 LOAD1 0x1 EndingCutsceneJeanne
 LOAD2 0x1 EndingCutsceneUnits
+
+Text(Fort,Chapter4Ending1)
+
+
+
+
 TEXTSTART
 TEXTSHOW Chapter4Ending2
 TEXTEND

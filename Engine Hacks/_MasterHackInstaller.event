@@ -164,7 +164,10 @@ POP
   ALIGN 4
   Offscreen_Levelup:
   #incbin "autolevel.dmp"
+  
   ALIGN 4
+  #include "DebugOMatic/Debug-o-matic.event"
+  
   
   ALIGN 4
   #include "UnitMenu.event"

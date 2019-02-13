@@ -2,7 +2,7 @@
 
 #include eastdlib.event
 
-SetChapterData(2,0x3C,0,0x68,0x3E,0xB,Map,0,0,0xC)
+SetChapterData(Chapter2ID,0x3C,0,0x68,0x3E,0xB,Map,0,0,0xC)
 EventPointerTable(0xC, MapChanges)
 Map:
 #incbin "Chapter2_data.dmp"
