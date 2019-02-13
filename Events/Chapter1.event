@@ -43,7 +43,7 @@ Enemies2:
 UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [10,6] 0x2 0x0 0x0 0x1 [SlimLance,Vulnerary] AttackInRangeAI
 UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [4,9] 0x2 0x0 0x0 0x1 [HandAxe,Vulnerary] AttackInRangeAI
 UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [9,4] 0x2 0x0 0x0 0x1 [IronAxe,DoorKey] AttackInRangeAI
-UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [16,4] 0x2 0x0 0x0 0x1 [IronAxe,ChestKey] AttackInRangeAI
+UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [16,4] 0x2 0x0 0x0 0x1 [IronLance,ChestKey] AttackInRangeAI
 UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [14,3] 0x2 0x0 0x0 0x1 [IronLance,ChestKey] AttackInRangeAI
 UNIT 0x8E Mercenary Breguet Level(3,Enemy,1) [6,16] 0x2 0x0 0x0 0x1 [SlimSword,DoorKey] AttackInRangeAI
 UNIT 0x8E Mercenary Breguet Level(3,Enemy,1) [4,13] 0x2 0x0 0x0 0x1 [IronSword,ChestKey] AttackInRangeAI
