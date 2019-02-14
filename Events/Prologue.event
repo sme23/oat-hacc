@@ -84,6 +84,13 @@ TrapData:
 END_MAIN
 
 BeginningScene:
+
+CHECK_TUTORIAL
+SVAL 1 1
+BNE 0 1 0xC
+    ENUT 0xB0
+LABEL 0
+
 UnlockAllGuideEntries
 MUSC Song_GotohSage
 FADU 30

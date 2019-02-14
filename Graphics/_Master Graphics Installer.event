@@ -1,0 +1,19 @@
+
+
+
+#include "Mugs/Mug Installer.event"
+#include "Map Sprites/Map Sprites Installer.event"
+#include "Tileset Installer.event"
+#include "Item Icons/Item Icon Installer.event"
+#include "TitleScreen/titlebackgroundinstaller.event"
+
+
+PUSH
+  ORG $AC188
+  POIN NewDifficultyButtons
+POP
+
+
+NewDifficultyButtons:
+#incext Png2Dmp "Misc/difficulty.png" --lz77
+

@@ -10,11 +10,8 @@ ORG 0xb2a610
 MESSAGE Used text space ends at currentOffset
 
 //Graphics
-#include "Graphics/Mugs/Mug Installer.event"
-#include "Graphics/Map Sprites/Map Sprites Installer.event"
-#include "Graphics/Tileset Installer.event"
+#include "Graphics/_Master Graphics Installer.event"
 #include "Palettes/Palette Setup.event"
-#include "Graphics/Item Icons/Item Icon Installer.event"
 
 MESSAGE First block ends at currentOffset
 

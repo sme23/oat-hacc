@@ -106,7 +106,7 @@ Oof[A][X]
 Oof[A][X]
 
 ## KatCh2DeathQuote
-[OpenMidLeft][LoadFace][0x107]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
+[OpenMidLeft][LoadElizabeth]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
 
 ## JeanneCh4DeathQuote
 Oof[A][X]

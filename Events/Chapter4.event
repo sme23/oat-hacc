@@ -47,6 +47,7 @@ UNIT 0x8E Brigand Thatch Level(5,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [SteelAxe] Att
 UNIT 0x8E Mercenary Thatch Level(5,Enemy,1) [14,22] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
 UNIT 0x8E LncCav Thatch Level(4,Enemy,1) [13,5] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
 UNIT 0x8E LncCav Thatch Level(4,Enemy,1) [15,5] 0x0 0x0 0x0 0x1 [Javelin] AttackInRangeAI
+//UNIT 0x8E Berserker Thatch Level(20,Enemy,1) [21,3] 0x0 0x0 0x0 0x1 [KillerAxe] AttackInRangeAI
 UNIT
 
 JailCell:
