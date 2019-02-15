@@ -406,11 +406,14 @@ TerrainResBonus:
 #ifdef __DEBUG__
   ALIGN 4
   TxtData0x0D4B:
-    String(PRIVATEBUILD)
-    BYTE 0
+    //#incbin "Text/String Workaround/DebugBuild.txt"
+    String("DEBUG BUILD")
+	BYTE 0
 #else
   ALIGN 4
   TxtData0x0D4B:
-    String(Donate-to-Circles)
-    BYTE 0
+    //#incbin "Text/String Workaround/DonateToCircles.txt"
+    String("Donate to Circles")
+	BYTE 0
 #endif
+

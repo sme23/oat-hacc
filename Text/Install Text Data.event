@@ -141,6 +141,10 @@ __TEXTPROCESS03A:
 #incbin ".TextEntries\text_buildfileLearnedSkillText.fetxt.dmp"
 setText($3A, __TEXTPROCESS03A)
 
+__TEXTPROCESS208:
+#incbin ".TextEntries\text_buildfile208.fetxt.dmp"
+setText($208, __TEXTPROCESS208)
+
 __TEXTPROCESS03B:
 #incbin ".TextEntries\text_buildfileSS_TalkText.fetxt.dmp"
 setText($3B, __TEXTPROCESS03B)

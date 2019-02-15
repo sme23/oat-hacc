@@ -4,6 +4,7 @@ ORG 0xb2a610
 #include "EAstdlib.event"
 #include "Custom Definitions.event"
 //#include "Tables/PointerTableReorganized.event"
+#include "Header.event"
 
 //Text first for Text ID definitions
 #include "Text/Install Text Data.event"

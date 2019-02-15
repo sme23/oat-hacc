@@ -35,78 +35,80 @@ Help me[ToggleMouthMove]...[ToggleMouthMove][....][A][NL]
 It hurts[ToggleMouthMove]...[ToggleMouthMove][....][ToggleMouthMove][A][X]
 
 ## ElizabethDeathQuote
-[OpenMidRight][LoadElizabeth][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
+[OpenMidRight][LoadFace][0x107][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
 sins? Screw you, too gods[ToggleMouthMove]...[A][X]
 
 ## RoshalDeathQuote
-[OpenMidRight][LoadRoshal]Ack![....] Please don't kill me![A][NL]
+[OpenMidRight][LoadFace][0x108]Ack![....] Please don't kill me![A][NL]
 Sorry, everyone[ToggleMouthMove]...[....][ToggleMouthMove] I need to[NL]
 retreat.[A][X]
 
 ## GlazetteDeathQuote
-[OpenMidRight][LoadGlazette]Live in darkness; die in[NL]
+[OpenMidRight][LoadFace][0x10D]Live in darkness; die in[NL]
 darkness[ToggleMouthMove]...[....][ToggleMouthMove] Wait[ToggleMouthMove]...[....][ToggleMouthMove] What is[A][NL]
 this light[ToggleMouthMove]...?[A][X]
 
 ## JeanneDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## HexDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## JunpeiDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## CielDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## NatsumiDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## DocDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## BlankDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## SamanthaDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## FleuretteDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## FeiDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## SmegbertDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## GeorgeDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## AlbanDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## RamonaDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## JamieDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## WilliamDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## SieghardtDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## OrvaldDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## DarienDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## KatCh2DeathQuote
-[OpenMidLeft][LoadElizabeth]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
+[OpenMidLeft][LoadFace][0x107]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
 
 ## JeanneCh4DeathQuote
-Oof[A][X]
+[OpenMidRight][LoadFace][0x109][CloseEyes][ToggleMouthMove]...[....][ToggleMouthMove]Is this to be my ending[ToggleMouthMove]...?[A][ToggleMouthMove][NL]
+[OpenEyes]I suppose a solitary life[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+begets a solitary end[ToggleMouthMove]...[A][X]
