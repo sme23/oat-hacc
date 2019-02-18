@@ -115,7 +115,10 @@ CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW NarrationChapter2
 TEXTEND
+FADI 10
 CLEAN
+FADU 10
+
 MUSC Advance
 LOAD2 0x1 PlayerUnits
 ENUN

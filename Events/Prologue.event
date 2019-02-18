@@ -93,14 +93,17 @@ LABEL 0
 
 LOAD1 0x1 DeadGuy
 ENUN
-FADU 30
+
 
 SetBackground(Woodland)
+FADU 30
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW NarrationPrologue
 TEXTEND
+FADI 10
 CLEAN
+FADU 10
 
 UnlockAllGuideEntries
 MUSC Song_GotohSage

@@ -97,7 +97,10 @@ CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW NarrationChapter3
 TEXTEND
+FADI 10
 CLEAN
+FADU 10
+
 LOAD1 0x1 CutsceneUnitBoisThatGetLoad1
 LOAD2 0x1 CutsceneUnitBoisThatGetLoad2
 ENUN

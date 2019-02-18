@@ -41,6 +41,14 @@ MESSAGE Used hax space ends at currentOffset
 #include "Events/Master Event Installer.event"
 #include "Events/World Map Events Installer.event"
 
+PUSH
+ORG 0xD74D0
+String("2019/18/02(MON)")
+ORG 0xD74E0
+String("16:41:26")
+ORG 0xD74EC
+String("FEMOD")
+POP
 
 MESSAGE Used free space ends at currentOffset
 MESSAGE Proc_Counter

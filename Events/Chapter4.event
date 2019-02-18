@@ -97,7 +97,10 @@ CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW NarrationChapter4
 TEXTEND
+FADI 10
 CLEAN
+FADU 10
+
 LOAD2 0x1 StartUnits
 LOAD1 0x1 JailCell
 LOAD1 0x1 EnemyUnits
