@@ -104,13 +104,19 @@ END_MAIN
 
 ALIGN 4
 BeginningScene:
-MUSC Advance
 REVEAL Zo
 REVEAL Ben
 REVEAL Yanik
 REVEAL Juli
 CAM1 [6,13]
 FADU 10
+SetBackground(Fort_2)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW NarrationChapter2
+TEXTEND
+CLEAN
+MUSC Advance
 LOAD2 0x1 PlayerUnits
 ENUN
 Text(Chapter2Opening1)

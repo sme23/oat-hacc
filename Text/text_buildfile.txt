@@ -77,6 +77,8 @@ This is placeholder text![A][X]
 
 #include "music_text.txt"
 
+#include "narration_text.txt"
+
 #include "prologue_text.txt"
 
 #include "chapter1_text.txt"

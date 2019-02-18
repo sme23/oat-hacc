@@ -91,10 +91,20 @@ BNE 0 1 0xC
     ENUT 0xB0
 LABEL 0
 
+LOAD1 0x1 DeadGuy
+ENUN
+FADU 30
+
+SetBackground(Woodland)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW NarrationPrologue
+TEXTEND
+CLEAN
+
 UnlockAllGuideEntries
 MUSC Song_GotohSage
-FADU 30
-LOAD1 0x1 DeadGuy
+
 LOAD1 0x1 PlayerUnits
 ENUN
 CUMO 0x6

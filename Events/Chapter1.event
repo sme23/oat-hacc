@@ -148,6 +148,12 @@ LOAD1 0x1 StartUnits
 CAM1 Zorua
 ENUN
 FADU 30
+SetBackground(0x17)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW NarrationChapter1
+TEXTEND
+CLEAN
 MUSC Song_GotohSage
 CUMO Zorua
 STAL 40

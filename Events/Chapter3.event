@@ -92,6 +92,12 @@ BeginningScene:
 LOMA 0x3F
 CAM1 [13,5]
 FADU 10
+SetBackground(Fort_2)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW NarrationChapter3
+TEXTEND
+CLEAN
 LOAD1 0x1 CutsceneUnitBoisThatGetLoad1
 LOAD2 0x1 CutsceneUnitBoisThatGetLoad2
 ENUN
