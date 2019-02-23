@@ -21,7 +21,7 @@ Bergentruckung_1:
 // 000   ----------------------------------------
 	BYTE	TEMPO   113*Bergentruckung_tbs/2
 	BYTE		VOICE   60
-	BYTE		VOL     107*Bergentruckung_mvl/mxv
+	BYTE		VOL     75*Bergentruckung_mvl/mxv
 	BYTE		N06     Gs2   v127
 	BYTE		N06     En3 
 	BYTE	W12
@@ -1239,7 +1239,7 @@ Bergentruckung_2:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   119
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     75*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_2_B1:
 	BYTE	W48
@@ -1397,7 +1397,7 @@ Bergentruckung_3:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   67
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     69*Bergentruckung_mvl/mxv
 	BYTE		N06     Cs2   v127
 	BYTE	W24
 	BYTE		        Ds2 
@@ -2476,7 +2476,7 @@ Bergentruckung_4:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   2
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     69*Bergentruckung_mvl/mxv
 	BYTE		N06     Cs1   v127
 	BYTE		N06     Gs2 
 	BYTE		N06     En3 
@@ -4588,7 +4588,7 @@ Bergentruckung_5:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   56
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     69*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_5_B1:
 	BYTE	W48
@@ -4840,7 +4840,7 @@ Bergentruckung_6:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   63
-	BYTE		VOL     63*Bergentruckung_mvl/mxv
+	BYTE		VOL     36*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_6_B1:
 	BYTE	W48
@@ -5061,7 +5061,7 @@ Bergentruckung_7:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   57
-	BYTE		VOL     64*Bergentruckung_mvl/mxv
+	BYTE		VOL     35*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_7_B1:
 	BYTE	W48
@@ -5500,7 +5500,7 @@ Bergentruckung_8:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   40
-	BYTE		VOL     63*Bergentruckung_mvl/mxv
+	BYTE		VOL     36*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_8_B1:
 	BYTE	W48
@@ -6093,7 +6093,7 @@ Bergentruckung_9:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   2
-	BYTE		VOL     63*Bergentruckung_mvl/mxv
+	BYTE		VOL     36*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_9_B1:
 	BYTE	W48
@@ -6630,7 +6630,7 @@ Bergentruckung_10:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   48
-	BYTE		VOL     63*Bergentruckung_mvl/mxv
+	BYTE		VOL     32*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_10_B1:
 	BYTE	W48
@@ -6917,7 +6917,7 @@ Bergentruckung_11:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   8
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     70*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_11_B1:
 	BYTE	W48
@@ -7144,7 +7144,7 @@ Bergentruckung_12:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   127
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     72*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_12_B1:
 	BYTE		N12     Cn1   v127
@@ -7521,7 +7521,7 @@ Bergentruckung_13:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   52
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     67*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_13_B1:
 	BYTE	W48
@@ -7756,7 +7756,7 @@ Bergentruckung_14:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   47
-	BYTE		VOL     95*Bergentruckung_mvl/mxv
+	BYTE		VOL     64*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_14_B1:
 	BYTE	W48
@@ -8143,7 +8143,7 @@ Bergentruckung_15:
 	BYTE	KEYSH   Bergentruckung_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   57
-	BYTE		VOL     63*Bergentruckung_mvl/mxv
+	BYTE		VOL     35*Bergentruckung_mvl/mxv
 	BYTE	W48
 Bergentruckung_15_B1:
 	BYTE	W48

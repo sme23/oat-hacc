@@ -86,3 +86,33 @@ SongTable(0x1C,UnfoundedRevenge,BattleMusicGroup)
 
 SongTable(0x2F,GreenThunder,MapMusicGroup)
 #include "GreenThunder.event"
+
+SongTable(0x44,WithUs,MapMusicGroup)
+#include "WithUs.event"
+
+SongTable(0x45,VastPoniCanyon,MapMusicGroup)
+#include "VastPoniCanyon.event"
+
+SongTable(0x46,tpshop,MapMusicGroup)
+#include "tpshop.event"
+
+SongTable(0x47,tpkakariko,MapMusicGroup)
+#include "tpkakariko.event"
+
+SongTable(0x48,SongOfOat,MapMusicGroup)
+#include "SongOfOat.event"
+
+SongTable(0x49,riversinthedesert,MapMusicGroup)
+#include "riversinthedesert.event"
+
+SongTable(0x4A,ordonvillage,MapMusicGroup)
+#include "ordonvillage.event"
+
+SongTable(0x4B,NierBattle,BattleMusicGroup)
+#include "NierBattle.event"
+
+SongTable(0x4C,linebeck,MapMusicGroup)
+#include "linebeck.event"
+
+SongTable(0x4E,Bergentruckung,MapMusicGroup)
+#include "Bergentruckung.event"

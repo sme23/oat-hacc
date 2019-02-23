@@ -21,7 +21,7 @@ VastPoniCanyon_1:
 // 000   ----------------------------------------
 	BYTE	TEMPO   120*VastPoniCanyon_tbs/2
 	BYTE		VOICE   73
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     82*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W12
 	BYTE		N05     Gn4   v096
@@ -586,7 +586,7 @@ VastPoniCanyon_2:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   73
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     81*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W12
 	BYTE		N05     Gn4   v096
@@ -1151,7 +1151,7 @@ VastPoniCanyon_3:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   68
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     82*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W12
 	BYTE		N05     Dn4   v096
@@ -1586,7 +1586,7 @@ VastPoniCanyon_4:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   71
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     84*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W12
 	BYTE		N05     Dn4   v096
@@ -1980,7 +1980,7 @@ VastPoniCanyon_5:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   71
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     85*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		TIE     En4   v096
 	BYTE		TIE     An4 
@@ -2456,7 +2456,7 @@ VastPoniCanyon_6:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   127
-	BYTE		VOL     127*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     106*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W96
 // 001   ----------------------------------------
@@ -2882,7 +2882,7 @@ VastPoniCanyon_7:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   65
-	BYTE		VOL     110*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     85*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W96
 // 001   ----------------------------------------
@@ -3396,7 +3396,7 @@ VastPoniCanyon_8:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   65
-	BYTE		VOL     112*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     90*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W96
 // 001   ----------------------------------------
@@ -3910,7 +3910,7 @@ VastPoniCanyon_9:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   66
-	BYTE		VOL     126*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     110*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W96
 // 001   ----------------------------------------
@@ -4333,7 +4333,7 @@ VastPoniCanyon_10:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   67
-	BYTE		VOL     102*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     87*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W96
 // 001   ----------------------------------------
@@ -4830,7 +4830,7 @@ VastPoniCanyon_11:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   60
-	BYTE		VOL     124*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     110*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		TIE     An3   v096
 	BYTE	W96
@@ -5090,7 +5090,7 @@ VastPoniCanyon_12:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   60
-	BYTE		VOL     127*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     110*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		TIE     En3   v096
 	BYTE	W96
@@ -5350,7 +5350,7 @@ VastPoniCanyon_13:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   58
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     87*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		TIE     An0   v080
 	BYTE	W96
@@ -5906,7 +5906,7 @@ VastPoniCanyon_14:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   34
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOL     87*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		TIE     An0   v080
 	BYTE	W96
@@ -6461,8 +6461,8 @@ VastPoniCanyon_14_B2:
 VastPoniCanyon_15:
 	BYTE	KEYSH   VastPoniCanyon_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   12
-	BYTE		VOL     100*VastPoniCanyon_mvl/mxv
+	BYTE		VOICE   13
+	BYTE		VOL     82*VastPoniCanyon_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W12
 	BYTE		N05     Gn4   v096

@@ -20,7 +20,7 @@ Bergentruckung_1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 113*Bergentruckung_tbs/2
 	.byte		VOICE , 60
-	.byte		VOL   , 107*Bergentruckung_mvl/mxv
+	.byte		VOL   , 75*Bergentruckung_mvl/mxv
 	.byte		N06   , Gs2 , v127
 	.byte		N06   , En3 
 	.byte	W12
@@ -1238,7 +1238,7 @@ Bergentruckung_2:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 119
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 75*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_2_B1:
 	.byte	W48
@@ -1396,7 +1396,7 @@ Bergentruckung_3:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 67
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 69*Bergentruckung_mvl/mxv
 	.byte		N06   , Cs2 , v127
 	.byte	W24
 	.byte		        Ds2 
@@ -2475,7 +2475,7 @@ Bergentruckung_4:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 2
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 69*Bergentruckung_mvl/mxv
 	.byte		N06   , Cs1 , v127
 	.byte		N06   , Gs2 
 	.byte		N06   , En3 
@@ -4587,7 +4587,7 @@ Bergentruckung_5:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 56
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 69*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_5_B1:
 	.byte	W48
@@ -4839,7 +4839,7 @@ Bergentruckung_6:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 63
-	.byte		VOL   , 63*Bergentruckung_mvl/mxv
+	.byte		VOL   , 36*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_6_B1:
 	.byte	W48
@@ -5060,7 +5060,7 @@ Bergentruckung_7:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 57
-	.byte		VOL   , 64*Bergentruckung_mvl/mxv
+	.byte		VOL   , 35*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_7_B1:
 	.byte	W48
@@ -5499,7 +5499,7 @@ Bergentruckung_8:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 40
-	.byte		VOL   , 63*Bergentruckung_mvl/mxv
+	.byte		VOL   , 36*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_8_B1:
 	.byte	W48
@@ -6092,7 +6092,7 @@ Bergentruckung_9:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 2
-	.byte		VOL   , 63*Bergentruckung_mvl/mxv
+	.byte		VOL   , 36*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_9_B1:
 	.byte	W48
@@ -6629,7 +6629,7 @@ Bergentruckung_10:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 48
-	.byte		VOL   , 63*Bergentruckung_mvl/mxv
+	.byte		VOL   , 32*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_10_B1:
 	.byte	W48
@@ -6916,7 +6916,7 @@ Bergentruckung_11:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 8
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 70*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_11_B1:
 	.byte	W48
@@ -7143,7 +7143,7 @@ Bergentruckung_12:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 127
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 72*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_12_B1:
 	.byte		N12   , Cn1 , v127
@@ -7520,7 +7520,7 @@ Bergentruckung_13:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 52
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 67*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_13_B1:
 	.byte	W48
@@ -7755,7 +7755,7 @@ Bergentruckung_14:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 47
-	.byte		VOL   , 95*Bergentruckung_mvl/mxv
+	.byte		VOL   , 64*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_14_B1:
 	.byte	W48
@@ -8142,7 +8142,7 @@ Bergentruckung_15:
 	.byte	KEYSH , Bergentruckung_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 57
-	.byte		VOL   , 63*Bergentruckung_mvl/mxv
+	.byte		VOL   , 35*Bergentruckung_mvl/mxv
 	.byte	W48
 Bergentruckung_15_B1:
 	.byte	W48

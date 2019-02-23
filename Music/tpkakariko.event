@@ -21,71 +21,17 @@ tpkakariko_1:
 // 000   ----------------------------------------
 	BYTE	TEMPO   86*tpkakariko_tbs/2
 	BYTE		VOICE   76
-	BYTE		VOL     101*tpkakariko_mvl/mxv
+	BYTE		VOL     75*tpkakariko_mvl/mxv
 	BYTE		PAN     c_v+57
 	BYTE		        c_v+44
-	BYTE		VOL     110*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        98*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        92*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        89*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        86*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        83*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        80*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        77*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        74*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        71*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        68*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        65*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        62*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        59*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        56*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        53*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        50*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        47*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        44*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        41*tpkakariko_mvl/mxv
-	BYTE	W21
-	BYTE		        38*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        60*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        58*tpkakariko_mvl/mxv
-	BYTE	W24
-	BYTE	W01
+	BYTE	W96
 // 001   ----------------------------------------
 	BYTE	W72
-	BYTE		PAN     c_v+6
+	BYTE		        c_v+6
 	BYTE	W24
 tpkakariko_1_B1:
 // 002   ----------------------------------------
-	BYTE		VOL     101*tpkakariko_mvl/mxv
+tpkakariko_1_002:
 	BYTE		N06     Bn3   v127
 	BYTE	W06
 	BYTE		        Fs4 
@@ -100,6 +46,7 @@ tpkakariko_1_B1:
 	BYTE	W06
 	BYTE		        Gs4 
 	BYTE	W06
+	BYTE	PEND
 // 003   ----------------------------------------
 tpkakariko_1_003:
 	BYTE		N32     An4   v127
@@ -112,22 +59,8 @@ tpkakariko_1_003:
 	BYTE	W48
 	BYTE	PEND
 // 004   ----------------------------------------
-tpkakariko_1_004:
-	BYTE		N06     Bn3   v127
-	BYTE	W06
-	BYTE		        Fs4 
-	BYTE	W06
-	BYTE		N03     Cs4 
-	BYTE	W06
-	BYTE		        Fs4 
-	BYTE	W06
-	BYTE		N48     Ds4 
-	BYTE	W60
-	BYTE		N05     Fs4 
-	BYTE	W06
-	BYTE		        Gs4 
-	BYTE	W06
-	BYTE	PEND
+	BYTE	PATT
+	 POIN2	tpkakariko_1_002
 // 005   ----------------------------------------
 tpkakariko_1_005:
 	BYTE		N32     An4   v127
@@ -155,272 +88,7 @@ tpkakariko_1_006:
 	BYTE	W12
 	BYTE	PEND
 // 007   ----------------------------------------
-	BYTE		N06     Cs4 
-	BYTE	W06
-	BYTE		        Dn4 
-	BYTE	W06
-	BYTE		N04     Cs4 
-	BYTE	W06
-	BYTE		        Dn4 
-	BYTE	W06
-	BYTE		N48     En4 
-	BYTE	W15
-	BYTE		VOL     102*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        119*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        98*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        92*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        88*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        85*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        82*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        79*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        76*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        73*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        70*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        67*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        64*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        69*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        74*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        79*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        84*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        90*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		N04     Cs4 
-	BYTE	W06
-	BYTE		        Ds4 
-	BYTE	W06
-// 008   ----------------------------------------
-tpkakariko_1_008:
-	BYTE		N05     Cs4   v127
-	BYTE	W12
-	BYTE		        Bn3 
-	BYTE	W12
-	BYTE		N72     Fs4 
-	BYTE	W24
-	BYTE	W02
-	BYTE		VOL     102*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        100*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        99*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        97*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        94*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        92*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        90*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        89*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        87*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        85*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        84*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        82*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        81*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        79*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        77*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        76*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        74*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE	PEND
-// 009   ----------------------------------------
-	BYTE		        72*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        71*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        69*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        67*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        66*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        64*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        62*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        61*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        59*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        58*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        56*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        54*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        53*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        51*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        49*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        48*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        46*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        44*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        47*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        51*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        54*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        58*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        61*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        64*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        68*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        71*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        74*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        78*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        81*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        85*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        88*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        91*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W60
-	BYTE	W02
-// 010   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_1_004
-// 011   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_1_003
-// 012   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_1_004
-// 013   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_1_005
-// 014   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_1_006
-// 015   ----------------------------------------
+tpkakariko_1_007:
 	BYTE		N06     Cs4   v127
 	BYTE	W06
 	BYTE		        Dn4 
@@ -430,175 +98,46 @@ tpkakariko_1_008:
 	BYTE		        Dn4 
 	BYTE	W06
 	BYTE		N48     En4 
-	BYTE	W13
-	BYTE		VOL     102*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        116*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        119*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        98*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        92*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        89*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        86*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        83*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        80*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        76*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        73*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        70*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        67*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        64*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        69*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        74*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        79*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        85*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        90*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W04
+	BYTE	W60
 	BYTE		N04     Cs4 
 	BYTE	W06
 	BYTE		        Ds4 
 	BYTE	W06
+	BYTE	PEND
+// 008   ----------------------------------------
+tpkakariko_1_008:
+	BYTE		N05     Cs4   v127
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		N72     Fs4 
+	BYTE	W72
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	tpkakariko_1_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	tpkakariko_1_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	tpkakariko_1_002
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	tpkakariko_1_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	tpkakariko_1_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	tpkakariko_1_007
 // 016   ----------------------------------------
 	BYTE	PATT
 	 POIN2	tpkakariko_1_008
 // 017   ----------------------------------------
-	BYTE		VOL     72*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        71*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        69*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        67*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        66*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        64*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        63*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        61*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        59*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        58*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        56*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        54*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        53*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        51*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        49*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        48*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        46*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        44*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        47*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        50*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        54*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        57*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        60*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        63*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        66*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        69*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        73*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        76*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        79*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        82*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        85*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        88*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        92*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        98*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W60
+	BYTE	W96
 // 018   ----------------------------------------
 	BYTE	W96
 // 019   ----------------------------------------
@@ -630,149 +169,7 @@ tpkakariko_1_008:
 	BYTE	W06
 // 027   ----------------------------------------
 	BYTE		N72     Bn4 
-	BYTE	W14
-	BYTE		VOL     102*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        100*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        98*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        97*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        95*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        93*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        92*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        90*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        89*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        87*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        86*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        84*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        83*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        81*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        80*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        78*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        77*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        75*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        74*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        72*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        71*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        69*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        68*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        66*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        65*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        63*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        61*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        60*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        58*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        57*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        55*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        54*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        52*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        51*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        49*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        48*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        46*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        45*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        43*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        42*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        40*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        39*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        37*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        36*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        34*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        32*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        31*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        29*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        28*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        26*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        24*tpkakariko_mvl/mxv
-	BYTE	W01
+	BYTE	W96
 // 028   ----------------------------------------
 	BYTE	W96
 // 029   ----------------------------------------
@@ -791,9 +188,8 @@ tpkakariko_2:
 	BYTE	KEYSH   tpkakariko_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   76
-	BYTE		VOL     110*tpkakariko_mvl/mxv
+	BYTE		VOL     47*tpkakariko_mvl/mxv
 	BYTE		PAN     c_v-58
-	BYTE		VOL     60*tpkakariko_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------
 	BYTE	W96
@@ -830,106 +226,22 @@ tpkakariko_2_B1:
 // 015   ----------------------------------------
 	BYTE	W96
 // 016   ----------------------------------------
-	BYTE	W01
-	BYTE		VOL     101*tpkakariko_mvl/mxv
-	BYTE	W92
-	BYTE	W03
+	BYTE	W96
 // 017   ----------------------------------------
-	BYTE	W40
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        100*tpkakariko_mvl/mxv
-	BYTE	W06
+	BYTE	W84
 	BYTE		N06     Fs3   v100
 	BYTE	W06
 	BYTE		        Gs3 
 	BYTE	W06
 // 018   ----------------------------------------
-	BYTE		N72     An3 
-	BYTE	W24
-	BYTE		VOL     101*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        121*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        123*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        124*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        126*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        127*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        125*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        122*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        116*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        100*tpkakariko_mvl/mxv
+tpkakariko_2_018:
+	BYTE		N72     An3   v100
+	BYTE	W72
 	BYTE		N12     Fs3 
 	BYTE	W12
 	BYTE		        En3 
 	BYTE	W12
+	BYTE	PEND
 // 019   ----------------------------------------
 	BYTE		N06     Fs3 
 	BYTE	W06
@@ -943,74 +255,7 @@ tpkakariko_2_B1:
 	BYTE	W06
 // 020   ----------------------------------------
 	BYTE		N72     Fs3 
-	BYTE	W18
-	BYTE		VOL     101*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        116*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        119*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        121*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        122*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        123*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        125*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        126*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        127*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        125*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        122*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        116*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        100*tpkakariko_mvl/mxv
+	BYTE	W72
 	BYTE		N12     En3 
 	BYTE	W12
 	BYTE		        Dn3 
@@ -1021,143 +266,16 @@ tpkakariko_2_B1:
 	BYTE		        Dn3 
 	BYTE	W06
 	BYTE		N60     Cs3 
-	BYTE	W05
-	BYTE		VOL     101*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        116*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        100*tpkakariko_mvl/mxv
-	BYTE	W06
+	BYTE	W72
 	BYTE		N06     Fs3 
 	BYTE	W06
 	BYTE		        Gs3 
 	BYTE	W06
 // 022   ----------------------------------------
-	BYTE		N72     An3 
-	BYTE	W15
-	BYTE		VOL     101*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        102*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        119*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        121*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        123*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        124*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        125*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        126*tpkakariko_mvl/mxv
-	BYTE	W02
-	BYTE		        127*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        125*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        123*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        121*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        116*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        101*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        100*tpkakariko_mvl/mxv
-	BYTE		N12     Fs3 
-	BYTE	W12
-	BYTE		        En3 
-	BYTE	W12
+	BYTE	PATT
+	 POIN2	tpkakariko_2_018
 // 023   ----------------------------------------
-	BYTE		N06     Fs3 
+	BYTE		N06     Fs3   v100
 	BYTE	W06
 	BYTE		        Gs3 
 	BYTE	W06
@@ -1169,109 +287,14 @@ tpkakariko_2_B1:
 	BYTE	W06
 // 024   ----------------------------------------
 	BYTE		N72     Bn3 
-	BYTE	W03
-	BYTE		VOL     101*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        119*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        121*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        122*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        123*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        124*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        126*tpkakariko_mvl/mxv
-	BYTE	W04
-	BYTE		        127*tpkakariko_mvl/mxv
-	BYTE	W01
-	BYTE		        100*tpkakariko_mvl/mxv
+	BYTE	W84
 	BYTE		N06     Fs3 
 	BYTE	W06
 	BYTE		        Bn3 
 	BYTE	W06
 // 025   ----------------------------------------
 	BYTE		N72     Cs4 
-	BYTE	W03
-	BYTE		VOL     101*tpkakariko_mvl/mxv
-	BYTE	W06
-	BYTE		        103*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        104*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        105*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        106*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        107*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        108*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        109*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        110*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        111*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        112*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        113*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        114*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        115*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        116*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        117*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        118*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        119*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        120*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        121*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        122*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        123*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        124*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        125*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        126*tpkakariko_mvl/mxv
-	BYTE	W03
-	BYTE		        127*tpkakariko_mvl/mxv
-	BYTE	W15
+	BYTE	W96
 // 026   ----------------------------------------
 	BYTE	W96
 // 027   ----------------------------------------
@@ -1294,7 +317,7 @@ tpkakariko_3:
 	BYTE	KEYSH   tpkakariko_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   70
-	BYTE		VOL     110*tpkakariko_mvl/mxv
+	BYTE		VOL     75*tpkakariko_mvl/mxv
 	BYTE		PAN     c_v+19
 	BYTE		N44     Bn1   v104
 	BYTE	W48
@@ -1429,7 +452,7 @@ tpkakariko_4:
 	BYTE	KEYSH   tpkakariko_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   70
-	BYTE		VOL     110*tpkakariko_mvl/mxv
+	BYTE		VOL     75*tpkakariko_mvl/mxv
 	BYTE		PAN     c_v-19
 	BYTE		N44     Fs2   v096
 	BYTE	W48
@@ -1566,7 +589,7 @@ tpkakariko_5:
 	BYTE	KEYSH   tpkakariko_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   13
-	BYTE		VOL     127*tpkakariko_mvl/mxv
+	BYTE		VOL     75*tpkakariko_mvl/mxv
 	BYTE		PAN     c_v-64
 	BYTE	W96
 // 001   ----------------------------------------
@@ -1896,10 +919,10 @@ tpkakariko_5_B2:
 //**************** Track 6 (Midi-Chn.6) ****************//
 
 tpkakariko_6:
-	BYTE		VOL     127*tpkakariko_mvl/mxv
 	BYTE	KEYSH   tpkakariko_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   45
+	BYTE		VOL     76*tpkakariko_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		N36     Bn1   v127
 	BYTE	W72
@@ -2358,7 +1381,7 @@ tpkakariko_8:
 	BYTE	KEYSH   tpkakariko_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   127
-	BYTE		VOL     127*tpkakariko_mvl/mxv
+	BYTE		VOL     79*tpkakariko_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		N12     Ds3   v120
 	BYTE	W36
@@ -2499,122 +1522,11 @@ tpkakariko_8_B2:
 // 031   ----------------------------------------
 	BYTE	FINE
 
-//**************** Track 9 (Midi-Chn.9) ****************//
-
-tpkakariko_9:
-	BYTE		VOL     127*tpkakariko_mvl/mxv
-	BYTE	KEYSH   tpkakariko_key+0
-// 000   ----------------------------------------
-	BYTE		VOICE   127
-	BYTE		PAN     c_v+0
-	BYTE		N24     Cn0   v056
-	BYTE		N06     An3   v096
-	BYTE	W96
-// 001   ----------------------------------------
-tpkakariko_9_001:
-	BYTE		N24     Cn0   v056
-	BYTE		N06     An3   v096
-	BYTE	W96
-	BYTE	PEND
-tpkakariko_9_B1:
-// 002   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 003   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 004   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 005   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 006   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 007   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 008   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 009   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 010   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 011   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 012   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 013   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 014   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 015   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 016   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 017   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 018   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 019   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 020   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 021   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 022   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 023   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 024   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 025   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 026   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 027   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 028   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 029   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-// 030   ----------------------------------------
-	BYTE	PATT
-	 POIN2	tpkakariko_9_001
-	BYTE	GoTo
-	 POIN2	tpkakariko_9_B1
-tpkakariko_9_B2:
-// 031   ----------------------------------------
-	BYTE	FINE
-
 //******************************************************//
 	ALIGN 4
 
 tpkakariko:
-	BYTE	9	// NumTrks
+	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
 	BYTE	tpkakariko_pri	// Priority
 	BYTE	tpkakariko_rev	// Reverb.
@@ -2629,6 +1541,5 @@ tpkakariko:
 	POIN2	tpkakariko_6
 	POIN2	tpkakariko_7
 	POIN2	tpkakariko_8
-	POIN2	tpkakariko_9
 
 	

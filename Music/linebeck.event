@@ -205,7 +205,7 @@ linebeck_1_B2:
 linebeck_2:
 	BYTE	KEYSH   linebeck_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   5
+	BYTE		VOICE   48
 	BYTE		MOD     0
 	BYTE		VOL     100*linebeck_mvl/mxv
 	BYTE		PAN     c_v-10

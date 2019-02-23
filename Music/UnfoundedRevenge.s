@@ -21,7 +21,7 @@ UnfoundedRevenge_1_B1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 160*UnfoundedRevenge_tbs/2
 	.byte		VOICE , 57
-	.byte		VOL   , 120*UnfoundedRevenge_mvl/mxv
+	.byte		VOL   , 97*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v+4
 	.byte		N06   , Cn4 , v127
 	.byte	W12
@@ -224,8 +224,8 @@ UnfoundedRevenge_2:
 UnfoundedRevenge_2_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 47
+	.byte		VOL   , 95*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v-16
-	.byte		VOL   , 127*UnfoundedRevenge_mvl/mxv
 	.byte		N06   , Cn2 , v127
 	.byte	W48
 	.byte		N06   
@@ -512,8 +512,8 @@ UnfoundedRevenge_3:
 UnfoundedRevenge_3_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 13
+	.byte		VOL   , 97*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v-12
-	.byte		VOL   , 110*UnfoundedRevenge_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -760,8 +760,8 @@ UnfoundedRevenge_4:
 UnfoundedRevenge_4_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 40
+	.byte		VOL   , 94*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v-20
-	.byte		VOL   , 110*UnfoundedRevenge_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -1080,8 +1080,8 @@ UnfoundedRevenge_5:
 UnfoundedRevenge_5_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 60
+	.byte		VOL   , 101*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v-8
-	.byte		VOL   , 115*UnfoundedRevenge_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -1287,8 +1287,8 @@ UnfoundedRevenge_6:
 UnfoundedRevenge_6_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 42
+	.byte		VOL   , 88*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v+20
-	.byte		VOL   , 110*UnfoundedRevenge_mvl/mxv
 	.byte		N06   , Cn2 , v127
 	.byte		N06   , Ds2 
 	.byte	W12
@@ -1702,8 +1702,8 @@ UnfoundedRevenge_7:
 UnfoundedRevenge_7_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 127
+	.byte		VOL   , 95*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 100*UnfoundedRevenge_mvl/mxv
 	.byte		N06   , Dn1 , v127
 	.byte		N06   , An2 
 	.byte	W12
@@ -1926,8 +1926,8 @@ UnfoundedRevenge_8:
 UnfoundedRevenge_8_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 58
+	.byte		VOL   , 91*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v+12
-	.byte		VOL   , 110*UnfoundedRevenge_mvl/mxv
 	.byte		N12   , Cn1 , v127
 	.byte		N12   , Cn2 
 	.byte	W48
@@ -2026,8 +2026,8 @@ UnfoundedRevenge_9:
 UnfoundedRevenge_9_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 61
+	.byte		VOL   , 95*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v+8
-	.byte		VOL   , 110*UnfoundedRevenge_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -2274,8 +2274,8 @@ UnfoundedRevenge_10:
 UnfoundedRevenge_10_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 0
+	.byte		VOL   , 85*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v+16
-	.byte		VOL   , 80*UnfoundedRevenge_mvl/mxv
 	.byte		N12   , Cn2 , v127
 	.byte		N12   , Gn2 
 	.byte	W12
@@ -2493,8 +2493,8 @@ UnfoundedRevenge_11:
 UnfoundedRevenge_11_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 73
+	.byte		VOL   , 95*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v-24
-	.byte		VOL   , 127*UnfoundedRevenge_mvl/mxv
 	.byte	W48
 	.byte		N03   , Gn4 , v127
 	.byte	W03
@@ -2641,8 +2641,8 @@ UnfoundedRevenge_12:
 UnfoundedRevenge_12_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 71
+	.byte		VOL   , 85*UnfoundedRevenge_mvl/mxv
 	.byte		PAN   , c_v-4
-	.byte		VOL   , 115*UnfoundedRevenge_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96

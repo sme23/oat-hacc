@@ -20,7 +20,7 @@ VastPoniCanyon_1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 120*VastPoniCanyon_tbs/2
 	.byte		VOICE , 73
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 82*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W12
 	.byte		N05   , Gn4 , v096
@@ -585,7 +585,7 @@ VastPoniCanyon_2:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 73
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 81*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W12
 	.byte		N05   , Gn4 , v096
@@ -1150,7 +1150,7 @@ VastPoniCanyon_3:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 68
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 82*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W12
 	.byte		N05   , Dn4 , v096
@@ -1585,7 +1585,7 @@ VastPoniCanyon_4:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 71
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 84*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W12
 	.byte		N05   , Dn4 , v096
@@ -1979,7 +1979,7 @@ VastPoniCanyon_5:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 71
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 85*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		TIE   , En4 , v096
 	.byte		TIE   , An4 
@@ -2455,7 +2455,7 @@ VastPoniCanyon_6:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 127
-	.byte		VOL   , 127*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 106*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
 @ 001   ----------------------------------------
@@ -2881,7 +2881,7 @@ VastPoniCanyon_7:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 65
-	.byte		VOL   , 110*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 85*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
 @ 001   ----------------------------------------
@@ -3395,7 +3395,7 @@ VastPoniCanyon_8:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 65
-	.byte		VOL   , 112*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 90*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
 @ 001   ----------------------------------------
@@ -3909,7 +3909,7 @@ VastPoniCanyon_9:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 66
-	.byte		VOL   , 126*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 110*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
 @ 001   ----------------------------------------
@@ -4332,7 +4332,7 @@ VastPoniCanyon_10:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 67
-	.byte		VOL   , 102*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 87*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
 @ 001   ----------------------------------------
@@ -4829,7 +4829,7 @@ VastPoniCanyon_11:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 60
-	.byte		VOL   , 124*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 110*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		TIE   , An3 , v096
 	.byte	W96
@@ -5089,7 +5089,7 @@ VastPoniCanyon_12:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 60
-	.byte		VOL   , 127*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 110*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		TIE   , En3 , v096
 	.byte	W96
@@ -5349,7 +5349,7 @@ VastPoniCanyon_13:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 58
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 87*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		TIE   , An0 , v080
 	.byte	W96
@@ -5905,7 +5905,7 @@ VastPoniCanyon_14:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 34
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOL   , 87*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		TIE   , An0 , v080
 	.byte	W96
@@ -6460,8 +6460,8 @@ VastPoniCanyon_14_B2:
 VastPoniCanyon_15:
 	.byte	KEYSH , VastPoniCanyon_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 12
-	.byte		VOL   , 100*VastPoniCanyon_mvl/mxv
+	.byte		VOICE , 13
+	.byte		VOL   , 82*VastPoniCanyon_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W12
 	.byte		N05   , Gn4 , v096

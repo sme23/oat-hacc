@@ -43,11 +43,11 @@ MESSAGE Used hax space ends at currentOffset
 
 PUSH
 ORG 0xD74D0
-String("2019/18/02(MON)")
+String("2019/22/02(FRI)")
 ORG 0xD74E0
-String("16:41:26")
+String("21:24:50")
 ORG 0xD74EC
-String("FEMOD")
+String("_OATS")
 POP
 
 MESSAGE Used free space ends at currentOffset

@@ -20,71 +20,17 @@ tpkakariko_1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 86*tpkakariko_tbs/2
 	.byte		VOICE , 76
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
+	.byte		VOL   , 75*tpkakariko_mvl/mxv
 	.byte		PAN   , c_v+57
 	.byte		        c_v+44
-	.byte		VOL   , 110*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        98*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        92*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        89*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        86*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        83*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        80*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        77*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        74*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        71*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        68*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        65*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        62*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        59*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        56*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        53*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        50*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        47*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        44*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        41*tpkakariko_mvl/mxv
-	.byte	W21
-	.byte		        38*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        60*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        58*tpkakariko_mvl/mxv
-	.byte	W24
-	.byte	W01
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W72
-	.byte		PAN   , c_v+6
+	.byte		        c_v+6
 	.byte	W24
 tpkakariko_1_B1:
 @ 002   ----------------------------------------
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
+tpkakariko_1_002:
 	.byte		N06   , Bn3 , v127
 	.byte	W06
 	.byte		        Fs4 
@@ -99,6 +45,7 @@ tpkakariko_1_B1:
 	.byte	W06
 	.byte		        Gs4 
 	.byte	W06
+	.byte	PEND
 @ 003   ----------------------------------------
 tpkakariko_1_003:
 	.byte		N32   , An4 , v127
@@ -111,22 +58,8 @@ tpkakariko_1_003:
 	.byte	W48
 	.byte	PEND
 @ 004   ----------------------------------------
-tpkakariko_1_004:
-	.byte		N06   , Bn3 , v127
-	.byte	W06
-	.byte		        Fs4 
-	.byte	W06
-	.byte		N03   , Cs4 
-	.byte	W06
-	.byte		        Fs4 
-	.byte	W06
-	.byte		N48   , Ds4 
-	.byte	W60
-	.byte		N05   , Fs4 
-	.byte	W06
-	.byte		        Gs4 
-	.byte	W06
-	.byte	PEND
+	.byte	PATT
+	 .word	tpkakariko_1_002
 @ 005   ----------------------------------------
 tpkakariko_1_005:
 	.byte		N32   , An4 , v127
@@ -154,272 +87,7 @@ tpkakariko_1_006:
 	.byte	W12
 	.byte	PEND
 @ 007   ----------------------------------------
-	.byte		N06   , Cs4 
-	.byte	W06
-	.byte		        Dn4 
-	.byte	W06
-	.byte		N04   , Cs4 
-	.byte	W06
-	.byte		        Dn4 
-	.byte	W06
-	.byte		N48   , En4 
-	.byte	W15
-	.byte		VOL   , 102*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        119*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        98*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        92*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        88*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        85*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        82*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        79*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        76*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        73*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        70*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        67*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        64*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        69*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        74*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        79*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        84*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        90*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		N04   , Cs4 
-	.byte	W06
-	.byte		        Ds4 
-	.byte	W06
-@ 008   ----------------------------------------
-tpkakariko_1_008:
-	.byte		N05   , Cs4 , v127
-	.byte	W12
-	.byte		        Bn3 
-	.byte	W12
-	.byte		N72   , Fs4 
-	.byte	W24
-	.byte	W02
-	.byte		VOL   , 102*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        100*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        99*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        97*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        94*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        92*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        90*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        89*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        87*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        85*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        84*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        82*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        81*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        79*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        77*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        76*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        74*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte	PEND
-@ 009   ----------------------------------------
-	.byte		        72*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        71*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        69*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        67*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        66*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        64*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        62*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        61*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        59*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        58*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        56*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        54*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        53*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        51*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        49*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        48*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        46*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        44*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        47*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        51*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        54*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        58*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        61*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        64*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        68*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        71*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        74*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        78*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        81*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        85*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        88*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        91*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W60
-	.byte	W02
-@ 010   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_1_004
-@ 011   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_1_003
-@ 012   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_1_004
-@ 013   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_1_005
-@ 014   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_1_006
-@ 015   ----------------------------------------
+tpkakariko_1_007:
 	.byte		N06   , Cs4 , v127
 	.byte	W06
 	.byte		        Dn4 
@@ -429,175 +97,46 @@ tpkakariko_1_008:
 	.byte		        Dn4 
 	.byte	W06
 	.byte		N48   , En4 
-	.byte	W13
-	.byte		VOL   , 102*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        116*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        119*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        98*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        92*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        89*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        86*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        83*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        80*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        76*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        73*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        70*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        67*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        64*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        69*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        74*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        79*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        85*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        90*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W04
+	.byte	W60
 	.byte		N04   , Cs4 
 	.byte	W06
 	.byte		        Ds4 
 	.byte	W06
+	.byte	PEND
+@ 008   ----------------------------------------
+tpkakariko_1_008:
+	.byte		N05   , Cs4 , v127
+	.byte	W12
+	.byte		        Bn3 
+	.byte	W12
+	.byte		N72   , Fs4 
+	.byte	W72
+	.byte	PEND
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	PATT
+	 .word	tpkakariko_1_002
+@ 011   ----------------------------------------
+	.byte	PATT
+	 .word	tpkakariko_1_003
+@ 012   ----------------------------------------
+	.byte	PATT
+	 .word	tpkakariko_1_002
+@ 013   ----------------------------------------
+	.byte	PATT
+	 .word	tpkakariko_1_005
+@ 014   ----------------------------------------
+	.byte	PATT
+	 .word	tpkakariko_1_006
+@ 015   ----------------------------------------
+	.byte	PATT
+	 .word	tpkakariko_1_007
 @ 016   ----------------------------------------
 	.byte	PATT
 	 .word	tpkakariko_1_008
 @ 017   ----------------------------------------
-	.byte		VOL   , 72*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        71*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        69*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        67*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        66*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        64*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        63*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        61*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        59*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        58*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        56*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        54*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        53*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        51*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        49*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        48*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        46*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        44*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        47*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        50*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        54*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        57*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        60*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        63*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        66*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        69*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        73*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        76*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        79*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        82*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        85*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        88*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        92*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        98*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W60
+	.byte	W96
 @ 018   ----------------------------------------
 	.byte	W96
 @ 019   ----------------------------------------
@@ -629,149 +168,7 @@ tpkakariko_1_008:
 	.byte	W06
 @ 027   ----------------------------------------
 	.byte		N72   , Bn4 
-	.byte	W14
-	.byte		VOL   , 102*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        100*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        98*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        97*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        95*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        93*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        92*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        90*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        89*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        87*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        86*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        84*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        83*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        81*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        80*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        78*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        77*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        75*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        74*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        72*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        71*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        69*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        68*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        66*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        65*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        63*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        61*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        60*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        58*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        57*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        55*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        54*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        52*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        51*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        49*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        48*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        46*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        45*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        43*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        42*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        40*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        39*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        37*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        36*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        34*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        32*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        31*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        29*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        28*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        26*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        24*tpkakariko_mvl/mxv
-	.byte	W01
+	.byte	W96
 @ 028   ----------------------------------------
 	.byte	W96
 @ 029   ----------------------------------------
@@ -790,9 +187,8 @@ tpkakariko_2:
 	.byte	KEYSH , tpkakariko_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 76
-	.byte		VOL   , 110*tpkakariko_mvl/mxv
+	.byte		VOL   , 47*tpkakariko_mvl/mxv
 	.byte		PAN   , c_v-58
-	.byte		VOL   , 60*tpkakariko_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -829,106 +225,22 @@ tpkakariko_2_B1:
 @ 015   ----------------------------------------
 	.byte	W96
 @ 016   ----------------------------------------
-	.byte	W01
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
-	.byte	W92
-	.byte	W03
+	.byte	W96
 @ 017   ----------------------------------------
-	.byte	W40
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        100*tpkakariko_mvl/mxv
-	.byte	W06
+	.byte	W84
 	.byte		N06   , Fs3 , v100
 	.byte	W06
 	.byte		        Gs3 
 	.byte	W06
 @ 018   ----------------------------------------
-	.byte		N72   , An3 
-	.byte	W24
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        121*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        123*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        124*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        126*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        127*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        125*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        122*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        116*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        100*tpkakariko_mvl/mxv
+tpkakariko_2_018:
+	.byte		N72   , An3 , v100
+	.byte	W72
 	.byte		N12   , Fs3 
 	.byte	W12
 	.byte		        En3 
 	.byte	W12
+	.byte	PEND
 @ 019   ----------------------------------------
 	.byte		N06   , Fs3 
 	.byte	W06
@@ -942,74 +254,7 @@ tpkakariko_2_B1:
 	.byte	W06
 @ 020   ----------------------------------------
 	.byte		N72   , Fs3 
-	.byte	W18
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        116*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        119*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        121*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        122*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        123*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        125*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        126*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        127*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        125*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        122*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        116*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        100*tpkakariko_mvl/mxv
+	.byte	W72
 	.byte		N12   , En3 
 	.byte	W12
 	.byte		        Dn3 
@@ -1020,143 +265,16 @@ tpkakariko_2_B1:
 	.byte		        Dn3 
 	.byte	W06
 	.byte		N60   , Cs3 
-	.byte	W05
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        116*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        100*tpkakariko_mvl/mxv
-	.byte	W06
+	.byte	W72
 	.byte		N06   , Fs3 
 	.byte	W06
 	.byte		        Gs3 
 	.byte	W06
 @ 022   ----------------------------------------
-	.byte		N72   , An3 
-	.byte	W15
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        102*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        119*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        121*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        123*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        124*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        125*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        126*tpkakariko_mvl/mxv
-	.byte	W02
-	.byte		        127*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        125*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        123*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        121*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        116*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        101*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        100*tpkakariko_mvl/mxv
-	.byte		N12   , Fs3 
-	.byte	W12
-	.byte		        En3 
-	.byte	W12
+	.byte	PATT
+	 .word	tpkakariko_2_018
 @ 023   ----------------------------------------
-	.byte		N06   , Fs3 
+	.byte		N06   , Fs3 , v100
 	.byte	W06
 	.byte		        Gs3 
 	.byte	W06
@@ -1168,109 +286,14 @@ tpkakariko_2_B1:
 	.byte	W06
 @ 024   ----------------------------------------
 	.byte		N72   , Bn3 
-	.byte	W03
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        119*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        121*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        122*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        123*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        124*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        126*tpkakariko_mvl/mxv
-	.byte	W04
-	.byte		        127*tpkakariko_mvl/mxv
-	.byte	W01
-	.byte		        100*tpkakariko_mvl/mxv
+	.byte	W84
 	.byte		N06   , Fs3 
 	.byte	W06
 	.byte		        Bn3 
 	.byte	W06
 @ 025   ----------------------------------------
 	.byte		N72   , Cs4 
-	.byte	W03
-	.byte		VOL   , 101*tpkakariko_mvl/mxv
-	.byte	W06
-	.byte		        103*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        104*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        105*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        106*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        107*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        108*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        109*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        110*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        111*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        112*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        113*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        114*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        115*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        116*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        117*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        118*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        119*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        120*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        121*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        122*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        123*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        124*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        125*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        126*tpkakariko_mvl/mxv
-	.byte	W03
-	.byte		        127*tpkakariko_mvl/mxv
-	.byte	W15
+	.byte	W96
 @ 026   ----------------------------------------
 	.byte	W96
 @ 027   ----------------------------------------
@@ -1293,7 +316,7 @@ tpkakariko_3:
 	.byte	KEYSH , tpkakariko_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 70
-	.byte		VOL   , 110*tpkakariko_mvl/mxv
+	.byte		VOL   , 75*tpkakariko_mvl/mxv
 	.byte		PAN   , c_v+19
 	.byte		N44   , Bn1 , v104
 	.byte	W48
@@ -1428,7 +451,7 @@ tpkakariko_4:
 	.byte	KEYSH , tpkakariko_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 70
-	.byte		VOL   , 110*tpkakariko_mvl/mxv
+	.byte		VOL   , 75*tpkakariko_mvl/mxv
 	.byte		PAN   , c_v-19
 	.byte		N44   , Fs2 , v096
 	.byte	W48
@@ -1565,7 +588,7 @@ tpkakariko_5:
 	.byte	KEYSH , tpkakariko_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 13
-	.byte		VOL   , 127*tpkakariko_mvl/mxv
+	.byte		VOL   , 75*tpkakariko_mvl/mxv
 	.byte		PAN   , c_v-64
 	.byte	W96
 @ 001   ----------------------------------------
@@ -1895,10 +918,10 @@ tpkakariko_5_B2:
 @**************** Track 6 (Midi-Chn.6) ****************@
 
 tpkakariko_6:
-	.byte		VOL   , 127*tpkakariko_mvl/mxv
 	.byte	KEYSH , tpkakariko_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 45
+	.byte		VOL   , 76*tpkakariko_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N36   , Bn1 , v127
 	.byte	W72
@@ -2357,7 +1380,7 @@ tpkakariko_8:
 	.byte	KEYSH , tpkakariko_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 127
-	.byte		VOL   , 127*tpkakariko_mvl/mxv
+	.byte		VOL   , 79*tpkakariko_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N12   , Ds3 , v120
 	.byte	W36
@@ -2498,122 +1521,11 @@ tpkakariko_8_B2:
 @ 031   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 9 (Midi-Chn.9) ****************@
-
-tpkakariko_9:
-	.byte		VOL   , 127*tpkakariko_mvl/mxv
-	.byte	KEYSH , tpkakariko_key+0
-@ 000   ----------------------------------------
-	.byte		VOICE , 127
-	.byte		PAN   , c_v+0
-	.byte		N24   , Cn0 , v056
-	.byte		N06   , An3 , v096
-	.byte	W96
-@ 001   ----------------------------------------
-tpkakariko_9_001:
-	.byte		N24   , Cn0 , v056
-	.byte		N06   , An3 , v096
-	.byte	W96
-	.byte	PEND
-tpkakariko_9_B1:
-@ 002   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 003   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 004   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 005   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 006   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 007   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 008   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 009   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 010   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 011   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 012   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 013   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 014   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 015   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 016   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 017   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 018   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 019   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 020   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 021   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 022   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 023   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 024   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 025   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 026   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 027   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 028   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 029   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-@ 030   ----------------------------------------
-	.byte	PATT
-	 .word	tpkakariko_9_001
-	.byte	GOTO
-	 .word	tpkakariko_9_B1
-tpkakariko_9_B2:
-@ 031   ----------------------------------------
-	.byte	FINE
-
 @******************************************************@
 	.align	2
 
 tpkakariko:
-	.byte	9	@ NumTrks
+	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
 	.byte	tpkakariko_pri	@ Priority
 	.byte	tpkakariko_rev	@ Reverb.
@@ -2628,6 +1540,5 @@ tpkakariko:
 	.word	tpkakariko_6
 	.word	tpkakariko_7
 	.word	tpkakariko_8
-	.word	tpkakariko_9
 
 	.end

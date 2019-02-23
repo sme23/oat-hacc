@@ -204,7 +204,7 @@ linebeck_1_B2:
 linebeck_2:
 	.byte	KEYSH , linebeck_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 5
+	.byte		VOICE , 48
 	.byte		MOD   , 0
 	.byte		VOL   , 100*linebeck_mvl/mxv
 	.byte		PAN   , c_v-10

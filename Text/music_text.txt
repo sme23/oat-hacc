@@ -5,10 +5,10 @@ Akenia Anthem[X]
 Fire Emblem Theme[X]
 
 ##XCMainThemeName
-Title (Xenoblade Chronicles)[X]
+Title[X]
 
 ##ArenaBattleThemeName
-Arena Fight (Partners in Time)[X]
+Arena Fight[X]
 
 ##EnemyBattleThemeName
 Adversary[X]
@@ -23,13 +23,13 @@ Strike![X]
 Combat Mission[X]
 
 ##DragonFightThemeName
-Ancient Horrors (Chrono Trigger)[X]
+Ancient Horrors[X]
 
 ##DragonAppearsThemeName
-Dragon Appears (Chrono Trigger)[X]
+Dragon Appears[X]
 
 ##EnemyPhaseThemeName
-Bandits (Madou Monogatari)[X]
+Bandits (MM123)[X]
 
 ##BossFightThemeName
 Boss (Madou Monogatari)[X]
@@ -41,4 +41,55 @@ Thoughtful Woes[X]
 Under This Flag[X]
 
 ##NearVictoryThemeName
-Victory is Near! (EarthBound)[X]
+Victory is Near![X]
+
+##SorrowThemeName
+Sorrow[X]
+
+##UndergroundLairThemeName
+Underground Lair[X]
+
+##VerdaneArmyThemeName
+Army of Verdane[X]
+
+##UnfoundedRevengeThemeName
+Unfounded Revenge[X]
+
+##GreenThunderThemeName
+Green Thunder[X]
+
+##WithUsThemeName
+With Us[X]
+
+##VastPoniCanyonThemeName
+Vast Poni Canyon[X]
+
+##TPShopThemeName
+Shop[X]
+
+##TPKakarikoThemeName
+Kakariko[X]
+
+##SongOfOatThemeName
+Theme of Oats[X]
+
+##RiversInTheDesertThemeName
+Rivers in the Desert[X]
+
+##TPOrdonThemeName
+Ordon[X]
+
+##NierBattleThemeName
+Battle[X]
+
+##LinebeckThemeName
+Linebeck[X]
+
+##DarkLabyrinthThemeName
+Dark Labyrinth[X]
+
+##BergentruckungThemeName
+Bergentruckung[X]
+
+
+
