@@ -175,6 +175,7 @@ ENUN
 SOUN 0xB1
 TILECHANGE 0xB
 Text(Ch1Opening3)
+CALL $591F40
 SVAL 3 IronBow
 GIVETO Juliana
 LOAD1 0x1 EnemyUnits
@@ -225,7 +226,7 @@ ENDA
 
 ALIGN 4
 EnemyWarning:
-Text(PlaceholderText)
+Text(Ch1ReinforcementWarning)
 NoFade
 ENDA
 

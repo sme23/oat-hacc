@@ -40,3 +40,15 @@ SalvCav_generics:
 GlazetteClericPalette:
 	#incbin "./_palettes/GlazetteClericPalette.lzpal" 
 
+JeanneLordPalette:
+	#incbin "./_palettes/JeanneLordPalette.lzpal" 
+
+ThatchBossPalette:
+	#incbin "./_palettes/ThatchBossPalette.lzpal" 
+
+PholisBossPalette:
+	#incbin "./_palettes/PholisBossPalette.lzpal" 
+
+OdaritBossPalette:
+	#incbin "./_palettes/OdaritBossPalette.lzpal" 
+

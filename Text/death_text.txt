@@ -35,75 +35,75 @@ Help me[ToggleMouthMove]...[ToggleMouthMove][....][A][NL]
 It hurts[ToggleMouthMove]...[ToggleMouthMove][....][ToggleMouthMove][A][X]
 
 ## ElizabethDeathQuote
-[OpenMidRight][LoadFace][0x107][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
+[OpenMidRight][LoadElizabeth][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
 sins? Screw you, too gods[ToggleMouthMove]...[A][X]
 
 ## RoshalDeathQuote
-[OpenMidRight][LoadFace][0x108]Ack![....] Please don't kill me![A][NL]
+[OpenMidRight][LoadRoshal]Ack![....] Please don't kill me![A][NL]
 Sorry, everyone[ToggleMouthMove]...[....][ToggleMouthMove] I need to[NL]
 retreat.[A][X]
 
 ## GlazetteDeathQuote
-[OpenMidRight][LoadFace][0x10D]Live in darkness; die in[NL]
+[OpenMidRight][LoadGlazette]Live in darkness; die in[NL]
 darkness[ToggleMouthMove]...[....][ToggleMouthMove] Wait[ToggleMouthMove]...[....][ToggleMouthMove] What is[A][NL]
 this light[ToggleMouthMove]...?[A][X]
 
 ## JeanneDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## HexDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## JunpeiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## CielDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## NatsumiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## DocDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## BlankDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SamanthaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FleuretteDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FeiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SmegbertDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## GeorgeDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## AlbanDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## RamonaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## JamieDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## WilliamDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SieghardtDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## OrvaldDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## DarienDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## KatCh2DeathQuote
 [OpenMidLeft][LoadFace][0x107]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]

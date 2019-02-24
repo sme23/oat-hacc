@@ -8,7 +8,6 @@ A lightweight axe.[X]
 Lucerne[X]
 
 ## JeanneRapierBio
-#Lance with a sharp spike protruding from its side.[NL]
 Effective against infantry.[X]
 
 ## ClarentName
@@ -57,7 +56,6 @@ Master Lance[X]
 Master Axe[X]
 
 ## MasterWeaponBio
-#Pride of the Blacksmith.[NL]
 Can strike consecutively.[X]
 
 ## TreeBranchName
@@ -70,89 +68,76 @@ Small branch from a Lumenwood tree.[X]
 Aine[X]
 
 ## AineBio
-Light magic said to[NL]
-summon the sun itself.[X]
+Light magic of the sun.[X]
 
 ## EleosName
 Eleos[X]
 
 ## EleosBio
-A staff that cures all[NL]
-wounds and ailments.[X]
+Cures all wounds.[X]
 
 ## WindSwordBio
-Magical sword that fires[NL]
-torrential gusts of wind.[X]
+Magical sword.[X]
 
 ## GaleBladeName
 Gale Blade[X]
 
 ## GaleBladeBio
-Magical blade that fires[NL]
-torrential gusts of wind.[X]
+Magical blade.[X]
 
 ## GreatswordName
 Greatsword[X]
 
 ## GreatswordBio
-Moderately-sized blade.[NL]
-Usually held with two hands.[X]
+Moderately-sized blade.[X]
 
 ## ClaymoreName
 Claymore[X]
 
 ## ClaymoreBio
-Large blade.[NL]
-Usually held with two hands.[X]
+Large blade.[X]
 
 ## ZweihanderName
 Zweihander[X]
 
 ## ZweihanderBio
-Giant blade.[NL]
-Usually held with two hands.[X]
+Giant blade.[X]
 
 ## IronGreatlanceName
 Iron Greatlnc.[X]
 
 ## IronGreatlanceBio
-Moderatlye-sized lance.[NL]
-Usually held with two hands.[X]
+Moderately-sized lance.[X]
 
 ## SteelGreatlanceName
 Steel Greatlnc.[X]
 
 ## SteelGreatlanceBio
-Large lance.[NL]
-Usually held with two hands.[X]
+Large lance.[X]
 
 ## SilverGreatlanceName
 Silver Greatlnc.[X]
 
 ## SilverGreatlanceBio
-Giant lance.[NL]
-Usually held with two hands.[X]
+Giant lance.[X]
 
 ## IronPoleaxeName
 Iron Poleaxe[X]
 
 ## IronPoleaxeBio
-Moderately-sized axe.[NL]
-Usually held with two hands.[X]
+Moderately-sized axe.[X]
 
 ## SteelPoleaxeName
 Steel Poleaxe[X]
 
 ## SteelPoleaxeBio
-Large axe.[NL]
-Usually held with two hands.[X]
+Large axe.[X]
 
 ## SilverPoleaxeName
 Silver Poleaxe[X]
 
 ## SilverPoleaxeBio
-Giant axe.[NL]
-Usually held with two hands.[X]
+Giant axe.[X]
 
 ## LightName
 Light[X]

@@ -34,7 +34,7 @@ Anyway, we should almost be there.[A][X]
 ##Chapter4Intro2
 [OpenMidRight][LoadKendrick]Oi![....] You![A]
 [LoadOverworldFaces]
-[OpenMidLeft][LoadBandit]Yea, boss?[A]
+[OpenMidLeft][LoadThief]Yea, boss?[A]
 [OpenMidRight]These damn brats are gettin' to be a pain.[A][NL]
 I'm thinkin' it's about time we kill this[NL]
 royal pain of ours for good. Execute[A][NL]

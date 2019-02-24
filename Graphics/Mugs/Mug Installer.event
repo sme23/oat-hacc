@@ -174,7 +174,8 @@ EmilePortrait:
 UniversityMagePortrait:
 #incext PortraitFormatter "NPCs/University Mage.png"
 
-
+GenericThiefPortrait:
+#incext PortraitFormatter "NPCs/Generic Thief.png"
 
 
 #ifndef __TROUBLESHOOT__
@@ -208,8 +209,8 @@ setMugEntry(0x1C, DarienPortrait, 2, 5, 3, 3)
 
 
 setMugEntry(0x1D, VassPortrait, 2, 5, 3, 3)
-setMugEntry(0x1E, OdaritPortrait, 2, 5, 3, 3)
-setMugEntry(0x1F, PholisPortrait, 2, 5, 3, 3)
+setMugEntry(0x1E, OdaritPortrait, 3, 5, 3, 3)
+setMugEntry(0x1F, PholisPortrait, 2, 6, 3, 4)
 setMugEntry(0x20, KendrickPortrait, 2, 5, 3, 3)
 setMugEntry(0x21, ThatchPortrait, 2, 5, 3, 3)
 setMugEntry(0x22, PerkusPortrait, 2, 6, 3, 4)
@@ -238,6 +239,7 @@ setMugEntry(0x36, OrionPortrait, 2, 5, 3, 3)
 setMugEntry(0x37, MeiluPortrait, 2, 6, 3, 4)
 setMugEntry(0x38, EmilePortrait, 2, 5, 2, 3)
 setMugEntry(0x39, UniversityMagePortrait, 2, 5, 3, 3)
+setMugEntry(0x3A, GenericThiefPortrait, 2, 6, 2, 3)
 #endif
 
 #define OstravaMug 0x2

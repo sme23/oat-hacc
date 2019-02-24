@@ -132,14 +132,10 @@ NoFade
 ENDA
 
 EndingCutsceneUnits:
-ReturningUnit(Ostrava,18,3)
-ReturningUnit(Zo,18,4)
-ReturningUnit(Ben,17,3)
-ReturningUnit(Yanik,15,13)
-ReturningUnit(Juli,15,14)
-ReturningUnit(Roshal,17,4)
-ReturningUnit(Kat,18,6)
-ReturningUnit(Glazette,16,5)
+ReturningUnit(Ostrava,15,4)
+ReturningUnit(Zo,14,4)
+ReturningUnit(Ben,14,5)
+ReturningUnit(Roshal,15,3)
 UNIT
 
 EndingCutsceneJeanne:
@@ -150,11 +146,8 @@ EndingCutsceneUnits2:
 UNIT Ostrava 1 1 Level(0,Ally,0) [7,2] 0x0 0x0 0x1 REDA8R8 [0x00] NoAI
 UNIT Zo 1 1 Level(0,Ally,0) [5,0] 0x0 0x0 0x1 REDA8R7 [0x00] NoAI
 UNIT Ben 1 1 Level(0,Ally,0) [6,0] 0x0 0x0 0x1 REDA9R7 [0x00] NoAI
-UNIT Yanik 1 1 Level(0,Ally,0) [7,0] 0x0 0x0 0x1 REDA6R7 [0x00] NoAI
-UNIT Juli 1 1 Level(0,Ally,0) [8,0] 0x0 0x0 0x1 REDA6R8 [0x00] NoAI
 UNIT Roshal 1 1 Level(0,Ally,0) [7,1] 0x0 0x0 0x1 REDA7R8 [0x00] NoAI
-UNIT Kat 1 1 Level(0,Ally,0) [9,0] 0x0 0x0 0x1 REDA10R6 [0x00] NoAI
-UNIT Glazette 1 1 Level(0,Ally,0) [10,0] 0x0 0x0 0x1 REDA9R6 [0x00] NoAI
+
 UNIT
 
 PlayerJeanne:
@@ -163,7 +156,7 @@ UNIT
 
 
 EndingScene:
-MUSC Victory
+MUSC 0
 FADI 10
 CLEE 0x0
 CLEA 0x0
@@ -171,9 +164,15 @@ CLEN Jeanne
 CAM1 [19,3]
 LOAD1 0x1 EndingCutsceneJeanne
 LOAD2 0x1 EndingCutsceneUnits
+FADU 10
 
-Text(Fort,Chapter4Ending1)
+Text(Chapter4Ending1)
 
+MOVE 0 Ostrava [18,3]
+MOVE 0 Zo [18,4]
+MOVE 0 Ben [17,3]
+MOVE 0 Roshal [17,4]
+ENUN
 
 
 
@@ -183,6 +182,7 @@ TEXTEND
 TILECHANGE 0
 MOVE 0 Jeanne [19,3]
 ENUN
+MUSC Reunion
 TEXTCONT
 TEXTEND
 REMA

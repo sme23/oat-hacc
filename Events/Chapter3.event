@@ -89,6 +89,7 @@ END_MAIN
 
 BeginningScene:
 //right here we'll do the cutscene map
+MUSC Advance
 LOMA 0x3F
 CAM1 [13,5]
 FADU 10
@@ -132,7 +133,13 @@ MOVE 9 Ben [11,6]
 MOVE 0 Glazette [10,5]
 //LOAD1 0x1 CutsceneUnitBoisThatAlsoGetLoad1
 //ENUN
-Text(Chapter3IntroPt4)
+TEXTSTART
+TEXTSHOW Chapter3IntroPt4
+TEXTEND
+MUSC Song_CombatMission
+TEXTCONT
+TEXTEND
+REMA
 MOVE 0 Ostrava [10,0]
 MOVE 0 Roshal [10,0]
 MOVE 0 Zo [10,0]

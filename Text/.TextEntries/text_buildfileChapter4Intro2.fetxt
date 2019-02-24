@@ -2,7 +2,7 @@
 
 [LoadOverworldFaces]
 
-[OpenMidLeft][LoadBandit]Yea, boss?[A]
+[OpenMidLeft][LoadThief]Yea, boss?[A]
 
 [OpenMidRight]These damn brats are gettin' to be a pain.[A][NL]
 

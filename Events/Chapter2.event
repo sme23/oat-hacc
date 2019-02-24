@@ -137,17 +137,21 @@ ENDA
 ALIGN 4
 EndingScene:
 MUSC Into_the_Shadow_of_Victory
-Text($28,Chapter2Ending1)
-EVBIT_T 2
+SetBackground($28)
+Text(Chapter2Ending1)
+
+
+
 CHECK_ALLEGIANCE Elizabeth
-SVAL 1 0
-BNE 2 1 0xC
+BNE 2 0 0xC
   CHECK_ALIVE Elizabeth
   SVAL 1 1
   BNE 2 1 0xC
-    Text(28,Chapter2Ending2)
+    Text(Chapter2Ending2)
 LABEL 2
-EVBIT_T 2
+
+
+
 MNC2 3
 ENDA
 

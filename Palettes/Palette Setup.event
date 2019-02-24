@@ -58,3 +58,19 @@
 // GlazetteClericPalette
 	setPalette(0xC,GlazetteClericPalette)
 	setCBSP(0xC,Glazette, 0x1, Cleric)
+
+// JeanneLordPalette
+	setPalette(0xD,JeanneLordPalette)
+	setCBSP(0xD,Jeanne, 0x1, Lancer)
+
+// ThatchBossPalette
+	setPalette(0xE,ThatchBossPalette)
+	setCBSP(0xE,Thatch, 0x1, Fighter)
+
+// PholisBossPalette
+	setPalette(0xF,PholisBossPalette)
+	setCBSP(0xF,Pholis, 0x1, Brigand)
+
+// OdaritBossPalette
+	setPalette(0x10,OdaritBossPalette)
+	setCBSP(0x10,Odarit, 0x1, SwdCav)

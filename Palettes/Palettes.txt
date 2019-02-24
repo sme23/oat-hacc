@@ -69,7 +69,7 @@
 	auto
 	
 # char{0xB} "ElizabethThiefPalette" set{Elizabeth, 0x1, Thief_F} auto{0}
-	007EFF7FFF6B1F4B2E19B4212E19C8141535AF246B1C5352CF412A2DA61CA514
+	5553FF7FFF6B97498A1C4F1DD42DCB0C1F474F21E72010358C3531460825A514
 	auto
 	auto
 	auto
@@ -88,3 +88,30 @@
 	auto
 	auto
 	
+# char{0xD} "JeanneLordPalette" set{Jeanne, 0x1, Lancer} auto{0}
+	5553FF7FFF6B1F4B912D0C21314A8C35E720F36E4E5AB45ECC418861E440A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0xE} "ThatchBossPalette" set{Thatch, 0x1, Fighter} auto{0}
+	007EFF7FFF6B1D47182A941919160F015877B262893D2E199F2BB81AD009A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0xF} "PholisBossPalette" set{Pholis, 0x1, Brigand} auto{0}
+	007EFF7FFF6B1D475A32D621A94E063A567BF266EC4D2E19F56EEE510831A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x10} "OdaritBossPalette" set{Odarit, 0x1, SwdCav} auto{0}
+	80769E22FF5BFE3EF431D9115209AB00925ACC3D431EA2159842B0250A19A514
+	auto
+	auto
+	auto
+	auto

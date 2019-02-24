@@ -82,17 +82,17 @@ sure they don't get themselves killed.[A]
 [OpenMidRight]I will do as I must.[A][X]
 
 ##IncomingReinforcements
-[OpenMidRight][LoadPholis][OpenMidRight]Damn it all![....] Where are those damn[NL]
+[OpenMidRight][LoadKendrick][OpenMidRight]Damn it all![....] Where are those damn[NL]
 reinforcements?[A][X]
 
 ##Chapter3BossBattleQuote
-[OpenMidLeft][LoadPholis][OpenMidLeft]Wha--?[....] How the hell did ya[NL]
+[OpenMidLeft][LoadKendrick][OpenMidLeft]Wha--?[....] How the hell did ya[NL]
 make it this far? Whatever.[A][NL]
 You're gunna die, here and[NL]
 now![A][X]
 
 ##Chapter3BossDeathQuote
-[OpenMidLeft][LoadPholis]Urk[ToggleMouthMove]...[....][ToggleMouthMove] You[ToggleMouthMove]...[....][ToggleMouthMove] damn[ToggleMouthMove]...[A][X]
+[OpenMidLeft][LoadKendrick]Urk[ToggleMouthMove]...[....][ToggleMouthMove] You[ToggleMouthMove]...[....][ToggleMouthMove] damn[ToggleMouthMove]...[A][X]
 
 ##Chapter3EndingDialogue
 [OpenMidLeft][LoadOstrava][OpenMidRight][LoadGlazette][OpenLeft][LoadBen][OpenLeft][MoveLeft][OpenLeft]And that's what you Gib-faced foozlers[NL]
@@ -103,7 +103,7 @@ Glazette? That was quite the battle.[A]
 you. What about everyone else?[A]
 [OpenMidLeft][ClearFace][OpenMidLeft][LoadZorua]Yeah, I'm fine, thanks.[A][NL]
 [OpenRight][LoadOstrava][OpenMidLeft]Just please stop charging in like[NL]
-that. You're beoming as bad as Ben.[A]
+that. You're becoming as bad as Ben.[A]
 [OpenLeft][ToggleSmile]It is as I've said all along![....] Any man or[NL]
 woman whom treats themselves to[A][NL]
 quality time spent with yours truly,[NL]
