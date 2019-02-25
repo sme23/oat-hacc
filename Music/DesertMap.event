@@ -1,0 +1,2299 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	DesertMap_grp  voicegroup000
+	#define	DesertMap_pri  0
+	#define	DesertMap_rev  0
+	#define	DesertMap_mvl  85
+	#define	DesertMap_key  0
+	#define	DesertMap_tbs  1
+	#define	DesertMap_exg  0
+	#define	DesertMap_cmp  1
+
+	// .rodata
+	//	DesertMap
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+DesertMap_1:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   122*DesertMap_tbs/2
+	BYTE		VOICE   68
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+DesertMap_1_B1:
+// 004   ----------------------------------------
+	BYTE		TIE     As2   v084
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE		MOD     28
+	BYTE	W04
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W03
+	BYTE	W04
+	BYTE	W04
+// 005   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N23     Dn3 
+	BYTE	W12
+	BYTE		MOD     28
+	BYTE	W12
+	BYTE		        0
+	BYTE		N23     Ds3 
+	BYTE	W12
+	BYTE		MOD     28
+	BYTE	W12
+// 006   ----------------------------------------
+	BYTE		        0
+	BYTE		N32     Fn3 
+	BYTE	W18
+	BYTE		MOD     27
+	BYTE	W18
+	BYTE		        0
+	BYTE		N01     Gs3 
+	BYTE	W01
+	BYTE		TIE     As3 
+	BYTE	W32
+	BYTE	W03
+	BYTE		MOD     28
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N23     Fn3 
+	BYTE	W12
+	BYTE		MOD     28
+	BYTE	W12
+	BYTE		        0
+	BYTE		N17     Ds3 
+	BYTE	W18
+	BYTE		N02     Fn3 
+	BYTE	W03
+	BYTE		        Ds3 
+	BYTE	W03
+// 008   ----------------------------------------
+	BYTE		N32     Dn3 
+	BYTE	W18
+	BYTE		MOD     28
+	BYTE	W18
+	BYTE		        0
+	BYTE		TIE     As2 
+	BYTE	W36
+	BYTE		MOD     28
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N23     Cn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W18
+	BYTE		MOD     28
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		TIE     Dn3 
+	BYTE	W36
+	BYTE		MOD     27
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE	W48
+	BYTE	W01
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE		MOD     0
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		TIE     As2 
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE		MOD     26
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W02
+	BYTE	W03
+	BYTE	W03
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N23     Dn3 
+	BYTE	W12
+	BYTE		MOD     26
+	BYTE	W12
+	BYTE		        0
+	BYTE		N23     Ds3 
+	BYTE	W12
+	BYTE		MOD     26
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		        0
+	BYTE		N32     Fn3 
+	BYTE	W18
+	BYTE		MOD     26
+	BYTE	W18
+	BYTE		        0
+	BYTE		TIE     As2 
+	BYTE	W30
+	BYTE		MOD     27
+	BYTE	W30
+// 023   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N23     Gs2 
+	BYTE	W12
+	BYTE		MOD     28
+	BYTE	W12
+	BYTE		        0
+	BYTE		N23     As2 
+	BYTE	W12
+	BYTE		MOD     28
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE		        0
+	BYTE		N02     Dn3 
+	BYTE	W03
+	BYTE		        Ds3 
+	BYTE	W03
+	BYTE		N28     Dn3 
+	BYTE	W18
+	BYTE		MOD     28
+	BYTE	W12
+	BYTE		        0
+	BYTE		N32     Ds3 
+	BYTE	W18
+	BYTE		MOD     28
+	BYTE	W18
+	BYTE		        0
+	BYTE		N23     Fn3 
+	BYTE	W12
+	BYTE		MOD     28
+	BYTE	W12
+// 025   ----------------------------------------
+	BYTE		        0
+	BYTE		N68     As3 
+	BYTE	W24
+	BYTE		MOD     28
+	BYTE	W48
+	BYTE		        0
+	BYTE		N23     Fn3 
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		N02     Ds3 
+	BYTE	W03
+	BYTE		        Fn3 
+	BYTE	W03
+	BYTE		N28     Ds3 
+	BYTE	W12
+	BYTE		MOD     29
+	BYTE	W18
+	BYTE		        0
+	BYTE		N32     Dn3 
+	BYTE	W18
+	BYTE		MOD     30
+	BYTE	W18
+	BYTE		        0
+	BYTE		N23     Cn3 
+	BYTE	W24
+// 027   ----------------------------------------
+	BYTE		N92     Dn3 
+	BYTE	W24
+	BYTE		MOD     26
+	BYTE	W48
+	BYTE	W01
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W01
+// 028   ----------------------------------------
+	BYTE		        0
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	DesertMap_1_B1
+DesertMap_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+DesertMap_2:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE		PAN     c_v-30
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+DesertMap_2_B1:
+// 004   ----------------------------------------
+	BYTE		TIE     As4   v064
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     Fn4 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     As3 
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE		TIE     As4 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     Fn4 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		TIE     Fn4 
+	BYTE	W60
+// 011   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     Gs4 
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE		TIE     As4   v068
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     Fn4 
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     As3 
+	BYTE	W48
+// 016   ----------------------------------------
+	BYTE		TIE     As4 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     Fn4 
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		TIE     As4   v064
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     Fn4 
+	BYTE	W48
+// 022   ----------------------------------------
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		        Fn4 
+	BYTE	W36
+	BYTE		N68     As3 
+	BYTE	W24
+// 023   ----------------------------------------
+	BYTE	W48
+	BYTE		N23     Gs3 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+// 024   ----------------------------------------
+	BYTE		TIE     As4 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     Fn4 
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		        Fn4 
+	BYTE	W36
+	BYTE		N23     Ds4 
+	BYTE	W24
+// 027   ----------------------------------------
+	BYTE		N92     Fn4 
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE		TIE     As4 
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W08
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W04
+// 033   ----------------------------------------
+	BYTE	W03
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W08
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W08
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	GoTo
+	 POIN2	DesertMap_2_B1
+DesertMap_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+DesertMap_3:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE		TIE     As0   v088
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W68
+	BYTE		EOT   
+	BYTE	W04
+	BYTE		N20   
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W92
+	BYTE		EOT   
+	BYTE	W04
+DesertMap_3_B1:
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE		TIE     As0   v088
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W68
+	BYTE		EOT   
+	BYTE	W04
+	BYTE		N20   
+	BYTE	W24
+// 014   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W92
+	BYTE		EOT   
+	BYTE	W04
+// 016   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W68
+	BYTE		EOT   
+	BYTE	W04
+	BYTE		N20   
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W92
+	BYTE		EOT   
+	BYTE	W04
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W68
+	BYTE		EOT   
+	BYTE	W04
+	BYTE		N20   
+	BYTE	W24
+// 030   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W92
+	BYTE		EOT   
+	BYTE	W04
+// 032   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W68
+	BYTE		EOT   
+	BYTE	W04
+	BYTE		N20   
+	BYTE	W24
+// 034   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W92
+	BYTE		EOT   
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	DesertMap_3_B1
+DesertMap_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+DesertMap_4:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   6
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE		N05     As2   v072
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+// 001   ----------------------------------------
+DesertMap_4_001:
+	BYTE		N05     Dn3   v072
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N23     As2 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+DesertMap_4_002:
+	BYTE		N05     As2   v072
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+DesertMap_4_B1:
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_4_002
+// 035   ----------------------------------------
+	BYTE		N05     Dn3   v072
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N23     As2 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	DesertMap_4_B1
+DesertMap_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+DesertMap_5:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   1
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+DesertMap_5_B1:
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE		TIE     Fn2   v100
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	DesertMap_5_B1
+DesertMap_5_B2:
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+DesertMap_6:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   0
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE		TIE     As1   v076
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		TIE     As0 
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+DesertMap_6_B1:
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE		TIE     As1   v084
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE		TIE     As0   v096
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE		TIE     As1   v084
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE		TIE     As0   v096
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	DesertMap_6_B1
+DesertMap_6_B2:
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+DesertMap_7:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   38
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+DesertMap_7_B1:
+// 004   ----------------------------------------
+DesertMap_7_004:
+	BYTE		N28     As0   v116
+	BYTE	W36
+	BYTE		N11     As1 
+	BYTE	W12
+	BYTE		N17     As0 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+DesertMap_7_005:
+	BYTE		N08     As0   v116
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11     As1 
+	BYTE	W12
+	BYTE		N17     As0 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_7_004
+// 035   ----------------------------------------
+	BYTE		N08     As0   v116
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11     As1 
+	BYTE	W12
+	BYTE		N17     As0 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	DesertMap_7_B1
+DesertMap_7_B2:
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+DesertMap_8:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+DesertMap_8_003:
+	BYTE	W48
+	BYTE		N05     Bn0   v124
+	BYTE	W06
+	BYTE		        En1   v092
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE	W12
+	BYTE		        En1   v124
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        En1   v104
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE	W06
+	BYTE	PEND
+DesertMap_8_B1:
+// 004   ----------------------------------------
+DesertMap_8_004:
+	BYTE		N05     Bn0   v124
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        En1   v112
+	BYTE	W12
+	BYTE		        Bn0   v124
+	BYTE	W06
+	BYTE		        En1   v092
+	BYTE	W06
+	BYTE		        Bn0   v124
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE	W06
+	BYTE		        Bn0   v124
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        En1   v104
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W72
+	BYTE		N05     En1   v124
+	BYTE	W06
+	BYTE		        En1   v104
+	BYTE	W06
+	BYTE		        Bn0   v124
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE	W06
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 033   ----------------------------------------
+	BYTE		N05     Bn0   v124
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        En1   v112
+	BYTE	W12
+	BYTE		        Bn0   v124
+	BYTE	W06
+	BYTE		        En1   v092
+	BYTE	W06
+	BYTE		        Bn0   v124
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE	W06
+	BYTE		        Bn0   v124
+	BYTE	W12
+	BYTE		        En1   v127
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE	W06
+	BYTE		        Bn0   v127
+	BYTE	W06
+	BYTE		        En1   v104
+	BYTE	W06
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_8_004
+// 035   ----------------------------------------
+	BYTE		N05     Bn0   v124
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        En1   v112
+	BYTE	W12
+	BYTE		        Bn0   v124
+	BYTE	W06
+	BYTE		        En1   v092
+	BYTE	W06
+	BYTE		        Bn0   v127
+	BYTE	W06
+	BYTE		        En1   v104
+	BYTE	W06
+	BYTE		        En1   v124
+	BYTE	W12
+	BYTE		        En1   v127
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE	W06
+	BYTE		        En1   v124
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	DesertMap_8_B1
+DesertMap_8_B2:
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+DesertMap_9:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+DesertMap_9_001:
+	BYTE	W78
+	BYTE		N05     An1   v092
+	BYTE		N05     Cn2 
+	BYTE	W12
+	BYTE		        Fn1   v104
+	BYTE		N05     An1   v092
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W72
+	BYTE		        Cn2   v104
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn2 
+	BYTE	W06
+DesertMap_9_B1:
+// 004   ----------------------------------------
+	BYTE		N11     Fn1   v104
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W72
+	BYTE		N05     Cn2   v092
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn2 
+	BYTE	W06
+// 012   ----------------------------------------
+DesertMap_9_012:
+	BYTE		N11     Fn1   v092
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 013   ----------------------------------------
+DesertMap_9_013:
+	BYTE		N05     Fn1   v092
+	BYTE	W06
+	BYTE		        Cn2 
+	BYTE	W06
+	BYTE		N11     An1 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn2 
+	BYTE	W06
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_012
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_013
+// 032   ----------------------------------------
+	BYTE		N11     Fn1   v092
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_9_001
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W72
+	BYTE		N05     Cn2   v104
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn2 
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	DesertMap_9_B1
+DesertMap_9_B2:
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.11) ****************//
+
+DesertMap_10:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE		N05     Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+// 001   ----------------------------------------
+DesertMap_10_001:
+	BYTE		N05     Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+DesertMap_10_B1:
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_10_001
+// 035   ----------------------------------------
+	BYTE		N05     Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v052
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W06
+	BYTE		        Fs2   v072
+	BYTE	W06
+	BYTE		        Fs2   v040
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	DesertMap_10_B1
+DesertMap_10_B2:
+	BYTE	FINE
+
+//**************** Track 11 (Midi-Chn.12) ****************//
+
+DesertMap_11:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE		N05     As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+// 001   ----------------------------------------
+DesertMap_11_001:
+	BYTE		N05     As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+DesertMap_11_B1:
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W72
+	BYTE		N05     As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DesertMap_11_001
+// 035   ----------------------------------------
+	BYTE		N05     As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W06
+	BYTE		        As3   v056
+	BYTE	W06
+	BYTE		        An3   v036
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	DesertMap_11_B1
+DesertMap_11_B2:
+	BYTE	FINE
+
+//**************** Track 12 (Midi-Chn.13) ****************//
+
+DesertMap_12:
+	BYTE	KEYSH   DesertMap_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		VOL     127*DesertMap_mvl/mxv
+	BYTE		PAN     c_v+30
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+DesertMap_12_B1:
+// 004   ----------------------------------------
+	BYTE		TIE     Fn4   v056
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     As3 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     Fn3 
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE		TIE     Fn4 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     As3 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE		TIE     Fn4   v064
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     As3 
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     Fn3 
+	BYTE	W48
+// 016   ----------------------------------------
+	BYTE		TIE     Fn4 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     As3 
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE		N92   
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		N92   
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		TIE     Fn4   v056
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     As3 
+	BYTE	W48
+// 022   ----------------------------------------
+	BYTE		N68   
+	BYTE	W72
+	BYTE		        Fn3 
+	BYTE	W24
+// 023   ----------------------------------------
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W48
+// 024   ----------------------------------------
+	BYTE		TIE     Fn4 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     As3 
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		N92   
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE		N92   
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE		TIE     Fn4   v064
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W08
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W04
+// 033   ----------------------------------------
+	BYTE	W03
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W08
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W07
+	BYTE	W08
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W03
+	BYTE	W01
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	GoTo
+	 POIN2	DesertMap_12_B1
+DesertMap_12_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+DesertMap:
+	BYTE	12	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	DesertMap_pri	// Priority
+	BYTE	DesertMap_rev	// Reverb.
+
+	POIN2	DesertMap_grp
+
+	POIN2	DesertMap_1
+	POIN2	DesertMap_2
+	POIN2	DesertMap_3
+	POIN2	DesertMap_4
+	POIN2	DesertMap_5
+	POIN2	DesertMap_6
+	POIN2	DesertMap_7
+	POIN2	DesertMap_8
+	POIN2	DesertMap_9
+	POIN2	DesertMap_10
+	POIN2	DesertMap_11
+	POIN2	DesertMap_12
+
+	

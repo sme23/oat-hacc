@@ -116,3 +116,18 @@ SongTable(0x4C,linebeck,MapMusicGroup)
 
 SongTable(0x4E,Bergentruckung,MapMusicGroup)
 #include "Bergentruckung.event"
+
+SongTable(0xB,BoatMaps,MapMusicGroup)
+#include "BoatMaps.event"
+
+SongTable(0xC,CalamityGanon,BattleMusicGroup)
+#include "CalamityGanon.event"
+
+SongTable(0xD,DesertMap,MapMusicGroup)
+#include "DesertMap.event"
+
+SongTable(0xE,Pelleas,MapMusicGroup)
+#include "Pelleas.event"
+
+SongTable(0x3,questbattle,MapMusicGroup)
+#include "questbattle.event"

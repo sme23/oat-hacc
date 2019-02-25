@@ -91,5 +91,19 @@ Dark Labyrinth[X]
 ##BergentruckungThemeName
 Bergentruckung[X]
 
+##MilaDivineProtectionThemeName
+With Mila's Divine Protection[X]
+
+##CalamityCanonThemeName
+Calamity Ganon[X]
+
+##GritzyMapThemeName
+Gritzy Desert[X]
+
+##PelleasThemeName
+Pelleas[X]
+
+##QuestBattleThemeName
+Quest Battle[X]
 
 
