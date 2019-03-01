@@ -99,14 +99,17 @@ TEXTSHOW NarrationChapter4
 TEXTEND
 FADI 10
 CLEAN
-FADU 10
-
+MUSC Tension
+CAM1 [5,24]
 LOAD2 0x1 StartUnits
 LOAD1 0x1 JailCell
 LOAD1 0x1 EnemyUnits
 ENUN
-CAM1 [5,24]
+FADU 10
+
 Text(Fort,Chapter4Intro1)
+
+MUSC Song_CombatMission
 
 CAM1 [14,3]
 STAL 40
@@ -189,12 +192,14 @@ REMA
 FADI 20
 LOMA 0x40
 STAL 10
+MUSC Victory
 FADU 10
 
 LOAD1 0x1 PlayerJeanne
 LOAD2 0x1 EndingCutsceneUnits2
 ENUN
 Text(Chapter4Ending3)
+MUSC 0x0
 Text(Fort,Chapter4Ending4)
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120

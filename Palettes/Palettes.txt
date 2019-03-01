@@ -115,3 +115,17 @@
 	auto
 	auto
 	auto
+	
+# char{0x11} "KendrickBossPalette" set{Kendrick, 0x1, LncKnight} auto{0}
+	007E042528324E19CE46F625725BA514A5143E3BD06A2631CB55DE63F17FA514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x12} "VassBossPalette" set{Vass, 0x1, Brigand} auto{0}
+	144BFF7FFF6B1D475A32D621373A9219B96714536F3E2E198F62EA4D2431A514
+	auto
+	auto
+	auto
+	auto

@@ -74,3 +74,11 @@
 // OdaritBossPalette
 	setPalette(0x10,OdaritBossPalette)
 	setCBSP(0x10,Odarit, 0x1, SwdCav)
+
+// KendrickBossPalette
+	setPalette(0x11,KendrickBossPalette)
+	setCBSP(0x11,Kendrick, 0x1, LncKnight)
+
+// VassBossPalette
+	setPalette(0x12,VassBossPalette)
+	setCBSP(0x12,Vass, 0x1, Brigand)

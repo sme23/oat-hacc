@@ -106,4 +106,8 @@ Pelleas[X]
 ##QuestBattleThemeName
 Quest Battle[X]
 
+##FurretThemeName
+Furret's Frolic[X]
 
+##SeaWindsThemeName
+Sea Winds and Travelers[X]

@@ -131,3 +131,9 @@ SongTable(0xE,Pelleas,MapMusicGroup)
 
 SongTable(0x3,questbattle,MapMusicGroup)
 #include "questbattle.event"
+
+SongTable(0x4,seawinds,MapMusicGroup)
+#include "seawinds.event"
+
+SongTable(0x5,furret,MapMusicGroup)
+#include "furret.event"

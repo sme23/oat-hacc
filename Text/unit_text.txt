@@ -355,3 +355,6 @@ OrionBio[X]
 ## RoshalBossBio
 RoshalBossBio[X]
 
+
+## CutthroatBio
+Bandits who ravage Vernish land.[X]

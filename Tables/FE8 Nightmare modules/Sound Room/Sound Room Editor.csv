@@ -33,4 +33,6 @@
 "0x1F","0xD",4224,"0","GritzyMapThemeName"
 "0x20","0xE",5248,"0","PelleasThemeName"
 "0x21","0x3",4074,"0","QuestBattleThemeName"
-"0x22","0xFFFFFFFF",0,"0",0
+"0x22","0x4",5891,0,"SeaWindsThemeName"
+"0x23","0x5",1678,0,"FurretThemeName"
+"0x24","0xFFFFFFFF",0,"0",0

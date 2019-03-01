@@ -52,3 +52,9 @@ PholisBossPalette:
 OdaritBossPalette:
 	#incbin "./_palettes/OdaritBossPalette.lzpal" 
 
+KendrickBossPalette:
+	#incbin "./_palettes/KendrickBossPalette.lzpal" 
+
+VassBossPalette:
+	#incbin "./_palettes/VassBossPalette.lzpal" 
+

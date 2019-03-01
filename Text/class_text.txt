@@ -2,13 +2,15 @@
 Forrester[X]
 
 ## ForresterBio
-ForresterBio[X]
+Youth with a thirst for adventure.[NL]
+Equip: Axes.[X]
 
 ## LancerName
-Lancer[X]
+Lord[X]
 
 ## LancerBio
-LancerBio[X]
+Scion of a royal bloodline.[NL]
+Equip: Lances.[X]
 
 ## EpizonName
 Epizon[X]
