@@ -7,6 +7,7 @@ Assembly Hacks
 -Tequila
 -Leonarth
 -Zane
+-Colorz
 -Rossendale
 -Stan
 -Teraspark
