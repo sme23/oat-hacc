@@ -417,3 +417,10 @@ TerrainResBonus:
 	BYTE 0
 #endif
 
+
+//prevent enemies from using door keys in chapter 1
+PUSH
+ORG 0xD853C
+BYTE 6
+POP
+
