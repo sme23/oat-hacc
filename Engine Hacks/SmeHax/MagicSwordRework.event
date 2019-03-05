@@ -1,0 +1,29 @@
+
+#define WeaponTypeAnima 5
+#define WeaponTypeLight 6
+#define WeaponTypeDark 7
+
+
+ALIGN 4
+MESSAGE MSR at currentOffset
+MagicSwordRework:
+#incbin "MagicSwordRework/MagicSwordRework.dmp"
+POIN MagicSwordList
+
+
+MagicSwordList: //each entry is 3 bytes; item ID, weapon type when magic attack, and whether or not to use magic at 1-range
+BYTE WindSword WeaponTypeAnima False
+BYTE LightBrand WeaponTypeLight False
+BYTE Runesword WeaponTypeDark True
+BYTE GustSaber WeaponTypeAnima False
+BYTE GaleBlade WeaponTypeAnima False
+BYTE 0 0 0 //terminator
+
+
+
+PUSH
+ORG 0x2A882
+BYTE $02 $4B $9E $46 $70 $47 $C0 $46 $C0 $46
+POIN MagicSwordRework|1
+POP
+
