@@ -33,6 +33,11 @@ beq SetWeaponType
 ldrb r0,[r7,#2] @r7 contains battle stats pointer
 cmp r0,#2
 blt IfNotTwoRange
+
+ldrb r0,[r5,#0x14]
+lsr r0,r0,#2
+strb r0,[r5,#0x14]
+
 b SetWeaponType
 
 IfNotTwoRange:
