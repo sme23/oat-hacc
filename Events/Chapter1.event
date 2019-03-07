@@ -16,38 +16,38 @@ POIN BeginningScene EndingScene
 
 ALIGN 4
 PlayerUnits:
-UNIT Ostrava EphraimLord 0x00 Level(2, Ally, 0) [3,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Zorua EphraimLord 0x00 Level(1, Ally, 0) [15,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Ben EphraimLord 0x00 Level(1, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ostrava EphraimLord 0x00 Level(2, Ally, 0) [14,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Zorua EphraimLord 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ben EphraimLord 0x00 Level(1, Ally, 0) [13,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 ALIGN 4
 StartUnits:
-UNIT Juli BowCav_F 0x00 Level(2, Ally, 0) [14,4] 0x00 0x00 0x0 0x00 [Vulnerary] NoAI 
+UNIT Juli BowCav_F 0x00 Level(2, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Vulnerary] NoAI 
 UNIT
 
 ALIGN 4
 CutsceneStart:
-UNIT Yanik LncCav 0x00 Level(2, Ally, 0) [10,0] 0x00 0x00 0x1 REDA10R4 [IronLance,ChestKey,DoorKey] NoAI 
+UNIT Yanik LncCav 0x00 Level(2, Ally, 0) [0,4] 0x00 0x00 0x1 REDA1R4 [IronLance,ChestKey,DoorKey] NoAI 
 UNIT
 
 ALIGN 4
 EnemyUnits:
-UNIT 0x8E Brigand Breguet Level(2,Enemy,1) [13,15] 0x2 0x0 0x1 REDA13R10 [IronAxe,ChestKey] AttackInRangeAI
-UNIT 0x8E Mercenary Breguet Level(2,Enemy,1) [13,15] 0x2 0x0 0x1 REDA11R7 [IronSword,ChestKey] AttackInRangeAI
-UNIT 0x8E Mercenary Breguet Level(2,Enemy,1) [13,15] 0x2 0x0 0x1 REDA9R11 [IronSword,ChestKey] AttackInRangeAI
+UNIT 0x8E Brigand Breguet Level(2,Enemy,1) [21,3] 0x2 0x0 0x1 REDA1R7 [IronAxe,ChestKey] AttackInRangeAI
+UNIT 0x8E Mercenary Breguet Level(2,Enemy,1) [21,4] 0x2 0x0 0x1 REDA5R2 [IronSword,ChestKey] AttackInRangeAI
+UNIT 0x8E Mercenary Breguet Level(2,Enemy,1) [20,3] 0x2 0x0 0x1 REDA5R6 [IronSword,ChestKey] AttackInRangeAI
 UNIT
 
 ALIGN 4
 Enemies2:
-UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [10,6] 0x2 0x0 0x0 0x1 [SlimLance,Vulnerary] AttackInRangeAI
-UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [4,9] 0x2 0x0 0x0 0x1 [HandAxe,Vulnerary] AttackInRangeAI
-UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [9,4] 0x2 0x0 0x0 0x1 [IronAxe,DoorKey] AttackInRangeAI
-UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [16,4] 0x2 0x0 0x0 0x1 [IronLance,ChestKey] AttackInRangeAI
-UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [14,3] 0x2 0x0 0x0 0x1 [IronLance,ChestKey] AttackInRangeAI
-UNIT 0x8E Mercenary Breguet Level(3,Enemy,1) [6,16] 0x2 0x0 0x0 0x1 [SlimSword,DoorKey] AttackInRangeAI
-UNIT 0x8E Mercenary Breguet Level(3,Enemy,1) [4,13] 0x2 0x0 0x0 0x1 [IronSword,ChestKey] AttackInRangeAI
-UNIT Breguet SwdCav Breguet Level(5,Enemy,0) [8,19] 0x0 0x0 0x0 0x1 [IronSword,WindSword] NeverMoveAI
+UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [21,4] 0x2 0x0 0x1 REDA15R3 [SlimLance,Vulnerary] AttackInRangeAI
+UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [21,10] 0x2 0x0 0x1 REDA20R6 [HandAxe,Vulnerary] AttackInRangeAI
+UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [21,8] 0x2 0x0 0x1 REDA21R10 [IronAxe,DoorKey] AttackInRangeAI
+UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [21,5] 0x2 0x0 0x1 REDA17R5 [IronLance,ChestKey] AttackInRangeAI
+UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [21,6] 0x2 0x0 0x1 REDA12R13 [IronLance,DoorKey] AttackInRangeAI
+UNIT 0x8E Mercenary Breguet Level(3,Enemy,1) [21,7] 0x2 0x0 0x1 REDA12R4 [SlimSword,DoorKey] AttackInRangeAI
+UNIT 0x8E Mercenary Breguet Level(3,Enemy,1) [21,9] 0x2 0x0 0x1 REDA7R12 [IronSword,ChestKey] AttackInRangeAI
+UNIT Breguet SwdCav Breguet Level(5,Enemy,0) [1,14] 0x0 0x0 0x1 REDA1R14 [IronSword,WindSword] NeverMoveAI
 UNIT
 
 ALIGN 4
@@ -102,23 +102,20 @@ END_MAIN
 
 ALIGN 4
 LocationBasedEvents:
-Door(1,5)
-Door(1,9)
-Door(1,13)
-Door(8,17)
+Door(1,2)
+Door(13,2)
+Door(21,2)
+Door(9,5)
 Door(9,17)
-Door(4,5)
-Door(13,5)
-Door(16,5)
-Door(16,9)
-Door(16,13)
-Chest(Fire,10,12)
-Chest(SteelSword,2,6)
-Chest(Rapier,7,12)
-Chest(RedGem,15,10)
-Chest(SecretBook,1,16)
-Chest(IronSword,7,10)
-Seize(8,19)
+Door(3,12)
+Door(3,13)
+Chest(Fire,6,7)
+Chest(SteelSword,5,0)
+Chest(Rapier,0,6)
+Chest(RedGem,20,1)
+Chest(SecretBook,13,7)
+Chest(IronSword,10,9)
+Seize(1,14)
 END_MAIN
 
 ALIGN 4
@@ -170,7 +167,7 @@ CUMO Yanik
 STAL 40
 CURE
 Text(Ch1Opening2)
-MOVE 0x14 0x4 [13,6]
+MOVE 0x14 0x4 [1,3]
 ENUN
 SOUN 0xB1
 TILECHANGE 0xB

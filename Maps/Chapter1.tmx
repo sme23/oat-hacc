@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="18" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="22" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="1">
  <tileset firstgid="1" name="3C00CE3E" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="tilesets/3C00CE3E.png" width="512" height="512"/>
+  <image source="Maps/tilesets/3C00CE3E.png" width="512" height="512"/>
  </tileset>
- <layer id="1" name="Main" width="18" height="20">
+ <layer id="2" name="Main" width="22" height="15">
   <properties>
    <property name="Anims1" value="0"/>
    <property name="Anims2" value="0"/>
@@ -15,260 +15,464 @@
    <property name="PaletteID" value="0x68"/>
    <property name="TileConfig" value="0x3E"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJytk01uAjEMhR1g01ZwD9p1Q2fNnAT1JuUi/KiqVDgGbFp1UeYWSEjcAD+RqI/gEJC6+GQz88bYL04tIm9KrcyVsfLtRJ7bIgMDvHtVzVCOsQ7f37VEPt0p9618nZwe9RuNG6LUj6UHe81/iVIdS/+fdSY0J/JH8scHYp1+0ESfJu6vDuYdhXN6UW2V9OApVgH2iefC727Sh1Un5tDuM/6wL7HvlbJO9sG3z79jf3ZUp7QPvYw/qQ45POOz2RrvG2OuLvX97o61+Xw/qA60TcEfb/SD/Mvd5o8nf2Ivm+R/rvWnb9xH3s/c/qT+VBku7Q9mL92rdDdTf6z+wY+yUKbKTFmGZ5YW8z4oT0bku8Z3ytIidsTGmhHPcvoDa0K2Rw==
-  </data>
+  <data encoding="csv">
+824,826,826,460,824,98,824,460,824,826,826,525,824,826,826,460,824,826,826,460,824,826,
+821,822,822,460,821,826,822,460,821,822,822,460,821,822,822,460,821,822,822,460,98,821,
+427,417,427,427,427,821,427,427,427,821,427,427,427,417,427,427,427,821,427,427,427,417,
+826,826,826,826,826,822,826,826,826,822,826,826,826,826,826,826,826,822,826,826,826,826,
+822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,822,
+427,821,427,462,427,821,427,462,427,417,427,462,427,427,427,462,427,821,427,522,821,822,
+98,821,826,460,824,822,826,460,824,826,826,460,824,826,826,460,824,822,826,460,821,822,
+824,822,822,460,821,822,98,460,821,822,822,525,821,98,821,460,821,822,822,460,821,822,
+427,427,427,462,427,427,427,462,427,427,427,462,427,427,427,462,557,558,427,490,821,822,
+824,826,826,525,824,826,826,460,824,826,98,460,824,826,826,460,824,826,826,460,821,822,
+821,822,822,460,821,822,822,460,821,822,826,460,821,822,822,460,821,822,822,460,821,822,
+427,821,427,462,427,821,427,427,427,417,427,427,427,821,427,427,427,417,427,554,821,822,
+826,822,826,451,824,822,826,720,824,826,826,720,824,822,826,720,824,826,826,720,821,822,
+822,822,822,483,822,822,822,815,853,822,822,815,853,822,822,815,853,822,822,815,853,822,
+822,822,822,457,425,425,425,425,425,425,425,425,425,425,425,425,425,425,425,425,425,425
+</data>
  </layer>
- <layer id="2" name="ChestM1" width="18" height="20" visible="0">
+ <layer id="3" name="Chest1" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>
    <property name="Width" value="1"/>
-   <property name="X" value="7"/>
-   <property name="Y" value="10"/>
+   <property name="X" value="5"/>
+   <property name="Y" value="0"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BkAKeBdsAoGAUkAgC4CABD
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="3" name="ChestM2" width="18" height="20" visible="0">
+ <layer id="4" name="Chest2" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
    <property name="Width" value="1"/>
-   <property name="X" value="7"/>
-   <property name="Y" value="12"/>
+   <property name="X" value="0"/>
+   <property name="Y" value="6"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDARwGmgHjIJBDwCS6ABD
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="4" name="ChestM3" width="18" height="20" visible="0">
+ <layer id="5" name="Chest3" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
    <property name="Width" value="1"/>
-   <property name="X" value="10"/>
-   <property name="Y" value="12"/>
+   <property name="X" value="6"/>
+   <property name="Y" value="7"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDDRwGmgHjIJBCQCP0ABD
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="5" name="ChestTL" width="18" height="20" visible="0">
+ <layer id="6" name="Chest4" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>
    <property name="Width" value="1"/>
-   <property name="X" value="2"/>
-   <property name="Y" value="6"/>
+   <property name="X" value="13"/>
+   <property name="Y" value="7"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFQxE4DbQDRsEoGAU0BwAHfwBD
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="6" name="ChestBL" width="18" height="20" visible="0">
+ <layer id="7" name="Chest5" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="4"/>
    <property name="Width" value="1"/>
-   <property name="X" value="1"/>
-   <property name="Y" value="16"/>
+   <property name="X" value="20"/>
+   <property name="Y" value="1"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKBA04D7YBBDABO2ABD
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="8" name="DoorBL" width="18" height="20" visible="0">
+ <layer id="8" name="Chest6" width="22" height="15" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="5"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="10"/>
+   <property name="Y" value="9"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="Door1" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="6"/>
    <property name="Width" value="1"/>
    <property name="X" value="1"/>
-   <property name="Y" value="13"/>
+   <property name="Y" value="2"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDAXwkWlwmTMKaA8AdqkB5w==
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,821,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,822,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="9" name="DoorML" width="18" height="20" visible="0">
+ <layer id="10" name="Door2" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="7"/>
    <property name="Width" value="1"/>
-   <property name="X" value="1"/>
-   <property name="Y" value="9"/>
+   <property name="X" value="13"/>
+   <property name="Y" value="2"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwgI9Mg8ucUTAKBhoAAJmHAec=
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,821,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,822,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="10" name="DoorTL" width="18" height="20" visible="0">
+ <layer id="11" name="Door3" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="8"/>
    <property name="Width" value="1"/>
-   <property name="X" value="1"/>
+   <property name="X" value="9"/>
    <property name="Y" value="5"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgF9AIfmQaXOaNgFIyCwQ0AvGUB5w==
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,821,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,822,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="11" name="DoorTML" width="18" height="20" visible="0">
+ <layer id="12" name="Door4" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="9"/>
    <property name="Width" value="1"/>
-   <property name="X" value="4"/>
-   <property name="Y" value="5"/>
+   <property name="X" value="21"/>
+   <property name="Y" value="2"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFAwE+MlHHHFNm6pgzCkbBKBh8AADQzwEs
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,821,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,822,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="12" name="DoorTM" width="18" height="20" visible="0">
+ <layer id="13" name="Door5" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="10"/>
-   <property name="Width" value="2"/>
-   <property name="X" value="8"/>
-   <property name="Y" value="17"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="17"/>
+   <property name="Y" value="11"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILhDcyYIXiwmEMsAACHnADl
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,821,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,822,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="13" name="DoorTMR" width="18" height="20" visible="0">
+ <layer id="14" name="Door6" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="11"/>
    <property name="Width" value="1"/>
-   <property name="X" value="13"/>
-   <property name="Y" value="5"/>
+   <property name="X" value="9"/>
+   <property name="Y" value="11"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFgxV8ZKKOOWbM1DFnFIyCUUBfAACqfwEt
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,821,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,822,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="14" name="DoorTR" width="18" height="20" visible="0">
+ <layer id="15" name="Door7" width="22" height="15" visible="0">
   <properties>
-   <property name="Height" value="2"/>
+   <property name="Height" value="3"/>
    <property name="ID" value="12"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="16"/>
-   <property name="Y" value="5"/>
+   <property name="Width" value="2"/>
+   <property name="X" value="3"/>
+   <property name="Y" value="11"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFQwF8ZKKOOZeoZM4oGAWjgPYAANgeAcg=
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,427,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,825,826,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,822,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="15" name="DoorMR" width="18" height="20" visible="0">
+ <layer id="16" name="Wall1" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="13"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="16"/>
-   <property name="Y" value="9"/>
+   <property name="Width" value="2"/>
+   <property name="X" value="11"/>
+   <property name="Y" value="6"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2Dog49Mg8ucUTAKqAEAJ58B5w==
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,491,1,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,826,822,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="16" name="DoorBR" width="18" height="20" visible="0">
+ <layer id="17" name="Wall2" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="14"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="16"/>
-   <property name="Y" value="13"/>
+   <property name="Width" value="2"/>
+   <property name="X" value="3"/>
+   <property name="Y" value="8"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDHfwkYk65lyikjmjgDgAANgiAcg=
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,427,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,826,826,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="17" name="WallTL" width="18" height="20" visible="0">
+ <layer id="18" name="Wall3" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="15"/>
-   <property name="Width" value="2"/>
-   <property name="X" value="3"/>
-   <property name="Y" value="6"/>
+   <property name="Width" value="3"/>
+   <property name="X" value="15"/>
+   <property name="Y" value="8"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFQxW8ZmRgYKSCOZbMDAxmzFQwaBSMglFAVQAARVwBYw==
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,494,821,822,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,821,822,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <layer id="18" name="WallML" width="18" height="20" visible="0">
-  <properties>
-   <property name="Height" value="2"/>
-   <property name="ID" value="16"/>
-   <property name="Width" value="2"/>
-   <property name="X" value="3"/>
-   <property name="Y" value="10"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2B4gteMDAyMVDDHkpmBwYyZCgaNglFAIgAAtv4BYw==
-  </data>
- </layer>
- <layer id="19" name="WallBL" width="18" height="20" visible="0">
-  <properties>
-   <property name="Height" value="2"/>
-   <property name="ID" value="17"/>
-   <property name="Width" value="2"/>
-   <property name="X" value="3"/>
-   <property name="Y" value="14"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjETwmpGBgZEK5lgyMzCYMVPBoFGAAQAorwFj
-  </data>
- </layer>
- <layer id="20" name="WallTR" width="18" height="20" visible="0">
-  <properties>
-   <property name="Height" value="2"/>
-   <property name="ID" value="18"/>
-   <property name="Width" value="2"/>
-   <property name="X" value="14"/>
-   <property name="Y" value="6"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFIwG8ZmRgYKSCOZbMDAyXmKhg0CgYBaOAIAAAGwcB/g==
-  </data>
- </layer>
- <layer id="21" name="WallMR" width="18" height="20" visible="0">
-  <properties>
-   <property name="Height" value="2"/>
-   <property name="ID" value="19"/>
-   <property name="Width" value="2"/>
-   <property name="X" value="14"/>
-   <property name="Y" value="10"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUvGZkYGCkgjmWzAwMl5ioYNAoGAVAAADeOgH+
-  </data>
- </layer>
- <layer id="22" name="WallBR" width="18" height="20" visible="0">
-  <properties>
-   <property name="Height" value="2"/>
-   <property name="ID" value="20"/>
-   <property name="Width" value="2"/>
-   <property name="X" value="14"/>
-   <property name="Y" value="14"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL84DUjAwMjFcyxZGZguMREBYNGCAAAoXwB/g==
-  </data>
- </layer>
- <layer id="7" name="ChestMR" width="18" height="20" visible="0">
+ <layer id="19" name="Wall4" width="22" height="15" visible="0">
   <properties>
    <property name="Height" value="1"/>
-   <property name="ID" value="5"/>
-   <property name="Width" value="1"/>
-   <property name="X" value="15"/>
-   <property name="Y" value="10"/>
+   <property name="ID" value="16"/>
+   <property name="Width" value="2"/>
+   <property name="X" value="11"/>
+   <property name="Y" value="0"/>
   </properties>
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUgIDTQDtgFIwCNAAAr8gAQw==
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,826,826,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
 </map>
