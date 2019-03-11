@@ -32,7 +32,7 @@ I would rather not anyone come to harm.[A]
 Anyway, we should almost be there.[A][X]
 
 ##Chapter4Intro2
-[OpenMidRight][LoadKendrick]Oi![....] You![A]
+[OpenMidRight][LoadThatch]Oi![....] You![A]
 [LoadOverworldFaces]
 [OpenMidLeft][LoadThief]Yea, boss?[A]
 [OpenMidRight]These damn brats are gettin' to be a pain.[A][NL]
@@ -46,12 +46,12 @@ the girl, and be quick about it.[A]
 to beat feet. We gotta find her.[A][X]
 
 ##Chapter4BossBattleQuote
-[OpenMidLeft][LoadKendrick]So yeh got past me men?[NL]
+[OpenMidLeft][LoadThatch]So yeh got past me men?[NL]
 Ha![....] No matter. I'll get the[A][NL]
 pleasure in killin' ya lot.[A][X]
 
 ##Chapter4BossDeathQuote
-[OpenMidLeft][LoadKendrick]Agh! N[ToggleMouthMove]...[....][ToggleMouthMove] No[ToggleMouthMove]...[....]![A][X]
+[OpenMidLeft][LoadThatch]Agh! N[ToggleMouthMove]...[....][ToggleMouthMove] No[ToggleMouthMove]...[....]![A][X]
 
 ##Chapter4Ending1
 [OpenMidLeft][LoadZorua]She should be nearby[ToggleMouthMove]...[A][X]

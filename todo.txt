@@ -1,9 +1,5 @@
 -Ch3 overhaul (Sammy doin this)
--Ch 1 map needs streamlined
--Kendrick blinking frames
--Kendrick in ch4 text instead of Thatch
--Thatch minimug
--Ch4 assassin needs lockpick
+
 -Streamline assassin going to kill Jeanne
 
 
