@@ -37,12 +37,14 @@
 #define MendSpellAnim 0x27
 #define RecoverSpellAnim 0x28
 #define PhysicSpellAnim 0x29
+#define LatonaSpellAnim 0x2B //borks
 #define RestoreSpellAnim 0x2C
 #define SilenceSpellAnim 0x2D
 #define SleepSpellAnim 0x2E
 #define HammerneSpellAnim 0x2F //unused
 #define BerserkSpellAnim 0x30
 #define BarrierSpellAnim 0x31
+#define PromotionItemSpellAnim 0x32 //borks
 #define ShineSpellAnim 0x33
 #define LunaSpellAnim 0x34
 #define ExcaliburSpellAnim 0x35
