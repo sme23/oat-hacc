@@ -156,6 +156,8 @@ UnitMenuTable:
   MM_End
   MM_Separator
   
+  /*
+  
   BootUpScreenMenu:
   POIN BootUpScreenMenuDefinition
 
@@ -168,7 +170,7 @@ UnitMenuTable:
   MenuCommand(UM_ResetSRAM, 0, NormalText, 0x4F449, 0x1C371)
   MM_Separator
   
-  
+  */
   
 
 #endif // UNIT_MENU
