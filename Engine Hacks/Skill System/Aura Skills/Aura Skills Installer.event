@@ -124,7 +124,7 @@ Anathema:
 POIN AuraSkillCheck
 WORD AnathemaID
 
-//#inctext lyn "Hex.elf"
+#inctext lyn "Hex.elf"
 HexIDLink:
 BYTE HexID
 ALIGN 4
