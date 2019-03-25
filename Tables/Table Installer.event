@@ -40,10 +40,6 @@
 
 #include "FE8 Nightmare modules\Item editors\Stat Bonuses Editor.event"
 
-#include "FE8 Nightmare modules\Item editors\a\ItemUsagePointerForm_Effect.event"
-
-#include "FE8 Nightmare modules\Item editors\a\ItemUsagePointerForm_Usability.event"
-
 #include "FE8 Nightmare modules\Promotion\Promotion Branch Editor.event"
 
 #include "FE8 Nightmare modules\Promotion\Promotion Pointer Editor.event"
