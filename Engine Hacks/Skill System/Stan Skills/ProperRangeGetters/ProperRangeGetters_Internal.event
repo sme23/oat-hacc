@@ -6,7 +6,7 @@
 #endif
 
 #include "Extensions/Hack Installation.txt"
-#include "EAstdlib.event"
+#include "eastdlib.event"
 
 // 43 hooks & 8 rewritten routines
 

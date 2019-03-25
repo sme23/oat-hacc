@@ -1,58 +1,55 @@
+.thumb
+.include "_Definitions.h.s"
 
-	.thumb
+.set pExtraItemOrSkill,  0x0202BCDE
 
-	.include "Definitions.inc"
+.set prNewPopup,        (0x08011474+1)
+.set prSetPopupShort,   (0x0801145C+1)
 
-	pExtraItemOrSkill = 0x0202BCDE
+.set EAL_pPopupDef,     (EALiterals+0x00)
+.set EAL_time,          (EALiterals+0x04)
 
-	prNewPopup        = 0x08011474|1
-	prSetPopupShort   = 0x0801145C|1
-
-	lpPopupDef        = EALiterals+0x00
-	lTime             = EALiterals+0x04
-
-CallSkillLearnedPopup:
-	@ Arguments: r0 = Parent proc
-	@ Returns:   r0 = 0 on success (skill is displayed)
-
+@ Arguments: r0 = Parent 6C
+@ Returns:   r0 = 0 on success (skill is displayed)
+hey:
 	push {r4, lr}
-
-	@ Save proc for later
+	
+	@ Save 6C for later
 	mov r4, r0
-
+	
 	@ Load Skill index short
 	ldr  r3, =pExtraItemOrSkill
 	ldrh r0, [r3]
-
+	
 	@ Check if zero
 	cmp r0, #0
-	beq no_popup
-
+	beq NoPopup
+	
 	@ Set skill index
 	ldrb r0, [r3]
 	_blh prSetPopupShort
-
-	ldr r0, lpPopupDef @ arg r0 = popup definition pointer
-	ldr r1, lTime      @ arg r1 = time the popup stays up
-	mov r2, #0         @ arg r2 = popup window style
-	mov r3, r4         @ arg r3 = parent 6C (0 works)
-
+	
+	ldr r0, EAL_pPopupDef @ arg r0 = popup definition pointer
+	ldr r1, EAL_time      @ arg r1 = time the popup stays up
+	mov r2, #0            @ arg r2 = popup window style
+	mov r3, r4            @ arg r3 = parent 6C (0 works)
+	
 	_blh prNewPopup, r4
-
-	mov r0, #0 @ Yield proc (in case it was used with proc code 0x16)
-	b end
-
-no_popup:
-	mov r0, #1 @ Continue proc (in case it was used with proc code 0x16)
-
-end:
+	
+	mov r0, #0 @ Yield 6C (in case it was used with 6C code 0x16)
+	b End
+	
+NoPopup:
+	mov r0, #1 @ Continue 6C (in case it was used with 6C code 0x16)
+	
+End:
 	pop {r4}
-
+	
 	pop {r1}
 	bx r1
 
-	.pool
-	.align
+.ltorg
+.align
 
 EALiterals:
 	@ POIN pPopupDef

@@ -1,7 +1,7 @@
 #ifndef MSG_INJECT_CON_GETTERS_EVENT
 #define MSG_INJECT_CON_GETTERS_EVENT
 
-#include "EAstdlib.event"
+#include "eastdlib.event"
 #include "Extensions/Hack Installation.txt"
 
 // Everything in this file is the work of Teq, big thanks to him

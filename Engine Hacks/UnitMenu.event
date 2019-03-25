@@ -4,11 +4,14 @@
 #include "Extensions/Hack Installation.txt"
 #include "_UnitMenuDefs.event"
 
+
 PUSH
   // Repoint Unit Menu
 
   ORG $59D1F8
     POIN UnitMenuTable
+	ORG $59D214         
+    MenuBox($01, $02, $08, 0, 0, MainMenuTable)
 
   // Make the unit menu wider (to fit longer words)
 
@@ -65,10 +68,15 @@ UnitMenuTable:
   //Color options: NormalText, GrayText, BlueText, OrangeText, GreenText (flashes), BlackText
   //MenuCommand(DualAtkTxtID,DualAtkDescId,0,DualAtkCheck,DualAtkSelected) 
 
+  #ifndef __ESCAPE__
+  UM_Seize
+  #endif
+  #ifdef __ESCAPE__
   MenuCommand(0x67A, 0x6CC, BlueText, NewSeizeCheck|IsPointer, $8023021)
   MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCheck|IsPointer, $8023021)
   MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeLordUsability|IsPointer, $8023021)
   MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeGeneralUsability|IsPointer, EscapeGeneralEffect|IsPointer)
+  #endif
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
@@ -92,17 +100,12 @@ UnitMenuTable:
   UM_Summon_DK
   UM_Pick
 
-#ifdef HAX_RALLIES
-  // Rally preview conflicts with window semitransparency changes
-  // So we only add that in if it is disabled
-
-#ifdef SEMITRANSPARENCY_CHANGES
-  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyCommandUsability, RallyCommandEffect)
-#else
-  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyCommandUsability, RallyCommandEffect, RallyCommandSwitchIn, RallyCommandSwitchOut)
-#endif
-
-#endif // HAX_RALLIES
+  #ifdef __DEBUG__
+  MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability, Win_Effect)
+  #endif
+  
+  //Rally
+  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyUsability, RallyEffect)
 
   // UM_Talk
   MenuCommand(0x680, 0x6c9, GreenText, 0x23c81, 0x23cc5)
@@ -133,9 +136,39 @@ UnitMenuTable:
 
   UM_Item
   UM_Trade
-  UM_Supply
+  //UM_Supply
+  MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x8023FB9)
   UM_Wait
 
   UM_Separator 
+  
+  MainMenuTable:
+  MM_Unit
+  MM_Status
+  MM_Guide
+  MM_Options
+  MM_Dunno1
+  MM_Dunno2
+  MM_Suspend
+  //#ifdef DEBUG
+  //MenuCommand(UM_Debug, 0, GreenText, 0x4F449, EndEffect)
+  //#endif
+  MM_End
+  MM_Separator
+  
+  BootUpScreenMenu:
+  POIN BootUpScreenMenuDefinition
+
+  BootUpScreenMenuDefinition:
+  MenuBoxFull(9, 4, 12, 0, 0, BootUpScreenMenuCommands, 0x1C0FD, 0x1C199, 0, 0, 0, 0)
+
+  BootUpScreenMenuCommands:
+  MenuCommand(UM_BootNormal, 0, NormalText, 0x4F449, 0x1C4B5)
+  MenuCommand(UM_ResumeChp, 0, NormalText, 0x4F449, 0x1C3B5)
+  MenuCommand(UM_ResetSRAM, 0, NormalText, 0x4F449, 0x1C371)
+  MM_Separator
+  
+  
+  
 
 #endif // UNIT_MENU

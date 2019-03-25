@@ -1,8 +1,8 @@
 #inctext lyn "AnimaTriangle.elf" "Definitions.elf"
 // Example lists:
 FireList:
-BYTE Fire Elfire 0x00
+BYTE FireTome ElfireTome ArcfireTome BolganoneTome MeteorTome 0x00
 ThunderList:
-BYTE Thunder Bolting 0x00
+BYTE ThunderTome ElthunderTome ArcthunderTome ThoronTome BoltingTome 0x00
 WindList:
-BYTE Excalibur Fimbulvetr 0x00
+BYTE WindTome ElwindTome ArcwindTome FimbulvetrTome BlizzardTome WindSword 0x00
