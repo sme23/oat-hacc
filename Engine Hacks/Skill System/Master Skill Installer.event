@@ -109,8 +109,8 @@ ORG $2AC4A
 SHORT 0x46C0
 
 //Triangle Adept
-//ORG $2C830
-//jumpToHack(TriangleAdept)
+ORG $2C830
+jumpToHack(TriangleAdept)
 
 //Inspiring Tune
 ORG $32364
@@ -272,7 +272,7 @@ LungeEffect:
 AttackEffect:
 #incbin "Teq Skills/Attack Effect.dmp"
 LungeAI:
-#incbin "Teq Skills/LungeAI.dmp"
+#incbin "Teq Skills/lungeAI.dmp"
 POIN SkillTester
 WORD LungeID
 LungeUpdate:
@@ -290,7 +290,9 @@ SealSkills:
 POIN SkillTester
 POIN SealSkillList
 WORD DebuffTable
+POIN ItemTable
 WORD FullMetalBodyID
+POIN WeaponDebuffTable
 SealSkillList:
 BYTE SealStrID SealSklID SealSpdID SealDefID SealResID SealLukID
 ALIGN 4
@@ -358,7 +360,7 @@ BYTE CriticalForceID KillingMachineID
 ALIGN 4
 
 AxefaithHit:
-#incbin "Blade Skills/Axefaith.dmp"
+#incbin "Blade Skills/AxeFaith.dmp"
 POIN SkillTester
 WORD AxeFaithID
 
@@ -496,6 +498,16 @@ WORD LuminaID
 WORD ShadowgiftStaffOption
 WORD LuminaStaffOption
 
+Perfectionist:
+#incbin "New Skills/Perfectionist.dmp"
+POIN SkillTester
+WORD PerfectionistID
+
+Puissance:
+#incbin "New Skills/Puissance.dmp"
+POIN SkillTester
+WORD PuissanceID
+
 #include "Other Skills/RandomMugs.event"
 #include "Teq Skills/FE8-StealPlus/FE8-StealPlus EA.txt"
 #include "Teq Skills/FE8-Capture/FE8-Capture Master EA File.txt"
@@ -507,5 +519,7 @@ WORD LuminaStaffOption
 
 #include "Stan Skills/HeroesMovement/HeroesMovement.event"
 #include "Post Combat Skills/Post Combat Skills Installer.event"
+
+#include "Range Skills/RangeSkills.event"
 
 #include "Skill Removal Menu/RemoveSkillMenu.event"

@@ -20,16 +20,12 @@ cmp r0,#0
 bne ReturnFalse
 
 @Check for being lord
-ldr r0,[r4]
-ldr r0,[r0]
-ldr r0,[r0,#40]
-lsl r0,r0,#16
-lsr r0,r0,#24
-mov r1,#0x20
-and r0,r1
-cmp r0,#0x20
-bne ReturnFalse
-
+mov r0,r2
+ldr r3,=#0x8037B64
+mov r14,r3
+.short 0xF800
+cmp r0,#0
+beq ReturnFalse
 
 @Check for being on seize point
 ldr r1,[r4]

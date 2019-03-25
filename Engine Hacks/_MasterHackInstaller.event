@@ -5,6 +5,7 @@
 /////////////////////////////////////////////////////////
 
 #include "Extensions/Hack Installation.txt"
+#include "PopupRework/Extensions/PopupDefinitions.txt"
 #include "_UnitMenuDefs.event"
 
 ////////////////////////////////SUPPORTING CHANGES
@@ -71,8 +72,28 @@ POP
   //Modular Stat Screen
   #include "MSS/ModularStatScreen.event"
 
-  //Expanded Suspend + Debuffs
-  #include "SuspendDebuffs/SuspendDebuffs.event"
+  // Save/Suspend Expansion
+
+  #ifdef USE_SAVE_EXPANSION
+
+    // Use new EMS-based expansion
+
+    MESSAGE "Using EMS Save/Suspend Expansion"
+
+    #include "ExpandedModularSave/ExModularSave.event"
+
+  #else // USE_SAVE_EXPANSION
+
+    // Use legacy suspend expansion (for compatibility)
+
+    MESSAGE "Using Legacy Suspend Expansion"
+
+    #include "SuspendDebuffs/SuspendExpansion.event"
+
+  #endif // USE_SAVE_EXPANSION
+
+  // Debuffs
+  #include "SuspendDebuffs/Debuffs.event"
 
   //Stat Screens palette by allegiance
   // #include "StatScreenAllegiance/StatScreenAllegiance.event"
@@ -81,7 +102,10 @@ POP
   #include "Misc/SemitransparencyChanges.event"
 
   #include "Misc/PrologueSupply.event"
-
+  
+  //Item Range Fix
+  #include "FE8-Item Range Fix/FE8-Item Range EA.event"
+  
   //Chapter names as text
   #include "TextChNames/TextChNames.event"
 
@@ -99,6 +123,8 @@ POP
   ALIGN 4
   #include "Skill System/Master Skill Installer.event"
 
+  #include "DisplayWRankOnLevelUp/DisplayWRankOnLevelUp.event"
+
   ALIGN 4
   #include "FE8-Battle Stats with Anims Off/FE8-Battle Stats Master EA File.event"
 
@@ -111,9 +137,9 @@ POP
   
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
-  // #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
+  #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 
-  ALIGN 4
+    ALIGN 4
   ClearInventory:
   #incbin "SmeHax/ASMCs/ClearInventory.dmp"
   
@@ -144,30 +170,5 @@ POP
   ALIGN 4
   #include "SpinProc/spinproc.event"
   
-  ALIGN 4
-  NewSupplyUsability:
-  #incbin "SmeHax/SupplyUsability.dmp"
-  
-  
-  ALIGN 4
-  #include "ContinueBattleBGM/Installer.event"
-  
-  ALIGN 4
-  Win_Usability:
-  #incbin "winbuttonusability.dmp"
-  
-  ALIGN 4
-  Win_Effect:
-  #incbin "winbutton.dmp"
-  POIN Offscreen_Levelup
-  
-  ALIGN 4
-  Offscreen_Levelup:
-  #incbin "autolevel.dmp"
-  
-  ALIGN 4
-  #include "DebugOMatic/Debug-o-matic.event"
-  
-  
-  ALIGN 4
   #include "UnitMenu.event"
+  #include "Popups.event"
