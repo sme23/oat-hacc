@@ -735,8 +735,10 @@ UnarmedAnim(171)
 WORD 0x0
 
 FhalberdierAnim:
-LanceAnim(172)
-UnarmedAnim(173)
+//LanceAnim(172) not sure if this is f2u or not
+//UnarmedAnim(173) ||
+LanceAnim(170)
+UnarmedAnim(171)
 WORD 0x0
 
 FsoldierAnim:
