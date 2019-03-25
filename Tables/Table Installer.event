@@ -2,6 +2,8 @@
 
 #include "Table Definitions.txt"
 
+#include "FE8 Nightmare modules\FE8 Character Level Up Skill Editor.event"
+
 #include "FE8 Nightmare modules\FE8 Class Skill Editor.event"
 
 #include "FE8 Nightmare modules\FE8 Level Up Skill Editor.event"
@@ -39,10 +41,6 @@
 #include "FE8 Nightmare modules\Item editors\Promotion Item Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\Stat Bonuses Editor.event"
-
-#include "FE8 Nightmare modules\Item editors\a\ItemUsagePointerForm_Effect.event"
-
-#include "FE8 Nightmare modules\Item editors\a\ItemUsagePointerForm_Usability.event"
 
 #include "FE8 Nightmare modules\Promotion\Promotion Branch Editor.event"
 
