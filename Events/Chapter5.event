@@ -14,9 +14,11 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
+
 UNIT
 
 EnemyUnits:
+
 UNIT
 
 TurnBasedEvents:
@@ -43,7 +45,52 @@ WORD $00
 TrapData:
 END_MAIN
 
+OpeningUnits:
+UNIT Ostrava Forrester 0x0 Level(1,Ally,0) [5,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Forrester 0x0 Level(1,Ally,0) [6,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Forrester 0x0 Level(1,Ally,0) [5,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Zo Forrester 0x0 Level(1,Ally,0) [6,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningNPC:
+UNIT 127 Civilian 0x0 Level(1,NPC,0) [15,2] 0x0 0x0 0x1 REDA6R2 NoItems NoAI
+UNIT Perkus WyvernRider Perkus Level(8,Enemy,0) [1,16] 0x0 0x0 0x0 0x1 [IronGreatlance,Javelin] NeverMoveAI
+UNIT
+
 BeginningScene:
+CAM1 [0,2]
+LOAD2 0x1 OpeningUnits
+FADU 10
+MOVE 0 Ostrava [5,6]
+ENUN
+MOVE 0 Jeanne [5,7]
+MOVE 0 Ben [5,8]
+MOVE 0 Zo [6,8]
+ENUN
+Text(ch5_opening1)
+CAM1 [0,0]
+MOVE 0 Ostrava [5,2]
+MOVE 0 Jeanne [6,3]
+MOVE 0 Ben [5,4]
+MOVE 0 Zo [6,4]
+ENUN
+Text(ch5_opening2)
+LOAD1 0x1 OpeningNPC
+Text(ch5_opening3)
+CAM1 Perkus
+CUMO Perkus
+STAL 40
+CURE
+Text(ch5_opening4)
+CAM1 [9,1]
+MOVE 0 Ostrava [9,2]
+MOVE 0 Jeanne [9,3]
+MOVE 0 Ben [8,2]
+MOVE 0 Zo [10,2]
+ENUN
+Text(ch5_opening5)
+GotoPrepScreen
+NoFade
 ENDA
 
 EndingScene:

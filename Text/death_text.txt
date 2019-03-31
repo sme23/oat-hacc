@@ -52,61 +52,61 @@ darkness[ToggleMouthMove]...[....][ToggleMouthMove] Wait[ToggleMouthMove]...[...
 this light[ToggleMouthMove]...?[A][X]
 
 ## JeanneDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## HexDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## JunpeiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## CielDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## NatsumiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## DocDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## BlankDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SamanthaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FleuretteDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FeiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SmegbertDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## GeorgeDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## AlbanDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## RamonaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## JamieDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## WilliamDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SieghardtDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## OrvaldDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## DarienDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## KatCh2DeathQuote
 [OpenMidLeft][LoadFace][0x107]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
