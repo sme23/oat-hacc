@@ -40,8 +40,8 @@ UNIT
 
 ALIGN 4
 Enemies2:
-UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [21,4] 0x2 0x0 0x1 REDA15R3 [SlimLance,Vulnerary] AttackInRangeAI
-UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [21,10] 0x2 0x0 0x1 REDA20R6 [HandAxe,Vulnerary] AttackInRangeAI
+UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [21,4] 0x2 0x0 0x1 REDA15R3 [SlimLance,DoorKey] AttackInRangeAI
+UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [21,10] 0x2 0x0 0x1 REDA20R6 [HandAxe,DoorKey] AttackInRangeAI
 UNIT 0x8E Brigand Breguet Level(3,Enemy,1) [21,8] 0x2 0x0 0x1 REDA21R10 [IronAxe,DoorKey] AttackInRangeAI
 UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [21,5] 0x2 0x0 0x1 REDA17R5 [IronLance,ChestKey] AttackInRangeAI
 UNIT 0x8E Soldier Breguet Level(3,Enemy,1) [21,6] 0x2 0x0 0x1 REDA12R13 [IronLance,DoorKey] AttackInRangeAI
@@ -52,15 +52,15 @@ UNIT
 
 ALIGN 4
 Reinforcements:
-UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [7,0] 0x2 0x0 0x0 0x1 [IronAxe,DoorKey] NoAI
-UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [8,0] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
-UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [9,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [10,0] 0x2 0x0 0x0 0x1 [HandAxe,DoorKey] NoAI
+UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,7] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,8] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
+UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,9] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,10] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
 UNIT
 
 ALIGN 4
 MekkahAppears:
-UNIT 0x8E Berserker Breguet Level(5,Enemy,1) [9,0] 0x0 0x0 0x0 0x1 [KillerAxe] NoAI
+UNIT 0x8E Berserker Breguet Level(5,Enemy,1) [21,3] 0x0 0x0 0x0 0x1 [KillerAxe] NoAI
 UNIT
 
 ALIGN 4
@@ -109,12 +109,14 @@ Door(9,5)
 Door(9,17)
 Door(3,12)
 Door(3,13)
+Door(9,11)
+Door(17,11)
 Chest(Fire,6,7)
-Chest(SteelSword,5,0)
+Chest(IronSword,5,0)
 Chest(Rapier,0,6)
 Chest(RedGem,20,1)
 Chest(SecretBook,13,7)
-Chest(IronSword,10,9)
+Chest(SteelSword,10,9)
 Seize(1,14)
 END_MAIN
 
