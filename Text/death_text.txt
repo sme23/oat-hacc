@@ -7,7 +7,7 @@ want to[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## ZoruaDeathQuote
 [OpenMidRight][LoadZorua][CloseEyes]
-N-No[ToggleMouthMove]...[ToggleMouthMove][.....] Please[ToggleMouthMove]...[ToggleMouthMove][.....][NL]
+N-No[ToggleMouthMove]...[ToggleMouthMove][....] Please[ToggleMouthMove]...[ToggleMouthMove][....][NL]
 Not like this[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 [OpenEyes]Sorry I couldn't help out more[ToggleMouthMove]...[ToggleMouthMove][....][NL]
 but I must withdraw[ToggleMouthMove]...[ToggleMouthMove][A][X]
@@ -38,75 +38,79 @@ Help me[ToggleMouthMove]...[ToggleMouthMove][....][A][NL]
 It hurts[ToggleMouthMove]...[ToggleMouthMove][....][ToggleMouthMove][A][X]
 
 ## ElizabethDeathQuote
-[OpenMidRight][LoadFace][0x107][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
+[OpenMidRight][LoadElizabeth][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
 sins? Screw you, too gods[ToggleMouthMove]...[A][X]
 
 ## RoshalDeathQuote
-[OpenMidRight][LoadFace][0x108]Ack![....] Please don't kill me![A][NL]
+[OpenMidRight][LoadRoshal]Ack![....] Please don't kill me![A][NL]
 Sorry, everyone[ToggleMouthMove]...[....][ToggleMouthMove] I need to[NL]
 retreat.[A][X]
 
 ## GlazetteDeathQuote
-[OpenMidRight][LoadFace][0x10D]Live in darkness; die in[NL]
+[OpenMidRight][LoadGlazette]Live in darkness; die in[NL]
 darkness[ToggleMouthMove]...[....][ToggleMouthMove] Wait[ToggleMouthMove]...[....][ToggleMouthMove] What is[A][NL]
 this light[ToggleMouthMove]...?[A][X]
 
 ## JeanneDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadJeanne]I suppose[ToggleMouthMove]...[....][ToggleMouthMove] it was[NL]
+meant to be[ToggleMouthMove]...[A][ToggleMouthMove][NL]
+[CloseEyes]Everyone[ToggleMouthMove]...[....][ToggleMouthMove] I failed[ToggleMouthMove]...[A][X]
 
 ## HexDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadHex]To think I could lose[ToggleMouthMove]...[A][ToggleMouthMove][NL]
+And now, I pay with my life.[A][X]
 
 ## JunpeiDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadJunpei]Damn it[ToggleMouthMove]...[....][ToggleMouthMove] Sorry, Osty[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+I got too careless[ToggleMouthMove]...[A][X]
 
 ## CielDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## NatsumiDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## DocDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## BlankDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## SamanthaDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## FleuretteDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## FeiDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## SmegbertDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## GeorgeDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## AlbanDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## RamonaDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## JamieDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## WilliamDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## SieghardtDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## OrvaldDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## DarienDeathQuote
-Oof[A][X]
+Oof[X]
 
 ## KatCh2DeathQuote
 [OpenMidLeft][LoadFace][0x107]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
