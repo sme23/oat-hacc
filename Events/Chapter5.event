@@ -67,28 +67,28 @@ MOVE 0 Jeanne [5,7]
 MOVE 0 Ben [5,8]
 MOVE 0 Zo [6,8]
 ENUN
-Text(ch5_opening1)
+Text(Chapter5Intro1)
 CAM1 [0,0]
 MOVE 0 Ostrava [5,2]
 MOVE 0 Jeanne [6,3]
 MOVE 0 Ben [5,4]
 MOVE 0 Zo [6,4]
 ENUN
-Text(ch5_opening2)
+Text(Chapter5Intro2)
 LOAD1 0x1 OpeningNPC
-Text(ch5_opening3)
+Text(Chapter5Intro3)
 CAM1 Perkus
 CUMO Perkus
 STAL 40
 CURE
-Text(ch5_opening4)
+Text(Chapter5Intro4)
 CAM1 [9,1]
 MOVE 0 Ostrava [9,2]
 MOVE 0 Jeanne [9,3]
 MOVE 0 Ben [8,2]
 MOVE 0 Zo [10,2]
 ENUN
-Text(ch5_opening5)
+Text(Chapter5Intro5)
 GotoPrepScreen
 NoFade
 ENDA

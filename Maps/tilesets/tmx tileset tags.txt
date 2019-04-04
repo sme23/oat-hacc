@@ -229,7 +229,7 @@ Der's Bridges (replaces more valni pointers)
 ObjectType = 0x94
 PaletteID = 0x95
 TileConfig = 0x93
-Anims1 = 0x5
+Anims1 = 5
 Anims2 = 0
 
 Night Village

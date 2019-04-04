@@ -20,6 +20,8 @@
 [LoadSme] = [LoadSmegbert]
 [LoadThief] = [LoadFace][0x3A][0x1]
 [LoadThatch] = [LoadFace][0x21][0x1]
+[LoadHex] = [LoadFace][0xB][0x1]
+[LoadJunpei] = [LoadFace][0xC][0x1]
 
 [N] = [NL]
 [n] = [N]
