@@ -6,9 +6,11 @@ to see you alive,[A][NL]
 
 but I knew you could handle yourself.[NL]
 
-You are my sidekick, after all![A]
+You are my sidekick, after all![A][NL]
 
-[OpenRight][LoadOstrava][ToggleSmile]I'm fine too, thanks.[A]
+[ToggleSmile]Still[ToggleMouthMove]...[....][ToggleMouthMove] It is good to see you unharmed.[A]
+
+[OpenRight][LoadOstrava]I'm fine too, thanks.[A]
 
 [OpenLeft][OpenEyes][OpenLeft][ClearFace][OpenLeft][LoadZorua][OpenLeft]Sorry, Ostrava. Are you okay?[A]
 
@@ -92,11 +94,13 @@ for a bandit hideout, right?[A]
 
 Aren't we leaving?[A]
 
-[OpenFarRight][ClearFace][OpenFarLeft][LoadBen]I do believe our friend is right.[A][NL]
+[OpenFarRight][ClearFace][OpenFarLeft][LoadBen]I do believe you're right, Ostrava.[A][NL]
 
-This contemptible hell hole really[NL]
+This contemptible hell hole we find[NL]
 
-is a bandits' hideout![A][NL]
+ourselves in is none other than[A][NL]
+
+a bandit citadel![A][NL]
 
 That means that the fair maiden[NL]
 

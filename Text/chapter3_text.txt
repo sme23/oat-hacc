@@ -24,10 +24,12 @@ of us here.[A]
 in a cell, helpless?[OpenFarLeft][MoveFarLeft][OpenFarLeft][ToggleSmile] (Psst![....] Zo![....] Zo!)[A]
 [OpenMidRight][LoadZorua][OpenMidRight][ToggleSmile]Huh?[A]
 [OpenFarLeft][ToggleSmile]This is our big moment to prove[NL]
-ourselves to our new compatriots.[A]
+we're not some walking punchlines[A][NL]
+with weapons to these guys.[A]
 [OpenMidRight]Ohh,[....] I get it![A][X]
 
 ##Chapter3IntroPt3
+[OpenMidLeft][LoadBen]That's--[A][OpenMidLeft][ClearFace]
 [OpenMidLeft][LoadZorua][OpenFarLeft][LoadOstrava][OpenFarFarRight][LoadGlazette][OpenFarFarRight][MoveMidRight][OpenMidRight][ToggleMouthMove]...[....][ToggleMouthMove]Do I smell fire? Did someone burn[NL]
 something?[A]
 [OpenMidLeft][CloseEyes][ToggleSmile]There.[....] You're free to go.[A][OpenEyes]

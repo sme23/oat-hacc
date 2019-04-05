@@ -67,7 +67,7 @@ ALIGN 4
 TurnBasedEvents:
 TurnEventPlayer(0,EnemyWarning,8)
 TurnEventPlayer(0,ActualEnemies,9)
-TurnEventPlayer(0,BanditsAreHere,16,24)
+TurnEventPlayer(0,BanditsAreHere,14,24)
 TurnEventPlayer(0,YouTookTooLong,26)
 END_MAIN
 

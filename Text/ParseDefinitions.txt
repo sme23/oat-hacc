@@ -22,6 +22,9 @@
 [LoadThatch] = [LoadFace][0x21][0x1]
 [LoadHex] = [LoadFace][0xB][0x1]
 [LoadJunpei] = [LoadFace][0xC][0x1]
+[LoadVillager] = [LoadFace][0x5C][0x1]
+[LoadPerkus] = [LoadFace][0x22][0x1]
+[LoadSoldier] = [LoadFace][0x6B][0x1]
 
 [N] = [NL]
 [n] = [N]

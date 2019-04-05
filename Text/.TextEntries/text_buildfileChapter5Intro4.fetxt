@@ -1,8 +1,8 @@
-[OpenMidLeft][LoadFace][0x122][ToggleSmile]Uwee hee hee![....] We have them cornered,[NL]
+[OpenMidLeft][LoadPerkus][ToggleSmile]Uwee hee hee![....] We have them cornered,[NL]
 
 like rats in a cage![A]
 
-[OpenMidRight][LoadFace][0x16B][OpenMidRight][ToggleSmile]But sir, there are other exits to[NL]
+[OpenMidRight][LoadSoldier][OpenMidRight][ToggleSmile]But sir, there are other exits to[NL]
 
 the village--[A][OpenMidLeft][MoveMidLeft][OpenMidRight][MoveMidRight][OpenMidRight] GAH![A]
 
@@ -10,7 +10,7 @@ the village--[A][OpenMidLeft][MoveMidLeft][OpenMidRight][MoveMidRight][OpenMidRi
 
 [OpenMidLeft]Silence! No insubordination allowed![A]
 
-[OpenMidRight][LoadFace][0x16B]Uh, sir, that was our first lietenant.[A]
+[OpenMidRight][LoadSoldier]Uh, sir, that was our first lietenant.[A]
 
 [OpenMidLeft]It doesn't matter. The point is,[NL]
 

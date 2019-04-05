@@ -100,13 +100,11 @@ Regardless[ToggleMouthMove]...[....][ToggleMouthMove] I think I'll keep helping.
 
 [OpenFarLeft]Thank you[ToggleMouthMove]...[ToggleMouthMove][A]
 
-[OpenFarLeft][ClearFace][OpenFarLeft][LoadBen][OpenFarLeft][ToggleSmile]Now that our fray has reached its[NL]
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadBen][OpenFarLeft][ToggleSmile]Now that the fray is behind us,[NL]
 
-long-awaited end, I cannot help but wonder:[A][NL]
+I must inquire. By what do you[A][NL]
 
-What beautiful name do you call your own,[NL]
-
-my new faint-hearted friend?[A][ToggleSmile]
+go by, my new faint-hearted friend?[A][ToggleSmile]
 
 [OpenMidRight]Oh! Uh, my name's Roshal.[NL]
 
@@ -136,9 +134,9 @@ The choice is yours.[A]
 
 Just please don't make me lead.[A]
 
-[OpenFarLeft]It's no bother, dear Roshal.[A][NL]
+[OpenFarLeft]'Tis not a bother, Roshal.[A][NL]
 
-The best of captains need the best of[NL]
+The best of captains need the finest of[NL]
 
 navigators, and I happen to be an[A][NL]
 
@@ -151,6 +149,8 @@ an amazing navigator. Am I wrong?[A]
 [OpenFarLeft][ClearFace][OpenFarLeft][LoadZorua][OpenFarLeft]He's saying he trusts you can show[NL]
 
 us where she is.[A]
+
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadBen][OpenFarLeft][MoveFarLeft][OpenFarLeft]Wha--[....] Uh, y-yes. Essentially.[A]
 
 [OpenMidRight]O-Oh,[....] right. I just hope we won't run[NL]
 

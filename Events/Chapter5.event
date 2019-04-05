@@ -17,11 +17,12 @@ PlayerUnits:
 
 UNIT
 
-EnemyUnits:
-
-UNIT
-
 TurnBasedEvents:
+TurnEventPlayer(7,Turn3Event,3)
+TurnEventPlayer(8,Turn4Event,4)
+TurnEventPlayer(9,Turn5Event,5)
+TurnEventPlayer(10,Turn6Event,6)
+TurnEventPlayer(11,Turn7Event,7)
 END_MAIN
 
 CharacterBasedEvents:
@@ -54,8 +55,70 @@ UNIT
 
 OpeningNPC:
 UNIT 127 Civilian 0x0 Level(1,NPC,0) [15,2] 0x0 0x0 0x1 REDA6R2 NoItems NoAI
-UNIT Perkus WyvernRider Perkus Level(8,Enemy,0) [1,16] 0x0 0x0 0x0 0x1 [IronGreatlance,Javelin] NeverMoveAI
 UNIT
+
+
+EnemyUnits:
+UNIT Perkus WyvernRider Perkus Level(8,Enemy,0) [5,16] 0x0 0x0 0x0 0x1 [IronGreatlance,Javelin] NeverMoveAI
+UNIT 128 LncCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT 128 Cleric Perkus Level(5,Enemy,1) [2,16] 0x0 0x0 0x0 0x1 [Heal] AttackInRangeAI
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [1,12] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT 128 Archer Perkus Level(7,Enemy,1) [0,11] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT 128 AxeCav Perkus Level(5,Enemy,1) [3,12] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 BowCav Perkus Level(6,Enemy,1) [7,12] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [6,13] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 128 Mercenary Perkus Level(7,Enemy,1) [6,15] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,13] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 128 SwdCav Perkus Level(6,Enemy,1) [5,3] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT 128 Archer Perkus Level(6,Enemy,1) [5,4] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [5,2] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [6,3] 0x0 0x0 0x0 0x1 [KillingEdge] NoAI
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [Javelin] NoAI
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [4,15] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT
+
+Turn3Reinforcements:
+UNIT 128 Thief Perkus Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] NoAI
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT
+
+Turn4Reinforcements:
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT
+
+Turn5Reinforcements:
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [Javelin] NoAI
+UNIT 128 AxeCav Perkus Level(7,Enemy,1) [18,16] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [9,16] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [10,16] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT
+
+Turn6Reinforcements:
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT
+
+Turn7Reinforcements:
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT
+
+
+
+
 
 BeginningScene:
 CAM1 [0,2]
@@ -77,6 +140,7 @@ ENUN
 Text(Chapter5Intro2)
 LOAD1 0x1 OpeningNPC
 Text(Chapter5Intro3)
+LOAD1 0x1 EnemyUnits
 CAM1 Perkus
 CUMO Perkus
 STAL 40
@@ -95,3 +159,36 @@ ENDA
 
 EndingScene:
 ENDA
+
+
+Turn3Event:
+LOAD1 0x1 Turn3Reinforcements
+ENUN
+NoFade
+ENDA
+
+
+Turn4Event:
+LOAD1 0x1 Turn4Reinforcements
+ENUN
+NoFade
+ENDA
+
+Turn5Event:
+LOAD1 0x1 Turn5Reinforcements
+ENUN
+NoFade
+ENDA
+
+Turn6Event:
+LOAD1 0x1 Turn6Reinforcements
+ENUN
+NoFade
+ENDA
+
+Turn7Event:
+LOAD1 0x1 Turn7Reinforcements
+ENUN
+NoFade
+ENDA
+

@@ -2,13 +2,15 @@
 
 [OpenFarLeft]Still your blade for a moment, Ben![A]
 
-[OpenMidLeft][MoveLeft][OpenLeft][MoveLeft][OpenLeft]Buh-wuh?[....] Oh, I see. You're not[NL]
+[OpenMidLeft][MoveLeft][OpenLeft][MoveLeft][OpenLeft]Huh?[....] Oh, I see. You're not[NL]
 
 one of those hooligans, are you?[A][NL]
 
 [ToggleMouthMove]Hmmm...[....][ToggleMouthMove] Now that I look at you, you[NL]
 
-appear to be five years my junior.[A]
+don't appear to be a threat,[A][NL]
+
+you look five years my junior.[A]
 
 [OpenLeft][MoveMidLeft][OpenMidLeft]Shame[ToggleMouthMove]...[....][ToggleMouthMove] I so desperately wanted[NL]
 
