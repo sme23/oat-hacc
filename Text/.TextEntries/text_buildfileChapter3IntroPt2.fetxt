@@ -1,4 +1,4 @@
-[OpenMidLeft][LoadOstrava][OpenMidLeft]Uh[ToggleMouthMove]...[....][ToggleMouthMove] hi there?[A]
+[LoadOstrava][OpenMidLeft]Uh[ToggleMouthMove]...[....][ToggleMouthMove] hi there?[A]
 
 [OpenMidLeft][ClearFace][OpenFarRight][LoadGlazette][OpenFarRight][MoveMidRight][OpenMidRight]Ah[ToggleMouthMove]...[....][ToggleMouthMove] Is someone there?[A][NL]
 
@@ -6,7 +6,7 @@ I heard you call out and there were other[NL]
 
 footsteps. Are you alone?[A]
 
-[OpenMidRight][ClearFace][OpenMidLeft][LoadOstrava][OpenMidLeft]No, I'm not alone. There are a few[NL]
+[OpenMidRight][ClearFace][LoadOstrava][OpenMidLeft]No, I'm not alone. There are a few[NL]
 
 of us here.[A]
 

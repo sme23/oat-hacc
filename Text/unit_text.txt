@@ -9,7 +9,7 @@ Seeks a place to call his own.[X]
 Zo[X]
 
 ## ZoruaBio
-A traveling mage who loves music.[NL]
+A mage with emotional issues.[NL]
 Good friends with Ben.[X]
 
 ## BenName
@@ -23,15 +23,15 @@ friends with Zo. Very over the top.[X]
 Yanik[X]
 
 ## YanikBio
-A skilled horseman who has issues with[NL]
-his emotions. Loves his girlfriend, Juli.[X]
+A cold, secluded, but devoted worrior.[NL]
+Protective of Juliana.[X]
 
 ## JulianaName
 Juliana[X]
 
 ## JuliBio
-A young cavalier who adores art, but,[NL]
-she loves her boyfriend, Yanik, more.[X]
+An artist who's a bit hard-headed.[NL]
+Is devoted to Yanik.[X]
 
 ## KatName
 Elizabeth[X]
@@ -180,8 +180,8 @@ Puts honor above all else.[X]
 Orvald[X]
 
 ## OrvaldBio
-Leader of a group of bandits.[NL]
-Kind, but a poor leader.[X]
+Leader of an enormous collective of bandits.[NL]
+Kind, but horrible about keeping his men in check.[X]
 
 ## DarienName
 Darien[X]
@@ -354,6 +354,7 @@ OrionBio[X]
 
 ## RoshalBossBio
 RoshalBossBio[X]
+
 
 
 ## CutthroatBio
