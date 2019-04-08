@@ -1,0 +1,6 @@
+Boss BGM table is at 758A60
+Is in vanilla boss order (by default but why fix what isn't broken)
+Each entry is 8 bytes
+0x0 = Boss character ID, 2 bytes
+0x2 = Separator value?, 2 bytes (always 0x0000)
+0x4 = Song ID, 4 bytes

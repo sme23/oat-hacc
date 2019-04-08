@@ -1,0 +1,241 @@
+//Reorganized Pointer Table
+
+PUSH
+ORG 0x8b363c
+POIN 0
+
+///Chapter-Specific
+//goes in order for each chapter, Map/Changes/Events
+//hack has 29 chapters from prologue to 24 + 4 gaidens
+//these entries are handled by the maps as they're installed, so pointers will just be 0
+
+//Prologue
+POIN 0 //1, Map
+POIN 0 //2, Changes
+POIN 0 //3, Events
+//Chapter 1
+POIN 0 //4, Map
+POIN 0 //5, Changes
+POIN 0 //6, Events
+//Chapter 2
+POIN 0 //7, Map
+POIN 0 //8, Changes
+POIN 0 //9, Events
+//Chapter 3
+POIN 0 //10, Map
+POIN 0 //11, Changes
+POIN 0 //12, Events
+//Chapter 4
+POIN 0 //13, Map
+POIN 0 //14, Changes
+POIN 0 //15, Events
+//Chapter 5
+POIN 0 //16, Map
+POIN 0 //17, Changes
+POIN 0 //18, Events
+//Chapter 6
+POIN 0 //19, Map
+POIN 0 //20, Changes
+POIN 0 //21, Events
+//Chapter 7
+POIN 0 //22, Map
+POIN 0 //23, Changes
+POIN 0 //24, Events
+//Chapter 8
+POIN 0 //25, Map
+POIN 0 //26, Changes
+POIN 0 //27, Events
+//Chapter 9
+POIN 0 //28, Map
+POIN 0 //29, Changes
+POIN 0 //30, Events
+//Chapter 9x
+POIN 0 //31, Map
+POIN 0 //32, Changes
+POIN 0 //33, Events
+//Chapter 10
+POIN 0 //34, Map
+POIN 0 //35, Changes
+POIN 0 //36, Events
+//Chapter 11
+POIN 0 //37, Map
+POIN 0 //38, Changes
+POIN 0 //39, Events
+//Chapter 12
+POIN 0 //40, Map
+POIN 0 //41, Changes
+POIN 0 //42, Events
+//Chapter 13
+POIN 0 //43, Map
+POIN 0 //44, Changes
+POIN 0 //45, Events
+//Chapter 14
+POIN 0 //46, Map
+POIN 0 //47, Changes
+POIN 0 //48, Events
+//Chapter 15
+POIN 0 //49, Map
+POIN 0 //50, Changes
+POIN 0 //51, Events
+//Chapter 15x
+POIN 0 //52, Map
+POIN 0 //53, Changes
+POIN 0 //54, Events
+//Chapter 16
+POIN 0 //55, Map
+POIN 0 //56, Changes
+POIN 0 //57, Events
+//Chapter 17
+POIN 0 //58, Map
+POIN 0 //59, Changes
+POIN 0 //60, Events
+//Chapter 18
+POIN 0 //61, Map
+POIN 0 //62, Changes
+POIN 0 //63, Events
+//Chapter 19
+POIN 0 //64, Map
+POIN 0 //65, Changes
+POIN 0 //66, Events
+//Chapter 20
+POIN 0 //67, Map
+POIN 0 //68, Changes
+POIN 0 //69, Events
+//Chapter 20x
+POIN 0 //70, Map
+POIN 0 //71, Changes
+POIN 0 //72, Events
+//Chapter 21
+POIN 0 //73, Map
+POIN 0 //74, Changes
+POIN 0 //75, Events
+//Chapter 22
+POIN 0 //76, Map
+POIN 0 //77, Changes
+POIN 0 //78, Events
+//Chapter 22x
+POIN 0 //79, Map
+POIN 0 //80, Changes
+POIN 0 //81, Events
+//Chapter 23
+POIN 0 //82, Map
+POIN 0 //83, Changes
+POIN 0 //84, Events
+//Chapter 24
+POIN 0 //85, Map
+POIN 0 //86, Changes
+POIN 0 //87, Events
+
+
+
+
+///Tilesets
+//goes in order for each tileset, Graphics/TSA/Tile Animations/Palettes (since each tileset could have multiple palettes they go last in the order)
+
+//Fields
+POIN 0x198d8c //88, Graphics
+POIN 0x1ab69c //89, TSA
+POIN 0x59d498 //90, Tile Animations
+POIN 0x1aebf0 //91, Palette 1 (earlygame)
+POIN 0x1ae5b0 //92, Palette 2 (carcino)
+POIN 0x1ae0b0 //93, Palette 3 (river of regrets)
+POIN 0x1adcf0 //94, Palette 4 (darkling woods)
+
+
+//Village
+POIN 0x191b14 //95, Graphics
+POIN 0x1aa140 //96, TSA
+POIN 0x59d568 //97, Tile Animations
+POIN 0x1aeab0 //98, Palette 1 (standard)
+POIN 0x1ad7f0 //99, Palette 2 (darker water)
+POIN 0x1acf30 //100, Palette 3 (flashback)
+
+
+//Castle
+POIN 0x18b89c //101, Graphics
+POIN 0x1a8ccc //102, TSA
+POIN 0x59d6f8 //103, Tile Animations
+POIN 0x1ae970 //104, Palette 1 (usable water)
+POIN 0x1ae1f0 //105, Palette 2 (blue floor)
+POIN 0x1ade30 //106, Palette 3 (rausten court)
+POIN 0x1ad2f0 //107, Palette 4 (flashback)
+
+
+//Plains
+POIN 0x185154 //108, Graphics
+POIN 0x1a7674 //109, TSA
+POIN 0x1ae830 //110, Palette 1
+POIN 0x1ae6f0 //111, Palette 2 (different FoW palette)
+
+
+//Fort
+POIN 0x1816b8 //112, Graphics
+POIN 0x1a6604 //113, TSA
+POIN 0x1ae470 //114, Palette 1 (queen of white dunes)
+POIN 0x1ada70 //115, Palette 2 (fort rigwald)
+POIN 0x1ad1b0 //116, Palette 3 (creeping darkness)
+
+
+PROTECT 0x8b363c-CURRENTOFFSET
+
+//Desert, overwritten by Better Desert
+POIN 0 //117, Graphics
+POIN 0 //118, TSA
+POIN 0 //119, Palette
+//uses Fields tile anims
+
+
+//Lava Cave
+POIN 0x1756b4 //120, Graphics
+POIN 0x1a4510 //121, TSA
+POIN 0x59d800 //122, Tile Animations
+POIN 0x1adf70 //123, Palette
+//tile anims are Anims2
+
+
+//Endgame
+POIN 0x170da8 //124, Graphics
+POIN 0x1a3660 //125, TSA
+POIN 0x1adbb0 //126, Palette
+
+
+//Mountains
+POIN 0x169d54 //127, Graphics
+POIN 0x1a1fc0 //128, TSA
+POIN 0x1ad930 //129, Palette 1
+POIN 0x1ad430 //130, Palette 2 (lagdou)
+//uses Fields tile anims 
+
+
+//Temple
+POIN 0x1609bc //131, Graphics
+POIN 0x1a0514 //132, TSA
+POIN 0x1ad570 //133, Palette
+
+
+//Stronghold
+POIN 0x165f7c //134, Graphics
+POIN 0x1a1440 //135, TSA
+POIN 0x59d678 //136, Tile Animations
+POIN 0x1ad6b0 //137, Palette 1
+POIN 0x1ad070 //138, Palette 2 (flashback)
+
+
+
+
+//Caves, installed elsewhere
+POIN 0 //139, Graphics
+POIN 0 //140, TSA
+POIN 0 //141, Tile Animations
+POIN 0 //142, Palette 1
+POIN 0 //143, Palette 2
+POIN 0 //144, Palette 3
+
+//Fields w/ Bridges, installed elsewhere
+POIN 0 //145, Graphics
+POIN 0 //146, TSA
+POIN 0 //147, Palette
+//uses Fields tile anims
+
+
+POP
