@@ -1,5 +1,5 @@
 ##Chapter4Intro1
-[OpenLeft][LoadOstrava][OpenFarRight][LoadZorua][OpenFarLeft][LoadBen][OpenRight][LoadRoshal]A-Almost there. I was being held through[NL]
+[OpenLeft][LoadOstrava][OpenFarRight][LoadZo][OpenFarLeft][LoadBen][OpenRight][LoadRoshal]A-Almost there. I was being held through[NL]
 this corridor.[A]
 [OpenFarRight]Are you okay, Roshal?[A]
 [OpenFarLeft]Is the concern really necessary?[A][NL]
@@ -44,7 +44,7 @@ the girl, and be quick about it.[A]
 [OpenMidLeft]Aye, sir.[A][X]
 
 ##Chapter4Intro3
-[LoadOstrava]That sounds bad, guys. We need[NL]
+[OpenMidLeft][LoadOstrava]That sounds bad, guys. We need[NL]
 to beat feet. We gotta find her.[A][X]
 
 ##Chapter4BossBattleQuote
@@ -56,7 +56,7 @@ pleasure in killin' ya lot.[A][X]
 [OpenMidLeft][LoadThatch]Agh! N[ToggleMouthMove]...[....][ToggleMouthMove] No[ToggleMouthMove]...[....]![A][X]
 
 ##Chapter4Ending1
-[OpenMidLeft][LoadZorua]She should be nearby[ToggleMouthMove]...[A][X]
+[OpenMidLeft][LoadZo]She should be nearby[ToggleMouthMove]...[A][X]
 
 ##Chapter4Ending2
 [OpenMidLeft][LoadRoshal]This is it.[....] This is her cell. Is she[NL]
@@ -76,7 +76,7 @@ girl, right?[A]
 [OpenRight]The[ToggleMouthMove]...[....][ToggleMouthMove] merchant's girl?[A]
 [OpenFarLeft][LoadBen][OpenFarLeft][MoveFarLeft][OpenFarLeft](Wait, merchant's girl?! Does he not[NL]
 know who the devil she is?!)[A]
-[OpenFarRight][LoadZorua]Your--[CloseEyes][....][OpenFarRight][MoveFarRight][OpenFarRight][OpenEyes] Ah, I mean[ToggleMouthMove]...[....][ToggleMouthMove] Are you okay?[NL]
+[OpenFarRight][LoadZo]Your--[CloseEyes][....][OpenFarRight][MoveFarRight][OpenFarRight][OpenEyes] Ah, I mean[ToggleMouthMove]...[....][ToggleMouthMove] Are you okay?[NL]
 Ben and I were hired to come find you.[A]
 [OpenFarLeft][ToggleSmile]The lass is correct![A][NL]
 The Bringer of Chaos and his charming[NL]
@@ -95,7 +95,7 @@ And I thank you for coming to my aid.[A]
 [OpenFarRight][ClearFace][OpenFarRight][LoadRoshal][OpenFarRight][MoveFarRight][OpenFarRight]What?![....] Y-You're the princess?![A]
 [OpenFarLeft]"WHO?!"[....] HOW DIMWITTED CAN YOU TWO BE?[NL]
 YOU DON'T KNOW OF OUR PRINCESS?![A]
-[OpenFarRight][ClearFace][OpenFarRight][LoadZorua]Ben, calm down! You're not making a good[NL]
+[OpenFarRight][ClearFace][OpenFarRight][LoadZo]Ben, calm down! You're not making a good[NL]
 first impression in front of Her Majesty![A]
 [OpenFarLeft][MoveFarLeft][OpenFarLeft][CloseEyes]Ah![....][OpenEyes] Please forgive my carelessness,[NL]
 You Majesty.[A]
@@ -146,7 +146,7 @@ Lead the way, Sir Ostrava.[A]
 to go.[A][X]
 
 ##Chapter4Ending3
-[OpenRight][LoadOstrava][OpenFarRight][LoadZorua][OpenRight]Oh for the love of the gods, an exit.[A]
+[OpenRight][LoadOstrava][OpenFarRight][LoadZo][OpenRight]Oh for the love of the gods, an exit.[A]
 [OpenFarRight]Hopefully we won't have to see this[NL]
 place again.[A]
 [OpenMidLeft][LoadRoshal]We didn't run into anyone during our[NL]
@@ -165,3 +165,7 @@ there. The memories made here are[A][NL]
 sure to be not ones forgotton.[A][NL]
 Now, onwards![....] Trisdam awaits.[A][X]
 
+##Chapter4Ending4
+[OpenFarLeft][LoadBen]Not for you, though.[NL]
+Your journey ends here.[A]
+[OpenLeft][LoadZo][OpenFarRight][LoadSmegbert][OpenRight][LoadOstrava][OpenRight][ToggleSmile]Thanks for playing![A][X]
