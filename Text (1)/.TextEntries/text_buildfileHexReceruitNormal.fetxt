@@ -1,0 +1,18 @@
+[OpenMidLeft][LoadCurrentPortrait]Hello?[....] Is there someone home?[A]
+
+[OpenMidRight][LoadHex]Yes, what seems to be the matter?[A]
+
+[OpenMidLeft]There are soldiers coming to raid[NL]
+
+the village. You need to leave![A]
+
+[OpenMidRight]Leave? Never. I will join you in this fight.[A]
+
+[OpenMidLeft]Are you sure about this?[A]
+
+[OpenMidRight]My name is Hex. Point me where the enemy[NL]
+
+is and they will drown in darkness.[A]
+
+[OpenMidLeft]Alright then[ToggleMouthMove]...[....][ToggleMouthMove] Just be careful.[A][X]
+
