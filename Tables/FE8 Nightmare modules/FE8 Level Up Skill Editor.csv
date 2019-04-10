@@ -1,4 +1,4 @@
-INLINE LevelUpSkillTable,Skill Pointer
+INLINE ClassLevelUpSkillTable,Skill Pointer
 0x00 Separator/Nothing,0x0
 Forrester,ForresterSkillList|IsPointer
 Lancer,LancerSkillList|IsPointer

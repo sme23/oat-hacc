@@ -1,29 +1,31 @@
+@echo off
+
 @cd %~dp0
 
 @cd "%~dp0Music"
 
-@echo Converting MIDIs...
+echo Converting MIDIs...
 
 @dir *.mid /b > mid.txt
 
 @for /f "tokens=*" %%m in (mid.txt) do mid2agb %%m -V085
 
-@echo Done!
+echo Done!
 
-@echo Converting to events...
+echo Converting to events...
 
 @dir *.s /b > sappy.txt
 
 @for /f "tokens=*" %%s in (sappy.txt) do s2ea %%s
 
-@echo Done!
+echo Done!
 
-@echo Cleaning Up...
+echo Cleaning Up...
 
 @del "mid.txt"
 
 @del "sappy.txt"
 
-@echo Done!
+echo Done!
 
 pause
