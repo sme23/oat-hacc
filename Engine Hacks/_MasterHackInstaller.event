@@ -147,7 +147,7 @@ POP
   #include "AnimaTriangle/AnimaTriangle.event"
   
   ALIGN 4
-  #include "MMB/MMB Installer.event"
+  //#include "MMB/MMB Installer.event"
   
   ALIGN 4
   #include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.txt"
