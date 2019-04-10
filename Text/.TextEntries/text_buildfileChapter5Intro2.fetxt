@@ -1,26 +1,28 @@
-[OpenFarLeft][LoadZorua][OpenLeft][LoadOstrava]Well everyone,[....] we're here.[A]
+[OpenFarLeft][LoadZo][OpenLeft][LoadOstrava]Well,[....] here we are.[A]
 
 [OpenFarLeft]Where is[ToggleMouthMove]...[....][ToggleMouthMove] "here?"[A]
 
-[OpenLeft]My mentor's home. Let's hope she's home.[A]
+[OpenLeft]My mentor's home. Let's just hope she's here.[A]
 
 [OpenLeft][MoveMidRight][OpenFarFarRight][LoadJunpei]Wha--?[....] Ah, the door.[NL]
 
 I'll be right there.[A][NL]
 
-[OpenMidRight][MoveLeft][OpenFarFarRight][MoveFarRight]Huh?[....][ToggleSmile] Osty! You're here! And I thought[NL]
+[OpenMidRight][MoveLeft][OpenFarFarRight][MoveFarRight]Huh?[....][ToggleSmile] Osty! My sweet shawarma![NL]
 
-you'd be gone fer a good while longer.[A]
+And here I was, thinking you'd be gone[A][NL]
 
-[OpenLeft]Hey, Ma![A]
+fer good, ya nudnik.[A]
+
+[OpenLeft]Evening, Ma.[A]
 
 [OpenFarLeft][ToggleSmile][ClearFace][OpenFarLeft][LoadBen][OpenFarLeft][MoveFarLeft][OpenFarLeft]M-MA?! You mean to tell me this[NL]
 
 mentor of yours is your mother?![A]
 
-[OpenLeft]Eh, yes and no.[A]
+[OpenLeft]More or less, yeah.[A]
 
-[OpenLeft][ClearFace][OpenLeft][LoadZorua]Um,[....] hello?[A]
+[OpenLeft][ClearFace][OpenLeft][LoadZo]Um,[....] hello?[A]
 
 [OpenFarRight]Well well, what've we got here? You've[NL]
 
@@ -46,7 +48,7 @@ OFTEN KNOWN AS BEN,[NL]
 
 AND OFTEN REFERRED TO AS THE[A][NL]
 
-BENTANATOR. AND THIS[OpenLeft][ClearFace][OpenLeft][LoadZorua][OpenFarLeft] IS MY[A][NL]
+BENTANATOR. AND THIS[OpenLeft][ClearFace][OpenLeft][LoadZo][OpenFarLeft] IS MY[A][NL]
 
 PARTNER ZO! FEAR HER MIGHT![A]
 
@@ -58,7 +60,7 @@ finish is because I'm really tired. Can we--[A]
 
 yourself Ben, right?[A]
 
-[OpenFarLeft][CloseEyes]At your service, m'lady![A][OpenEyes]
+[OpenFarLeft][CloseEyes]At your service, 'o progenitor of prodegies.[A][OpenEyes]
 
 [OpenFarRight]If I wasn't retired, I'd put ya through[NL]
 
@@ -68,7 +70,7 @@ training regimen.[A]
 
 [OpenLeft][ClearFace][OpenLeft][LoadJeanne]Getting us back to the matter at hand[ToggleMouthMove]...[A][ToggleMouthMove]
 
-[OpenFarLeft][ClearFace][OpenFarLeft][LoadZorua][CloseEyes]Thank you[ToggleMouthMove]...[A][ToggleMouthMove][OpenEyes]
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadZo][CloseEyes]Thank you[ToggleMouthMove]...[A][ToggleMouthMove][OpenEyes]
 
 [OpenLeft]We need a place to stay for the night.[NL]
 
@@ -96,7 +98,7 @@ our sacred meeting tonight.[A]
 
 you guys can hang in those.[A]
 
-[OpenFarLeft][ClearFace][OpenFarLeft][LoadZorua]Thanks, Ostrava, and thank you, Junpei.[A]
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadZo]Thanks, Ostrava, and thank you, Junpei.[A]
 
 [OpenLeft][ToggleSmile]Indeed, thank you greatly.[A][X]
 

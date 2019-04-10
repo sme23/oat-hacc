@@ -1,4 +1,4 @@
-[LoadOstrava][OpenMidLeft]Uh[ToggleMouthMove]...[....][ToggleMouthMove] hi there?[A]
+[OpenMidLeft][LoadOstrava][OpenMidLeft]Uh[ToggleMouthMove]...[....][ToggleMouthMove] hi there?[A]
 
 [OpenMidLeft][ClearFace][OpenFarRight][LoadGlazette][OpenFarRight][MoveMidRight][OpenMidRight]Ah[ToggleMouthMove]...[....][ToggleMouthMove] Is someone there?[A][NL]
 
@@ -6,7 +6,7 @@ I heard you call out and there were other[NL]
 
 footsteps. Are you alone?[A]
 
-[OpenMidRight][ClearFace][LoadOstrava][OpenMidLeft]No, I'm not alone. There are a few[NL]
+[OpenMidRight][ClearFace][OpenMidLeft][LoadOstrava][OpenMidLeft]No, I'm not alone. There are a few[NL]
 
 of us here.[A]
 
@@ -14,7 +14,7 @@ of us here.[A]
 
 in a cell, helpless?[OpenFarLeft][MoveFarLeft][OpenFarLeft][ToggleSmile] (Psst![....] Zo![....] Zo!)[A]
 
-[OpenMidRight][LoadZorua][OpenMidRight][ToggleSmile]Huh?[A]
+[OpenMidRight][LoadZo][OpenMidRight][ToggleSmile]Huh?[A]
 
 [OpenFarLeft][ToggleSmile]This is our big moment to prove[NL]
 

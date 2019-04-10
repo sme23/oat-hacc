@@ -1,4 +1,4 @@
-[OpenRight][LoadOstrava][OpenFarRight][LoadJeanne][OpenFarLeft][LoadZorua][OpenRight]It feels good to finally be back in[NL]
+[OpenRight][LoadOstrava][OpenFarRight][LoadJeanne][OpenFarLeft][LoadZo][OpenRight]It feels good to finally be back in[NL]
 
 civilization.[A]
 
@@ -6,13 +6,17 @@ civilization.[A]
 
 said it was called?[A]
 
-[OpenRight]Yes, I know a woman here who[NL]
+[OpenRight]Yeah, this is it. Kinda dingy, I know, but[ToggleMouthMove]...[....][ToggleMouthMove][NL]
 
-can help us.[A]
+it's home. There's someone here who[A][NL]
+
+can keep us safe for tonight.[A]
 
 [OpenFarLeft]And who might that be?[A]
 
-[OpenRight]My mentor. She's been here for a while.[A]
+[OpenRight]My mentor. She's a local hero of sorts,[NL]
+
+and if anyone can help us, it's her.[A]
 
 [OpenFarRight]Your mentor? So, teacher then?[A]
 
@@ -32,5 +36,7 @@ trains them into proud warriors.[A]
 
 friendly face to greet us.[A]
 
-[OpenRight]Of course.[....] This way, everyone.[A][X]
+[OpenRight]Friendly is one way to put it.[NL]
+
+This way, y'all. Should be close by.[A][X]
 

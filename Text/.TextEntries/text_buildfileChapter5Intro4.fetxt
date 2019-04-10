@@ -2,7 +2,7 @@
 
 like rats in a cage![A]
 
-[OpenMidRight][LoadSoldier][OpenMidRight][ToggleSmile]But sir, there are other exits to[NL]
+[OpenMidRight][LoadRedSoldier][OpenMidRight][ToggleSmile]But sir, there are other exits to[NL]
 
 the village--[A][OpenMidLeft][MoveMidLeft][OpenMidRight][MoveMidRight][OpenMidRight] GAH![A]
 
@@ -10,7 +10,7 @@ the village--[A][OpenMidLeft][MoveMidLeft][OpenMidRight][MoveMidRight][OpenMidRi
 
 [OpenMidLeft]Silence! No insubordination allowed![A]
 
-[OpenMidRight][LoadSoldier]Uh, sir, that was our first lietenant.[A]
+[OpenMidRight][LoadRedSoldier]Uh, sir, that was our first lieutenant.[A]
 
 [OpenMidLeft]It doesn't matter. The point is,[NL]
 

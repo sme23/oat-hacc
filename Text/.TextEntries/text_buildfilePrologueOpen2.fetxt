@@ -1,4 +1,4 @@
-[OpenRight][LoadVaas]'Ooks like we fergot one, boys.[A]
+[OpenRight][LoadVass]'Ooks like we fergot one, boys.[A]
 
 [OpenLeft][LoadBandit]Bu' boss, we already 'ave da--[A]
 
@@ -6,5 +6,5 @@
 
 Maybe we'll git an extra coin for 'im![A][OpenLeft][ClearFace][OpenRight][ClearFace]
 
-[LoadOstrava][OpenMidLeft][MoveMidLeft][OpenMidLeft]Dammit![....] Not now![A][X]
+[OpenMidLeft][LoadOstrava][OpenMidLeft][MoveMidLeft][OpenMidLeft]Dammit![....] Not now![A][X]
 
