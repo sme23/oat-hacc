@@ -1,87 +1,84 @@
+.thumb
+.include "_Definitions.h.s"
 
-	.thumb
+.set lpCharSkillTable,  (EALiterals+0x00)
+.set lpClassSkillTable, (EALiterals+0x04)
 
-	.include "Definitions.inc"
+.set pExtraItemOrSkill, 0x0202BCDE
+.set pBWLTable,         0x0203E884
 
-	pExtraItemOrSkill = 0x0202BCDE
-	pBWLTable         = 0x0203E884
-
-	lpCharSkillTable  = EALiterals+0x00
-	lpClassSkillTable = EALiterals+0x04
-
+@ Arguments: r0 = Unit Struct, r1 = Index
+@ Returns:   r0 = Skill Id (0 if none)
 GetSkillIdByIndex:
-	@ Arguments: r0 = Unit Struct, r1 = Index
-	@ Returns:   r0 = Skill Id (0 if none)
-
 	push {r4, lr}
-
+	
 	cmp r1, #0
-	bne not_char_skill
-
+	bne NotCharSkill
+	
 	ldr  r2, [r0]
 	ldrb r2, [r2, #4]
-
+	
 	ldr  r3, lpCharSkillTable
 	ldrb r0, [r3, r2]
+	
+	b End
 
-	b end
-
-not_char_skill:
+NotCharSkill:
 	cmp r1, #1
-	bne not_class_skill
-
+	bne NotClassSkill
+	
 	ldr  r2, [r0, #4]
 	ldrb r2, [r2, #4]
-
+	
 	ldr  r3, lpClassSkillTable
 	ldrb r0, [r3, r2]
-
-	b end
-
-not_class_skill:
+	
+	b End
+	
+NotClassSkill:
 	cmp r1, #6
-	bne not_extra_learn_skill
-
+	bne NotExtraLearnSkill
+	
 	ldr  r2, =pExtraItemOrSkill
 	ldrb r0, [r2]
-
-	b end
-
-not_extra_learn_skill:
+	
+	b End
+	
+NotExtraLearnSkill:
 	sub r1, #2
-	blt return_zero
-
+	blt ReturnZero
+	
 	cmp r1, #4
-	bge return_zero
-
+	bge ReturnZero
+	
 	@ r2 = Char Id
 	ldr  r2, [r0]
 	ldrb r2, [r2, #4]
-
+	
 	@ if CharID > 0x46 then return 0
 	cmp r2, #0x46
-	bhi return_zero
-
+	bhi ReturnZero
+	
 	lsl  r2, #4
-
+	
 	ldr  r3, =pBWLTable
 	add  r3, r2
 	add  r3, #1
 	ldrb r0, [r3, r1]
 
-	b end
-
-return_zero:
+	b End
+	
+ReturnZero:
 	mov r0, #0
-
-end:
+	
+End:
 	pop {r4}
-
+	
 	pop {r1}
 	bx r1
 
-	.pool
-	.align
+.ltorg
+.align
 
 EALiterals:
 	@ POIN CharacterSkillTable

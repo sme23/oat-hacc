@@ -124,11 +124,6 @@ Anathema:
 POIN AuraSkillCheck
 WORD AnathemaID
 
-//#inctext lyn "Hex.elf"
-//HexIDLink:
-//BYTE HexID
-ALIGN 4
-
 LilysPoise:
 #incbin "LilysPoise.dmp"
 POIN AuraSkillCheck

@@ -156,15 +156,15 @@ After each set of module options are definitions that you can use to adjust the 
 
 // Skills modules (requires skill system)
 
-//	#define MMBSkillsAlternate
+	#define MMBSkillsAlternate
 
 // Skills options
 
 	// Coordinates are in pixels
 
-//	#define MMBSkillsX 80
-//	#define MMBSkillsY 8
-//	#define MMBSkillTile 0x30C
+	#define MMBSkillsX 80
+	#define MMBSkillsY 8
+	#define MMBSkillTile 0x30C
 
 // Number modules
 

@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////
 
 #include "Extensions/Hack Installation.txt"
-#include "PopupRework/Extensions/PopupDefinitions.txt"
+//#include "PopupRework/Extensions/PopupDefinitions.txt"
 #include "_UnitMenuDefs.event"
 
 ////////////////////////////////SUPPORTING CHANGES
@@ -104,7 +104,7 @@ POP
   #include "Misc/PrologueSupply.event"
 
   //Item Range Fix
-  #include "FE8-Item Range Fix/FE8-Item Range EA.event"
+  //#include "FE8-Item Range Fix/FE8-Item Range EA.event"
   
   //Chapter names as text
   #include "TextChNames/TextChNames.event"
@@ -123,7 +123,7 @@ POP
   ALIGN 4
   #include "Skill System/Master Skill Installer.event"
   
-  #include "DisplayWRankOnLevelUp/DisplayWRankOnLevelUp.event"
+//  #include "DisplayWRankOnLevelUp/DisplayWRankOnLevelUp.event"
 
   ALIGN 4
   #include "FE8-Battle Stats with Anims Off/FE8-Battle Stats Master EA File.event"
@@ -137,7 +137,7 @@ POP
   
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
-  #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
+  //#include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 
   ALIGN 4
   ClearInventory:
@@ -147,7 +147,7 @@ POP
   #include "AnimaTriangle/AnimaTriangle.event"
   
   ALIGN 4
-  //#include "MMB/MMB Installer.event"
+  #include "MMB/MMB Installer.event"
   
   ALIGN 4
   #include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.txt"
@@ -197,4 +197,4 @@ POP
   
   ALIGN 4
   #include "UnitMenu.event"
-  #include "Popups.event"
+  //#include "Popups.event"
