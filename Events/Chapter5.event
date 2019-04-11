@@ -29,8 +29,28 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+LOCA 65 [19,0] 0x1D //game over if house is destroyed
+House(12,HexHouseEvent,14,11)
+House(14,TavernEvent,9,1)
+House(15,TopLeftItemHouseEvent,3,1)
+House(16,TopLeftTextHouseEvent,1,1)
+House(17,LeftItemHouseEvent,1,7)
+House(18,LeftTextHouseEvent,10,7)
+Vendor(VendorList,20,10)
+Armory(ArmoryList,14,1)
+Door(17,13)
 END_MAIN
 
+
+ALIGN 4
+VendorList:
+SHLI Heal Vulnerary
+
+ALIGN 4
+ArmoryList:
+SHLI IronSword SlimSword IronLance SlimLance Javelin IronAxe HandAxe IronBow SteelBow
+
+ALIGN 4
 MiscBasedEvents:
 CauseGameOverIfLordDies
 END_MAIN
@@ -116,7 +136,13 @@ UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
 UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
 UNIT
 
+JunpeiGroup:
+UNIT Junpei Warrior Ostrava Level(6,Ally,0) [19,1] 0x0 0x0 0x0 0x1 [SteelAxe,IronBow,HandAxe] NoAI
+UNIT
 
+HexGroup:
+UNIT Hex MageKnight_F Ostrava Level(1,Ally,0) [14,11] 0x0 0x0 0x1 REDA14R12 [Flux,Mend,TorchStaff] NoAI
+UNIT
 
 
 
@@ -124,18 +150,20 @@ BeginningScene:
 CAM1 [0,2]
 LOAD2 0x1 OpeningUnits
 FADU 10
-MOVE 0 Ostrava [5,6]
+MOVE 0 Ostrava [6,3]
 ENUN
-MOVE 0 Jeanne [5,7]
-MOVE 0 Ben [5,8]
-MOVE 0 Zo [6,8]
+MOVE 0 Jeanne [6,4]
+MOVE 0 Ben [5,5]
+MOVE 0 Zo [6,5]
 ENUN
 Text(Chapter5Intro1)
-CAM1 [0,0]
-MOVE 0 Ostrava [5,2]
-MOVE 0 Jeanne [6,3]
-MOVE 0 Ben [5,4]
-MOVE 0 Zo [6,4]
+CAM1 [21,0]
+MOVE 0 Ostrava [19,2]
+MOVE 0 Jeanne [19,3]
+MOVE 0 Ben [20,3]
+MOVE 0 Zo [18,3]
+ENUN
+LOAD1 0x1 JunpeiGroup
 ENUN
 Text(Chapter5Intro2)
 LOAD1 0x1 OpeningNPC
@@ -146,12 +174,7 @@ CUMO Perkus
 STAL 40
 CURE
 Text(Chapter5Intro4)
-CAM1 [9,1]
-MOVE 0 Ostrava [9,2]
-MOVE 0 Jeanne [9,3]
-MOVE 0 Ben [8,2]
-MOVE 0 Zo [10,2]
-ENUN
+CAM1 [21,0]
 Text(Chapter5Intro5)
 GotoPrepScreen
 NoFade
@@ -189,6 +212,63 @@ ENDA
 Turn7Event:
 LOAD1 0x1 Turn7Reinforcements
 ENUN
+NoFade
+ENDA
+
+
+HexHouseEvent:
+SetBackground(HouseBG)
+MUSS Song_TogetherWeRide
+Text(PlaceholderText)
+EndConvo
+LOAD1 0x1 HexGroup
+ENUN
+MURE
+NoFade
+ENDA
+
+TavernEvent:
+MUSI
+SetBackground(Inn)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+TopLeftItemHouseEvent:
+MUSI
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Vulnerary
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+TopLeftTextHouseEvent:
+MUSI
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+LeftItemHouseEvent:
+MUSI
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Vulnerary
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+LeftTextHouseEvent:
+MUSI
+Text(PlaceholderText)
+EndConvo
+MUNO
 NoFade
 ENDA
 
