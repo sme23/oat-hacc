@@ -14,7 +14,16 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
-
+UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [16,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [17,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Junpei Warrior Ostrava  Level(1,Ally,0) [18,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [18,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [17,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [17,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [16,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [16,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [15,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [15,3] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 TurnBasedEvents:
@@ -74,7 +83,7 @@ UNIT Zo Forrester 0x0 Level(1,Ally,0) [6,15] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 OpeningNPC:
-UNIT 127 Civilian 0x0 Level(1,NPC,0) [15,2] 0x0 0x0 0x1 REDA6R2 NoItems NoAI
+UNIT 127 Civilian 0x0 Level(1,NPC,0) [6,2] 0x0 0x0 0x1 REDA18R4 NoItems NoAI
 UNIT
 
 
@@ -163,10 +172,17 @@ MOVE 0 Jeanne [19,3]
 MOVE 0 Ben [20,3]
 MOVE 0 Zo [18,3]
 ENUN
+TEXTSTART
+TEXTSHOW Chapter5Intro2
+TEXTEND
 LOAD1 0x1 JunpeiGroup
 ENUN
-Text(Chapter5Intro2)
+STAL 10
+TEXTCONT
+TEXTEND
+REMA
 LOAD1 0x1 OpeningNPC
+ENUN
 Text(Chapter5Intro3)
 LOAD1 0x1 EnemyUnits
 CAM1 Perkus
@@ -176,6 +192,13 @@ CURE
 Text(Chapter5Intro4)
 CAM1 [21,0]
 Text(Chapter5Intro5)
+FADU 10
+CLEA Ostrava
+CLEA Zo
+CLEA Ben
+CLEA Jeanne
+CLEA Junpei
+CLEN 0x0
 GotoPrepScreen
 NoFade
 ENDA
@@ -223,7 +246,7 @@ Text(PlaceholderText)
 EndConvo
 LOAD1 0x1 HexGroup
 ENUN
-MURE
+MURE 0x1
 NoFade
 ENDA
 

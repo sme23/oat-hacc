@@ -6,7 +6,7 @@
 
 [OpenLeft][MoveMidRight][OpenFarFarRight][LoadJunpei]Wha--?[....] Ah, the door.[NL]
 
-I'll be right there.[A][NL]
+I'll be right there.[A][NL][LoadOverworldFaces]
 
 [OpenMidRight][MoveLeft][OpenFarFarRight][MoveFarRight]Huh?[....][ToggleSmile] Osty! My sweet shawarma![NL]
 
