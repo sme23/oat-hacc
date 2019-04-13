@@ -405,6 +405,11 @@ TerrainResBonus:
 #define WindAnim 0x53
 #define YotsmungandAnim 0x54
 
+#define ChangeWeaponRank(Character,WeaponRank,Value) "SVAL 1 Character; SVAL 2 WeaponRank; SVAL 3 Value; ASMC ChangeWeaponRankASMC|1"
+
+
+
+
 
 #ifdef __DEBUG__
   ALIGN 4

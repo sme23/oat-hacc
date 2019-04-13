@@ -166,6 +166,10 @@ POP
   
   ALIGN 4
   #include "SmeHax/Tincture Installer.event"
+
+  ALIGN 4
+  ChangeWeaponRankASMC:
+  #incbin "SmeHax/ASMCs/ChangeWeaponRankASMC.dmp"
   
   ALIGN 4
   #include "SpinProc/spinproc.event"

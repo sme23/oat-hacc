@@ -31,6 +31,10 @@
 [LoadGreenSoldier] = [LoadFace][0x6F][0x1]
 [LoadPurpleSoldier] = [LoadFace][0x70][0x1]
 [LoadWhiteSoldier] = [LoadFace][0x71][0x1]
+[LoadOldMan] = [LoadFace][0x59][0x1]
+[LoadOldWoman] = [LoadFace][0x5F][0x1]
+[LoadYoungWoman] = [LoadFace][0x62][0x1]
+[LoadRedHead] = [LoadFace][0x5D][0x1]
 
 
 

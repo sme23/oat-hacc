@@ -32,6 +32,7 @@ TurnEventPlayer(8,Turn4Event,4)
 TurnEventPlayer(9,Turn5Event,5)
 TurnEventPlayer(10,Turn6Event,6)
 TurnEventPlayer(11,Turn7Event,7)
+TurnEventPlayer(2,0,8)
 END_MAIN
 
 CharacterBasedEvents:
@@ -53,7 +54,7 @@ END_MAIN
 
 ALIGN 4
 VendorList:
-SHLI Heal Vulnerary
+SHLI Heal Vulnerary FireTome ThunderTome WindTome LightTome EllightTome FluxTome
 
 ALIGN 4
 ArmoryList:
@@ -92,57 +93,63 @@ UNIT Perkus WyvernRider Perkus Level(8,Enemy,0) [5,16] 0x0 0x0 0x0 0x1 [IronGrea
 UNIT 128 LncCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
 UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
 UNIT 128 Cleric Perkus Level(5,Enemy,1) [2,16] 0x0 0x0 0x0 0x1 [Heal] AttackInRangeAI
-UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [1,12] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 Archer Perkus Level(7,Enemy,1) [0,11] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [1,12] 0x0 0x0 0x0 0x1 [IronSword] [0,4,0,0]
+UNIT 128 Archer Perkus Level(7,Enemy,1) [0,11] 0x0 0x0 0x0 0x1 [IronBow] [0,4,0,0]
 UNIT 128 AxeCav Perkus Level(5,Enemy,1) [3,12] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
 UNIT 128 BowCav Perkus Level(6,Enemy,1) [7,12] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
 UNIT 128 Soldier Perkus Level(5,Enemy,1) [6,13] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
-UNIT 128 Mercenary Perkus Level(7,Enemy,1) [6,15] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 Mercenary Perkus Level(7,Enemy,1) [6,15] 0x0 0x0 0x0 0x1 [SteelSword] [0,4,0,0]
 UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,13] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT 128 SwdCav Perkus Level(6,Enemy,1) [5,3] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
-UNIT 128 Archer Perkus Level(6,Enemy,1) [5,4] 0x0 0x0 0x0 0x1 [IronBow] NoAI
-UNIT 128 Soldier Perkus Level(5,Enemy,1) [5,2] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Mercenary Perkus Level(6,Enemy,1) [6,3] 0x0 0x0 0x0 0x1 [KillingEdge] NoAI
-UNIT 128 Soldier Perkus Level(5,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [Javelin] NoAI
-UNIT 128 Mercenary Perkus Level(6,Enemy,1) [4,15] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 SwdCav Perkus Level(6,Enemy,1) [5,3] 0x0 0x0 0x0 0x1 [IronBlade] [0,4,0,0]
+UNIT 128 Archer Perkus Level(6,Enemy,1) [5,4] 0x0 0x0 0x0 0x1 [IronBow] [0,4,0,0]
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [5,2] 0x0 0x0 0x0 0x1 [IronLance] [0,4,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [6,3] 0x0 0x0 0x0 0x1 [KillingEdge] [0,4,0,0]
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [Javelin] [0,4,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [4,15] 0x0 0x0 0x0 0x1 [SteelSword] [0,4,0,0]
+UNIT 128 SwdCav Perkus Level(6,Enemy,1) [3,13] 0x0 0x0 0x0 0x1 [IronSword] [0,4,0,0]
+UNIT 128 Soldier Perkus Level(6,Enemy,1) [4,13] 0x0 0x0 0x0 0x1 [SteelLance] [0,4,0,0]
+UNIT 128 Soldier Perkus Level(6,Enemy,1) [5,9] 0x0 0x0 0x0 0x1 [IronLance] [0,4,0,0]
+UNIT 128 Soldier Perkus Level(6,Enemy,1) [6,8] 0x0 0x0 0x0 0x1 [IronLance] [0,4,0,0]
+UNIT 128 Archer Perkus Level(6,Enemy,1) [6,10] 0x0 0x0 0x0 0x1 [IronBow] [0,4,0,0]
+UNIT 128 Archer Perkus Level(6,Enemy,1) [12,4] 0x0 0x0 0x0 0x1 [IronBow] [0,4,0,0]
 UNIT
 
 Turn3Reinforcements:
-UNIT 128 Thief Perkus Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] NoAI
-UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
-UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
-UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
-UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 Thief Perkus Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] [0,4,0,0]
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] [0,4,0,0]
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
 UNIT
 
 Turn4Reinforcements:
-UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
-UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
-UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
-UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,4,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,4,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,4,0,0]
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,4,0,0]
 UNIT
 
 Turn5Reinforcements:
-UNIT 128 LncCav Perkus Level(6,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [Javelin] NoAI
-UNIT 128 AxeCav Perkus Level(7,Enemy,1) [18,16] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
-UNIT 128 Mercenary Perkus Level(6,Enemy,1) [9,16] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
-UNIT 128 Mercenary Perkus Level(6,Enemy,1) [10,16] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [Javelin] [0,4,0,0]
+UNIT 128 AxeCav Perkus Level(7,Enemy,1) [18,16] 0x0 0x0 0x0 0x1 [HandAxe] [0,4,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [9,16] 0x0 0x0 0x0 0x1 [IronBlade] [0,4,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [10,16] 0x0 0x0 0x0 0x1 [IronBlade] [0,4,0,0]
 UNIT
 
 Turn6Reinforcements:
-UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
-UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
-UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
-UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [IronGreatlance] NoAI
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,4,0,0]
 UNIT
 
 Turn7Reinforcements:
-UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
-UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
-UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
-UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] [0,4,0,0]
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,4,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,4,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,4,0,0]
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,4,0,0]
 UNIT
 
 JunpeiGroup:
@@ -150,7 +157,7 @@ UNIT Junpei Warrior Ostrava Level(6,Ally,0) [19,1] 0x0 0x0 0x0 0x1 [SteelAxe,Iro
 UNIT
 
 HexGroup:
-UNIT Hex MageKnight_F Ostrava Level(1,Ally,0) [14,11] 0x0 0x0 0x1 REDA14R12 [Flux,Mend,TorchStaff] NoAI
+UNIT Hex MageKnight_F Ostrava Level(1,Ally,0) [14,11] 0x0 0x0 0x1 REDA14R12 [FluxTome,Mend,TorchStaff] NoAI
 UNIT
 
 
@@ -204,7 +211,45 @@ NoFade
 ENDA
 
 EndingScene:
+MUSC Victory
+SetBackground(Village)
+Text(PlaceholderText)
+EndConvo
+FADU 10
+CLEA Ostrava
+CLEA Zo
+CLEA Ben
+CLEA Junpei
+CLEA Jeanne
+CLEA Glazette
+CLEA Elizabeth
+CLEA Yanik
+CLEA Juliana
+CLEA Hex
+CLEA Roshal
+CLEE 0x0
+LOAD1 0x1 EndingCutsceneBois
+ENUN
+FADI 10
+Text(PlaceholderText)
+CAM1 [19,1]
+STAL 5
+CUMO [19,1]
+STAL 40
+CURE
+SetBackground(1)
+Text(PlaceholderText)
+MNC2 Chapter6ID
+NoFade
 ENDA
+
+
+EndingCutsceneBois:
+UNIT Perkus WyvernRider Perkus Level(0,Enemy,0) [6,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier Perkus Level(0,Enemy,0) [5,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier Perkus Level(0,Enemy,0) [6,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier Perkus Level(0,Enemy,0) [7,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
 
 
 Turn3Event:
@@ -242,10 +287,21 @@ ENDA
 HexHouseEvent:
 SetBackground(HouseBG)
 MUSS Song_TogetherWeRide
+CHECK_ACTIVE
+SVAL 1 Ostrava
+BNE 1 1 0xC
+
 Text(PlaceholderText)
+GOTO 2
+
+LABEL 1
+Text(PlaceholderText)
+
+LABEL 2
 EndConvo
 LOAD1 0x1 HexGroup
 ENUN
+ChangeWeaponRank(Hex,5,0)
 MURE 0x1
 NoFade
 ENDA
@@ -263,7 +319,7 @@ TopLeftItemHouseEvent:
 MUSI
 Text(PlaceholderText)
 EndConvo
-SVAL 3 Vulnerary
+SVAL 3 Wyrmslayer
 GIVETO 0xFFFF
 MUNO
 NoFade
@@ -294,4 +350,6 @@ EndConvo
 MUNO
 NoFade
 ENDA
+
+
 
