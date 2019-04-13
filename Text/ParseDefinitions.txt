@@ -35,8 +35,8 @@
 [LoadOldWoman] = [LoadFace][0x5F][0x1]
 [LoadYoungWoman] = [LoadFace][0x62][0x1]
 [LoadRedHead] = [LoadFace][0x5D][0x1]
-
-
+[LoadCiel] = [LoadFace][0x0F][0x1]
+[LoadZygos] = [LoadFace][0x23][0x1]
 
 [N] = [NL]
 [n] = [N]

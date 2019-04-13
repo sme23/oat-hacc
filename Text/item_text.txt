@@ -294,3 +294,10 @@ Coronary Band[X]
 
 ## CoronaryBandBio
 CoronaryBandBio[X]
+
+## EstocName
+Estoc[X]
+
+## EstocBio
+Effective against Mounted[NL]
+and armored foes[X]
