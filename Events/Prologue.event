@@ -18,11 +18,11 @@ UNIT Ostrava Forrester 0x0 Level(1,Ally,0) [1,2] 0x0 0x0 0x1 REDA5R3 [9] NoAI
 UNIT
 
 Turn1Player1:
-UNIT Zorua Mage_F Ostrava Level(1,Ally,0) [14,9] 0x0 0x0 0x1 REDA12R8 [FireTome,Vulnerary] NoAI
+UNIT Zorua Mage_F Ostrava Level(1,Ally,0) [14,9] 0x0 0x0 0x1 REDA11R8 [FireTome,Vulnerary] NoAI
 UNIT
 
 Turn1Player2:
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [14,9] 0x0 0x0 0x1 REDA13R7 [IronSword] NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [14,9] 0x0 0x0 0x1 REDA12R7 [IronSword] NoAI
 UNIT
 
 EnemyUnits:
