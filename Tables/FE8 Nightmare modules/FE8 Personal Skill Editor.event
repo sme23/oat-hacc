@@ -7,7 +7,7 @@ PersonalSkillTable:
 csvmacro003(0x0)
 csvmacro003(CamaraderieID)
 csvmacro003(AdeptID)
-csvmacro003(TomefaireID)
+csvmacro003(LightWeightID)
 csvmacro003(DeathBlowID)
 csvmacro003(CharmID)
 csvmacro003(DartingStanceID)

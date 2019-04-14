@@ -407,7 +407,8 @@ TerrainResBonus:
 
 #define ChangeWeaponRank(Character,WeaponRank,Value) "SVAL 1 Character; SVAL 2 WeaponRank; SVAL 3 Value; ASMC ChangeWeaponRankASMC|1"
 
-
+#define NightVillageInsideBG 0x6
+#define NightVillageOutsideBG 0x14
 
 
 

@@ -40,12 +40,15 @@ END_MAIN
 
 LocationBasedEvents:
 LOCA 65 [19,0] 0x1D //game over if house is destroyed
-House(12,HexHouseEvent,14,11)
-House(14,TavernEvent,9,1)
-House(15,TopLeftItemHouseEvent,3,1)
-House(16,TopLeftTextHouseEvent,1,1)
-House(17,LeftItemHouseEvent,1,7)
-House(18,LeftTextHouseEvent,10,7)
+
+VILL 12 HexHouseEvent [14,11] 0x10
+
+VILL 14 TavernEvent [9,1] 0x10
+VILL 15 TopLeftItemHouseEvent [3,1] 0x10
+VILL 16 TopLeftTextHouseEvent [1,1] 0x10
+VILL 17 LeftItemHouseEvent [1,7] 0x10
+VILL 18 LeftTextHouseEvent [10,7] 0x10
+
 Vendor(VendorList,20,10)
 Armory(ArmoryList,14,1)
 Door(17,13)
@@ -54,7 +57,7 @@ END_MAIN
 
 ALIGN 4
 VendorList:
-SHLI Heal Vulnerary FireTome ThunderTome WindTome LightTome EllightTome FluxTome
+SHLI FireTome ThunderTome WindTome LightTome EllightTome FluxTome Heal Vulnerary PureWater
 
 ALIGN 4
 ArmoryList:
@@ -212,9 +215,6 @@ ENDA
 
 EndingScene:
 MUSC Victory
-SetBackground(Village)
-Text(PlaceholderText)
-EndConvo
 FADU 10
 CLEA Ostrava
 CLEA Zo
@@ -228,12 +228,28 @@ CLEA Juliana
 CLEA Hex
 CLEA Roshal
 CLEE 0x0
+LOAD1 0x1 VictoryScreechBois
+ENUN
+CAM1 [19,1] 
+FADI 10
+CUMO Ostrava
+STAL 40
+CURE
+SetBackground(NightVillageInsideBG)
+Text(PlaceholderText)
+EndConvo
+FADU 10
+CAM1 [5,16]
 LOAD1 0x1 EndingCutsceneBois
 ENUN
 FADI 10
 Text(PlaceholderText)
+FADU 5
+CLEE 0x0
 CAM1 [19,1]
-STAL 5
+STAL 10
+//this is where we would switch to daytime map palette
+FADI 5
 CUMO [19,1]
 STAL 40
 CURE
@@ -243,6 +259,13 @@ MNC2 Chapter6ID
 NoFade
 ENDA
 
+
+VictoryScreechBois:
+UNIT Ostrava Forrester Ostrava Level(0,Ally,0) [19,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Forrester Ostrava Level(0,Ally,0) [20,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Junpei Forrester Ostrava Level(0,Ally,0) [19,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Forrester Ostrava Level(0,Ally,0) [17,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Zo Forrester Ostrava Level(0,Ally,0) [18,4] 0x0 0x0 0x0 0x1 NoItems NoAI
 
 EndingCutsceneBois:
 UNIT Perkus WyvernRider Perkus Level(0,Enemy,0) [6,16] 0x0 0x0 0x0 0x1 NoItems NoAI
