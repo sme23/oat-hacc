@@ -64,7 +64,7 @@ CharacterEventBothWays(10,BenOstravaTalk,Ostrava,Ben)
 END_MAIN
 
 LocationBasedEvents:
-House(11,HouseEvent,3,1)
+House(11,HouseEvent,3,5)
 END_MAIN
 
 MiscBasedEvents:

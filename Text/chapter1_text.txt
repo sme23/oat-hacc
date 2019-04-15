@@ -7,7 +7,7 @@ Ostrava and Ben aren't here.[A][NL]
 [OpenMidLeft][LoadJuli][OpenMidLeft]Hey, calm down.[NL]
 We're gonna find a way out.[A]
 [OpenMidRight][OpenEyes]Muh?[A]
-[OpenMidRight][ClearFace][OpenMidRight][LoadFace][0x103][OpenMidRight][ToggleMouthMove]...[ToggleMouthMove]Sorry.[....] Who're you?[A]
+[OpenMidRight][ClearFace][OpenMidRight][LoadZo][OpenMidRight][ToggleMouthMove]...[ToggleMouthMove]Sorry.[....] Who're you?[A]
 [OpenMidLeft]I'm Juliana. I'm a mercenary[NL]
 alongside my partner.[A][NL]
 He's on his way to save us.[A]
@@ -27,6 +27,12 @@ going to get out safe and sound very soon.[A][X]
 [OpenMidLeft][LoadYanik]Juliana, where are you?![A][NL]
 [OpenMidLeft][MoveMidLeft][OpenMidLeft]Damn you, brigands! I'm going to make[NL]
 you scream in agony if you dare touch her![A][X]
+
+##YanikGuardInteraction
+[OpenMidRight][LoadBandit]Eh? wh't th' 'ell?[NL]
+ow'd 'ou git in 'ere?[A]
+[OpenFarFarLeft][LoadYanik][MoveRight][OpenRight]You can ask your friends,[NL]
+In Hell![....][X]
 
 ##Ch1Opening3
 [OpenMidRight][LoadJuli][OpenMidLeft][LoadYanik]Juliana![....] Oh, my dear little Juliana[ToggleMouthMove]...[ToggleMouthMove][....][NL]

@@ -41,8 +41,8 @@ UNIT
 
 ALIGN 4
 BossAppearsUnits:
-UNIT Bone Brigand Bone Level(6,Enemy,0) [7,0] 0x0 0x0 0x0 0x1 [HandAxe,SteelAxe] NeverMoveAI
-UNIT Elizabeth Thief_F Ostrava Level(4,Enemy,0) [8,0] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] GuardTileAI
+UNIT Bone Brigand Bone Level(6,Enemy,0) [11,1] 0x0 0x0 0x0 0x1 [HandAxe,SteelAxe] NeverMoveAI
+UNIT Elizabeth Thief_F Ostrava Level(4,Enemy,0) [11,0] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] GuardTileAI
 UNIT
 
 ALIGN 4
@@ -76,8 +76,7 @@ END_MAIN
 ALIGN 4
 LocationBasedEvents:
 Chest(HandAxe,3,0)
-Chest(ThunderTome,14,0)
-Door(12,4)
+Chest(ThunderTome,0,0)
 Door(2,4)
 END_MAIN
 
