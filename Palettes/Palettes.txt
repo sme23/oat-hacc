@@ -129,3 +129,10 @@
 	auto
 	auto
 	auto
+
+# char{0x13} "HexMageKnightPalette" set{Hex, 0x3, MageKnight_F} auto{0}
+	8076DF6F7D537A36B329EC18145D6B38CE3D0829145D6B38524EAD390829A514
+	auto
+	auto
+	auto
+	auto
