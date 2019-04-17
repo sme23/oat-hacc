@@ -292,8 +292,6 @@ TerrainResBonus:
 
 #include "Tables/ClassSkillLists.txt"
 
-//new super weapon effectiveness U deluxe
-
 //Music Definitions
 
 //#define __NewMusicDefs__
