@@ -30,6 +30,29 @@ BYTE Thief Thief_F Brigand Pirate 0x00
 HeavenSealPromos:
 BYTE Forrester Lancer 0x00
 
+PUSH
+ORG 0x029398
+POIN HeroCrestPromos
+ORG 0x0293A0
+POIN KnightCrestPromos
+ORG 0x0293A8
+POIN OrionsBoltPromos
+ORG 0x0293B0
+POIN ElysianWhipPromos
+ORG 0x0293B8
+POIN GuidingRingPromos
+ORG 0x0293C0
+POIN MasterSealPromos
+ORG 0x0293C8
+POIN LunarBracePromos
+ORG 0x0293D0
+POIN SolarBracePromos
+ORG 0x029408
+POIN OceanSealPromos
+ORG 0x0293D8
+POIN HeavenSealPromos
+POP
+
 //updated move costs
 
 ArmoredMoveCost:

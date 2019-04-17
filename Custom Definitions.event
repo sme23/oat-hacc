@@ -213,84 +213,7 @@
 
 #define StatBoosts(HP,Str,Skl,Spd,Def,Res,Lck,Mov,Con) "BYTE HP Str Skl Spd Def Res Lck Mov Con 0x00 0x00 0x00"
 
-//updated promotion list sets, works identically to effectiveness lists
 
-HeroCrestPromos:
-BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter 0x00
-
-KnightCrestPromos:
-BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Soldier Soldier_F  0x00
-
-OrionsBoltPromos:
-BYTE Archer Archer_F BowCav BowCav_F 0x00
-
-ElysianWhipPromos:
-BYTE PegasusKnight WyvernRider WyvernRider_F 0x00
-
-GuidingRingPromos:
-BYTE Mage Mage_F Shaman Shaman_F Monk Monk_F Priest Cleric Troubadour 0x00
-
-MasterSealPromos:
-BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Thief Thief_F Mercenary Mercenary_F Myrmidon Myrmidon_F Archer Archer_F WyvernRider WyvernRider_F Mage Mage_F Shaman Shaman_F Fighter Brigand Pirate Monk Monk_F Priest Cleric PegasusKnight Troubadour Soldier Soldier_F 0x00
-
-LunarBracePromos:
-BYTE Forrester 0x00
-
-SolarBracePromos:
-BYTE Lancer 0x00
-
-OceanSealPromos:
-BYTE Thief Thief_F Brigand Pirate 0x00
-
-HeavenSealPromos:
-BYTE Forrester Lancer 0x00
-
-//updated move costs
-
-ArmoredMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Armored.dmp"
-
-FliersMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Fliers.dmp"
-
-MagicMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Magic.dmp"
-
-NPCMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/NPC.dmp"
-
-PirateMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Pirate.dmp"
-
-PromotedCavalryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/PromotedCavalry.dmp"
-
-PromotedInfantryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/PromotedInfantry.dmp"
-
-ThiefMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Thief.dmp"
-
-UnpromotedCavalryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/UnpromotedCavalry.dmp"
-
-UnpromotedInfantryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/UnpromotedInfantry.dmp"
-
-//terrain bonuses
-
-TerrainAvoidBonus:
-#incbin "Tables/ClassMoveCosts/TerrainAvo.dmp"
-
-TerrainDefBonus:
-#incbin "Tables/ClassMoveCosts/TerrainDef.dmp"
-
-TerrainResBonus:
-#incbin "Tables/ClassMoveCosts/TerrainRes.dmp"
-
-//edited class skill level up learnsets
-
-#include "Tables/ClassSkillLists.txt"
 
 //Music Definitions
 
@@ -407,27 +330,4 @@ TerrainResBonus:
 
 #define NightVillageInsideBG 0x6
 #define NightVillageOutsideBG 0x14
-
-
-
-#ifdef __DEBUG__
-  ALIGN 4
-  TxtData0x0D4B:
-    //#incbin "Text/String Workaround/DebugBuild.txt"
-    String("DEBUG BUILD")
-	BYTE 0
-#else
-  ALIGN 4
-  TxtData0x0D4B:
-    //#incbin "Text/String Workaround/DonateToCircles.txt"
-    String("Donate to Circles")
-	BYTE 0
-#endif
-
-
-//prevent enemies from using door keys in chapter 1
-PUSH
-ORG 0xD853C
-BYTE 6
-POP
 

@@ -82,3 +82,7 @@
 // VassBossPalette
 	setPalette(0x12,VassBossPalette)
 	setCBSP(0x12,Vass, 0x1, Brigand)
+
+// HexMageKnightPalette
+	setPalette(0x13,HexMageKnightPalette)
+	setCBSP(0x13,Hex, 0x3, MageKnight_F)

@@ -58,3 +58,6 @@ KendrickBossPalette:
 VassBossPalette:
 	#incbin "./_palettes/VassBossPalette.lzpal" 
 
+HexMageKnightPalette:
+	#incbin "./_palettes/HexMageKnightPalette.lzpal" 
+
