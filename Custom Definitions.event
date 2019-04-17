@@ -232,6 +232,31 @@
 #define Song_DragonBattle 0x1F
 #define Song_DragonAppear 0x28
 #define Song_GotohSage 0x2D
+#define Song_FEMainTheme 0x2
+#define Song_AkeniaAnthem 0x1
+#define Song_UndergroundLair 0xA
+#define Song_Verdane 0x14
+#define Song_UnfoundedRevenge 0x1C
+#define Song_GreenThunder 0x2F
+#define Song_WithUs 0x44
+#define Song_VastPoniCanyon 0x45
+#define Song_TPShop 0x46
+#define Song_TPKakariko 0x47
+#define Song_OatSong 0x48
+#define Song_RiversInTheDesert 0x49
+#define Song_OrdonVillage 0x4A
+#define Song_NierBattle 0x4B
+#define Song_Linebeck 0x4C
+#define Song_Bergentruckung 0x4E
+#define Song_BoatMaps 0xB
+#define Song_CalamityGanon 0xC
+#define Song_GritzyDesert 0xD
+#define Song_Pelleas 0xE
+#define Song_QuestBattle 0x3
+#define Song_SeaWinds 0x4
+#define Song_Furret 0x5
+#define Song_TRSPrep 0x34
+
 
 //Dumb shit
 
