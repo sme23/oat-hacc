@@ -8,10 +8,6 @@
 	setPalette(0x1,OstravaForresterPalette)
 	setCBSP(0x1,Ostrava, 0x1, Forrester)
 
-// BenMyrmPalette
-	setPalette(0x2,BenMyrmPalette)
-	setCBSP(0x2,Ben, 0x1, Myrmidon)
-
 // BenPromotedPalette
 	setPalette(0x3,BenPromotedPalette)
 	setCBSP(0x3,Ben, 0x3, 85)

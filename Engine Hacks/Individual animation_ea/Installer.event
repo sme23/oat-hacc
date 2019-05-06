@@ -40,8 +40,17 @@ BYTE Soldier
 BYTE 0x00
 BYTE 0x00
 POIN LanceBanditAnim
+BYTE 0x8E
+BYTE Mercenary
+BYTE 0x00
+BYTE 0x00
+POIN SwordBanditAnim
 
-BYTE 0x00  //Unit: term data
+BYTE Ben
+BYTE Myrmidon
+BYTE 0x00
+BYTE 0x00
+POIN NebAnim//Unit: term data
 BYTE 0x00  //dummy
 BYTE 0x00  //dummy
 BYTE 0x00  //dummy

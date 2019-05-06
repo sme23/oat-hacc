@@ -5,12 +5,6 @@
 	auto
 	auto
 	
-# char{0x2} "BenMyrmPalette" set{Ben, 0x1, Myrmidon} auto{0}
-	007EFF7FFF6B1F4B2E19B5293019CC10567B6F5ECA49170811000A004208A514
-	auto
-	auto
-	auto
-	auto
 	
 # char{0x3} "BenPromotedPalette" set{Ben, 0x3, 85} auto{0}
 	5553FF7FBE6BFD3E521DF7294F1DEA14DE7FF7621046CD10170811000A00A514

@@ -55,7 +55,6 @@ Reinforcements:
 UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,7] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,8] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
 UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,9] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT 0x8E Brigand Breguet Level(4,Enemy,1) [21,10] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
 UNIT
 
 ALIGN 4
@@ -67,7 +66,12 @@ ALIGN 4
 TurnBasedEvents:
 TurnEventPlayer(0,EnemyWarning,8)
 TurnEventPlayer(0,ActualEnemies,9)
-TurnEventPlayer(0,BanditsAreHere,14,24)
+TurnEventPlayer(0,BanditsAreHere,14)
+TurnEventPlayer(0,BanditsAreHere,16)
+TurnEventPlayer(0,BanditsAreHere,18)
+TurnEventPlayer(0,BanditsAreHere,20)
+TurnEventPlayer(0,BanditsAreHere,22)
+TurnEventPlayer(0,BanditsAreHere,24)
 TurnEventPlayer(0,YouTookTooLong,26)
 END_MAIN
 

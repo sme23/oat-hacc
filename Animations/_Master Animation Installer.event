@@ -160,6 +160,9 @@
 #include "LilinaMage Installer.event"
 }
 {
+#include "NebMyrmidonSword Installer.event"
+}
+{
 #include "RulerDisa Installer.event"
 }
 {
@@ -221,6 +224,9 @@
 }
 {
 //#include "Glazette Unarmed Installer.event"
+}
+{
+#include "Saberman Installer.event"
 }
 {
 #include "LancemanLance Installer.event"
@@ -773,4 +779,14 @@ WORD 0x0
 LanceBanditAnim:
 LanceAnim(190)
 UnarmedAnim(191)
+WORD 0x0
+
+NebAnim:
+SwordAnim(192)
+UnarmedAnim(192)
+WORD 0x0
+
+SwordBanditAnim:
+SwordAnim(87)
+UnarmedAnim(87)
 WORD 0x0

@@ -72,6 +72,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(14,3)
 Door(19,3)
 END_MAIN
 

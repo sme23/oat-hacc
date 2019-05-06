@@ -17,17 +17,17 @@
 
 trsprep_1:
 	.byte	KEYSH , trsprep_key+0
+trsprep_1_B1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 126*trsprep_tbs/2
 	.byte		VOICE , 127
+	.byte		VOL   , 62*trsprep_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 110*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
 	.byte	W12
 	.byte		N03   , Dn1 , v072
 	.byte	W04
-trsprep_1_B1:
-	.byte		N03   , Dn1 , v092
+	.byte		        Dn1 , v092
 	.byte	W04
 	.byte		        Dn1 , v084
 	.byte	W04
@@ -235,31 +235,30 @@ trsprep_1_010:
 	.byte		        Dn1 , v116
 	.byte	W24
 	.byte		        Dn1 , v096
-	.byte	W52
-	.byte	W01
-@ 020   ----------------------------------------
-	.byte	W07
-	.byte		N03   
-	.byte	W04
-	.byte		        Dn1 , v100
-	.byte	W07
+	.byte	W48
 	.byte	GOTO
 	 .word	trsprep_1_B1
 trsprep_1_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W07
+	.byte		N03   , Dn1 , v096
+	.byte	W04
+	.byte		        Dn1 , v100
+	.byte	W07
 	.byte	FINE
 
 @**************** Track 2 (Midi-Chn.2) ****************@
 
 trsprep_2:
 	.byte	KEYSH , trsprep_key+0
-@ 000   ----------------------------------------
-	.byte		VOICE , 40
-	.byte		PAN   , c_v-24
-	.byte		VOL   , 120*trsprep_mvl/mxv
-	.byte		BEND  , c_v+0
-	.byte	W16
 trsprep_2_B1:
-	.byte	W07
+@ 000   ----------------------------------------
+	.byte		VOICE , 41
+	.byte		VOL   , 88*trsprep_mvl/mxv
+	.byte		PAN   , c_v-24
+	.byte		BEND  , c_v+0
+	.byte	W23
 	.byte		N06   , As4 , v076
 	.byte	W12
 	.byte		N04   
@@ -448,26 +447,26 @@ trsprep_2_004:
 @ 019   ----------------------------------------
 	.byte	W90
 	.byte		EOT   
-	.byte	W06
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W01
 	.byte	GOTO
 	 .word	trsprep_2_B1
 trsprep_2_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 3 (Midi-Chn.3) ****************@
 
 trsprep_3:
 	.byte	KEYSH , trsprep_key+0
+trsprep_3_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 49
+	.byte		VOL   , 79*trsprep_mvl/mxv
 	.byte		PAN   , c_v-7
-	.byte		VOL   , 100*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_3_B1:
-	.byte	W07
+	.byte	W23
 	.byte		TIE   , Cn3 , v080
 	.byte	W72
 	.byte	W01
@@ -644,26 +643,26 @@ trsprep_3_B1:
 @ 019   ----------------------------------------
 	.byte	W90
 	.byte		EOT   
-	.byte	W06
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W01
 	.byte	GOTO
 	 .word	trsprep_3_B1
 trsprep_3_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 4 (Midi-Chn.4) ****************@
 
 trsprep_4:
 	.byte	KEYSH , trsprep_key+0
+trsprep_4_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 48
-	.byte		PAN   , c_v+16
-	.byte		VOL   , 110*trsprep_mvl/mxv
+	.byte		VOL   , 79*trsprep_mvl/mxv
+	.byte		PAN   , c_v+30
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_4_B1:
-	.byte	W07
+	.byte	W23
 	.byte		TIE   , Gs2 , v088
 	.byte	W72
 	.byte	W01
@@ -782,26 +781,26 @@ trsprep_4_B1:
 	.byte	W90
 	.byte		        Dn2 
 	.byte		        As2 
-	.byte	W06
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W01
 	.byte	GOTO
 	 .word	trsprep_4_B1
 trsprep_4_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 5 (Midi-Chn.5) ****************@
 
 trsprep_5:
 	.byte	KEYSH , trsprep_key+0
+trsprep_5_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 61
-	.byte		PAN   , c_v+36
-	.byte		VOL   , 110*trsprep_mvl/mxv
+	.byte		VOL   , 64*trsprep_mvl/mxv
+	.byte		PAN   , c_v+9
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_5_B1:
-	.byte	W07
+	.byte	W23
 	.byte		N06   , As1 , v112
 	.byte		N06   , As2 , v104
 	.byte	W24
@@ -937,9 +936,8 @@ trsprep_5_005:
 	.byte		N04   , As1 , v092
 	.byte	W06
 @ 017   ----------------------------------------
-trsprep_5_017:
 	.byte	W02
-	.byte		N04   , As1 , v104
+	.byte		        As1 , v104
 	.byte	W08
 	.byte		        As1 , v112
 	.byte	W08
@@ -947,7 +945,6 @@ trsprep_5_017:
 	.byte	W24
 	.byte		        As1 , v104
 	.byte	W54
-	.byte	PEND
 @ 018   ----------------------------------------
 	.byte	W18
 	.byte		        As1 , v112
@@ -959,27 +956,35 @@ trsprep_5_017:
 	.byte		N04   , As1 , v092
 	.byte	W06
 @ 019   ----------------------------------------
-	.byte	PATT
-	 .word	trsprep_5_017
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W02
+	.byte		        As1 , v104
+	.byte	W08
+	.byte		        As1 , v112
+	.byte	W08
+	.byte		N06   
+	.byte	W24
+	.byte		        As1 , v104
+	.byte	W48
+	.byte	W01
 	.byte	GOTO
 	 .word	trsprep_5_B1
 trsprep_5_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 6 (Midi-Chn.6) ****************@
 
 trsprep_6:
 	.byte	KEYSH , trsprep_key+0
+trsprep_6_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 46
-	.byte		PAN   , c_v+0
-	.byte		VOL   , 110*trsprep_mvl/mxv
+	.byte		VOL   , 66*trsprep_mvl/mxv
+	.byte		PAN   , c_v-17
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_6_B1:
-	.byte	W20
+	.byte	W36
 	.byte		N15   , As3 , v096
 	.byte	W12
 	.byte		        Fn4 , v100
@@ -1175,9 +1180,8 @@ trsprep_6_005:
 	.byte		        Fn4 , v100
 	.byte	W05
 @ 017   ----------------------------------------
-trsprep_6_017:
 	.byte	W01
-	.byte		N07   , As3 , v104
+	.byte		        As3 , v104
 	.byte	W06
 	.byte		        Fn3 , v096
 	.byte	W06
@@ -1197,7 +1201,6 @@ trsprep_6_017:
 	.byte	W06
 	.byte		        As3 , v096
 	.byte	W11
-	.byte	PEND
 @ 018   ----------------------------------------
 	.byte	W30
 	.byte	W01
@@ -1218,30 +1221,50 @@ trsprep_6_017:
 	.byte		        Fn4 , v100
 	.byte	W05
 @ 019   ----------------------------------------
-	.byte	PATT
-	 .word	trsprep_6_017
-@ 020   ----------------------------------------
+	.byte	W01
+	.byte		        As3 , v104
+	.byte	W06
+	.byte		        Fn3 , v096
+	.byte	W06
+	.byte		        As3 , v104
 	.byte	W18
+	.byte		N15   , As3 , v096
+	.byte	W12
+	.byte		        Fn4 , v100
+	.byte	W12
+	.byte		N07   , As3 , v104
+	.byte	W06
+	.byte		N15   , Fn4 
+	.byte	W12
+	.byte		N07   , As4 , v096
+	.byte	W06
+	.byte		        Fn4 , v108
+	.byte	W06
+	.byte		        As3 , v096
+	.byte	W06
 	.byte	GOTO
 	 .word	trsprep_6_B1
 trsprep_6_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 7 (Midi-Chn.7) ****************@
 
 trsprep_7:
 	.byte	KEYSH , trsprep_key+0
+trsprep_7_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 60
-	.byte		PAN   , c_v+0
-	.byte		VOL   , 120*trsprep_mvl/mxv
+	.byte		VOL   , 81*trsprep_mvl/mxv
+	.byte		PAN   , c_v+3
 	.byte		BEND  , c_v+0
 	.byte		N07   , Fn2 , v104
 	.byte	W08
 	.byte		        As2 
 	.byte	W08
-trsprep_7_B1:
-	.byte		N07   , Dn3 , v104
+	.byte		        Dn3 
 	.byte	W08
 	.byte		TIE   , Cn3 
 	.byte		TIE   , Ds3 
@@ -1377,29 +1400,28 @@ trsprep_7_B1:
 @ 019   ----------------------------------------
 	.byte	W90
 	.byte	W01
+	.byte	GOTO
+	 .word	trsprep_7_B1
+trsprep_7_B2:
 	.byte		N07   , Fn2 , v104
 	.byte	W05
 @ 020   ----------------------------------------
 	.byte	W03
 	.byte		        As2 
 	.byte	W15
-	.byte	GOTO
-	 .word	trsprep_7_B1
-trsprep_7_B2:
 	.byte	FINE
 
 @**************** Track 8 (Midi-Chn.8) ****************@
 
 trsprep_8:
 	.byte	KEYSH , trsprep_key+0
+trsprep_8_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 41
+	.byte		VOL   , 98*trsprep_mvl/mxv
 	.byte		PAN   , c_v-26
-	.byte		VOL   , 120*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_8_B1:
-	.byte	W80
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
 @ 002   ----------------------------------------
@@ -1499,26 +1521,27 @@ trsprep_8_B1:
 @ 018   ----------------------------------------
 	.byte	W96
 @ 019   ----------------------------------------
-	.byte	W96
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W90
+	.byte	W01
 	.byte	GOTO
 	 .word	trsprep_8_B1
 trsprep_8_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 9 (Midi-Chn.9) ****************@
 
 trsprep_9:
 	.byte	KEYSH , trsprep_key+0
+trsprep_9_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 68
+	.byte		VOL   , 94*trsprep_mvl/mxv
 	.byte		PAN   , c_v+26
-	.byte		VOL   , 115*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_9_B1:
-	.byte	W80
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
 @ 002   ----------------------------------------
@@ -1586,26 +1609,25 @@ trsprep_9_B1:
 	.byte	W90
 	.byte	W01
 	.byte		EOT   
-	.byte	W05
-@ 020   ----------------------------------------
-	.byte	W18
 	.byte	GOTO
 	 .word	trsprep_9_B1
 trsprep_9_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 10 (Midi-Chn.13) ****************@
 
 trsprep_10:
 	.byte	KEYSH , trsprep_key+0
+trsprep_10_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 67
+	.byte		VOL   , 95*trsprep_mvl/mxv
 	.byte		PAN   , c_v+21
-	.byte		VOL   , 120*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_10_B1:
-	.byte	W80
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
 @ 002   ----------------------------------------
@@ -1655,26 +1677,27 @@ trsprep_10_B1:
 @ 018   ----------------------------------------
 	.byte	W96
 @ 019   ----------------------------------------
-	.byte	W96
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W90
+	.byte	W01
 	.byte	GOTO
 	 .word	trsprep_10_B1
 trsprep_10_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 11 (Midi-Chn.14) ****************@
 
 trsprep_11:
 	.byte	KEYSH , trsprep_key+0
+trsprep_11_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 73
+	.byte		VOL   , 75*trsprep_mvl/mxv
 	.byte		PAN   , c_v+16
-	.byte		VOL   , 100*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_11_B1:
-	.byte	W80
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
 @ 002   ----------------------------------------
@@ -1888,28 +1911,30 @@ trsprep_11_B1:
 @ 018   ----------------------------------------
 	.byte	W96
 @ 019   ----------------------------------------
-	.byte	W96
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W90
+	.byte	W01
 	.byte	GOTO
 	 .word	trsprep_11_B1
 trsprep_11_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @**************** Track 12 (Midi-Chn.15) ****************@
 
 trsprep_12:
 	.byte	KEYSH , trsprep_key+0
+trsprep_12_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 33
+	.byte		VOL   , 88*trsprep_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 125*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
 	.byte	W12
 	.byte		N03   , As1 , v072
 	.byte	W04
-trsprep_12_B1:
-	.byte		N03   , As2 , v084
+	.byte		        As2 , v084
 	.byte	W04
 	.byte		        As1 , v104
 	.byte	W04
@@ -2162,31 +2187,30 @@ trsprep_12_B1:
 	.byte		N20   , As1 , v104
 	.byte	W24
 	.byte		        As2 , v084
-	.byte	W52
-	.byte	W01
+	.byte	W48
+	.byte	GOTO
+	 .word	trsprep_12_B1
+trsprep_12_B2:
+	.byte	W05
 @ 020   ----------------------------------------
 	.byte	W07
 	.byte		N03   , As1 , v072
 	.byte	W04
 	.byte		        As2 , v084
 	.byte	W07
-	.byte	GOTO
-	 .word	trsprep_12_B1
-trsprep_12_B2:
 	.byte	FINE
 
 @**************** Track 13 (Midi-Chn.16) ****************@
 
 trsprep_13:
 	.byte	KEYSH , trsprep_key+0
+trsprep_13_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 34
+	.byte		VOL   , 63*trsprep_mvl/mxv
 	.byte		PAN   , c_v+26
-	.byte		VOL   , 110*trsprep_mvl/mxv
 	.byte		BEND  , c_v+0
-	.byte	W16
-trsprep_13_B1:
-	.byte	W08
+	.byte	W24
 	.byte		N06   , As1 , v096
 	.byte	W24
 	.byte		        As1 , v088
@@ -2342,9 +2366,8 @@ trsprep_13_016:
 	.byte	W05
 	.byte	PEND
 @ 017   ----------------------------------------
-trsprep_13_017:
 	.byte	W03
-	.byte		N04   , As1 , v088
+	.byte		        As1 , v088
 	.byte	W08
 	.byte		        As1 , v096
 	.byte	W08
@@ -2353,18 +2376,25 @@ trsprep_13_017:
 	.byte		        As1 , v088
 	.byte	W52
 	.byte	W01
-	.byte	PEND
 @ 018   ----------------------------------------
 	.byte	PATT
 	 .word	trsprep_13_016
 @ 019   ----------------------------------------
-	.byte	PATT
-	 .word	trsprep_13_017
-@ 020   ----------------------------------------
-	.byte	W18
+	.byte	W03
+	.byte		N04   , As1 , v088
+	.byte	W08
+	.byte		        As1 , v096
+	.byte	W08
+	.byte		N06   
+	.byte	W24
+	.byte		        As1 , v088
+	.byte	W48
 	.byte	GOTO
 	 .word	trsprep_13_B1
 trsprep_13_B2:
+	.byte	W05
+@ 020   ----------------------------------------
+	.byte	W18
 	.byte	FINE
 
 @******************************************************@

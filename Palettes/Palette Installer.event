@@ -4,9 +4,6 @@
 OstravaForresterPalette:
 	#incbin "./_palettes/OstravaForresterPalette.lzpal" 
 
-BenMyrmPalette:
-	#incbin "./_palettes/BenMyrmPalette.lzpal" 
-
 BenPromotedPalette:
 	#incbin "./_palettes/BenPromotedPalette.lzpal" 
 
