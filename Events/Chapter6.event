@@ -89,9 +89,11 @@ BeginningScene:
 LOAD1 0x1 EnemyUnits
 LOAD1 0x1 PlayerUnits
 ENUN
+GotoPrepScreen
 NoFade
 ENDA
 
 EndingScene:
+MNC2 Chapter7ID
 NoFade
 ENDA

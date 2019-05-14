@@ -130,3 +130,10 @@
 	auto
 	auto
 	auto
+
+# char{0x14} "JunpeiWarriorPallete" set{Junpei, 0x3, Warrior} auto{0}
+    5553FF7FFF6B1F4B2E19C914C9145873714B4932672150521C22740DED10A514
+	auto
+	auto
+	auto
+	auto

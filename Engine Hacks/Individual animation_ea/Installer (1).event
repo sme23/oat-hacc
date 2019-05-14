@@ -46,6 +46,12 @@ BYTE 0x00
 BYTE 0x00
 POIN SwordBanditAnim
 
+BYTE Junpei
+BYTE Warrior
+BYTE 0x00
+BYTE 0x00
+POIN FemaleWarriorAnim
+
 BYTE Ben
 BYTE Myrmidon
 BYTE 0x00

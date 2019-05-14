@@ -79,6 +79,18 @@
 #include "FHeroSword Installer.event" //
 }
 {
+#include "FWarriorAxe Installer.event"
+}
+{
+#include "FWarriorHandAxe Installer.event"
+}
+{
+#include "FWarriorBow Installer.event"
+}
+{
+#include "FWarriorUnarmed Installer.event"
+}
+{
 #include "FireDragon Installer.event" //
 }
 {
@@ -157,7 +169,7 @@
 #include "LancerDis Installer.event"
 }
 {
-#include "LilinaMage Installer.event"
+#include "ZooMage Installer.event"
 }
 {
 #include "NebMyrmidonSword Installer.event"
@@ -789,4 +801,11 @@ WORD 0x0
 SwordBanditAnim:
 SwordAnim(87)
 UnarmedAnim(87)
+WORD 0x0
+
+FemaleWarriorAnim:
+AxeAnim(83)
+HandAxeAnim(84)
+BowAnim(85)
+UnarmedAnim(86)
 WORD 0x0

@@ -14,15 +14,56 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
+UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [3,12] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [10,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Natsumi Shaman_F Ostrava Level(6,Ally,0) [11,13] 0x0 0x0 0x0 0x1 [FluxTome,NosferatuTome,Vulnerary] NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,12] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [4,12] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [9,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [9,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [10,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [10,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,15] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
+UNIT Alfred SwdCav Alfred Level(12,Enemy,0) [10,1] 0x2 0x0 0x0 0x1 [SteelSword,Javelin,KnightCrest] NeverMoveAI
+UNIT 128 Archer Alfred Level(7,Enemy,1) [8,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
+UNIT 128 Archer Alfred Level(7,Enemy,1) [12,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
+UNIT 128 Mage Alfred Level(7,Enemy,1) [4,2] 0x2 0x0 0x0 0x1 [Elfire,PureWater] AttackInRangeAI
+UNIT 128 Soldier Alfred Level(8,Enemy,1) [11,7] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 128 Archer Alfred Level(7,Enemy,1) [12,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
+UNIT 128 Archer Alfred Level(5,Enemy,1) [7,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
+UNIT 128 Mage Alfred Level(7,Enemy,1) [9,7] 0x0 0x0 0x0 0x1 [Elfire,EnergyRing] AttackInRangeAI
+UNIT 128 Mercenary Alfred Level(7,Enemy,1) [10,7] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT 128 Fighter Alfred Level(7,Enemy,1) [4,6] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 Fighter Alfred Level(7,Enemy,1) [2,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 128 Mage Alfred Level(7,Enemy,1) [7,9] 0x0 0x0 0x0 0x1 [Fire] AttackInRangeAI
+UNIT 128 Fighter Alfred Level(7,Enemy,1) [3,4] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT 128 Fighter Alfred Level(7,Enemy,1) [2,10] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 Soldier Alfred Level(8,Enemy,1) [6,6] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 128 Soldier Alfred Level(8,Enemy,1) [14,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 128 Fighter Alfred Level(10,Enemy,1) [10,5] 0x0 0x0 0x0 0x1 [IronPoleaxe] AttackInRangeAI
+UNIT 128 Mercenary Alfred Level(5,Enemy,1) [7,3] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT 128 Mercenary Alfred Level(5,Enemy,1) [14,2] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT
+
+NatsuUnit:
+UNIT Natsumi Shaman_F Ostrava Level(6,Ally,0) [11,13] 0x0 0x0 0x0 0x1 [FluxTome,NosferatuTome,Vulnerary] NoAI
+UNIT
+
+DocUnit:
+UNIT Doc Mercenary Alfred Level(9,Enemy,0) [15,12] 0x0 0x0 0x0 0x1 [Claymore, IronSword, Vulnerary] AttackInRangeAI
 UNIT
 
 TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(5,RecruitDoc,Jeanne,Doc)
 END_MAIN
 
 LocationBasedEvents:
@@ -44,7 +85,25 @@ TrapData:
 END_MAIN
 
 BeginningScene:
+LOAD1 0x1 EnemyUnits
+ENUN
+LOAD1 0x1 NatsuUnit
+ENUN
+LOAD1 0x1 DocUnit
+ENUN
+GotoPrepScreen
+NoFade
+ENDA
+
+RecruitDoc:
+MUSS Song_TogetherWeRide
+Text(PlaceholderText)
+TurnAlly(Doc)
+MURE 5
+NoFade
 ENDA
 
 EndingScene:
+MNC2 Chapter8ID
+NoFade
 ENDA
