@@ -1,24 +1,22 @@
-[OpenMidRight][LoadJuli][OpenMidLeft][LoadYanik]Juliana![....] Oh, my dear little Juliana[ToggleMouthMove]...[ToggleMouthMove][....][NL]
+[OpenMidRight][LoadJuli][OpenMidLeft][LoadYanik]Ah,[....] there you are, Juliana![NL]
 
-Tell me,[....] have they hurt you?[A][NL]
+Tell me, have they hurt you?[A][NL]
 
-I will paint the wall with thei--[A]
+I'll paint the walls with thei--[A]
 
-[OpenMidRight][MoveMidRight][OpenMidRight]It's alright, my love.[NL]
+[OpenMidRight]It's alright, Yanik. Took you long enough.[A]
 
-I'm fine now that you're here.[A]
+[OpenMidLeft][MoveMidLeft][OpenMidLeft]Hey, do you realize how hard it is to[NL]
 
-[OpenMidLeft][ToggleSmile]Nothing can stop us[NL]
+bust into a bandit's hideout with a lance?[A][NL]
 
-now that we're together.[A][NL]
+Also, before I forget, I brought you a[NL]
 
-Also, here;[....] I brought you a new bow so[NL]
+new bow to so you can defend yourself.[A]
 
-you can defend yourself.[A][NL]
+[OpenMidRight]Thank you, Yanik. Be safe.[A]
 
-I love you.[A]
+[OpenMidLeft][ToggleSmile]You too. Don't worry, I'll watch[NL]
 
-[OpenMidRight]I love you too, Yanik.[NL]
-
-Be safe.[A][X]
+your back.[A][X]
 

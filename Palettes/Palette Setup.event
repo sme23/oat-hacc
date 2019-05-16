@@ -82,3 +82,7 @@
 // HexMageKnightPalette
 	setPalette(0x13,HexMageKnightPalette)
 	setCBSP(0x13,Hex, 0x3, MageKnight_F)
+
+// JunpeiWarriorPallete
+	setPalette(0x14,JunpeiWarriorPallete)
+	setCBSP(0x14,Junpei, 0x3, Warrior)

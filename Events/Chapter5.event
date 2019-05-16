@@ -27,13 +27,13 @@ UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [15,3] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 TurnBasedEvents:
-TurnEventPlayer(7,Turn3Event,3)
-TurnEventPlayer(8,Turn4Event,4)
-TurnEventPlayer(9,Turn5Event,5)
-TurnEventPlayer(10,Turn6Event,6)
-TurnEventPlayer(11,Turn7Event,7)
+TurnEventPlayer(7,Turn3Event,4)
+TurnEventPlayer(8,Turn4Event,5)
+TurnEventPlayer(9,Turn5Event,6)
+TurnEventPlayer(10,Turn6Event,7)
+TurnEventPlayer(11,Turn7Event,8)
 TurnEventPlayer(2,0,8) //win on turn 8
-TurnEventPlayer(21,Turn2Event,2)
+TurnEventPlayer(21,Turn2Event,3)
 END_MAIN
 
 CharacterBasedEvents:

@@ -1,8 +1,6 @@
-[OpenMidRight][LoadBandit]Eh? wh't th' 'ell?[NL]
+[OpenMidRight][LoadBandit][OpenMidRight][MoveMidRight][OpenMidRight]Oi![....] How da hell did ya get in here?![A]
 
-ow'd 'ou git in 'ere?[A]
+[OpenFarFarLeft][LoadYanik][OpenFarFarLeft][MoveFarLeft][OpenFarLeft]You can ask your friends[ToggleMouthMove]...[....][ToggleMouthMove][NL]
 
-[OpenFarFarLeft][LoadYanik][MoveRight][OpenRight]You can ask your friends,[NL]
-
-In Hell![....][X]
+in Hell![A][OpenFarLeft][MoveRight][X]
 

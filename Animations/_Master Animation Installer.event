@@ -232,15 +232,6 @@
 #include "Apyr Installer.event"
 }
 {
-//#include "Glazette Staff Installer.event"
-}
-{
-//#include "Glazette Unarmed Installer.event"
-}
-{
-#include "Saberman Installer.event"
-}
-{
 #include "LancemanLance Installer.event"
 }
 {
@@ -252,6 +243,22 @@
 {
 #include "ClericUnarmed Installer.event"
 }
+{
+#include "Queen Lance Installer.event"
+}
+{
+#include "Queen Unarmed Installer.event"
+}
+{
+#include "OstPromo2 Axe Installer.event"
+}
+{
+#include "OstPromo2 Handaxe Installer.event"
+}
+{
+#include "OstPromo2 Unarmed Installer.event"
+}
+
 
 //////////////////////////////////////////////
 
@@ -809,3 +816,6 @@ HandAxeAnim(84)
 BowAnim(85)
 UnarmedAnim(86)
 WORD 0x0
+
+
+

@@ -58,3 +58,6 @@ VassBossPalette:
 HexMageKnightPalette:
 	#incbin "./_palettes/HexMageKnightPalette.lzpal" 
 
+JunpeiWarriorPallete:
+	#incbin "./_palettes/JunpeiWarriorPallete.lzpal" 
+
