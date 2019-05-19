@@ -16,7 +16,7 @@ POIN BeginningScene EndingScene
 PlayerUnits:
 UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [16,2] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [17,3] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Junpei Warrior Ostrava  Level(1,Ally,0) [18,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Junpei Warrior Ostrava Level(1,Ally,0) [18,2] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [18,3] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [17,2] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [17,4] 0x0 0x0 0x0 0x1 NoItems NoAI
@@ -27,24 +27,22 @@ UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [15,3] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 TurnBasedEvents:
-TurnEventPlayer(7,Turn3Event,4)
-TurnEventPlayer(8,Turn4Event,5)
-TurnEventPlayer(9,Turn5Event,6)
-TurnEventPlayer(10,Turn6Event,7)
-TurnEventPlayer(11,Turn7Event,8)
+TurnEventPlayer(7,Turn3Event,3)
+TurnEventPlayer(8,Turn4Event,4)
+TurnEventPlayer(9,Turn5Event,5)
+TurnEventPlayer(10,Turn6Event,6)
+TurnEventPlayer(11,Turn7Event,7)
 TurnEventPlayer(2,0,8) //win on turn 8
-TurnEventPlayer(21,Turn2Event,3)
+TurnEventPlayer(21,Turn2Event,2)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-LOCA 65 [19,0] 0x1D //game over if house is destroyed
+LOCA $65 [19,0] 0x20 //game over if house is destroyed
 
 VILL 12 HexHouseEvent [14,11] 0x10
-
-VILL 14 TavernEvent [9,1] 0x10
 VILL 15 TopLeftItemHouseEvent [3,1] 0x10
 VILL 16 TopLeftTextHouseEvent [1,1] 0x10
 VILL 17 LeftItemHouseEvent [1,7] 0x10
@@ -241,35 +239,48 @@ CLEA Hex
 CLEA Roshal
 CLEE 0x0
 LOAD1 0x1 VictoryScreechBois
-ENUN
-CAM1 [19,1] 
+ENUN 
 FADI 10
 CUMO Ostrava
 STAL 40
 CURE
 SetBackground(NightVillageInsideBG)
-Text(PlaceholderText)
+Text(Chapter5Ending1)
 FADI 10
 EndConvo
 FADU 10
 CAM1 [5,16]
+CLEA 0x0
 LOAD1 0x1 EndingCutsceneBois
 ENUN
 FADI 10
 MUSC Song_GreenThunder
-Text(PlaceholderText)
+Text(Chapter5Ending2)
 FADI 10
 CLEE 0x0
+MUSC Song_OrdonVillage
 CAM1 [19,1]
+SetBackground(9)
+TEXTSTART
+TEXTSHOW Chapter5Ending3
+TEXTEND
+MUSC Song_OatSong
+TEXTCONT
+TEXTEND
+MUSC Song_WithUs
+TEXTCONT
+TEXTEND
+FADI 10
 STAL 10
 //this is where we would switch to daytime map palette
+EndConvo
 FADU 10
 CUMO [19,1]
 STAL 40
 CURE
 MUSC Song_OrdonVillage
 SetBackground(1)
-Text(PlaceholderText)
+Text(Chapter5Ending4)
 MNC2 Chapter6ID
 NoFade
 ENDA
@@ -350,14 +361,6 @@ MURE 0x1
 NoFade
 ENDA
 
-TavernEvent:
-MUSI
-SetBackground(Inn)
-Text(PlaceholderText)
-EndConvo
-MUNO
-NoFade
-ENDA
 
 TopLeftItemHouseEvent:
 MUSI
