@@ -27,10 +27,12 @@ UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [4,14] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [5,14] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
+NPCUnits:
+UNIT Ciel WyvernRider Zygos Level(5,NPC,0) [7,10] 0x0 0x0 0x0 0x1 [IronGreatlance,Javelin] NoAI
+UNIT
+
 EnemyUnits:
 UNIT Zygos Mage Zygos Level(9,Enemy,0) [20,0] 0x2 0x0 0x0 0x1 [ElthunderTome,Mend] NeverMoveAI
-
-UNIT Ciel WyvernRider Zygos Level(5,NPC,0) [7,10] 0x0 0x0 0x0 0x1 [IronGreatlance,Javelin] NoAI
 
 UNIT 128 PegasusKnight Zygos Level(8,Enemy,1) [22,7] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
 UNIT 128 BowCav Zygos Level(7,Enemy,1) [18,16] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
@@ -62,12 +64,14 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(7,CielRecruitEvent,Ciel,Ostrava)
 END_MAIN
 
 LocationBasedEvents:
-//Village(2,3)
-//Village(22,14)
-
+Village(8,TopVillageEvent,2,3)
+Village(9,BottomVillageEvent,22,14)
+House(0,HouseEvent1,9,5)
+House(0,HouseEvent2,17,11)
 END_MAIN
 
 MiscBasedEvents:
@@ -86,14 +90,69 @@ TrapData:
 END_MAIN
 
 BeginningScene:
-LOAD1 0x1 EnemyUnits
+SetBackground(0x1D)
+FADU 10
+Text(PlaceholderText)
+FADI 10
+EndConvo
+CAM1 [0,15]
+FADU 10
 LOAD1 0x1 PlayerUnits
 ENUN
+Text(PlaceholderText)
+LOAD1 0x1 EnemyUnits
+ENUN
 GotoPrepScreen
+LOAD1 0x1 NPCUnits
+ENUN
+Text(PlaceholderText)
 NoFade
 ENDA
 
 EndingScene:
+Text(PlaceholderText)
+FADI 10
+SetBackground(0x20)
+FADU 10
+Text(PlaceholderText)
 MNC2 Chapter7ID
+NoFade
+ENDA
+
+CielRecruitEvent:
+Text(PlaceholderText)
+CUSA Ciel
+NoFade
+ENDA
+
+TopVillageEvent:
+SetBackground(5)
+Text(PlaceholderText)
+SVAL 3 Elixir
+GIVETO 0xFFFF
+EndConvo
+NoFade
+ENDA
+
+BottomVillageEvent:
+SetBackground(5)
+Text(PlaceholderText)
+SVAL 3 ShortBow
+GIVETO 0xFFFF
+EndConvo
+NoFade
+ENDA
+
+HouseEvent1:
+SetBackground(1)
+Text(PlaceholderText)
+EndConvo
+NoFade
+ENDA
+
+HouseEvent2:
+SetBackground(1)
+Text(PlaceholderText)
+EndConvo
 NoFade
 ENDA

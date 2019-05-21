@@ -60,10 +60,13 @@ UNIT Doc Mercenary Alfred Level(9,Enemy,0) [15,12] 0x0 0x0 0x0 0x1 [Claymore, Ir
 UNIT
 
 TurnBasedEvents:
+TurnEventPlayer(0,Turn3Event,4)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(5,RecruitDoc,Jeanne,Doc)
+CharacterEventBothWays(7,RecruitDoc,Jeanne,Doc)
+CharacterEventBothWays(8,WilliamRecruit,Ostrava,William)
+CharacterEventBothWays(8,WilliamRecruit2,Jeanne,William)
 END_MAIN
 
 LocationBasedEvents:
@@ -84,13 +87,59 @@ WORD $00
 TrapData:
 END_MAIN
 
+CutsceneUnits:
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+CutsceneNat:
+UNIT Natsumi Shaman_F 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningUnits:
+UNIT Ostrava 0 0 Level(0,Ally,0) [10,16] 0x0 0x0 0x1 REDA10R15 NoItems NoAI
+UNIT Zo 0 0 Level(0,Ally,0) [11,16] 0x0 0x0 0x1 REDA11R16 NoItems NoAI
+UNIT Ben 0 0 Level(0,Ally,0) [12,16] 0x0 0x0 0x1 REDA12R16 NoItems NoAI
+UNIT Jeanne 0 0 Level(0,Ally,0) [11,16] 0x0 0x0 0x1 REDA11R15 NoItems NoAI
+UNIT Roshal 0 0 Level(0,Ally,0) [10,16] 0x0 0x0 0x1 REDA10R16 NoItems NoAI
+UNIT
+
 BeginningScene:
+SetBackground(0x1D)
+FADU 10
+Text(PlaceholderText)
+FADI 10
+//LOMA the cutscene map here
+EndConvo
+FADU 10 
+LOAD1 0x1 CutsceneNat
+ENUN
+Text(PlaceholderText)
+LOAD3 0x1 CutsceneUnits
+ENUN
+Text(PlaceholderText)
+FADI 10
+LOMA Chapter7ID
 LOAD1 0x1 EnemyUnits
 ENUN
-LOAD1 0x1 NatsuUnit
+FADU 10
+LOAD1 0x1 OpeningUnits
 ENUN
-LOAD1 0x1 DocUnit
+Text(PlaceholderText)
+MOVE 0 Ostrava [9,8]
+MOVE 0 Roshal [11,8]
 ENUN
+STAL 40
+MOVE 0 Ostrava [10,15]
+MOVE 0 Roshal [10,16]
+ENUN
+Text(PlaceholderText)
 GotoPrepScreen
 NoFade
 ENDA
@@ -104,6 +153,31 @@ NoFade
 ENDA
 
 EndingScene:
+SetBackground(0x25)
+Text(PlaceholderText)
 MNC2 Chapter8ID
+NoFade
+ENDA
+
+Turn3Event:
+//LOAD1 0x1 WilliamUnitGRoup
+//ENUN
+Text(PlaceholderText)
+NoFade
+ENDA
+
+WilliamRecruit:
+MUSS Song_WithUs
+Text(PlaceholderText)
+TurnAlly(William)
+MURE 5
+NoFade
+ENDA
+
+WilliamRecruit2:
+MUSS Song_WithUs
+Text(PlaceholderText)
+TurnAlly(William)
+MURE 5
 NoFade
 ENDA
