@@ -44,6 +44,7 @@ TrapData:
 END_MAIN
 
 BeginningScene:
+GotoPrepScreen
 ENDA
 
 EndingScene:

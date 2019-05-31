@@ -65,7 +65,7 @@ SHLI IronSword WindSword IronLance Javelin IronAxe HandAxe IronBow ShortBow
 ALIGN 4
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AREA 0 0x592104 [19, 1] [19, 1] 
+AREA 22 LoseConditionEvent [19, 1] [19, 1] 
 END_MAIN
 
 Dunno:
@@ -412,5 +412,13 @@ MUNO
 NoFade
 ENDA
 
-
+LoseConditionEvent:
+//CHECK_ALLEGIANCE 0xFFFF
+//SVAL 1 1
+//BNE 1 1 0xC
+CALL 0x592104
+LABEL 1
+//ENUF 22
+NoFade
+ENDA
 
