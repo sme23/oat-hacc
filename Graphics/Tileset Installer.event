@@ -1,6 +1,6 @@
 MESSAGE Tiles at CURRENTOFFSET
 DesertTiles:
-#incext compress "Tileset/BetterDesert.mapchip_config"
+#incbin "Tileset/BetterDesert_comp.dmp"
 ALIGN 4
 
 MESSAGE Objects at CURRENTOFFSET
@@ -22,7 +22,7 @@ EventPointerTable(0x44, DesertTiles)
 #include "CaveAnim/CaveAnimation.event"
 
 CaveTiles:
-#incext compress "Tileset/Cave.mapchip_config"
+#incbin "Tileset/Cave_comp.dmp"
 ALIGN 4
 
 CaveObjects:
@@ -48,7 +48,7 @@ EventPointerTable(0x91, CavePalette2)
 EventPointerTable(0x92, CavePalette3)
 
 BridgeTiles:
-#incext compress "Tileset/Bridge.mapchip_conf"
+#incbin "Tileset/Bridge_comp.dmp"
 ALIGN 4
 
 BridgeObjects:
@@ -75,7 +75,7 @@ DoubleCastlePalette4:
 #incext Png2Dmp "Tileset/Castle_Tileset_EX_4.png" --palette-only
 ALIGN 4
 DoubleCastleTiles:
-#incext compress "Tileset/Castles_Extra_No_Fog.mapchip_conf"
+#incbin "Tileset/Castles_Extra_No_Fog_comp.dmp"
 ALIGN 4
 DoubleCastleObjects:
 #incext Png2Dmp "Tileset/Castle_Tileset_EX.png"
@@ -99,7 +99,7 @@ WetlandPalette:
 #incbin "Tileset/WetlandPalette.dmp"
 ALIGN 4
 WetlandObjects:
-#incext compress "Tileset/WetlandPlains.mapchip_config"
+#incbin "Tileset/WetlandPlains_comp.dmp"
 ALIGN 4
 EventPointerTable(0x9D, WetlandObjects)
 EventPointerTable(0x9E, WetlandPalette)

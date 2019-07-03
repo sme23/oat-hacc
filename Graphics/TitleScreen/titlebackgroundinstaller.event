@@ -5,7 +5,7 @@
 	ALIGN 4
 
 	titlebackgroundimage:
-	#incext compress "titlebackgroundimage.img.bin"
+	#incbin "titlebackgroundimage.img_comp.dmp"
 	
 	ALIGN 4
 	
