@@ -53,12 +53,20 @@ UNIT 128 Mercenary Alfred Level(5,Enemy,1) [14,2] 0x0 0x0 0x0 0x1 [IronSword] At
 UNIT
 
 TurnBasedEvents:
+TurnEventPlayer(0,Turn1DocEvent,2)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(13,DocRecruitEvent,Jeanne,Doc)
 END_MAIN
 
 LocationBasedEvents:
+Village(7,Village1Event,4,4)
+Village(8,Village2Event,8,3)
+Village(9,Village3Event,10,8)
+Village(10,Village4Event,16,5)
+Village(11,Village5Event,16,16)
+Village(12,HouseEvent,6,8)
 END_MAIN
 
 MiscBasedEvents:
@@ -76,19 +84,121 @@ WORD $00
 TrapData:
 END_MAIN
 
+CutsceneUnits:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [0,17] 0x0 0x0 0x1 REDA2R15 NoItems NoAI
+UNIT Roshal Forrester 0 Level(0,Ally,0) [0,17] 0x0 0x0 0x1 REDA3R16 NoItems NoAI
+UNIT
+
 BeginningScene:
+MUSC Song_OrdonVillage
+SetBackground(3)
 FADU 10
+Text(PlaceholderText)
+FADI 10
+CAM1 [0,17]
 LOAD1 0x1 EnemyUnits
 ENUN
+EndConvo
+LOAD2 0x1 CutsceneUnits
+ENUN
+CUMO Ostrava
+STAL 40
+CURE
+Text(PlaceholderText)
+FADI 10
+CLEA 0 
+SetBackground(3)
+FADU 10
+Text(PlaceholderText)
 GotoPrepScreen
 NoFade
 ENDA
 
 EndingScene:
-MUSC 0x0
-Text(Fort,Chapter4Ending4)
-ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
-STAL 120
-EVBIT_F 0x2
-MNTS 0x1 //return to title screen
+MUSC Victory
+SetBackground(3)
+Text(PlaceholderText)
+MNC2 Chapter10ID
+NoFade
+ENDA
+
+Turn1DocEvent:
+CAM1 Doc
+CUMO Doc
+STAL 40
+CURE
+Text(PlaceholderText)
+NoFade
+ENDA
+
+Village1Event: //left village
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Elixir
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+Village2Event: //second left village
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 ElthunderTome
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+Village3Event: //center village
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 RedGem
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+Village4Event: //top right village
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 HeroCrest
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+Village5Event: //bottom right village
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Physic
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+HouseEvent:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+DocRecruitEvent:
+MUSS Song_WithUs
+Text(PlaceholderText)
+TurnAlly(Doc)
+MURE
+NoFade
 ENDA

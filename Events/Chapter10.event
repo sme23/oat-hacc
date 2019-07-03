@@ -48,4 +48,10 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC 0x0
+Text(Fort,Chapter4Ending4)
+ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
+STAL 120
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
 ENDA

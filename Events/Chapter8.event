@@ -59,9 +59,9 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-House(7,House1Event,9,20)
-House(8,House2Event,13,7)
-Village(9,VillageEvent,11,16)
+House(0,House1Event,9,20)
+House(0,House2Event,13,7)
+Village(7,VillageEvent,11,16)
 END_MAIN
 
 MiscBasedEvents:
@@ -94,10 +94,9 @@ FADU 10
 Text(PlaceholderText)
 Text(PlaceholderText)
 FADI 10
-EndConvo
 LOAD1 0x1 EnemyUnits
 ENUN
-FADU 10
+EndConvo
 LOAD2 0x1 CutsceneUnits
 ENUN
 MUSC Song_CombatMission
@@ -110,7 +109,7 @@ ENDA
 
 EndingScene:
 MUSC Victory
-SetBackground($18)
+SetBackground($1D)
 Text(PlaceholderText)
 SetBackground($20)
 Text(PlaceholderText)
@@ -120,7 +119,7 @@ ENDA
 
 House1Event:
 MUSI
-SetBackground($18)
+SetBackground($1)
 Text(PlaceholderText)
 EndConvo
 MUNO
@@ -129,7 +128,7 @@ ENDA
 
 House2Event:
 MUSI
-SetBackground($18)
+SetBackground($1)
 Text(PlaceholderText)
 EndConvo
 MUNO
@@ -138,7 +137,7 @@ ENDA
 
 VillageEvent:
 MUSI
-SetBackground($18)
+SetBackground($1)
 Text(PlaceholderText)
 EndConvo
 SVAL 3 Speedwings
