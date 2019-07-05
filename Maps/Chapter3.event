@@ -8,10 +8,10 @@ Map:
 #incbin "Chapter3_data.dmp"
 
 MapChanges:
-TileMap(0,4,11,1,1,Tile_Layer_2)
+TileMap(0,4,11,1,1,Map_Change_0)
 TileMapEnd
 
-Tile_Layer_2:
+Map_Change_0:
 SHORT 0x338 
 ALIGN 4
 
