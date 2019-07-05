@@ -20,7 +20,7 @@ SpinRoutine2:
 
 ALIGN 4
 SpinnyBoy:
-#incext compress "spinnyboy.bin"
+#incbin "spinnyboy_comp.dmp"
 
 ALIGN 4
 SpinnyPalette:	//takes up 0x60 bytes (3 palettes) but as far as I see it only uses the third one
