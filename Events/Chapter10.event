@@ -14,9 +14,20 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
+UNIT Ostrava Forrester Jeanne Level(0,Ally,0) [10,23] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Jeanne Level(0,Ally,0) [9,23] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [11,23] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [9,24] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [11,24] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [8,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [9,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [11,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [12,25] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
+UNIT Gotthard General Gotthard Level(1,Enemy,0) [10,2] 0x2 0x0 0x0 0x1 [SteelGreatlance,Javelin] NeverMoveAI
 UNIT
 
 TurnBasedEvents:
@@ -26,6 +37,16 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Chest(BlueGem,20,2)
+Chest(Speedwings,23,2)
+Chest(KnightCrest,8,14)
+Chest(GuidingRing,12,14)
+Chest(HeroCrest,8,16)
+Chest(KillerLance,12,16)
+Door(18,4)
+Door(23,7)
+Door(11,12)
+Seize(10,2)
 END_MAIN
 
 MiscBasedEvents:
@@ -43,15 +64,107 @@ WORD $00
 TrapData:
 END_MAIN
 
+CutsceneUnits:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA10R24 NoItems NoAI
+UNIT Jeanne Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA11R24 NoItems NoAI
+UNIT Zo Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA9R24 NoItems NoAI
+UNIT Junpei Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA10R25 NoItems NoAI
+UNIT
+
 BeginningScene:
-FADU 10
 LOAD1 0x1 EnemyUnits
 ENUN
+CAM1 [10,25]
+FADU 10
+LOAD2 0x1 CutsceneUnits
+ENUN
+CUMO Ostrava
+STAL 40
+CURE
+Text(PlaceholderText)
+CAM1 [10,2]
+ENUN
+CUMO [10,2]
+STAL 40
+CURE
+Text(PlaceholderText)
 GotoPrepScreen
 NoFade
 ENDA
 
+EndingUnits:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [10,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Forrester 0 Level(0,Ally,0) [11,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Forrester 0 Level(0,Ally,0) [12,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Zo Forrester 0 Level(0,Ally,0) [12,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Roshal Forrester 0 Level(0,Ally,0) [12,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+EndingUnits2:
+UNIT Gotthard General Gotthard Level(1,Enemy,0) [10,2] 0x2 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+EndingUnits3:
+UNIT William Hero 0 Level(0,NPC,0) [3,10] 0x0 0x0 0x1 REDA8R2 NoItems NoAI
+UNIT Orion King 0 Level(0,NPC,0) [3,10] 0x0 0x0 0x1 REDA8R3 NoItems NoAI
+UNIT 128 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA8R4 NoItems NoAI
+UNIT 129 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R2 NoItems NoAI
+UNIT 130 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R3 NoItems NoAI
+UNIT 131 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R4 NoItems NoAI
+UNIT
+
 EndingScene:
+FADI 10
+CLEE 0
+CLEA 0
+CAM1 [10,2]
+LOAD1 0x1 EndingUnits2
+ENUN
+LOAD2 0x1 EndingUnits
+ENUN
+FADU 10
+Text(PlaceholderText)
+LOAD1 0x1 EndingUnits3
+ENUN
+MOVE 0 William [3,10]
+MOVE 0 Gotthard [3,11]
+ENUN
+MOVE 0 129 [3,10]
+MOVE 0 131 [3,11]
+ENUN
+CLEE 0
+Text(PlaceholderText)
+MOVE 0 Orion [3,10]
+MOVE 0 Roshal [3,11]
+ENUN
+MOVE 0 128 [3,10]
+MOVE 0 130 [3,11]
+CLEN 0
+CLEA Roshal
+Text(PlaceholderText)
+FADI 10
+CLEA 0
+CLEN 0
+CLEE 0
+LOMA Chapter9ID
+CAM1 [19,5]
+LOAD1 0x1 ArcEndingUnits2
+ENUN
+FADU 10
+LOAD2 0x1 ArcEndingUnits1
+ENUN
+Text(PlaceholderText)
+FADI 10
+CLEN 0
+CLEA 0
+LOMA PrologueID //temp
+FADU 10
+Text(PlaceholderText)
+SetBackground($15)
+Text(PlaceholderText)
+Text(PlaceholderText)
+Text(PlaceholderText)
+FADI 20
 MUSC 0x0
 Text(Fort,Chapter4Ending4)
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
@@ -59,3 +172,21 @@ STAL 120
 EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 ENDA
+
+ArcEndingUnits1:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA19R5 NoItems NoAI
+UNIT Jeanne Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA19R6 NoItems NoAI
+UNIT Zo Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA20R6 NoItems NoAI
+UNIT Ben Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA20R4 NoItems NoAI
+UNIT
+
+ArcEndingUnits2:
+UNIT 128 Civilian 0 Level(0,NPC,0) [17,6] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F 0 Level(0,NPC,0) [18,7] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [16,7] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F_2 0 Level(0,NPC,0) [15,7] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian 0 Level(0,NPC,0) [15,6] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F 0 Level(0,NPC,0) [18,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian 0 Level(0,NPC,0) [19,9] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F 0 Level(0,NPC,0) [17,8] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT

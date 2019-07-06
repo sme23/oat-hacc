@@ -199,7 +199,7 @@ DocRecruitEvent:
 MUSS Song_WithUs
 Text(PlaceholderText)
 TurnAlly(Doc)
-MURE
+MURE 0
 NoFade
 ENDA
 

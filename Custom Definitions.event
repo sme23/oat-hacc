@@ -31,7 +31,7 @@
 
 #define EndConvo "CALL $9EE2C4"
 
-#define GiveItem(item,character) "SVAL 0x3 item; GIVEITEMTO character"
+#define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
 
 //Character Defs
 
@@ -134,6 +134,7 @@
 #define PegasusKnight_F PegasusKnight
 #define Necrodragon 0x65
 #define Falcoknight FalcoKnight
+#define King General //temp
 
 //Item Defs
 
