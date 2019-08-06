@@ -100,4 +100,8 @@ This is placeholder text![A][X]
 
 #include "chapter5_text.txt"
 
+#include "chapter6_text.txt"
+
+#include "chapter8_text.txt"
+
 #include "support_text.txt"

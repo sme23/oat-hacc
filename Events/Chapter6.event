@@ -76,6 +76,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno:
@@ -92,29 +93,40 @@ END_MAIN
 BeginningScene:
 SetBackground(0x1D)
 FADU 10
-Text(PlaceholderText)
+Text(Chapter6Intro1)
 FADI 10
 EndConvo
 CAM1 [0,15]
 FADU 10
 LOAD1 0x1 PlayerUnits
 ENUN
-Text(PlaceholderText)
+Text(Chapter6Intro2)
 LOAD1 0x1 EnemyUnits
 ENUN
+Text(Chapter6Intro3)
 GotoPrepScreen
 LOAD1 0x1 NPCUnits
 ENUN
-Text(PlaceholderText)
+Text(Chapter6Intro4)
 NoFade
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
+Text(Chapter6Ending1)
 FADI 10
 SetBackground(0x20)
 FADU 10
-Text(PlaceholderText)
+Text(Chapter6Ending2)
+
+
+CHECK_ALLEGIANCE Ciel
+BNE 2 0 0xC
+  CHECK_ALIVE Ciel
+  SVAL 1 1
+  BNE 2 1 0xC
+    Text(Chapter6Ending3)
+LABEL 2
+
 MNC2 Chapter7ID
 NoFade
 ENDA
@@ -127,7 +139,7 @@ ENDA
 
 TopVillageEvent:
 SetBackground(5)
-Text(PlaceholderText)
+Text(Chapter6Village1)
 SVAL 3 Elixir
 GIVETO 0xFFFF
 EndConvo
@@ -136,7 +148,7 @@ ENDA
 
 BottomVillageEvent:
 SetBackground(5)
-Text(PlaceholderText)
+Text(Chapter6Village2)
 SVAL 3 ShortBow
 GIVETO 0xFFFF
 EndConvo
@@ -145,14 +157,14 @@ ENDA
 
 HouseEvent1:
 SetBackground(1)
-Text(PlaceholderText)
+Text(Chapter6House1)
 EndConvo
 NoFade
 ENDA
 
 HouseEvent2:
 SetBackground(1)
-Text(PlaceholderText)
+Text(Chapter6House2)
 EndConvo
 NoFade
 ENDA

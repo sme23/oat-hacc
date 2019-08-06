@@ -98,8 +98,7 @@ BeginningScene:
 MUSC Advance
 SetBackground($18)
 FADU 10
-Text(PlaceholderText)
-Text(PlaceholderText)
+Text(Chapter8Intro1)
 FADI 10
 LOAD1 0x1 EnemyUnits
 ENUN
@@ -107,7 +106,7 @@ EndConvo
 LOAD2 0x1 CutsceneUnits
 ENUN
 MUSC Song_CombatMission
-Text(PlaceholderText)
+Text(Chapter8Intro2)
 FADI 10
 CLEA 0
 GotoPrepScreen
@@ -117,9 +116,9 @@ ENDA
 EndingScene:
 MUSC Victory
 SetBackground($1D)
-Text(PlaceholderText)
+Text(Chapter8Ending1)
 SetBackground($20)
-Text(PlaceholderText)
+Text(Chapter8Ending2)
 MNC2 Chapter9ID
 NoFade
 ENDA
@@ -127,7 +126,7 @@ ENDA
 House1Event:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter8House1)
 EndConvo
 MUNO
 NoFade
@@ -136,7 +135,7 @@ ENDA
 House2Event:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter8House2)
 EndConvo
 MUNO
 NoFade
@@ -145,10 +144,9 @@ ENDA
 VillageEvent:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter8Village)
 EndConvo
-SVAL 3 Speedwings
-GIVETO 0xFFFF
+GiveItem(Speedwings,0xFF)
 MUNO
 NoFade
 ENDA

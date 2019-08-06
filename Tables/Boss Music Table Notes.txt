@@ -1,4 +1,4 @@
-Boss BGM table is at 758A60
+Boss BGM table is at 758A60 (pointer at 72908)
 Is in vanilla boss order (by default but why fix what isn't broken)
 Each entry is 8 bytes
 0x0 = Boss character ID, 2 bytes
