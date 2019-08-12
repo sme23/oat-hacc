@@ -14,52 +14,66 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
-UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [3,12] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [10,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,12] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [4,12] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [9,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [9,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [10,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [10,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,16] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [3,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [3,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [3,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [3,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,3] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
-UNIT Sulbahn Mercenary Sulbahn Level(10,Enemy,0) [24,9] 0x2 0x0 0x0 0x1 [Lancereaver,GustSaber] NeverMoveAI
+UNIT Sulbahn General Sulbahn Level(1,Enemy,0) [24,9] 0x2 0x0 0x0 0x1 [SteelGreatlance,Javelin] NeverMoveAI
 
-UNIT 128 Mercenary Sulbahn Level(8,Enemy,1) [5,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 Mage Sulbahn Level(8,Enemy,1) [6,5] 0x0 0x0 0x0 0x1 [ElwindTome] NoAI
-UNIT 128 Soldier Sulbahn Level(8,Enemy,1) [7,6] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Fighter Sulbahn Level(8,Enemy,1) [6,7] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT 128 Mercenary Sulbahn Level(8,Enemy,1) [11,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 Mercenary Sulbahn Level(8,Enemy,1) [12,8] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 Shaman Sulbahn Level(8,Enemy,1) [15,9] 0x0 0x0 0x0 0x1 [Flux] NoAI
-UNIT 128 Soldier Sulbahn Level(8,Enemy,1) [17,11] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Soldier Sulbahn Level(8,Enemy,1) [18,10] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 SwdKnight Sulbahn Level(8,Enemy,1) [19,10] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 LncKnight Sulbahn Level(8,Enemy,1) [20,11] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Archer Sulbahn Level(8,Enemy,1) [4,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
-UNIT 128 BowCav Sulbahn Level(8,Enemy,1) [5,17] 0x0 0x0 0x0 0x1 [IronBow] NoAI
-UNIT 128 LncCav Sulbahn Level(8,Enemy,1) [5,19] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 AxeKnight Sulbahn Level(8,Enemy,1) [9,18] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT 128 AxeCav Sulbahn Level(8,Enemy,1) [11,22] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT 128 LncKnight Sulbahn Level(8,Enemy,1) [13,19] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Soldier Sulbahn Level(8,Enemy,1) [17,21] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Mercenary Sulbahn Level(8,Enemy,1) [15,20] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT 128 Mage_F Sulbahn Level(8,Enemy,1) [16,20] 0x0 0x0 0x0 0x1 [ElthunderTome] NoAI
-UNIT 128 Cleric Sulbahn Level(8,Enemy,1) [22,21] 0x0 0x0 0x0 0x1 [Fortify] HealUnits
-UNIT 128 Fighter Sulbahn Level(8,Enemy,1) [23,19] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT 128 PegasusKnight Sulbahn Level(8,Enemy,1) [24,16] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Fighter Sulbahn Level(8,Enemy,1) [24,14] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT 128 LncCav Sulbahn Level(8,Enemy,1) [7,5] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT 128 Mercenary Sulbahn Level(8,Enemy,1) [9,7] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT 128 Fighter Sulbahn Level(8,Enemy,1) [10,5] 0x0 0x0 0x0 0x1 [SteelAxe] NoAI
+UNIT 128 Mage_F Sulbahn Level(9,Enemy,1) [6,7] 0x0 0x0 0x0 0x1 [ElthunderTome] NoAI
+UNIT 128 Mercenary Sulbahn Level(8,Enemy,1) [4,6] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+
+UNIT 128 Shaman Sulbahn Level(8,Enemy,1) [6,18] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+UNIT 128 AxeCav Sulbahn Level(8,Enemy,1) [8,18] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+
+UNIT 128 Myrmidon Sulbahn Level(8,Enemy,1) [12,8] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 128 Soldier Sulbahn Level(9,Enemy,1) [14,9] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 128 SwdCav Sulbahn Level(9,Enemy,1) [12,10] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+
+UNIT 128 Fighter Sulbahn Level(8,Enemy,1) [10,18] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 Mercenary Sulbahn Level(9,Enemy,1) [13,20] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+
+UNIT 128 Soldier Sulbahn Level(9,Enemy,1) [15,20] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 128 Mercenary Sulbahn Level(9,Enemy,1) [18,21] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 128 Fighter Sulbahn Level(9,Enemy,1) [19,19] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+
+UNIT 128 AxeCav Sulbahn Level(10,Enemy,1) [18,11] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 Mage Sulbahn Level(9,Enemy,1) [15,12] 0x0 0x0 0x0 0x1 [ElwindTome] AttackInRangeAI
+UNIT 128 Soldier Sulbahn Level(10,Enemy,1) [21,12] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+
+UNIT 128 SwdCav Sulbahn Level(9,Enemy,1) [23,17] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 128 Mage Sulbahn Level(10,Enemy,1) [24,15] 0x0 0x0 0x0 0x1 [ElfireTome] AttackInRangeAI
+
+UNIT
+
+EnemyReinforcements:
+UNIT 128 AxeCav Sulbahn Level(11,Enemy,1) [26,9] 0x0 0x0 0x1 REDA25R10 [SteelAxe] NoAI
+UNIT 128 Knight Sulbahn Level(11,Enemy,1) [26,10] 0x0 0x0 0x1 REDA24R12 [SteelLance] NoAI
+UNIT 128 SwdCav_F Sulbahn Level(11,Enemy,1) [26,11] 0x0 0x0 0x1 REDA25R13 [SteelSword] NoAI
+UNIT
+
+VillageThief:
+UNIT 128 Thief Sulbahn Level(10,Enemy,1) [0,22] 0x0 0x0 0x0 0x1 [IronSword] LootingThiefAI
 UNIT
 
 TurnBasedEvents:
+TurnEventPlayer(0,ThiefSpawnEvent,2)
 END_MAIN
 
 CharacterBasedEvents:
@@ -72,6 +86,7 @@ Village(7,VillageEvent,11,16)
 END_MAIN
 
 MiscBasedEvents:
+AREA 8 AreaReinforcementEvent [15,7] [26,22]
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -151,4 +166,14 @@ MUNO
 NoFade
 ENDA
 
+ThiefSpawnEvent:
+LOAD1 0x1 VillageThief
+ENUN
+NoFade
+ENDA
 
+AreaReinforcementEvent
+LOAD1 0x1 EnemyReinforcements
+ENUN
+NoFade
+ENDA
