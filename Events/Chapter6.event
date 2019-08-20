@@ -91,6 +91,7 @@ TrapData:
 END_MAIN
 
 BeginningScene:
+MUSC Advance
 SetBackground(0x1D)
 FADU 10
 Text(Chapter6Intro1)
@@ -101,27 +102,35 @@ FADU 10
 LOAD1 0x1 PlayerUnits
 ENUN
 Text(Chapter6Intro2)
+MUSC Song_TPKakariko
 LOAD1 0x1 EnemyUnits
 ENUN
 Text(Chapter6Intro3)
-GotoPrepScreen
+CALL $591FD8 //GotoPrepScreen macro autoends the event, we don't want that
 LOAD1 0x1 NPCUnits
 ENUN
+CAM1 Ciel
+CUMO Ciel
+STAL 20
+CURE
 Text(Chapter6Intro4)
 NoFade
 ENDA
 
 EndingScene:
+MUSC Into_the_Shadow_of_Victory
+SetBackground(0x1D)
 Text(Chapter6Ending1)
 FADI 10
+MUSC Indignation
 SetBackground(0x20)
 FADU 10
 Text(Chapter6Ending2)
 
 
-CHECK_ALLEGIANCE Ciel
+CHECK_ALIVE Ciel
 BNE 2 0 0xC
-  CHECK_ALIVE Ciel
+  CHECK_ALLEGIANCE Ciel
   SVAL 1 1
   BNE 2 1 0xC
     Text(Chapter6Ending3)
@@ -132,8 +141,10 @@ NoFade
 ENDA
 
 CielRecruitEvent:
+MUSS Song_WithUs
 Text(PlaceholderText)
 CUSA Ciel
+MURE 10
 NoFade
 ENDA
 
