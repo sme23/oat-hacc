@@ -88,7 +88,7 @@ END_MAIN
 
 
 CutsceneNat:
-UNIT Natsumi Shaman_F 0 Level(0,Ally,0) [0,2] 0x0 0x0 0x1 REDA5R5 NoItems NoAI
+UNIT Natsumi Shaman_F 0 Level(10,Ally,0) [0,2] 0x0 0x0 0x1 REDA5R5 [FluxTome,NosferatuTome,Vulnerary] NoAI
 UNIT
 
 CutsceneUnits:
@@ -107,40 +107,52 @@ UNIT Roshal 0 0 Level(0,Ally,0) [10,16] 0x0 0x0 0x1 REDA10R16 NoItems NoAI
 UNIT
 
 BeginningScene:
+MUSC Song_OatSong
 SetBackground(0x1D)
-FADU 10
+//FADU 10
 Text(Chapter7Intro1)
 FADI 10
 LOMA 0x41
 EndConvo
-FADU 10 
+MUSC Laughter
 LOAD1 0x1 CutsceneNat
 ENUN
-Text(Chapter7Intro2)
+TEXTSTART
+TEXTSHOW Chapter7Intro2
+TEXTEND
 LOAD3 0x1 CutsceneUnits
 ENUN
-Text(PlaceholderText)
+TEXTCONT
+TEXTEND
 FADI 10
+MUSC 0
+CLEA 0
 LOMA Chapter7ID
 LOAD1 0x1 EnemyUnits
 ENUN
+CAM1 [10,16]
 FADU 10
 LOAD1 0x1 OpeningUnits
 ENUN
 Text(Chapter7Intro3)
-MOVE 0 Ostrava [9,8]
-MOVE 0 Roshal [11,8]
+MOVE 0 Ostrava [9,11]
+MOVE 0 Roshal [11,11]
 ENUN
-STAL 40
+CAM1 [10,3]
+MUSC Tension
+STAL 80
+CAM1 Ostrava
 MOVE 0 Ostrava [10,15]
 MOVE 0 Roshal [10,16]
 ENUN
+CAM1 Ostrava
 Text(Chapter7Intro4)
 GotoPrepScreen
 NoFade
 ENDA
 
 EndingScene:
+MUSC Victory
 SetBackground(0x25)
 Text(bostchapter)
 MNC2 Chapter8ID

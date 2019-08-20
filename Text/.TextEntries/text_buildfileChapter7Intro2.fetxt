@@ -2,7 +2,7 @@
 
 superstitious?[....] Can't I just practice[NL]
 
-my dark magic in peace?[A][MoveRight]
+my dark magic in peace?[A][MoveRight][LoadOverworldFaces]
 
 [OpenMidRight][LoadOstrava][OpenFarRight][LoadRoshal][OpenRight][OpenEyes][MoveRight]GAH![....][MoveMidLeft]
 

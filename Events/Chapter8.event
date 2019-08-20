@@ -132,6 +132,7 @@ EndingScene:
 MUSC Victory
 SetBackground($1D)
 Text(Chapter8Ending1)
+MUSC Song_OatSong
 SetBackground($20)
 Text(Chapter8Ending2)
 MNC2 Chapter9ID

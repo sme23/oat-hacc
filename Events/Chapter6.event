@@ -28,7 +28,7 @@ UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [5,14] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 NPCUnits:
-UNIT Ciel WyvernRider Zygos Level(5,NPC,0) [7,10] 0x0 0x0 0x0 0x1 [IronGreatlance,Javelin] NoAI
+UNIT Ciel WyvernRider Zygos Level(5,NPC,0) [7,16] 0x0 0x0 0x1 REDA7R10 [IronGreatlance,Javelin] NoAI
 UNIT
 
 EnemyUnits:
@@ -42,21 +42,21 @@ UNIT 128 Fighter Zygos Level(7,Enemy,1) [17,6] 0x0 0x0 0x0 0x1 [IronAxe] AttackI
 UNIT 128 Soldier Zygos Level(8,Enemy,1) [16,1] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
 UNIT 128 Mercenary Zygos Level(7,Enemy,1) [15,4] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
 UNIT 128 Brigand Zygos Level(7,Enemy,1) [15,11] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
-UNIT 128 Troubadour Zygos Level(5,Enemy,1) [14,10] 0x2 0x0 0x0 0x1 [Mend] AttackInRangeAI
-UNIT 128 Mage Zygos Level(6,Enemy,1) [13,9] 0x0 0x0 0x0 0x1 [ElwindTome] AttackInRangeAI
+UNIT 128 Troubadour Zygos Level(5,Enemy,1) [15,10] 0x2 0x0 0x1 REDA14R10 [Mend] AttackInRangeAI
+UNIT 128 Mage Zygos Level(6,Enemy,1) [15,9] 0x0 0x0 0x1 REDA13R9 [ElwindTome] AttackInRangeAI
 UNIT 128 PegasusKnight Zygos Level(7,Enemy,1) [13,0] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
 
 UNIT 128 LncCav Zygos Level(6,Enemy,1) [5,0] 0x0 0x0 0x0 0x1 [IronLance] NoAI
 UNIT 128 Soldier Zygos Level(6,Enemy,1) [2,4] 0x0 0x0 0x0 0x1 [IronLance] NoAI
 UNIT 128 Fighter Zygos Level(7,Enemy,1) [3,5] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT 128 Soldier Zygos Level(7,Enemy,1) [4,7] 0x0 0x0 0x0 0x1 [IronLance] NoAI
-UNIT 128 Mage Zygos Level(6,Enemy,1) [7,14] 0x0 0x0 0x0 0x1 [ThunderTome] NoAI
+UNIT 128 Soldier Zygos Level(7,Enemy,1) [4,6] 0x0 0x0 0x1 REDA4R7 [IronLance] NoAI
+UNIT 128 Mage Zygos Level(6,Enemy,1) [7,4] 0x0 0x0 0x0 0x1 [ThunderTome] NoAI
 
 UNIT 128 Myrmidon Zygos Level(7,Enemy,1) [9,2] 0x0 0x0 0x0 0x1 [SlimSword] AttackInRangeAI
 UNIT 128 Mercenary Zygos Level(6,Enemy,1) [10,5] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
 UNIT 128 AxeCav Zygos Level(6,Enemy,1) [11,6] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
-UNIT 128 LncKnight Zygos Level(7,Enemy,1) [10,7] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT 128 SwdKnight Zygos Level(8,Enemy,1) [10,8] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT 128 LncKnight Zygos Level(7,Enemy,1) [14,7] 0x0 0x0 0x1 REDA10R7 [IronLance] AttackInRangeAI
+UNIT 128 SwdKnight Zygos Level(8,Enemy,1) [14,8] 0x0 0x0 0x1 REDA10R8 [IronSword] AttackInRangeAI
 
 UNIT
 
@@ -90,26 +90,35 @@ WORD $00
 TrapData:
 END_MAIN
 
+CutsceneUnits:
+UNIT Ostrava 0 0 Level(0,Ally,0) [7,16] 0x0 0x0 0x1 REDA3R12 NoItems NoAI
+UNIT Jeanne 0 0 Level(0,Ally,0) [7,16] 0x0 0x0 0x1 REDA4R12 NoItems NoAI
+UNIT Ben 0 0 Level(0,Ally,0) [7,16] 0x0 0x0 0x1 REDA3R13 NoItems NoAI
+UNIT Junpei 0 0 Level(0,Ally,0) [7,16] 0x0 0x0 0x1 REDA4R13 NoItems NoAI
+UNIT
+
 BeginningScene:
 MUSC Advance
 SetBackground(0x1D)
-FADU 10
+//FADU 10
 Text(Chapter6Intro1)
 FADI 10
-EndConvo
 CAM1 [0,15]
-FADU 10
-LOAD1 0x1 PlayerUnits
+EndConvo
+LOAD1 0x1 CutsceneUnits
 ENUN
 Text(Chapter6Intro2)
-MUSC Song_TPKakariko
+MUSC Song_CombatMission
 LOAD1 0x1 EnemyUnits
 ENUN
 Text(Chapter6Intro3)
 CALL $591FD8 //GotoPrepScreen macro autoends the event, we don't want that
+FADI 10
+MUSC 0
+CAM1 [8,15]
+FADU 10
 LOAD1 0x1 NPCUnits
 ENUN
-CAM1 Ciel
 CUMO Ciel
 STAL 20
 CURE
@@ -122,9 +131,9 @@ MUSC Into_the_Shadow_of_Victory
 SetBackground(0x1D)
 Text(Chapter6Ending1)
 FADI 10
-MUSC Indignation
+MUSC Song_OatSong
 SetBackground(0x20)
-FADU 10
+//FADU 10
 Text(Chapter6Ending2)
 
 
