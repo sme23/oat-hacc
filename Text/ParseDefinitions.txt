@@ -43,6 +43,11 @@
 [LoadSulbahn] = [LoadFace][0x25][0x1]
 [LoadSuhlban] = [LoadSulbahn]
 [LoadSulhban] = [LoadSulbahn]
+[LoadNatsumi] = [LoadFace][0xA][0x1]
+[LoadWilliam] = [LoadFace][0x19][0x1]
+[LoadMentle] = [LoadWilliam]
+[LoadWil] = [LoadWilliam]
+[LoadNatsu] = [LoadNatsumi]
 
 [N] = [NL]
 [n] = [N]

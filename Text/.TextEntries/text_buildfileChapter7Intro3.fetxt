@@ -1,0 +1,34 @@
+[OpenMidLeft][ClearFace][OpenMidRight][ClearFace]
+
+[OpenMidLeft][LoadBen]Is this the well fortified fortress[NL]
+
+you spoke of,[....]Lady Jeanne?[A]
+
+[OpenLeft][LoadZo][CloseEyes]Oh gods,[....][NL]
+
+Not another one[Beat][A]
+
+[OpenLeft][ClearFace][OpenFarLeft][LoadJeanne]Yes,[....][NL]
+
+this should be it.[ANL]
+
+Roshal, could you scout out the[NL]
+
+building for us?[ANL]
+
+We must know the number of enemy[NL]
+
+forces before we engage them.[A]
+
+[OpenMidRight][LoadRoshal]What?[.....][NL]
+
+Oh, I[Beat][ANL]
+
+I guess I can.[A]
+
+[OpenFarRight][LoadOstrava]I'll go with 'im.[.....][NL]
+
+Four eyes are better than two.[A]
+
+[OpenMidRight]O-Okay.[Beat] I won't let you down.[A][X]
+

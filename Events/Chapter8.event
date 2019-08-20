@@ -172,7 +172,7 @@ ENUN
 NoFade
 ENDA
 
-AreaReinforcementEvent
+AreaReinforcementEvent:
 LOAD1 0x1 EnemyReinforcements
 ENUN
 NoFade

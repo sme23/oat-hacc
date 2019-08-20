@@ -1,0 +1,188 @@
+[OpenMidRight][LoadWil][OpenMidRight][MoveMidLeft][OpenMidRight][LoadOstrava]Oi oi, hold up Mr. Snazzy pants,[NL]
+
+I got a question.[....] Who are you?[A]
+
+[OpenMidLeft][ClearFace][OpenMidLeft][LoadWil][OpenMidLeft]Ah, yes, of course.[ANL]
+
+My name is William.[....][NL]
+
+I'm a peacekeeper of sorts.[A]
+
+[OpenMidRight][MoveRight][OpenFarRight][LoadJeanne][OpenFarRight]William?[....] As in, Sir William?[....] Truly?[A]
+
+[OpenMidLeft]I haven't heard someone[NL]
+
+call me "Sir" for quite some time[Beat][A]
+
+[OpenFarRight]Your name carries a lot of history[NL]
+
+and renown, even here in Vernet.[A]
+
+What is the famous Norwhickian war[NL]
+
+hero doing up here?[A]
+
+[OpenMidLeft]I saw some Norwhick soldiers[NL]
+
+pass through the town I'm living in,[ANL]
+
+so I went to investigate,[NL]
+
+and I saw you guys fighting with them,[ANL]
+
+so I decided to help out.[A]
+
+[OpenFarRight][ClearFace][OpenFarRight][LoadRoshal]My gods… S-Sir William?![....] I-It's an honor... sir![A]
+
+[OpenMidLeft]It's a pleasure to meet you as well.[ANL]
+
+Your bow arm is quite strong,[NL]
+
+from what I could witness.[A]
+
+[OpenFarRight]O-[....]Oh![....] Well, um[Beat] thank you, sir![A][ClearFace]
+
+[OpenFarRight][LoadJeanne][CloseEyes]To keep things on topic,[ANL][OpenEyes]
+
+there is something bothering me[NL]
+
+about all that.[....] The man we fought...[ANL]
+
+He was stronger than anyone[NL]
+
+we have seen up until this point.[ANL]
+
+There was a strong air[NL]
+
+of nobility to him.[ANL]
+
+Do you know anything about him?[A]
+
+[OpenMidLeft]I do.[.....][NL]
+
+He was the commander[ANL]
+
+of the private army of one of[NL]
+
+Norwhick's nobles.[A]
+
+[OpenRight]Alright,[....] who is he working for?[A]
+
+[OpenMidLeft]I heard him call out the name[....] Gotthard.[A]
+
+[OpenFarRight]Gotthard?[.....][NL]
+
+I have not heard that name before.[ANL]
+
+He is a noble of Norwhick, you say?[NL]
+
+[CloseEyes]That does not bode well.[A][OpenEyes]
+
+[OpenRight][ClearFace][OpenRight][LoadJunpei][OpenRight]What're ya thinking there, lass?[A]
+
+[OpenMidLeft][MoveLeft][OpenFarLeft][LoadNatsu]Something dangerous and insane,[....] I'm sure.[A]
+
+[OpenFarRight]We need to march on to Irrithyl,[ANL]
+
+and push this noble out of Vernet,[NL]
+
+by whatever means necessary.[A]
+
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadOstrava]You're ignoring the fact that there[NL]
+
+aren't that many of us.[ANL]
+
+I don't think we're this capable.[A]
+
+[OpenRight]I agree with my boy.[ANL]
+
+We have won some scuffles,[NL]
+
+that we have, but that's small latkes[ANL]
+
+compared to an organized, funded,[NL]
+
+and properly trained unit.[A]
+
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadBen]Numbers need not be a concern[NL]
+
+when you have such capable fighters[ANL] 
+
+such as Zo and myself by your side![ANL]
+
+Zo burns through those shit-stained invaders,[NL]
+
+while the mighty Ben Von Fatassaru makes[ANL]
+
+their hideous green armor run red [NL]
+
+with his precise swor--[CloseSpeechFast]
+
+[OpenLeft]Peace, lad.[ANL]
+
+If you're heading towards Irrithyl,[NL]
+
+head northeast from here.[ANL]
+
+It's a little ways beyond the[NL]
+
+Spirale River crossing.[A]
+
+[OpenFarRight]Indeed.[....] It is not far.[....] We can drive them out.[A]
+
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadOstrava][Beat]This is really really stupid,[ANL]
+
+but I honestly don't think[NL]
+
+there's anything else we can do.[A]
+
+[OpenRight]If the only way to the city is beyond[NL]
+
+the river crossing, we should[ANL]
+
+expect a fight there.[.....][NL]
+
+No doubt they'll want to defend the point.[A]
+
+[OpenFarRight]Understood.[ANL]
+
+We would do well to prepare for a fight, then.[NL]
+
+Sir William, if I may?[ANL]
+
+[OpenLeft]May I ask what it is you need?[A]
+
+[OpenFarRight]Your skill with the axe is legendary.[A]
+
+We could use a champion like you
+
+in the fights ahead.[A]
+
+[OpenLeft]Unfortunately, I am unable to[NL]
+
+accompany you.[ANL]
+
+I am riding towards Reunere to[NL]
+
+inform Louis of this incursion.[ANL]
+
+He will most likely send troops to help you.[A]
+
+[OpenFarRight]I understand.[....] Hopefully my father[NL]
+
+will dispatch troops quickly.[ANL]
+
+I just pray that this does not end in a full war.[A]
+
+[OpenFarLeft]I agree with this.[....][NL]
+
+It would be best to not start a war.[A]
+
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadRoshal]Um[Beat] Yeah![....] Yeah,[....] let's not[Beat][A]
+
+[OpenFarRight]Then we ride out.[ANL]
+
+We must make it to Irrithyl as[NL] 
+
+soon as possible.[A][X]
+

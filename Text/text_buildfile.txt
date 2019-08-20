@@ -86,6 +86,8 @@ This is placeholder text![A][X]
 
 #include "music_text.txt"
 
+#include "opening.txt"
+
 #include "narration_text.txt"
 
 #include "prologue_text.txt"
@@ -101,6 +103,8 @@ This is placeholder text![A][X]
 #include "chapter5_text.txt"
 
 #include "chapter6_text.txt"
+
+#include "chapter7_text.txt"
 
 #include "chapter8_text.txt"
 

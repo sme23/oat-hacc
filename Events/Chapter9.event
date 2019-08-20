@@ -14,42 +14,53 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
-UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [3,12] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [10,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,12] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [4,12] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [3,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [4,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [5,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [6,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [4,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [3,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,16] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [9,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [9,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [10,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [10,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,16] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,17] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
-UNIT DMarco SwdCav DMarco Level(12,Enemy,0) [10,1] 0x2 0x0 0x0 0x1 [SteelSword,Javelin,KnightCrest] NeverMoveAI
-UNIT 128 Archer DMarco Level(7,Enemy,1) [8,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
-UNIT 128 Archer DMarco Level(7,Enemy,1) [12,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
-UNIT 128 Mage DMarco Level(7,Enemy,1) [4,2] 0x2 0x0 0x0 0x1 [Elfire,PureWater] AttackInRangeAI
-UNIT 128 Soldier DMarco Level(8,Enemy,1) [11,12] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
-UNIT 128 Archer DMarco Level(7,Enemy,1) [12,10] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
-UNIT 128 Archer DMarco Level(5,Enemy,1) [7,14] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
-UNIT 128 Mage DMarco Level(7,Enemy,1) [9,14] 0x0 0x0 0x0 0x1 [Elfire,EnergyRing] AttackInRangeAI
-UNIT 128 Mercenary DMarco Level(7,Enemy,1) [10,15] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
-UNIT 128 Fighter DMarco Level(7,Enemy,1) [4,6] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
-UNIT 128 Fighter DMarco Level(7,Enemy,1) [2,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
-UNIT 128 Mage DMarco Level(7,Enemy,1) [7,12] 0x0 0x0 0x0 0x1 [Fire] AttackInRangeAI
-UNIT 128 Fighter DMarco Level(7,Enemy,1) [3,4] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
-UNIT 128 Fighter DMarco Level(7,Enemy,1) [2,10] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
-UNIT 128 Soldier DMarco Level(8,Enemy,1) [6,6] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
-UNIT 128 Soldier DMarco Level(8,Enemy,1) [14,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT 128 Fighter DMarco Level(10,Enemy,1) [10,5] 0x0 0x0 0x0 0x1 [IronPoleaxe] AttackInRangeAI
-UNIT 128 Mercenary DMarco Level(5,Enemy,1) [7,3] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
-UNIT 128 Mercenary DMarco Level(5,Enemy,1) [14,2] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT DMarco LncCav DMarco Level(11,Enemy,0) [23,0] 0x2 0x0 0x0 0x1 [SteelLance,Javelin,HeroCrest] NeverMoveAI
+
+UNIT 128 Archer DMarco Level(7,Enemy,1) [6,12] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Soldier DMarco Level(8,Enemy,1) [8,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+
+UNIT 128 AxeCav DMarco Level(8,Enemy,1) [13,11] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+UNIT 128 Mage DMarco Level(8,Enemy,1) [8,9] 0x0 0x0 0x0 0x1 [ElthunderTome] AttackInRangeAI
+UNIT 128 Mercenary DMarco Level(9,Enemy,1) [10,12] 0x2 0x0 0x0 0x1 [Claymore] AttackInRangeAI
+
+UNIT 128 Shaman DMarco Level(8,Enemy,1) [17,13] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+UNIT 128 Archer_F DMarco Level(9,Enemy,1) [21,14] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Fighter DMarco Level(9,Enemy,1) [19,17] 0x2 0x0 0x0 0x1 [SteelAxe,HandAxe] AttackInRangeAI
+
+UNIT 128 Monk DMarco Level(8,Enemy,1) [1,8] 0x2 0x0 0x0 0x1 [EllightTome] AttackInRangeAI
+UNIT 128 LncCav DMarco Level(9,Enemy,1) [0,4] 0x0 0x0 0x0 0x1 [SteelLance,Javelin] AttackInRangeAI
+UNIT Doc Mercenary DMarco Level(9,Enemy,0) [5,5] 0x0 0x0 0x0 0x1 [Claymore,IronSword,Vulnerary] AttackInRangeAI
+UNIT 128 Fighter DMarco Level(10,Enemy,1) [7,6] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+
+UNIT 128 Knight DMarco Level(9,Enemy,1) [12,5] 0x2 0x0 0x0 0x1 [ShortSpear] AttackInRangeAI
+UNIT 128 Mage_F DMarco Level(9,Enemy,1) [15,6] 0x2 0x0 0x0 0x1 [ElwindTome] AttackInRangeAI
+
+UNIT 128 SwdCav DMarco Level(10,Enemy,1) [12,1] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 128 Archer DMarco Level(9,Enemy,1) [7,1] 0x2 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Shaman DMarco Level(10,Enemy,1) [17,2] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+
+UNIT 128 Myrmidon_F DMarco Level(9,Enemy,1) [21,6] 0x2 0x0 0x0 0x1 [KillingEdge] AttackInRangeAI
+UNIT 128 Mage DMarco Level(10,Enemy,1) [1,0] 0x2 0x0 0x0 0x1 [ElfireTome] AttackInRangeAI
+UNIT 128 Soldier DMarco Level(11,Enemy,1) [17,8] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 128 Fighter DMarco Level(11,Enemy,1) [17,6] 0x2 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+
 UNIT
 
 TurnBasedEvents:
@@ -67,6 +78,8 @@ Village(9,Village3Event,10,8)
 Village(10,Village4Event,16,5)
 Village(11,Village5Event,16,16)
 Village(12,HouseEvent,6,8)
+Vendor(VendorList,22,8)
+Armory(ArmoryList,22,12)
 END_MAIN
 
 MiscBasedEvents:
@@ -203,3 +216,10 @@ MURE 0
 NoFade
 ENDA
 
+ALIGN 4
+VendorList:
+SHLI ElfireTome ElwindTome ElthunderTome FluxTome EllightTome HeroCrest KnightCrest ElysianWhip GuidingRing OrionsBolt Vulnerary PureWater Antidote Elixir 
+
+ALIGN 4
+ArmoryList:
+SHLI SteelSword GustSaber SteelLance Javelin SteelAxe HandAxe SteelBow Longbow

@@ -64,7 +64,6 @@ TurnEventPlayer(0,Turn3Event,4)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(7,RecruitDoc,Jeanne,Doc)
 CharacterEventBothWays(8,WilliamRecruit,Ostrava,William)
 CharacterEventBothWays(8,WilliamRecruit2,Jeanne,William)
 END_MAIN
@@ -87,19 +86,16 @@ WORD $00
 TrapData:
 END_MAIN
 
-CutsceneUnits:
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 0 0 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT
 
 CutsceneNat:
-UNIT Natsumi Shaman_F 0 Level(0,Ally,0) [0,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Natsumi Shaman_F 0 Level(0,Ally,0) [0,2] 0x0 0x0 0x1 REDA5R5 NoItems NoAI
+UNIT
+
+CutsceneUnits:
+UNIT Ostrava 0 0 Level(0,Ally,0) [14,8] 0x0 0x0 0x1 REDA6R5 NoItems NoAI
+UNIT Jeanne 0 0 Level(0,Ally,0) [14,8] 0x0 0x0 0x1 REDA6R4 NoItems NoAI
+UNIT Zo 0 0 Level(0,Ally,0) [14,8] 0x0 0x0 0x1 REDA7R5 NoItems NoAI
+UNIT Junpei 0 0 Level(0,Ally,0) [14,8] 0x0 0x0 0x1 REDA7R4 NoItems NoAI
 UNIT
 
 OpeningUnits:
@@ -113,14 +109,14 @@ UNIT
 BeginningScene:
 SetBackground(0x1D)
 FADU 10
-Text(PlaceholderText)
+Text(Chapter7Intro1)
 FADI 10
-//LOMA the cutscene map here
+LOMA 0x41
 EndConvo
 FADU 10 
 LOAD1 0x1 CutsceneNat
 ENUN
-Text(PlaceholderText)
+Text(Chapter7Intro2)
 LOAD3 0x1 CutsceneUnits
 ENUN
 Text(PlaceholderText)
@@ -131,7 +127,7 @@ ENUN
 FADU 10
 LOAD1 0x1 OpeningUnits
 ENUN
-Text(PlaceholderText)
+Text(Chapter7Intro3)
 MOVE 0 Ostrava [9,8]
 MOVE 0 Roshal [11,8]
 ENUN
@@ -139,45 +135,39 @@ STAL 40
 MOVE 0 Ostrava [10,15]
 MOVE 0 Roshal [10,16]
 ENUN
-Text(PlaceholderText)
+Text(Chapter7Intro4)
 GotoPrepScreen
-NoFade
-ENDA
-
-RecruitDoc:
-MUSS Song_TogetherWeRide
-Text(PlaceholderText)
-TurnAlly(Doc)
-MURE 5
 NoFade
 ENDA
 
 EndingScene:
 SetBackground(0x25)
-Text(PlaceholderText)
+Text(bostchapter)
 MNC2 Chapter8ID
 NoFade
 ENDA
 
+WilliamUnitGroup:
+UNIT William Hero 0 Level(20,NPC,0) [20,11] 0x0 0x0 0x0 0x1 [BraveAxe,SilverBlade] NoAI
+UNIT
+
 Turn3Event:
-//LOAD1 0x1 WilliamUnitGRoup
-//ENUN
-Text(PlaceholderText)
+LOAD1 0x1 WilliamUnitGroup
+ENUN
+Text(OhShitHeTurn3)
 NoFade
 ENDA
 
 WilliamRecruit:
 MUSS Song_WithUs
-Text(PlaceholderText)
-TurnAlly(William)
+Text(Wilstravatalk)
 MURE 5
 NoFade
 ENDA
 
 WilliamRecruit2:
 MUSS Song_WithUs
-Text(PlaceholderText)
-TurnAlly(William)
+Text(Willeannetalk)
 MURE 5
 NoFade
 ENDA

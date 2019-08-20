@@ -39,3 +39,5 @@ OutsideVillageNightPalette:
 #include "StatScreen/Stat Screen Installer.event"
 
 #include "BattleScreen/Battle Screen Installer.event"
+
+#include "WorldMap/World Map Installer.event"
