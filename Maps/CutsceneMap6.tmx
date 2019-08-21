@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="1800571A" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="tilesets/1800571A.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="0x1C"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="0x44"/>
+   <property name="MapID" value="0xDC"/>
+   <property name="ObjectType" value="0x18"/>
+   <property name="PaletteID" value="0x57"/>
+   <property name="TileConfig" value="0x1A"/>
+  </properties>
+  <data encoding="csv">
+521,427,427,427,427,427,427,427,427,427,427,427,427,427,522,
+459,788,787,787,787,787,787,787,787,787,787,787,787,787,459,
+459,785,720,785,786,786,786,786,786,786,786,786,720,785,459,
+459,785,784,755,657,596,596,596,596,596,658,786,784,755,459,
+459,785,786,786,597,657,596,596,596,658,629,786,786,786,459,
+459,785,720,785,597,597,626,626,626,629,629,786,720,785,459,
+459,785,784,755,597,597,626,626,626,629,629,786,784,755,459,
+459,785,786,786,597,597,626,626,626,629,629,786,786,786,459,
+459,785,720,785,597,597,626,626,626,629,629,786,720,785,459,
+459,785,784,755,597,597,626,626,626,629,629,786,784,755,459
+</data>
+ </layer>
+</map>

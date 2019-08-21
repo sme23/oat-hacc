@@ -10,8 +10,9 @@ Map:
 MapChanges:
 TileMap(0,20,2,1,1,Map_Change_0)
 TileMap(1,23,2,1,1,Map_Change_1)
+TileMap(9,6,14,2,3,Tile_Layer_11)
 TileMap(2,18,3,2,3,Map_Change_2)
-TileMap(3,23,7,1,1,Map_Change_3)
+TileMap(3,23,7,1,2,Map_Change_3)
 TileMap(4,11,12,1,1,Map_Change_4)
 TileMap(5,8,14,1,1,Map_Change_5)
 TileMap(6,12,14,1,1,Map_Change_6)
@@ -27,6 +28,10 @@ Map_Change_1:
 SHORT 0x4 
 ALIGN 4
 
+Tile_Layer_11:
+SHORT 0x7a8 0x0 0xce0 0xcd4 0x728 0x0 
+ALIGN 4
+
 Map_Change_2:
 SHORT 0x7a8 0xcd4 0xcd4 0xcd4 0x8a8 0xcd0 
 ALIGN 4
@@ -36,7 +41,7 @@ SHORT 0xcd4
 ALIGN 4
 
 Map_Change_4:
-SHORT 0xcd0 
+SHORT 0xcd0 0xcd8 
 ALIGN 4
 
 Map_Change_5:

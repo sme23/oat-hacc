@@ -49,5 +49,14 @@
 #include "CutsceneMap3.event"
 }
 {
+#include "CutsceneMap4.event"
+}
+{
+#include "CutsceneMap5.event"
+}
+{
+#include "CutsceneMap6.event"
+}
+{
 #include "Prologue.event"
 }
