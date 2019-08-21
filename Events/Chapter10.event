@@ -27,7 +27,7 @@ UNIT Ben Myrmidon 0 Level(0,Ally,0) [12,26] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
-UNIT Gotthard General Gotthard Level(1,Enemy,0) [10,2] 0x2 0x0 0x0 0x1 [SteelGreatlance,Javelin] NeverMoveAI
+UNIT Gotthard General Gotthard Level(1,Enemy,0) [10,2] 0x2 0x0 0x0 0x1 [SteelGreatlance,Javelin,GoldenTincture] NeverMoveAI
 
 UNIT 128 BowCav_F Gotthard Level(10,Enemy,1) [18,21] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
 UNIT 128 Mercenary Gotthard Level(10,Enemy,1) [13,22] 0x0 0x0 0x0 0x1 [Greatsword] AttackInRangeAI
