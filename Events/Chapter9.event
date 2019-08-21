@@ -105,13 +105,14 @@ UNIT
 BeginningScene:
 MUSC Song_OrdonVillage
 SetBackground(3)
-FADU 10
+//FADU 10
 Text(PlaceholderText)
 FADI 10
 CAM1 [0,17]
 LOAD1 0x1 EnemyUnits
 ENUN
 EndConvo
+MUSC Tension
 LOAD2 0x1 CutsceneUnits
 ENUN
 CUMO Ostrava
@@ -121,7 +122,7 @@ Text(PlaceholderText)
 FADI 10
 CLEA 0 
 SetBackground(3)
-FADU 10
+//FADU 10
 Text(PlaceholderText)
 GotoPrepScreen
 NoFade

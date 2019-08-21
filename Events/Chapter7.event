@@ -65,7 +65,7 @@ END_MAIN
 
 CharacterBasedEvents:
 CharacterEventBothWays(8,WilliamRecruit,Ostrava,William)
-CharacterEventBothWays(8,WilliamRecruit2,Jeanne,William)
+CharacterEventBothWays(9,WilliamRecruit2,Jeanne,William)
 END_MAIN
 
 LocationBasedEvents:

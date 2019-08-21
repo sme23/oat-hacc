@@ -249,7 +249,7 @@
 #define Song_NierBattle 0x4B
 #define Song_Linebeck 0x4C
 #define Song_Bergentruckung 0x4E
-#define Song_BoatMaps 0xB
+#define Song_BeneathANewLight 0xB
 #define Song_CalamityGanon 0xC
 #define Song_GritzyDesert 0xD
 #define Song_Pelleas 0xE

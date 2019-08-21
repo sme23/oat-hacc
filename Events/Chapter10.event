@@ -143,6 +143,7 @@ UNIT Junpei Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA10R25 NoItems No
 UNIT
 
 BeginningScene:
+MUSC Tension
 LOAD1 0x1 EnemyUnits
 ENUN
 CAM1 [10,25]
@@ -185,6 +186,7 @@ UNIT 131 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R4 NoItems NoAI
 UNIT
 
 EndingScene:
+MUSC Victory
 FADI 10
 CLEE 0
 CLEA 0
@@ -210,6 +212,7 @@ MOVE 0 Roshal [3,11]
 ENUN
 MOVE 0 128 [3,10]
 MOVE 0 130 [3,11]
+ENUN
 CLEN 0
 CLEA Roshal
 Text(PlaceholderText)

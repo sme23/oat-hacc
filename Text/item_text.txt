@@ -301,3 +301,21 @@ Estoc[X]
 ## EstocBio
 Effective against Mounted[NL]
 and armored foes[X]
+
+##GustSaberName
+Gust Saber[X]
+
+##GustSaberDesc
+Fires strong gusts of wind.[X]
+
+##ShortAxeName
+Short Axe[X]
+
+##ShortAxeDesc
+An axe designed for throwing.[X]
+
+##GoldenTinctureName
+Golden Tincture[X]
+
+##GoldenTinctureDesc
+Grants a level up.[X]

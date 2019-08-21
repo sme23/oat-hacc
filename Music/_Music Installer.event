@@ -140,3 +140,6 @@ SongTable(0x5,furret,MapMusicGroup)
 
 SongTable(0x34,trsprep,MapMusicGroup)
 #include "trsprep.event"
+
+SongTable(0xB,BeneathANewLight,MapMusicGroup)
+#include "BeneathANewLight.event"

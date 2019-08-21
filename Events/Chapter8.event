@@ -83,6 +83,8 @@ LocationBasedEvents:
 House(0,House1Event,9,20)
 House(0,House2Event,13,7)
 Village(7,VillageEvent,11,16)
+Vendor(VendorList,19,7)
+Armory(ArmoryList,18,15)
 END_MAIN
 
 MiscBasedEvents:
@@ -112,7 +114,6 @@ UNIT
 BeginningScene:
 MUSC Advance
 SetBackground($18)
-FADU 10
 Text(Chapter8Intro1)
 FADI 10
 LOAD1 0x1 EnemyUnits
@@ -178,3 +179,11 @@ LOAD1 0x1 EnemyReinforcements
 ENUN
 NoFade
 ENDA
+
+ALIGN 4
+VendorList:
+SHLI ElwindTome ElfireTome ElthunderTome EllightTome FluxTome Mend Vulnerary Elixir PureWater
+
+ALIGN 4
+ArmoryList:
+SHLI SteelSword WindSword SteelLance SteelAxe SteelBow

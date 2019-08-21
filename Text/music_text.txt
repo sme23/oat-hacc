@@ -92,7 +92,7 @@ Dark Labyrinth[X]
 Bergentruckung[X]
 
 ##MilaDivineProtectionThemeName
-With Mila's Divine Protection[X]
+Beneath a New Light[X]
 
 ##CalamityCanonThemeName
 Calamity Ganon[X]
