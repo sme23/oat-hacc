@@ -1,0 +1,57 @@
+56
+0x00 Viewing Units
+0x01 Game Flow
+0x02 Game Over
+0x03 Movement Range
+0x04 Moving Again
+0x05 Attack Range
+0x06 Weapon Triangle
+0x07 Trinity of Magic
+0x08 Weapon Effectiveness
+0x09 Critical Hit
+0x0A Physical Defense
+0x0B Magical Resistance
+0x0C Restoring HP
+0x0D Normal Status
+0x0E Strategic Battle Info
+0x0F Detailed Battle Info
+0x10 Rescue
+0x11 Drop
+0x12 Acquiring Items
+0x13 Using Items
+0x14 Trading Items
+0x15 Weapon Durability
+0x16 Supply Convoy
+0x17 Armory
+0x18 Shop
+0x19 Forests & Mountains
+0x1A Fortresses & Castle Gates
+0x1B Houses
+0x1C Villages
+0x1D Chests
+0x1E Snags
+0x1F Damaged Walls
+0x20 Fog & Night Conditions
+0x21 Ballistae
+0x22 Acquiring Items
+0x23 Retreating from the Front Lines
+0x24 Support Conversations
+0x25 Support Effects
+0x26 Recruiting Green Units
+0x27 Recruiting Red Units
+0x28 Defeat a Boss
+0x29 Seize a Location
+0x2A Defeat All
+0x2B Defense
+0x2C Suspend
+0x2D Save
+0x2E How to Move
+0x2F Armory & Shop
+0x30 Item Management
+0x31 Monsters
+0x32 Preparation Screen
+0x33 Leveling Up
+0x34 Changing Classes
+0x35 R Button Info
+0x36 Arena
+0x37 Retreat

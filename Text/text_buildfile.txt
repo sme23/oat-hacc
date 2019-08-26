@@ -101,3 +101,5 @@ This is placeholder text![A][X]
 #include "chapter5_text.txt"
 
 #include "support_text.txt"
+
+#include "guide_text.txt"

@@ -1,0 +1,10 @@
+## GuideCategory1
+Mechanics[X]
+
+## GuideCategory2
+Story[X]
+
+## GuideCategory3
+Journal[X]
+
+

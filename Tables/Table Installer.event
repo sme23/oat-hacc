@@ -26,6 +26,12 @@
 
 #include "FE8 Nightmare modules\Class & Character editors\FE8 Class Editor.event"
 
+#include "FE8 Nightmare modules\Guide\Guide Category Names Editor.event"
+
+#include "FE8 Nightmare modules\Guide\Guide Chapter Names Editor.event"
+
+#include "FE8 Nightmare modules\Guide\Guide Editor.event"
+
 #include "FE8 Nightmare modules\Item editors\FE8 Item AI Table.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item Editor.event"

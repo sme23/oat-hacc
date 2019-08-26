@@ -1,0 +1,129 @@
+128
+0x00 
+0x01 Battle Quotes flag
+0x02 Defeat Boss flag
+0x03 Seize flag
+0x04 Second BGM flag
+0x05 ??
+0x06 Defeat all(Rout) flag
+0x07 ??
+0x08 Temporary flag 08
+0x09 Temporary flag 09
+0x0A Temporary flag 0A
+0x0B Temporary flag 0B
+0x0C Temporary flag 0C
+0x0D Temporary flag 0D
+0x0E Temporary flag 0E
+0x0F Temporary flag 0F
+0x10 Temporary flag 10
+0x11 Temporary flag 11
+0x12 Temporary flag 12
+0x13 Temporary flag 13
+0x14 Temporary flag 14
+0x15 Temporary flag 15
+0x16 Temporary flag 16
+0x17 Temporary flag 17
+0x18 Temporary flag 18
+0x19 Temporary flag 19
+0x1A Temporary flag 1A
+0x1B Temporary flag 1B
+0x1C Temporary flag 1C
+0x1D Temporary flag 1D
+0x1E Temporary flag 1E
+0x1F Temporary flag 1F
+0x20 Temporary flag 20
+0x21 Temporary flag 21
+0x22 Temporary flag 22
+0x23 Temporary flag 23
+0x24 Temporary flag 24
+0x25 Temporary flag 25
+0x26 Temporary flag 26
+0x27 Temporary flag 27
+0x28 Temporary flag 28
+0x29 Do NOT use
+0x2A Do NOT use
+0x2B Do NOT use
+0x2C Do NOT use
+0x2D Do NOT use
+0x2E Do NOT use
+0x2F Do NOT use
+0x30 Do NOT use
+0x31 Do NOT use
+0x32 Do NOT use
+0x33 Do NOT use
+0x34 Do NOT use
+0x35 Do NOT use
+0x36 Do NOT use
+0x37 Do NOT use
+0x38 Do NOT use
+0x39 Do NOT use
+0x3A Do NOT use
+0x3B Do NOT use
+0x3C Do NOT use
+0x3D Do NOT use
+0x3E Do NOT use
+0x3F Do NOT use
+0x40 Do NOT use
+0x41 Do NOT use
+0x42 Do NOT use
+0x43 Do NOT use
+0x44 Do NOT use
+0x45 Do NOT use
+0x46 Do NOT use
+0x47 Do NOT use
+0x48 Do NOT use
+0x49 Do NOT use
+0x4A Do NOT use
+0x4B Do NOT use
+0x4C Do NOT use
+0x4D Do NOT use
+0x4E Do NOT use
+0x4F Do NOT use
+0x50 Do NOT use
+0x51 Do NOT use
+0x52 Do NOT use
+0x53 Do NOT use
+0x54 Do NOT use
+0x55 Do NOT use
+0x56 Do NOT use
+0x57 Do NOT use
+0x58 Do NOT use
+0x59 Do NOT use
+0x5A Do NOT use
+0x5B Do NOT use
+0x5C Do NOT use
+0x5D Do NOT use
+0x5E Do NOT use
+0x5F Do NOT use
+0x60 Do NOT use
+0x61 Do NOT use
+0x62 Do NOT use
+0x63 Do NOT use
+0x64 Do NOT use
+0x65 GameOver
+0x66 Global flag 66
+0x67 Extra unit appearance 67
+0x68 Extra unit appearance 68
+0x69 Extra unit appearance 69
+0x6A Extra unit appearance 6A
+0x6B Extra unit appearance 6B
+0x6C Extra unit appearance 6C
+0x6D Extra unit appearance 6D
+0x6E Extra unit appearance 6E
+0x6F Extra unit appearance 6F
+0x70 Extra unit appearance 70
+0x71 ch.9 clear (ON with both routes)
+0x72 ch.10 clear (ON with both routes)
+0x73 ch.11 clear (ON with both routes)
+0x74 ch.12 clear (ON with both routes)
+0x75 ch.13 clear (ON with both routes)
+0x76 ch.14 clear (ON with both routes)
+0x77 ch.15 clear (ON with both routes)
+0x78 Global flag 78
+0x79 Global flag 79
+0x7A Global flag 7A
+0x7B Global flag 7B
+0x7C Global flag 7C
+0x7D Global flag 7D
+0x7E Global flag 7E
+0x7F Triangle attack dialog
