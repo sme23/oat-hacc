@@ -1,0 +1,26 @@
+[OpenMidLeft][LoadOrion][OpenMidRight][LoadGotthard]Wh-What are you doing here, my King?[A]
+
+[OpenMidLeft]Gotthard,[....] William has informed me you were[NL]
+
+gallivanting around in Vernish land.[A][NL]
+
+Under whose authority have you committed[NL]
+
+these acts for?[A]
+
+[OpenMidRight][MoveMidRight][OpenMidRight]Y-Your Majesty, I was simply--[A]
+
+[OpenMidLeft]And what, pray tell, were you simply doing?[A]
+
+[OpenMidRight][CloseEyes]I[ToggleMouthMove]...[....][ToggleMouthMove] My[ToggleMouthMove]...[....][ToggleMouthMove] apologies.[A]
+
+[OpenMidLeft]Will apologizing bring back the Vernish[NL]
+
+lives you have taken away?[A]
+
+[OpenMidRight][OpenEyes][ToggleMouthMove]...[....][ToggleMouthMove]No, my King.[A]
+
+[OpenMidLeft]Right.[....] Now then, you will be brought to the[NL]
+
+capital, and be tried for your treason.[A][X]
+

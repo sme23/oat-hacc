@@ -1,0 +1,25 @@
+[OpenFarLeft][LoadJeanne][OpenRight][LoadBen][OpenFarRight][LoadZo][OpenLeft][LoadOstrava]Everyone okay?[A]
+
+[OpenFarLeft]I am well.[A]
+
+[OpenRight][ToggleSmile]Never better,[....] that commander of theirs was[NL]
+
+worth a hearty laugh.[A]
+
+[OpenFarRight][ToggleSmile]I'm okay, I suppose. A little[NL]
+
+tired, but I can keep going.[A]
+
+[OpenRight][ClearFace][OpenFarRight][ClearFace][OpenRight][LoadJunpei][OpenFarRight][LoadRoshal][CloseEyes]That was scary[ToggleMouthMove]...[....][ToggleMouthMove][OpenEyes][NL]
+
+I can't believe we've made it this far.[A]
+
+[OpenRight]I'm doin' fine.[NL]
+
+What about you, Osty?[A]
+
+[OpenLeft]I'm doing okay, thank you.[A]
+
+[OpenFarLeft]Then we must keep moving forward.[NL]
+
+Keep this momentum going.[A][X]

@@ -20,7 +20,7 @@ the luxury of sneaking in.[A]
 
 [OpenMidRight][ClearFace][OpenRight][ClearFace]
 
-[OpenFarLeft][LoadBen][OpenFarLeft]The lass is right![NL]
+[OpenFarLeft][LoadBen][OpenFarLeft][ToggleSmile]The lass is right![NL]
 
 Stealth isn't a viable choice,[A][NL]
 
@@ -30,9 +30,9 @@ in the first place, with the Chaos[A][NL]
 
 Bringer by your side![A]
 
-[OpenMidRight][LoadZo][OpenMidRight]Ben, shut![....] Someone's coming.[A]
+[OpenMidRight][LoadZo][OpenMidRight][ToggleSmile]Ben, shut![....] Someone's coming.[A]
 
-[OpenFarLeft][MoveFarLeft][OpenFarLeft]Huh?[....] Oh, right. Uh[ToggleMouthMove]...[....][ToggleMouthMove][OpenFarLeft][MoveFarLeft][OpenFarLeft] AHEM![NL]
+[OpenFarLeft][MoveFarLeft][OpenFarLeft]Huh?[....] Oh, right. Uh[ToggleMouthMove]...[....][ToggleMouthMove][OpenFarLeft][MoveFarLeft][OpenFarLeft][ToggleSmile] AHEM![NL]
 
 STAND BACK![A][NL]
 

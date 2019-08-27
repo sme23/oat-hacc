@@ -106,7 +106,7 @@ BeginningScene:
 MUSC Song_OrdonVillage
 SetBackground(3)
 //FADU 10
-Text(PlaceholderText)
+Text(Chapter9Opening1)
 FADI 10
 CAM1 [0,17]
 LOAD1 0x1 EnemyUnits
@@ -118,12 +118,12 @@ ENUN
 CUMO Ostrava
 STAL 40
 CURE
-Text(PlaceholderText)
+Text(Chapter9Opening2)
 FADI 10
 CLEA 0 
 SetBackground(3)
 //FADU 10
-Text(PlaceholderText)
+Text(Chapter9Opening3)
 GotoPrepScreen
 NoFade
 ENDA
@@ -131,7 +131,7 @@ ENDA
 EndingScene:
 MUSC Victory
 SetBackground(3)
-Text(PlaceholderText)
+Text(Chapter9Ending)
 MNC2 Chapter10ID
 NoFade
 ENDA
@@ -141,14 +141,14 @@ CAM1 Doc
 CUMO Doc
 STAL 40
 CURE
-Text(PlaceholderText)
+Text(Chapter9EnterDoc)
 NoFade
 ENDA
 
 Village1Event: //left village
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter9Village1)
 EndConvo
 SVAL 3 Elixir
 GIVETO 0xFFFF
@@ -159,7 +159,7 @@ ENDA
 Village2Event: //second left village
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter9Village2)
 EndConvo
 SVAL 3 ElthunderTome
 GIVETO 0xFFFF
@@ -170,7 +170,7 @@ ENDA
 Village3Event: //center village
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter9Village3)
 EndConvo
 SVAL 3 RedGem
 GIVETO 0xFFFF
@@ -181,7 +181,7 @@ ENDA
 Village4Event: //top right village
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter9Village4)
 EndConvo
 SVAL 3 HeroCrest
 GIVETO 0xFFFF
@@ -192,7 +192,7 @@ ENDA
 Village5Event: //bottom right village
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter9Village5)
 EndConvo
 SVAL 3 Physic
 GIVETO 0xFFFF
@@ -203,7 +203,7 @@ ENDA
 HouseEvent:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Chapter9Village6)
 EndConvo
 MUNO
 NoFade
@@ -211,7 +211,7 @@ ENDA
 
 DocRecruitEvent:
 MUSS Song_WithUs
-Text(PlaceholderText)
+Text(DocRecruitment)
 TurnAlly(Doc)
 MURE 0
 NoFade

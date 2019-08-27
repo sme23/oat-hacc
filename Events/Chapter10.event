@@ -153,13 +153,13 @@ ENUN
 CUMO Ostrava
 STAL 40
 CURE
-Text(PlaceholderText)
+Text(Chapter10Intro1)
 CAM1 [10,2]
 ENUN
 CUMO [10,2]
 STAL 40
 CURE
-Text(PlaceholderText)
+Text(Chapter10Intro2)
 GotoPrepScreen
 NoFade
 ENDA
@@ -196,7 +196,14 @@ ENUN
 LOAD2 0x1 EndingUnits
 ENUN
 FADU 10
-Text(PlaceholderText)
+TEXTSTART
+TEXTSHOW Chapter10Ending1
+TEXTEND
+MUSC 0
+STAL 10
+TEXTCONT
+TEXTEND
+REMA
 LOAD1 0x1 EndingUnits3
 ENUN
 MOVE 0 William [3,10]
@@ -206,7 +213,7 @@ MOVE 0 129 [3,10]
 MOVE 0 131 [3,11]
 ENUN
 CLEE 0
-Text(PlaceholderText)
+Text(Chapter10Ending2)
 MOVE 0 Orion [3,10]
 MOVE 0 Roshal [3,11]
 ENUN
@@ -215,7 +222,7 @@ MOVE 0 130 [3,11]
 ENUN
 CLEN 0
 CLEA Roshal
-Text(PlaceholderText)
+Text(Chapter10Ending3)
 FADI 10
 CLEA 0
 CLEN 0
@@ -227,24 +234,27 @@ ENUN
 FADU 10
 LOAD2 0x1 ArcEndingUnits1
 ENUN
-Text(PlaceholderText)
+Text(Chapter10Ending4)
 FADI 10
 CLEN 0
 CLEA 0
 LOMA 0x43
 FADU 10
-Text(PlaceholderText)
+Text(Chapter10Ending5)
 SetBackground($15)
-Text(PlaceholderText)
-Text(PlaceholderText)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW Chapter10Ending6
+TEXTEND
+Text(Chapter10Ending7)
 FADI 10
 LOMA 0x44
 LOAD2 0 EndCutsceneUnits
 ENUN
-Text(PlaceholderText)
+Text(Chapter10Ending8)
 FADI 20
 MUSC 0x0
-Text(Fort,Chapter4Ending4)
+Text(Fort,Chapter10Ending9)
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120
 EVBIT_F 0x2
