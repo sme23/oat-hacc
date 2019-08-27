@@ -81,7 +81,7 @@ Useful for getting an extra hit, or[NL]
 avoiding enemy attacks.[A][X]
 
 ##Chapter8BossQuote
-[OpenMidLeft][LoadSuhlban]You must be the whelps who[NL]
+[OpenMidLeft][LoadSulhban]You must be the whelps who[NL]
 Gotthard mentioned might try[A][NL]
 and cross the river.[A][NL]
 Hate to break it to you, but[NL]
