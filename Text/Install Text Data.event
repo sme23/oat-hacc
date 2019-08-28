@@ -2862,11 +2862,11 @@ __TEXTPROCESSB8A:
 setText($B8A, __TEXTPROCESSB8A)
 
 __TEXTPROCESSB8B:
-#incbin ".TextEntries\text_buildfileWilvAlf.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAlfredDeathQuote.fetxt.dmp"
 setText($B8B, __TEXTPROCESSB8B)
 
 __TEXTPROCESSB8C:
-#incbin ".TextEntries\text_buildfileAlfredDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWilvAlf.fetxt.dmp"
 setText($B8C, __TEXTPROCESSB8C)
 
 __TEXTPROCESSB8D:

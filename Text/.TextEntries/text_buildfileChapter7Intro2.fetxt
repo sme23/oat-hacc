@@ -2,7 +2,7 @@
 
 superstitious?[....] Can't I just practice[NL]
 
-my dark magic in peace?[A][MoveRight][LoadOverworldFaces]
+my dark magic in peace?[A][MoveRight]
 
 [OpenMidRight][LoadOstrava][OpenFarRight][LoadRoshal][OpenRight][OpenEyes][MoveRight]GAH![....][MoveMidLeft]
 
@@ -134,5 +134,5 @@ fight we shall not engage.[A]
 
 [OpenLeft][ToggleSmile]Alright then.[....][OpenEyes] Well what are we[NL]
 
-standin' around for? Let's get movin'![A][X]
+standin' around for? Let's get movin'![A][ToggleSmile][X]
 

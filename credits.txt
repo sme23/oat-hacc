@@ -88,6 +88,8 @@ Animations
 -FEGirls
 -Alusq
 -FEier
+-ltranc
+-Kao
 
 Spell Animations
 -MisakaMikoto

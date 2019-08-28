@@ -714,8 +714,8 @@
 #define Wilstravatalk $B88
 #define Willeannetalk $B89
 #define Alfredbossquote $B8A
-#define WilvAlf $B8B
-#define AlfredDeathQuote $B8C
+#define AlfredDeathQuote $B8B
+#define WilvAlf $B8C
 #define bostchapter $B8D
 #define Chapter8Intro1 $B8E
 #define Chapter8Intro2 $B8F

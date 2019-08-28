@@ -150,8 +150,7 @@ MUSI
 SetBackground($1)
 Text(Chapter9Village1)
 EndConvo
-SVAL 3 Elixir
-GIVETO 0xFFFF
+GiveItem(Elixir,0xFFFF)
 MUNO
 NoFade
 ENDA
@@ -161,8 +160,7 @@ MUSI
 SetBackground($1)
 Text(Chapter9Village2)
 EndConvo
-SVAL 3 ElthunderTome
-GIVETO 0xFFFF
+GiveItem(Elixir,0xFFFF)
 MUNO
 NoFade
 ENDA
@@ -172,8 +170,7 @@ MUSI
 SetBackground($1)
 Text(Chapter9Village3)
 EndConvo
-SVAL 3 RedGem
-GIVETO 0xFFFF
+GiveItem(RedGem,0xFFFF)
 MUNO
 NoFade
 ENDA
@@ -183,8 +180,7 @@ MUSI
 SetBackground($1)
 Text(Chapter9Village4)
 EndConvo
-SVAL 3 HeroCrest
-GIVETO 0xFFFF
+GiveItem(HeroCrest,0xFFFF)
 MUNO
 NoFade
 ENDA
@@ -194,8 +190,7 @@ MUSI
 SetBackground($1)
 Text(Chapter9Village5)
 EndConvo
-SVAL 3 Physic
-GIVETO 0xFFFF
+GiveItem(Physic,0xFFFF)
 MUNO
 NoFade
 ENDA

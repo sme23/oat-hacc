@@ -163,7 +163,7 @@ MUSI
 SetBackground($1)
 Text(Chapter8Village)
 EndConvo
-GiveItem(Speedwings,0xFF)
+GiveItem(Speedwings,0xFFFF)
 MUNO
 NoFade
 ENDA
