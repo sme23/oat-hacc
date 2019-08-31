@@ -39,9 +39,9 @@ UNIT 0x8E Soldier Bazba Level(4,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [IronLance] Atta
 UNIT
 
 EnemyReinforcements:
-UNIT 0x8E SwdCav Bazba Level(5,Enemy,1) [19,8] 0x0 0x0 0x0 0x1 [SteelSword] DefaultAI
-UNIT 0x8E LncCav Bazba Level(4,Enemy,1) [19,9] 0x0 0x0 0x0 0x1 [SteelLance] DefaultAI
-UNIT 0x8E AxeCav Bazba Level(4,Enemy,1) [19,10] 0x2 0x0 0x0 0x1 [Hammer] DefaultAI
+UNIT 0x8E Mercenary Bazba Level(5,Enemy,1) [9,5] 0x0 0x0 0x1 REDA8R5 [SteelSword] DefaultAI
+UNIT 0x8E Soldier Bazba Level(4,Enemy,1) [9,5] 0x0 0x0 0x1 REDA9R6 [SteelLance] DefaultAI
+UNIT 0x8E Fighter Bazba Level(4,Enemy,1) [9,5] 0x2 0x0 0x1 REDA9R6 [Hammer] DefaultAI
 UNIT
 
 CutsceneUnitBoisThatGetLoad1:
