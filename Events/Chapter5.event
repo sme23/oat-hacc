@@ -56,7 +56,7 @@ END_MAIN
 
 ALIGN 4
 VendorList:
-SHLI FireTome ThunderTome WindTome FluxTome Heal Vulnerary Restore MasterSeal
+SHLI FireTome ThunderTome WindTome FluxTome Heal Vulnerary Restore //MasterSeal
 
 ALIGN 4
 ArmoryList:
@@ -131,7 +131,7 @@ UNIT 128 Archer Perkus Level(6,Enemy,1) [12,4] 0x0 0x0 0x0 0x1 [IronBow] [0,0x10
 UNIT
 
 Turn3Reinforcements:
-UNIT 128 Thief Perkus Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] [0,0x10,0,0]
+UNIT 128 Thief Perkus Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] [0,0x4,0,0]
 UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] [0,0x10,0,0]
 UNIT
 
@@ -165,7 +165,7 @@ UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,0
 UNIT
 
 JunpeiGroup:
-UNIT Junpei Warrior Ostrava Level(6,Ally,0) [9,1] 0x0 0x0 0x0 0x1 [SteelAxe,IronBow,HandAxe] NoAI
+UNIT Junpei Warrior Ostrava Level(6,Ally,0) [9,1] 0x0 0x0 0x0 0x1 [SteelAxe,IronBow,HandAxe,BlueGem] NoAI
 UNIT
 
 HexGroup:
