@@ -42,7 +42,7 @@ UNIT
 ALIGN 4
 BossAppearsUnits:
 UNIT Bone Brigand Bone Level(6,Enemy,0) [11,1] 0x0 0x0 0x0 0x1 [HandAxe,SteelAxe] NeverMoveAI
-UNIT Elizabeth Thief_F Ostrava Level(4,Enemy,0) [11,0] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] GuardTileAI
+UNIT Reno Thief_F Ostrava Level(4,Enemy,0) [11,0] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] GuardTileAI
 UNIT
 
 ALIGN 4
@@ -70,7 +70,7 @@ END_MAIN
 ALIGN 4
 CharacterBasedEvents:
 CharacterEventBothWays(10,RecruitRoshal,Ostrava,Roshal)
-CharacterEventBothWays(11,RecruitElizabeth,Juliana,Elizabeth)
+CharacterEventBothWays(11,RecruitReno,Juliana,Reno)
 END_MAIN
 
 ALIGN 4
@@ -141,9 +141,9 @@ Text(Chapter2Ending1)
 
 
 
-CHECK_ALLEGIANCE Elizabeth
+CHECK_ALLEGIANCE Reno
 BNE 2 0 0xC
-  CHECK_ALIVE Elizabeth
+  CHECK_ALIVE Reno
   SVAL 1 1
   BNE 2 1 0xC
     Text(Chapter2Ending2)
@@ -159,11 +159,11 @@ BossShowsUp:
 CAM1 [6,5]
 LOAD1 0x1 BossAppearsUnits
 Text(Chapter2BossAppears)
-MOVE 0 Elizabeth [7,2]
+MOVE 0 Reno [7,2]
 ENUN
 SOUN 0xB1
 TILECHANGE 2
-MOVE 0 Elizabeth [7,5]
+MOVE 0 Reno [7,5]
 ENUN
 NoFade
 ENDA
@@ -178,10 +178,10 @@ NoFade
 ENDA
 
 ALIGN 4
-RecruitElizabeth:
+RecruitReno:
 MUSS Song_TogetherWeRide
-Text(Chapter2ElizabethRecruitment)
-TurnAlly(Elizabeth)
+Text(Chapter2RenoRecruitment)
+TurnAlly(Reno)
 MURE 5
 NoFade
 ENDA

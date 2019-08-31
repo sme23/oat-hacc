@@ -20,7 +20,7 @@ UNIT Zo EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA3R9 NoItems N
 UNIT Yanik EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA4R8 NoItems NoAI
 UNIT Juliana EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA2R8 NoItems NoAI
 UNIT Elizabeth EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA1R9 NoItems NoAI
-UNIT Roshal EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA6R10 NoItems NoAI
+UNIT Roshal Archer Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA6R10 NoItems NoAI
 UNIT Glazette EphraimLord Ostrava Level(1,Ally,0) [4,11] 0x0 0x0 0x1 REDA2R10 NoItems NoAI
 UNIT 
 

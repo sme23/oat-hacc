@@ -177,7 +177,7 @@ UNIT Gotthard General Gotthard Level(1,Enemy,0) [10,2] 0x2 0x0 0x0 0x1 NoItems N
 UNIT
 
 EndingUnits3:
-UNIT William Hero 0 Level(0,NPC,0) [3,10] 0x0 0x0 0x1 REDA8R2 NoItems NoAI
+UNIT Raime Hero 0 Level(0,NPC,0) [3,10] 0x0 0x0 0x1 REDA8R2 NoItems NoAI
 UNIT Orion King 0 Level(0,NPC,0) [3,10] 0x0 0x0 0x1 REDA8R3 NoItems NoAI
 UNIT 128 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA8R4 NoItems NoAI
 UNIT 129 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R2 NoItems NoAI
@@ -206,14 +206,16 @@ TEXTEND
 REMA
 LOAD1 0x1 EndingUnits3
 ENUN
-MOVE 0 William [3,10]
+MUSC Song_WithUs
+Text(Chapter10Ending2)
+MOVE 0 Raime [3,10]
 MOVE 0 Gotthard [3,11]
 ENUN
 MOVE 0 129 [3,10]
 MOVE 0 131 [3,11]
 ENUN
 CLEE 0
-Text(Chapter10Ending2)
+Text(Chapter10Ending3)
 MOVE 0 Orion [3,10]
 MOVE 0 Roshal [3,11]
 ENUN
@@ -222,8 +224,8 @@ MOVE 0 130 [3,11]
 ENUN
 CLEN 0
 CLEA Roshal
-Text(Chapter10Ending3)
 FADI 10
+MUSC Song_OrdonVillage
 CLEA 0
 CLEN 0
 CLEE 0
@@ -235,25 +237,34 @@ FADU 10
 LOAD2 0x1 ArcEndingUnits1
 ENUN
 Text(Chapter10Ending4)
+Text(Chapter10Ending5)
 FADI 10
 CLEN 0
 CLEA 0
 LOMA 0x43
 FADU 10
-Text(Chapter10Ending5)
+MUSC 0
 SetBackground($15)
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW Chapter10Ending6
 TEXTEND
-Text(Chapter10Ending7)
+MUSC Song_OatSong
+TEXTSTART
+TEXTSHOW Chapter10Ending7
+TEXTEND
+MUSC 0
+STAL 10
+TEXTCONT
+TEXTEND
 FADI 10
 LOMA 0x44
 LOAD2 0 EndCutsceneUnits
 ENUN
+MUSC Advance
 Text(Chapter10Ending8)
 FADI 20
-MUSC 0x0
+MUSC 0
 Text(Fort,Chapter10Ending9)
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120

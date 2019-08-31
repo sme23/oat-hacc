@@ -123,7 +123,7 @@ and I'm sure he would--[A]
 
 ##Chapter10Ending2
 [OpenMidLeft][LoadOrion][OpenMidRight][LoadGotthard]Wh-What are you doing here, my King?[A]
-[OpenMidLeft]Gotthard,[....] William has informed me you were[NL]
+[OpenMidLeft]Gotthard,[....] Raime has informed me you were[NL]
 gallivanting around in Vernish land.[A][NL]
 Under whose authority have you committed[NL]
 these acts for?[A]

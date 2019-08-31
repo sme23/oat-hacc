@@ -1,0 +1,54 @@
+[OpenMidRight][LoadJuli][OpenMidLeft][LoadReno][ToggleSmile]Howdy-ho, lady![ToggleSmile][NL]
+
+Question,[....] how would you like to die today?[A]
+
+[OpenMidRight]Not at all, preferably![A]
+
+[OpenMidLeft]Truly?[....] I have many different ways of death,[NL]
+
+each equally more painful than the last![A][NL]
+
+[ToggleSmile]Ever been disemboweled?[A]
+
+[OpenMidRight][MoveMidRight][OpenMidRight][ToggleSmile]No, and I'd prefer to keep it that way![NL]
+
+That shit's messed up![A]
+
+[OpenMidLeft][MoveMidLeft][OpenMidLeft][ToggleSmile]I KNOW, RIGHT?[NL]
+
+That's why it's great![A]
+
+[OpenMidRight][ToggleSmile]Is that why you're here? Just to get[NL]
+
+some weird ass killing fix fulfilled?[A]
+
+[OpenMidLeft]Maybe![A]
+
+[OpenMidRight]There is no "maybe." There is only "yes."[A]
+
+[OpenMidLeft][CloseEyes]I had a brother, once.[A]
+
+[OpenMidRight]Wait,[....] how did this conversation get[NL]
+
+to here?[A]
+
+[OpenMidLeft][OpenEyes]He abandoned me[ToggleMouthMove]...[....][ToggleMouthMove] and now I kill[NL]
+
+so that I may find him.[A]
+
+[OpenMidRight]Well, that sucks[ToggleMouthMove]...[....][ToggleMouthMove] Why[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+
+Why don't you come with us?[A][NL]
+
+You're great at killing, and we need all[NL]
+
+the help we can get.[A][NL]
+
+You don't seem to hold any allegiance to[NL]
+
+these people.[A]
+
+[OpenMidLeft]You know[ToggleMouthMove]...[....][ToggleMouthMove] That just might work out in[NL]
+
+my favor.[A][X]
+

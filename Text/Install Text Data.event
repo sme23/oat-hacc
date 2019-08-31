@@ -2598,7 +2598,7 @@ __TEXTPROCESSB48:
 setText($B48, __TEXTPROCESSB48)
 
 __TEXTPROCESSB49:
-#incbin ".TextEntries\text_buildfileChapter2ElizabethRecruitment.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileChapter2RenoRecruitment.fetxt.dmp"
 setText($B49, __TEXTPROCESSB49)
 
 __TEXTPROCESSB4A:
@@ -2606,7 +2606,7 @@ __TEXTPROCESSB4A:
 setText($B4A, __TEXTPROCESSB4A)
 
 __TEXTPROCESSB4B:
-#incbin ".TextEntries\text_buildfileChapter2BossVsElizabeth.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileChapter2BossVsReno.fetxt.dmp"
 setText($B4B, __TEXTPROCESSB4B)
 
 __TEXTPROCESSB4C:

@@ -648,9 +648,9 @@
 #define Chapter2Opening3 $B46
 #define Chapter2RoshalRecruitment $B47
 #define Chapter2BossAppears $B48
-#define Chapter2ElizabethRecruitment $B49
+#define Chapter2RenoRecruitment $B49
 #define Chapter2GenericBossQuote $B4A
-#define Chapter2BossVsElizabeth $B4B
+#define Chapter2BossVsReno $B4B
 #define Ch2BossDeathQuote $B4C
 #define Chapter2Ending1 $B4D
 #define Chapter2Ending2 $B4E
