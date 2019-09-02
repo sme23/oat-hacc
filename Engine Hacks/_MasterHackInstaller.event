@@ -15,8 +15,8 @@ PUSH
   
   // Debug Startup Screen
   #ifdef __DEBUG__
-    ORG 0x000AD8   // this is somewhere in the startup routine
-      BL(0x01C090) // Call the debug startup menu
+//    ORG 0x000AD8   // this is somewhere in the startup routine
+//      BL(0x01C090) // Call the debug startup menu
   #endif
 POP
 
@@ -200,6 +200,9 @@ POP
   
   ALIGN 4
   #include "SacredWeapons2/weapon_battle_flash.event"
+  
+  ALIGN 4
+  #include "SmeHax/ClearDataOnMenu.event"
   
   ALIGN 4
   #include "UnitMenu.event"

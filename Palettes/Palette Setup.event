@@ -30,7 +30,7 @@
 
 // RoshalRangerPalette
 	setPalette(0x8,RoshalRangerPalette)
-	setCBSP(0x8,Roshal, 0x3, Ranger)
+	setCBSP(0x8,RoshalBoss, 0x3, Ranger)
 
 // YanikLanceCavPalette
 	setPalette(0x9,YanikLanceCavPalette)
@@ -86,3 +86,71 @@
 // JunpeiWarriorPallete
 	setPalette(0x14,JunpeiWarriorPallete)
 	setCBSP(0x14,Junpei, 0x3, Warrior)
+
+// YanikSilverKnightPalette
+	setPalette(0x15,YanikSilverKnightPalette)
+	setCBSP(0x15,Yanik,0x3,SilverKnight)
+
+// YanikGreatKnightPalette
+	setPalette(0x16,YanikGreatKnightPalette)
+	setCBSP(0x16,Yanik,0x4,GreatKnight)
+
+// JuliSilverKnightPalette
+	setPalette(0x17,JuliSilverKnightPalette)
+	setCBSP(0x17,Juli,0x3,SilverKnight_F)
+
+// JuliRangerPalette
+	setPalette(0x18,JuliRangerPalette)
+	setCBSP(0x18,Juli,0x4,Ranger_F)
+
+// RenoAssassinPalette
+	setPalette(0x19,RenoAssassinPalette)
+	setCBSP(0x19,Reno,0x3,Assassin_F)
+
+// RenoRoguePalette
+	setPalette(0x1A,RenoRoguePalette)
+	setCBSP(0x1A,Reno,0x4,Rogue_F)
+
+// GlazetteBishopPalette
+	setPalette(0x1B,GlazetteBishopPalette)
+	setCBSP(0x1B,Glazette,0x3,Bishop_F)
+
+// GlazetteValkyriePalette
+	setPalette(0x1C,GlazetteValkyriePalette)
+	setCBSP(0x1C,Glazette,0x4,Valkyrie)
+
+// CielWyvernRiderPalette
+	setPalette(0x1D,CielWyvernRiderPalette)
+	setCBSP(0x1D,Ciel,0x1,WyvernRider)
+
+// CielWyvernLordPalette
+	setPalette(0x1E,CielWyvernLordPalette)
+	setCBSP(0x1E,Ciel,0x3,WyvernLord)
+
+// CielWyvernKnightPalette
+	setPalette(0x1F,CielWyvernKnightPalette)
+	setCBSP(0x1F,Ciel,0x4,WyvernKnight)
+
+// NatsumiShamanPalette
+	setPalette(0x20,NatsumiShamanPalette)
+	setCBSP(0x20,Natsumi,0x1,Shaman_F)
+
+// NatsumiDruidPalette
+	setPalette(0x21,NatsumiDruidPalette)
+	setCBSP(0x21,Natsumi,0x3,Druid_F)
+
+// NatsumiSummonerPalette
+	setPalette(0x22,NatsumiSummonerPalette)
+	setCBSP(0x22,Natsumi,0x4,Summoner_F)
+
+// DocMercenaryPalette
+	setPalette(0x23,DocMercenaryPalette)
+	setCBSP(0x23,Doc,0x1,Mercenary)
+
+// DocHeroPalette
+	setPalette(0x24,DocHeroPalette)
+	setCBSP(0x24,Doc,0x3,Hero)
+
+// DocRangerPalette
+	setPalette(0x25,DocRangerPalette)
+	setCBSP(0x25,Doc,0x4,Ranger)

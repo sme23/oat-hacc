@@ -71,6 +71,11 @@ MovingMapSprite(3,0x1C52B4,EpizonMovingMapSprite)
 StandingMapSprite(0x10,0,2,EdgySwordmasterStandingMapSprite)
 MovingMapSprite(0x15,0x1CE4FC,EdgySwordmasterMovingMapSprite)
 
+StandingMapSprite(0x48,0x0,0x0,ShamanFStandingMapSprite)
+MovingMapSprite(0x2E, 0x1dd888, ShamanFMovingMapSprite)
+StandingMapSprite(0x55,0x0,0x0,DruidFStandingMapSprite)
+MovingMapSprite(0x30, 0x1de2c4, DruidFMovingMapSprite)
+
 
 ALIGN 4
 LanceCavStandingMapSprite:
@@ -280,5 +285,19 @@ ALIGN 4
 FBowCavMovingMapSprite:
 #incext Png2Dmp "FBowCavMov.png" --lz77
 
+ALIGN 4
+ShamanFStandingMapSprite:
+#incext Png2Dmp "ShamanF Standing.png" --lz77
 
+ALIGN 4
+ShamanFMovingMapSprite:
+#incext Png2Dmp "ShamanF Moving.png" --lz77
+
+ALIGN 4
+DruidFStandingMapSprite:
+#incext Png2Dmp "DruidF Standing.png" --lz77
+
+ALIGN 4
+DruidFMovingMapSprite:
+#incext Png2Dmp "DruidF Moving.png" --lz77
 

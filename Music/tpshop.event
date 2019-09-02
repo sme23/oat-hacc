@@ -754,8 +754,8 @@ tpshop_2:
 	BYTE	KEYSH   tpshop_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   13
+	BYTE		VOL     101*tpshop_mvl/mxv
 	BYTE		PAN     c_v+13
-	BYTE		VOL     124*tpshop_mvl/mxv
 	BYTE		N12     Dn3   v072
 	BYTE	W12
 	BYTE		        Fs3   v088
@@ -2014,9 +2014,9 @@ tpshop_2_B2:
 tpshop_3:
 	BYTE	KEYSH   tpshop_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   26
+	BYTE		VOICE   28
+	BYTE		VOL     114*tpshop_mvl/mxv
 	BYTE		PAN     c_v+0
-	BYTE		VOL     127*tpshop_mvl/mxv
 	BYTE	W96
 tpshop_3_B1:
 // 001   ----------------------------------------
@@ -2119,8 +2119,7 @@ tpshop_3_B1:
 	BYTE		        Gn3   v088
 	BYTE	W05
 	BYTE		N03     Dn3   v072
-	BYTE	W24
-	BYTE	W12
+	BYTE	W36
 // 019   ----------------------------------------
 tpshop_3_019:
 	BYTE		N36     An2   v100

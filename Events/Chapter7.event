@@ -33,11 +33,11 @@ EnemyUnits:
 UNIT Alfred SwdCav Alfred Level(12,Enemy,0) [10,1] 0x2 0x0 0x0 0x1 [SteelSword,Javelin,KnightCrest] NeverMoveAI
 UNIT 128 Archer Alfred Level(7,Enemy,1) [8,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
 UNIT 128 Archer Alfred Level(7,Enemy,1) [12,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
-UNIT 128 Mage Alfred Level(7,Enemy,1) [4,2] 0x2 0x0 0x0 0x1 [Elfire,PureWater] AttackInRangeAI
+UNIT 128 Mage Alfred Level(7,Enemy,1) [4,2] 0x2 0x0 0x0 0x1 [ElfireTome,PureWater] AttackInRangeAI
 UNIT 128 Soldier Alfred Level(8,Enemy,1) [11,7] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
 UNIT 128 Archer Alfred Level(7,Enemy,1) [12,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
 UNIT 128 Archer Alfred Level(5,Enemy,1) [7,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
-UNIT 128 Mage Alfred Level(7,Enemy,1) [9,7] 0x0 0x0 0x0 0x1 [Elfire,EnergyRing] AttackInRangeAI
+UNIT 128 Mage Alfred Level(7,Enemy,1) [9,7] 0x0 0x0 0x0 0x1 [ElfireTome,EnergyRing] AttackInRangeAI
 UNIT 128 Mercenary Alfred Level(7,Enemy,1) [10,7] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
 UNIT 128 Fighter Alfred Level(7,Enemy,1) [4,6] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
 UNIT 128 Fighter Alfred Level(7,Enemy,1) [2,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI

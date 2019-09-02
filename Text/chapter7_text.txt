@@ -275,7 +275,7 @@ don’t know when you’re beaten![A][X]
 ## WilvAlf
 [OpenMidLeft][LoadAlfred]YOU?![A][ClearFace]
 [OpenMidRight][LoadWil]Yeah,[....] me.[A][ClearFace]
-[OpenMidLeft][LoadAlfred]What in the blazes are you doing here?
+[OpenMidLeft][LoadAlfred]What in blazes are you doing here?[N]
 Gotthard said you were retired![A][ClearFace]
 [OpenMidRight][LoadMentle]Well, technically I am,
 but when I see some hotshot noble[ANL]

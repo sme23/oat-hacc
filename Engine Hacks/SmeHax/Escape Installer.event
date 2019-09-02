@@ -44,3 +44,5 @@ SHORT 0xD004
 ORG 0x187A8
 jumpToHack(FinalEscapeThing)
 POP
+
+#include "Unique Shop Music/UniqueShopMusic.event"

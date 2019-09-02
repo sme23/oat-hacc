@@ -32,7 +32,7 @@ TurnEventPlayer(8,Turn4Event,5)
 TurnEventPlayer(9,Turn5Event,6)
 TurnEventPlayer(10,Turn6Event,7)
 TurnEventPlayer(11,Turn7Event,8)
-TurnEventPlayer(2,0,9) //win on turn 8
+TurnEventPlayer(0,EndingScene,8) //win on turn 8
 TurnEventPlayer(21,Turn2Event,3)
 END_MAIN
 
@@ -378,7 +378,7 @@ ENDA
 
 TopLeftItemHouseEvent:
 MUSI
-Text(PlaceholderText)
+Text(Chapter5Village2)
 EndConvo
 SVAL 3 Wyrmslayer
 GIVETO 0xFFFF
@@ -388,7 +388,7 @@ ENDA
 
 TopLeftTextHouseEvent:
 MUSI
-Text(PlaceholderText)
+Text(Chapter5Village1)
 EndConvo
 MUNO
 NoFade
@@ -396,7 +396,7 @@ ENDA
 
 LeftItemHouseEvent:
 MUSI
-Text(PlaceholderText)
+Text(Chapter5Village3)
 EndConvo
 SVAL 3 Vulnerary
 GIVETO 0xFFFF
@@ -406,19 +406,18 @@ ENDA
 
 LeftTextHouseEvent:
 MUSI
-Text(PlaceholderText)
+Text(Chapter5Village4)
 EndConvo
 MUNO
 NoFade
 ENDA
 
 LoseConditionEvent:
-//CHECK_ALLEGIANCE 0xFFFF
-//SVAL 1 1
-//BNE 1 1 0xC
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 1 0 0xC
 CALL 0x592104
 LABEL 1
-//ENUF 22
+ENUF 22
 NoFade
 ENDA
 

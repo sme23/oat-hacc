@@ -103,3 +103,8 @@ TerrainResBonus:
 //force deploy list
 
 #include "Character Forcer.event"
+
+PUSH
+ORG 0xA188E4
+BYTE 0
+POP

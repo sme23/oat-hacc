@@ -151,7 +151,7 @@ ENDA
 
 CielRecruitEvent:
 MUSS Song_WithUs
-Text(PlaceholderText)
+Text(CielRecruitment)
 CUSA Ciel
 MURE 10
 NoFade

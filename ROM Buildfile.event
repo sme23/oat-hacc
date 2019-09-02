@@ -25,8 +25,7 @@ MESSAGE Used text space ends at currentOffset
 //Graphics
 ALIGN 4
 #include "Graphics/_Master Graphics Installer.event"
-ALIGN 4
-#include "Palettes/Palette Setup.event"
+
 
 MESSAGE First block ends at currentOffset
 
@@ -36,6 +35,9 @@ ORG 0x1040250
 
 #include "Animations/_Master Animation Installer.event"
 #include "Graphics/Spells/Master Spell Installer.event"
+
+ALIGN 4
+#include "Palettes/Palette Setup.event"
 
 //CSV tables
 #include "Tables/MiscTableData.event"

@@ -312,6 +312,8 @@
 //Spell anim IDs
 #define HandAxeAnim 0x1
 #define ArrowAnim 0x2
+#define JavelinAnim 0x3
+#define BallistaAnim 0x10
 #define FireAnim 0x16
 #define ElfireAnim 0x17
 #define ThunderAnim 0x19

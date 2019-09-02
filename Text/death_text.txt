@@ -65,52 +65,61 @@ And now, I pay with my life.[A][X]
 I got too careless[ToggleMouthMove]...[A][X]
 
 ## CielDeathQuote
-Oof[X]
+[OpenMidRight][LoadCiel][CloseEyes]
+Heh[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I suppose[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I deserve this[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## NatsumiDeathQuote
-Oof[X]
+[OpenMidRight][LoadNatsumi][CloseEyes]
+Oh, damn it[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I was hoping I'd live[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+To see the end of this[ToggleMouthMove]...[ToggleMouthMove]A][X]
 
 ## DocDeathQuote
-Oof[X]
+[OpenMidRight][LoadDoc][CloseEyes]
+Gah[ToggleMouthMove]...[ToggleMouthMove][....][NL]
+But[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+Wh-What about my[ToggleMouthMove]...?[ToggleMouthMove][A][X]
 
 ## BlankDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SamanthaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FleuretteDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FeiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SmegbertDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## GeorgeDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## AlbanDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## RamonaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## JamieDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## WilliamDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SieghardtDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## OrvaldDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## DarienDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## KatCh2DeathQuote
 [OpenMidLeft][LoadElizabeth]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]

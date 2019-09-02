@@ -61,3 +61,54 @@ HexMageKnightPalette:
 JunpeiWarriorPallete:
 	#incbin "./_palettes/JunpeiWarriorPallete.lzpal" 
 
+YanikSilverKnightPalette:
+	#incbin "./_palettes/YanikSilverKnightPalette.lzpal" 
+
+YanikGreatKnightPalette:
+	#incbin "./_palettes/YanikGreatKnightPalette.lzpal" 
+
+JuliSilverKnightPalette:
+	#incbin "./_palettes/JuliSilverKnightPalette.lzpal" 
+
+JuliRangerPalette:
+	#incbin "./_palettes/JuliRangerPalette.lzpal" 
+
+RenoAssassinPalette:
+	#incbin "./_palettes/RenoAssassinPalette.lzpal" 
+
+RenoRoguePalette:
+	#incbin "./_palettes/RenoRoguePalette.lzpal" 
+
+GlazetteBishopPalette:
+	#incbin "./_palettes/GlazetteBishopPalette.lzpal" 
+
+GlazetteValkyriePalette:
+	#incbin "./_palettes/GlazetteValkyriePalette.lzpal" 
+
+CielWyvernRiderPalette:
+	#incbin "./_palettes/CielWyvernRiderPalette.lzpal" 
+
+CielWyvernLordPalette:
+	#incbin "./_palettes/CielWyvernLordPalette.lzpal" 
+
+CielWyvernKnightPalette:
+	#incbin "./_palettes/CielWyvernKnightPalette.lzpal" 
+
+NatsumiShamanPalette:
+	#incbin "./_palettes/NatsumiShamanPalette.lzpal" 
+
+NatsumiDruidPalette:
+	#incbin "./_palettes/NatsumiDruidPalette.lzpal" 
+
+NatsumiSummonerPalette:
+	#incbin "./_palettes/NatsumiSummonerPalette.lzpal" 
+
+DocMercenaryPalette:
+	#incbin "./_palettes/DocMercenaryPalette.lzpal" 
+
+DocHeroPalette:
+	#incbin "./_palettes/DocHeroPalette.lzpal" 
+
+DocRangerPalette:
+	#incbin "./_palettes/DocRangerPalette.lzpal" 
+

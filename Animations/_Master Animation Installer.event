@@ -252,6 +252,16 @@
 {
 #include "ClericUnarmed Installer.event"
 }
+{
+#include "KnightSword Installer.event"
+}
+{
+#include "KnightAxe Installer.event"
+}
+{
+#include "KnightHandaxe Installer.event"
+}
+
 
 //////////////////////////////////////////////
 
