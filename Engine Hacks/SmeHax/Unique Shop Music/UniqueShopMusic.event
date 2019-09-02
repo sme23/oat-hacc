@@ -1,8 +1,8 @@
 
 UniqueShopMusic:
 #incbin "UniqueShopMusic.dmp"
-WORD Song_TPShop	//ArmorySong
-WORD Song_TPShop	//VendorSong
+WORD 0x36	//ArmorySong
+WORD 0x35	//VendorSong
 WORD Song_TPShop	//SecretSong
 
 PUSH
