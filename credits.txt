@@ -2,7 +2,6 @@ Team Members
 -Ostrava
 -Sammy
 -Hex
--Mentle
 -Zorua
 -Ben
 -Sme
@@ -48,7 +47,6 @@ Character Writing
 -Hex
 -Zorua
 -Ben
--Mentle
 
 Map Design
 -Sme
@@ -122,7 +120,7 @@ Special Thanks
 
 
 
-All INTELLIGENT SYSTEMS staff that made The Sacred Stones what it is
+All INTELLIGENT SYSTEMS staff that made Fire Emblem what it is today
 
 
 
