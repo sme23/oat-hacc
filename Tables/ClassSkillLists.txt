@@ -269,19 +269,19 @@ BYTE 00 00
 ALIGN 4
 
 ArcherMSkillList:
-BYTE 6 SealSpdID
-BYTE 12 CertainBlowID
+BYTE 5 QuickDrawID
+BYTE 10 CertainBlowID
 BYTE 00 00
 ALIGN 4
 
 ArcherFSkillList:
-BYTE 6 SealSpdID
-BYTE 12 CertainBlowID
+BYTE 5 QuickDrawID
+BYTE 10 CertainBlowID
 BYTE 00 00
 ALIGN 4
 
 SniperMSkillList:
-BYTE 255 SealSpdID
+BYTE 255 QuickDrawID
 BYTE 255 CertainBlowID
 BYTE 5 BowfaireID
 BYTE 10 SureShotID
@@ -289,7 +289,7 @@ BYTE 00 00
 ALIGN 4
 
 SniperFSkillList:
-BYTE 255 SealSpdID
+BYTE 255 QuickDrawID
 BYTE 255 CertainBlowID
 BYTE 5 BowfaireID
 BYTE 10 SureShotID
@@ -554,7 +554,7 @@ BYTE 00 00
 ALIGN 4
 
 BrigandMSkillList:
-BYTE 4 IntimidateID
+BYTE 4 CriticalForceID
 BYTE 8 SturdyStanceID
 BYTE 00 00
 ALIGN 4
@@ -566,7 +566,7 @@ BYTE 00 00
 ALIGN 4
 
 BerserkerMSkillList:
-BYTE 255 IntimidateID
+BYTE 255 CriticalForceID
 BYTE 255 FierceStanceID
 BYTE 5 AxefaireID
 BYTE 13 KillingMachineID

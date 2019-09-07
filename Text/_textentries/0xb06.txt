@@ -1,2 +1,0 @@
-[OpenMidLeft][LoadBandit]Oi! The prisoners escaped![....][NL]
-Get 'em, boys![A][X]

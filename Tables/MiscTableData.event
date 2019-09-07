@@ -1,0 +1,118 @@
+//updated promotion list sets, works identically to effectiveness lists
+
+HeroCrestPromos:
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter 0x00
+
+KnightCrestPromos:
+BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Soldier Soldier_F  0x00
+
+OrionsBoltPromos:
+BYTE Archer Archer_F BowCav BowCav_F 0x00
+
+ElysianWhipPromos:
+BYTE PegasusKnight WyvernRider WyvernRider_F 0x00
+
+GuidingRingPromos:
+BYTE Mage Mage_F Shaman Shaman_F Monk Monk_F Priest Cleric Troubadour 0x00
+
+MasterSealPromos:
+BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Thief Thief_F Mercenary Mercenary_F Myrmidon Myrmidon_F Archer Archer_F WyvernRider WyvernRider_F Mage Mage_F Shaman Shaman_F Fighter Brigand Pirate Monk Monk_F Priest Cleric PegasusKnight Troubadour Soldier Soldier_F 0x00
+
+LunarBracePromos:
+BYTE Forrester 0x00
+
+SolarBracePromos:
+BYTE Lancer 0x00
+
+OceanSealPromos:
+BYTE Thief Thief_F Brigand Pirate 0x00
+
+HeavenSealPromos:
+BYTE Forrester Lancer 0x00
+
+PUSH
+ORG 0x029398
+POIN HeroCrestPromos
+ORG 0x0293A0
+POIN KnightCrestPromos
+ORG 0x0293A8
+POIN OrionsBoltPromos
+ORG 0x0293B0
+POIN ElysianWhipPromos
+ORG 0x0293B8
+POIN GuidingRingPromos
+ORG 0x0293C0
+POIN MasterSealPromos
+ORG 0x0293C8
+POIN LunarBracePromos
+ORG 0x0293D0
+POIN SolarBracePromos
+ORG 0x029408
+POIN OceanSealPromos
+ORG 0x0293D8
+POIN HeavenSealPromos
+POP
+
+//updated move costs
+
+ArmoredMoveCost:
+#incbin "ClassMoveCosts/ClearSky/Armored.dmp"
+
+FliersMoveCost:
+#incbin "ClassMoveCosts/ClearSky/Fliers.dmp"
+
+MagicMoveCost:
+#incbin "ClassMoveCosts/ClearSky/Magic.dmp"
+
+NPCMoveCost:
+#incbin "ClassMoveCosts/ClearSky/NPC.dmp"
+
+PirateMoveCost:
+#incbin "ClassMoveCosts/ClearSky/Pirate.dmp"
+
+PromotedCavalryMoveCost:
+#incbin "ClassMoveCosts/ClearSky/PromotedCavalry.dmp"
+
+PromotedInfantryMoveCost:
+#incbin "ClassMoveCosts/ClearSky/PromotedInfantry.dmp"
+
+ThiefMoveCost:
+#incbin "ClassMoveCosts/ClearSky/Thief.dmp"
+
+UnpromotedCavalryMoveCost:
+#incbin "ClassMoveCosts/ClearSky/UnpromotedCavalry.dmp"
+
+UnpromotedInfantryMoveCost:
+#incbin "ClassMoveCosts/ClearSky/UnpromotedInfantry.dmp"
+
+//terrain bonuses
+
+TerrainAvoidBonus:
+#incbin "ClassMoveCosts/TerrainAvo.dmp"
+
+TerrainDefBonus:
+#incbin "ClassMoveCosts/TerrainDef.dmp"
+
+TerrainResBonus:
+#incbin "ClassMoveCosts/TerrainRes.dmp"
+
+//edited class skill level up learnsets
+
+#include "ClassSkillLists.txt"
+
+//force deploy list
+
+#include "Character Forcer.event"
+
+PUSH
+ORG 0xA188E4
+BYTE 0
+POP
+
+PUSH
+ORG 0x758A8C
+SHORT Song_UnfoundedRevenge
+ORG 0x758AA4
+SHORT Song_BossBattle
+POP
+

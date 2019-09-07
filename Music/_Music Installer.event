@@ -137,3 +137,9 @@ SongTable(0x4,seawinds,MapMusicGroup)
 
 SongTable(0x5,furret,MapMusicGroup)
 #include "furret.event"
+
+SongTable(0x34,trsprep,MapMusicGroup)
+#include "trsprep.event"
+
+SongTable(0xB,BeneathANewLight,MapMusicGroup)
+#include "BeneathANewLight.event"

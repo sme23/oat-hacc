@@ -753,8 +753,8 @@ tpshop_2:
 	.byte	KEYSH , tpshop_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 13
+	.byte		VOL   , 101*tpshop_mvl/mxv
 	.byte		PAN   , c_v+13
-	.byte		VOL   , 124*tpshop_mvl/mxv
 	.byte		N12   , Dn3 , v072
 	.byte	W12
 	.byte		        Fs3 , v088
@@ -2013,9 +2013,9 @@ tpshop_2_B2:
 tpshop_3:
 	.byte	KEYSH , tpshop_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 26
+	.byte		VOICE , 28
+	.byte		VOL   , 114*tpshop_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 127*tpshop_mvl/mxv
 	.byte	W96
 tpshop_3_B1:
 @ 001   ----------------------------------------
@@ -2118,8 +2118,7 @@ tpshop_3_B1:
 	.byte		        Gn3 , v088
 	.byte	W05
 	.byte		N03   , Dn3 , v072
-	.byte	W24
-	.byte	W12
+	.byte	W36
 @ 019   ----------------------------------------
 tpshop_3_019:
 	.byte		N36   , An2 , v100

@@ -7,7 +7,7 @@ want to[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## ZoruaDeathQuote
 [OpenMidRight][LoadZorua][CloseEyes]
-N-No[ToggleMouthMove]...[ToggleMouthMove][.....] Please[ToggleMouthMove]...[ToggleMouthMove][.....][NL]
+N-No[ToggleMouthMove]...[ToggleMouthMove][....] Please[ToggleMouthMove]...[ToggleMouthMove][....][NL]
 Not like this[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 [OpenEyes]Sorry I couldn't help out more[ToggleMouthMove]...[ToggleMouthMove][....][NL]
 but I must withdraw[ToggleMouthMove]...[ToggleMouthMove][A][X]
@@ -38,80 +38,93 @@ Help me[ToggleMouthMove]...[ToggleMouthMove][....][A][NL]
 It hurts[ToggleMouthMove]...[ToggleMouthMove][....][ToggleMouthMove][A][X]
 
 ## ElizabethDeathQuote
-[OpenMidRight][LoadFace][0x107][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
+[OpenMidRight][LoadElizabeth][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
 sins? Screw you, too gods[ToggleMouthMove]...[A][X]
 
 ## RoshalDeathQuote
-[OpenMidRight][LoadFace][0x108]Ack![....] Please don't kill me![A][NL]
+[OpenMidRight][LoadRoshal]Ack![....] Please don't kill me![A][NL]
 Sorry, everyone[ToggleMouthMove]...[....][ToggleMouthMove] I need to[NL]
 retreat.[A][X]
 
 ## GlazetteDeathQuote
-[OpenMidRight][LoadFace][0x10D]Live in darkness; die in[NL]
+[OpenMidRight][LoadGlazette]Live in darkness; die in[NL]
 darkness[ToggleMouthMove]...[....][ToggleMouthMove] Wait[ToggleMouthMove]...[....][ToggleMouthMove] What is[A][NL]
 this light[ToggleMouthMove]...?[A][X]
 
 ## JeanneDeathQuote
-Oof[X]
+[OpenMidRight][LoadJeanne]I suppose[ToggleMouthMove]...[....][ToggleMouthMove] it was[NL]
+meant to be[ToggleMouthMove]...[A][ToggleMouthMove][NL]
+[CloseEyes]Everyone[ToggleMouthMove]...[....][ToggleMouthMove] I failed[ToggleMouthMove]...[A][X]
 
 ## HexDeathQuote
-Oof[X]
+[OpenMidRight][LoadHex]To think I could lose[ToggleMouthMove]...[A][ToggleMouthMove][NL]
+And now, I pay with my life.[A][X]
 
 ## JunpeiDeathQuote
-Oof[X]
+[OpenMidRight][LoadJunpei]Damn it[ToggleMouthMove]...[....][ToggleMouthMove] Sorry, Osty[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+I got too careless[ToggleMouthMove]...[A][X]
 
 ## CielDeathQuote
-Oof[X]
+[OpenMidRight][LoadCiel][CloseEyes]
+Heh[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I suppose[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I deserve this[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## NatsumiDeathQuote
-Oof[X]
+[OpenMidRight][LoadNatsumi][CloseEyes]
+Oh, damn it[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I was hoping I'd live[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+To see the end of this[ToggleMouthMove]...[ToggleMouthMove]A][X]
 
 ## DocDeathQuote
-Oof[X]
+[OpenMidRight][LoadDoc][CloseEyes]
+Gah[ToggleMouthMove]...[ToggleMouthMove][....][NL]
+But[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+Wh-What about my[ToggleMouthMove]...?[ToggleMouthMove][A][X]
 
 ## BlankDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SamanthaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FleuretteDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## FeiDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SmegbertDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## GeorgeDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## AlbanDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## RamonaDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## JamieDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## WilliamDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## SieghardtDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## OrvaldDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## DarienDeathQuote
-Oof[X]
+Oof[A][X]
 
 ## KatCh2DeathQuote
-[OpenMidLeft][LoadFace][0x107]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
+[OpenMidLeft][LoadElizabeth]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]
 
 ## JeanneCh4DeathQuote
-[OpenMidRight][LoadFace][0x109][CloseEyes][ToggleMouthMove]...[....][ToggleMouthMove]Is this to be my ending[ToggleMouthMove]...?[A][ToggleMouthMove][NL]
+[OpenMidRight][LoadJeanne][CloseEyes][ToggleMouthMove]...[....][ToggleMouthMove]Is this to be my ending[ToggleMouthMove]...?[A][ToggleMouthMove][NL]
 [OpenEyes]I suppose a solitary life[ToggleMouthMove]...[....][ToggleMouthMove][NL]
 begets a solitary end[ToggleMouthMove]...[A][X]

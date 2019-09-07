@@ -5,12 +5,6 @@
 	auto
 	auto
 	
-# char{0x2} "BenMyrmPalette" set{Ben, 0x1, Myrmidon} auto{0}
-	007EFF7FFF6B1F4B2E19B5293019CC10567B6F5ECA49170811000A004208A514
-	auto
-	auto
-	auto
-	auto
 	
 # char{0x3} "BenPromotedPalette" set{Ben, 0x3, 85} auto{0}
 	5553FF7FBE6BFD3E521DF7294F1DEA14DE7FF7621046CD10170811000A00A514
@@ -47,7 +41,7 @@
 	auto
 	auto
 	
-# char{0x8} "RoshalRangerPalette" set{Roshal, 0x3, Ranger} auto{0}
+# char{0x8} "RoshalRangerPalette" set{RoshalBoss, 0x3, Ranger} auto{0}
 	5553FF7FFF4B9C2AF41DE738DF4F5826BC7B166B72560D4A1C3767592D11A514
 	auto
 	auto
@@ -75,11 +69,17 @@
 	auto
 	auto
 	
- # gen{52,53,54,146,147} "SalvCav generics"
+ # gen{52,53,54,146,147} "SalvCavGenerics"
 	8076FF7FFF5BFE3EF431356B2B5A464110424A29895266299842B0250A19A514
 	8076FF7FFF5BFE3EF4317D4E3925D118D1350A1D3525CC187446AF2D091DA514
 	8076FF7FFF5BFE3EF431534F6A2A88215A225301F43E2F261C4316264E19A514
 	8076FF7FFF5BFE3EF431BA76B3592D3133524C35D1450B299C73D356AC35A514
+	
+# gen{87} "BrigandMercGenerics"
+	DF1BFF7FFF6B1D47D6212E1994194F195A329B4514736F5E3F463B155508A514
+	DF1BFF7FFF6B1D47D6212E1994194F195A329B4514736F5E3F463B155508A514
+	DF1BFF7FFF6B1D47D6212E1994194F195A329B4514736F5E3F463B155508A514
+	DF1BFF7FFF6B1D47D6212E1994194F195A329B4514736F5E3F463B155508A514
 	
 # char{0xC} "GlazetteClericPalette" set{Glazette, 0x1, Cleric} auto{0}
 	007EFF7FFF6B1F4B2E19DE14B5106E083967734E2925EF698C5508398420A514
@@ -125,6 +125,181 @@
 	
 # char{0x12} "VassBossPalette" set{Vass, 0x1, Brigand} auto{0}
 	144BFF7FFF6B1D475A32D621373A9219B96714536F3E2E198F62EA4D2431A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x13} "HexMageKnightPalette" set{Hex, 0x3, MageKnight_F} auto{0}
+	8076DF6F7D537A36B329EC18145D6B38CE3D0829145D6B38524EAD390829A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x14} "JunpeiWarriorPallete" set{Junpei, 0x3, Warrior} auto{0}
+    5553FF7FFF6B1F4B2E19C914C9145873714B4932672150521C22740DED10A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x15} "YanikSilverKnightPalette" set{Yanik,0x3,SilverKnight} auto{0}
+	5553FF7FFF6FBD2EB12DFF27FF7FF266FF397C1011000A00FB7FF2662C4EA514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x16} "YanikGreatKnightPalette" set{Yanik,0x4,GreatKnight} auto{0}
+	5553DE7BFF5B1F4BB229BA3AF4292D19C9101A2B762A90157C1012000C00A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x17} "JuliSilverKnightPalette" set{Juli,0x3,SilverKnight_F} auto{0}
+	5553FF7FFF6FBD2EB12DFF27F6314F254A4766226605E410FB7FF2662C4EA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x18} "JuliRangerPalette" set{Juli,0x4,Ranger_F} auto{0}
+	5553FF7FFF4B9C2AF41DE93AF6310C19E93A66226605E4101C3766222D11A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x19} "RenoAssassinPalette" set{Reno,0x3,Assassin_F} auto{0}
+	5553FF7FFF6BFF462E199749D42D6F1DD42D6F1D1035D42D314A8C35E7206310
+	auto
+	auto
+	auto
+	auto
+
+# char{0x1A} "RenoRoguePalette" set{Reno,0x4,Rogue_F} auto{0}
+	5553DE7FFF6BFF462E194F1DD42DCB10B55A974910358A1C314A8C35E720A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x1B} "GlazetteBishopPalette" set{Glazette,0x3,Bishop_F} auto{0}
+	007EFF7FFF6B1F4B2E19DE14B51008393967734E8C31EF698C5508398420A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x1C} "GlazetteValkyriePalette" set{Glazette,0x4,Valkyrie} auto{0}
+	5553FF7FDF57DD3AD32DCA41DE14B510EF698C550839842CFA7F3377842CA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x1D} "CielWyvernRiderPalette" set{Ciel,0x1,WyvernRider} auto{0}
+	5553FF7F1021D9391E4BFF6BB02DFC72924DFC72776BB2520C3E8829C420A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x1E} "CielWyvernLordPalette" set{Ciel,0x3,WyvernLord} auto{0}
+	5553BE56924DFC72183A1E4BB02D9731CE185C52776BB2520C3E8829C420A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x1F} "CielWyvernKnightPalette" set{Ciel,0x4,WyvernKnight} auto{0}
+	5553FF7F1F7C1F7C183A1E4BB02DBE569731BE56DA77155F4E46CA31C41CA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x20} "NatsumiShamanPalette" set{Natsumi,0x1,Shaman_F} auto{0}
+	5553FF7FFF6BDF2E2E197F3F5F52B941DD769A697248D35E0D466831C41CA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x21} "NatsumiDruidPalette" set{Natsumi,0x3,Druid_F} auto{0}
+	5553FF7FDF579E1AEC0CFF1B9E1A9A69DD769A6972485156AD416931E6240000
+	auto
+	auto
+	auto
+	auto
+
+# char{0x22} "NatsumiSummonerPalette" set{Natsumi,0x4,Summoner_F} auto{0}
+	765EFF7F9A691F4B2E19FF1B9E1A5F52B9412E199A697248924AAD350821A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x23} "DocMercenaryPalette" set{Doc,0x1,Mercenary} auto{0}
+	5553BF774E19AD390C5298779456AD39F36E9456DF5FD62108251F4B0825A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x24} "DocHeroPalette" set{Doc,0x3,Hero} auto{0}
+	5553FF7FDF57DD3A501D524E8C350825386F936AD259536A8D55093DE818A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x25} "DocRangerPalette" set{Doc,0x4,Ranger} auto{0}
+	5553FF7FFF4BBD2EF41D0825AD3908259F527B2D57106E0CFC22AD392D11A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x26} "PerkusPalette" set{Perkus,0x1,WyvernRider} auto{0}
+	5553FF7F81318852B5213B2AB02D99521846995231678852E43D8131C810A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x27} "ZygosPalette" set{Zygos,0x1,Mage} auto{0}
+	5553FF7FFF6B1F4B2E197256EF2194328F5ACB41272D9C77B34FEE42E831A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x28} "AlfredPalette" set{Alfred,0x1,SwdCav} auto{0}
+	8076FF7FFF5BFE3EF4319A32D51930115E2B77166F5A893D9842B0250A19A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x29} "SulbahnPalette" set{Sulbahn,0x1,General} auto{0}
+	5553FF7FBD5FDA3A1109AC08B315A9005967CD39AA41967B1863724E6B2DA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x2A} "DMarcoPalette" set{DMarco,0x1,LncCav} auto{0}
+	8076FF7FFF5BFE3EF4313F131816511192150D05B0350B219842B0250A19A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x2B} "GotthardPalette" set{Gotthard,0x1,General} auto{0}
+	5553FF7FBD5FDA3A0C3A4729B315A90059676E5AAA41967B5E2B77164E11A514
 	auto
 	auto
 	auto

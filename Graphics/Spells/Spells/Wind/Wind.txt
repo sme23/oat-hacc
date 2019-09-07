@@ -88,7 +88,6 @@ B s22.png
 2
 C00001A
 C1F
-~~~
 C51
 O blank.png
 B s01.png
@@ -110,4 +109,8 @@ B s01.png
 5
 C00012A
 C000053
+~~~
+O blank.png
+B s01.png
+1
 /// - End Animation

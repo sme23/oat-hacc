@@ -1,5 +1,8 @@
 #include "chapter_names.txt"
 
+# 0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+
 # 0x0094
 HP Bars[.][X]
 
@@ -57,6 +60,12 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
+## UMText_Win
+ Win[X]
+
+##UMDesc_Win
+Win the map.[X]
+
 ## PlaceholderText
 [OpenMidRight][LoadOstrava]
 This is placeholder text![A][X]
@@ -77,6 +86,8 @@ This is placeholder text![A][X]
 
 #include "music_text.txt"
 
+#include "opening.txt"
+
 #include "narration_text.txt"
 
 #include "prologue_text.txt"
@@ -88,5 +99,17 @@ This is placeholder text![A][X]
 #include "chapter3_text.txt"
 
 #include "chapter4_text.txt"
+
+#include "chapter5_text.txt"
+
+#include "chapter6_text.txt"
+
+#include "chapter7_text.txt"
+
+#include "chapter8_text.txt"
+
+#include "chapter9_text.txt"
+
+#include "chapter10_text.txt"
 
 #include "support_text.txt"

@@ -14,18 +14,72 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
+UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [3,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [4,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [5,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [6,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [4,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [3,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [0,17] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [1,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [2,17] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
+UNIT DMarco LncCav DMarco Level(11,Enemy,0) [23,0] 0x2 0x0 0x0 0x1 [SteelLance,Javelin,HeroCrest] NeverMoveAI
+
+UNIT 128 Archer DMarco Level(7,Enemy,1) [6,12] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Soldier DMarco Level(8,Enemy,1) [8,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+
+UNIT 128 AxeCav DMarco Level(8,Enemy,1) [13,11] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+UNIT 128 Mage DMarco Level(8,Enemy,1) [8,9] 0x0 0x0 0x0 0x1 [ElthunderTome] AttackInRangeAI
+UNIT 128 Mercenary DMarco Level(9,Enemy,1) [10,12] 0x2 0x0 0x0 0x1 [Claymore] AttackInRangeAI
+
+UNIT 128 Shaman DMarco Level(8,Enemy,1) [17,13] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+UNIT 128 Archer_F DMarco Level(9,Enemy,1) [21,14] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Fighter DMarco Level(9,Enemy,1) [19,17] 0x2 0x0 0x0 0x1 [SteelAxe,HandAxe] AttackInRangeAI
+
+UNIT 128 Monk DMarco Level(8,Enemy,1) [1,8] 0x2 0x0 0x0 0x1 [EllightTome] AttackInRangeAI
+UNIT 128 LncCav DMarco Level(9,Enemy,1) [0,4] 0x0 0x0 0x0 0x1 [SteelLance,Javelin] AttackInRangeAI
+UNIT Doc Mercenary DMarco Level(9,Enemy,0) [5,5] 0x0 0x0 0x0 0x1 [Claymore,IronSword,Vulnerary] AttackInRangeAI
+UNIT 128 Fighter DMarco Level(10,Enemy,1) [7,6] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+
+UNIT 128 Knight DMarco Level(9,Enemy,1) [12,5] 0x2 0x0 0x0 0x1 [ShortSpear] AttackInRangeAI
+UNIT 128 Mage_F DMarco Level(9,Enemy,1) [15,6] 0x2 0x0 0x0 0x1 [ElwindTome] AttackInRangeAI
+
+UNIT 128 SwdCav DMarco Level(10,Enemy,1) [12,1] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 128 Archer DMarco Level(9,Enemy,1) [7,1] 0x2 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Shaman DMarco Level(10,Enemy,1) [17,2] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+
+UNIT 128 Myrmidon_F DMarco Level(9,Enemy,1) [21,6] 0x2 0x0 0x0 0x1 [KillingEdge] AttackInRangeAI
+UNIT 128 Mage DMarco Level(10,Enemy,1) [1,0] 0x2 0x0 0x0 0x1 [ElfireTome] AttackInRangeAI
+UNIT 128 Soldier DMarco Level(11,Enemy,1) [17,8] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 128 Fighter DMarco Level(11,Enemy,1) [17,6] 0x2 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+
 UNIT
 
 TurnBasedEvents:
+TurnEventPlayer(0,Turn1DocEvent,2)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(13,DocRecruitEvent,Jeanne,Doc)
 END_MAIN
 
 LocationBasedEvents:
+Village(7,Village1Event,4,4)
+Village(8,Village2Event,8,3)
+Village(9,Village3Event,10,8)
+Village(10,Village4Event,16,5)
+Village(11,Village5Event,16,16)
+Village(12,HouseEvent,6,8)
+Vendor(VendorList,22,8)
+Armory(ArmoryList,22,12)
 END_MAIN
 
 MiscBasedEvents:
@@ -43,8 +97,125 @@ WORD $00
 TrapData:
 END_MAIN
 
+CutsceneUnits:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [0,17] 0x0 0x0 0x1 REDA2R15 NoItems NoAI
+UNIT Roshal Forrester 0 Level(0,Ally,0) [0,17] 0x0 0x0 0x1 REDA3R16 NoItems NoAI
+UNIT
+
 BeginningScene:
+MUSC Song_OrdonVillage
+SetBackground(3)
+//FADU 10
+Text(Chapter9Opening1)
+FADI 10
+CAM1 [0,17]
+LOAD1 0x1 EnemyUnits
+ENUN
+EndConvo
+MUSC Tension
+LOAD2 0x1 CutsceneUnits
+ENUN
+CUMO Ostrava
+STAL 40
+CURE
+Text(Chapter9Opening2)
+FADI 10
+CLEA 0 
+SetBackground(3)
+//FADU 10
+Text(Chapter9Opening3)
+GotoPrepScreen
+NoFade
 ENDA
 
 EndingScene:
+MUSC Victory
+SetBackground(3)
+Text(Chapter9Ending)
+MNC2 Chapter10ID
+NoFade
 ENDA
+
+Turn1DocEvent:
+CAM1 Doc
+CUMO Doc
+STAL 40
+CURE
+Text(Chapter9EnterDoc)
+NoFade
+ENDA
+
+Village1Event: //left village
+MUSI
+SetBackground($1)
+Text(Chapter9Village1)
+EndConvo
+GiveItem(Elixir,0xFFFF)
+MUNO
+NoFade
+ENDA
+
+Village2Event: //second left village
+MUSI
+SetBackground($1)
+Text(Chapter9Village2)
+EndConvo
+GiveItem(Elixir,0xFFFF)
+MUNO
+NoFade
+ENDA
+
+Village3Event: //center village
+MUSI
+SetBackground($1)
+Text(Chapter9Village3)
+EndConvo
+GiveItem(RedGem,0xFFFF)
+MUNO
+NoFade
+ENDA
+
+Village4Event: //top right village
+MUSI
+SetBackground($1)
+Text(Chapter9Village4)
+EndConvo
+GiveItem(HeroCrest,0xFFFF)
+MUNO
+NoFade
+ENDA
+
+Village5Event: //bottom right village
+MUSI
+SetBackground($1)
+Text(Chapter9Village5)
+EndConvo
+GiveItem(Physic,0xFFFF)
+MUNO
+NoFade
+ENDA
+
+HouseEvent:
+MUSI
+SetBackground($1)
+Text(Chapter9Village6)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+DocRecruitEvent:
+MUSS Song_WithUs
+Text(DocRecruitment)
+TurnAlly(Doc)
+MURE 0
+NoFade
+ENDA
+
+ALIGN 4
+VendorList:
+SHLI ElfireTome ElwindTome ElthunderTome FluxTome EllightTome HeroCrest KnightCrest ElysianWhip GuidingRing OrionsBolt Vulnerary PureWater Antidote Elixir 
+
+ALIGN 4
+ArmoryList:
+SHLI SteelSword GustSaber SteelLance Javelin SteelAxe HandAxe SteelBow Longbow

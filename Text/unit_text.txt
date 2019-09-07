@@ -9,7 +9,7 @@ Seeks a place to call his own.[X]
 Zo[X]
 
 ## ZoruaBio
-A traveling mage who loves music.[NL]
+A mage with emotional issues.[NL]
 Good friends with Ben.[X]
 
 ## BenName
@@ -23,18 +23,18 @@ friends with Zo. Very over the top.[X]
 Yanik[X]
 
 ## YanikBio
-A skilled horseman who has issues with[NL]
-his emotions. Loves his girlfriend, Juli.[X]
+A cold, secluded, but devoted worrior.[NL]
+Protective of Juliana.[X]
 
 ## JulianaName
 Juliana[X]
 
 ## JuliBio
-A young cavalier who adores art, but,[NL]
-she loves her boyfriend, Yanik, more.[X]
+An artist who's a bit hard-headed.[NL]
+Is devoted to Yanik.[X]
 
 ## KatName
-Elizabeth[X]
+Reno[X]
 
 ## KatBio
 An orphaned thief. Is searching[NL]
@@ -180,8 +180,8 @@ Puts honor above all else.[X]
 Orvald[X]
 
 ## OrvaldBio
-Leader of a group of bandits.[NL]
-Kind, but a poor leader.[X]
+Leader of a collective of bandits.[NL]
+Kind, but can't keep his men in check.[X]
 
 ## DarienName
 Darien[X]
@@ -230,43 +230,49 @@ Takes pride in his cruelty.[X]
 Perkus[X]
 
 ## PerkusBio
-PerkusBio[X]
+A random traveler here to cause trouble.[N]
+No one knows where he came from...[X]
 
 ## ZygosName
 Zygos[X]
 
 ## ZygosBio
-ZygosBio[X]
+A "tactical genius" sent to[N]
+terrorize the countryside.[X]
 
 ## AlfredName
 Alfred[X]
 
 ## AlfredBio
-AlfredBio[X]
+Norwhickian general and[N]
+right hand to Gotthard.[X]
 
 ## SulbahnName
 Sulbahn[X]
 
 ## SulbahnBio
-SulbahnBio[X]
+A Mercenary hired by Gotthard[N]
+to guard the river crossing.[X]
 
 ## DMarcoName
 DMarco[X]
 
 ## DMarcoBio
-DMarcoBio[X]
+Norwhickian squad commander[N]
+responsible for the town.[X]
 
 ## GerahtName
 Geraht[X]
 
 ## GerahtBio
-GerahtBio[X]
+A Sword Knight assigned to guard[N]
+the Vernet prisioners of war.[X]
 
 ## GotthardName
 Gotthard[X]
 
 ## GotthardBio
-GotthardBio[X]
+An ambitious noble from Norwhick.[X]
 
 ## TridentName
 Trident[X]
@@ -338,7 +344,7 @@ BelisariusBio[X]
 Raime[X]
 
 ## RaimeBio
-RaimeBio[X]
+A Norwhick war hero.[X]
 
 ## BrandonName
 Brandon[X]
@@ -354,6 +360,7 @@ OrionBio[X]
 
 ## RoshalBossBio
 RoshalBossBio[X]
+
 
 
 ## CutthroatBio

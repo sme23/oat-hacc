@@ -4,15 +4,28 @@ ORG 0xb2a610
 #include "EAstdlib.event"
 #include "Custom Definitions.event"
 //#include "Tables/PointerTableReorganized.event"
-#include "Header.event"
+//#include "Header.event"
+
 
 //Text first for Text ID definitions
 #include "Text/Install Text Data.event"
+#ifdef __DEBUG__
+  ALIGN 4
+  TxtData0x0D4B:
+    String("DEBUG BUILD")
+	BYTE 0
+#else
+  ALIGN 4
+  TxtData0x0D4B:
+    String("Donate to Circles")
+	BYTE 0
+#endif
 MESSAGE Used text space ends at currentOffset
 
 //Graphics
+ALIGN 4
 #include "Graphics/_Master Graphics Installer.event"
-#include "Palettes/Palette Setup.event"
+
 
 MESSAGE First block ends at currentOffset
 
@@ -23,9 +36,19 @@ ORG 0x1040250
 #include "Animations/_Master Animation Installer.event"
 #include "Graphics/Spells/Master Spell Installer.event"
 
+ALIGN 4
+#include "Palettes/Palette Setup.event"
+
 //CSV tables
+#include "Tables/MiscTableData.event"
 #include "Tables/Table Installer.event"
 MESSAGE Used table space ends at currentOffset
+
+//prevent enemies from using door keys in chapter 1
+PUSH
+ORG 0xD853C
+BYTE 6
+POP
 
 //Engine Hacks
 #include "Engine Hacks/_MasterHackInstaller.event"

@@ -14,23 +14,115 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
+UNIT Ostrava Forrester Jeanne Level(0,Ally,0) [10,24] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Jeanne Level(0,Ally,0) [9,24] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [11,24] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [9,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [11,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [8,26] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [9,26] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [10,26] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [11,26] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon 0 Level(0,Ally,0) [12,26] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
+UNIT Gotthard General Gotthard Level(1,Enemy,0) [10,2] 0x2 0x0 0x0 0x1 [SteelGreatlance,Javelin,GoldenTincture] NeverMoveAI
+
+UNIT 128 BowCav_F Gotthard Level(10,Enemy,1) [18,21] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Mercenary Gotthard Level(10,Enemy,1) [13,22] 0x0 0x0 0x0 0x1 [Greatsword] AttackInRangeAI
+UNIT 128 Shaman Gotthard Level(11,Enemy,1) [6,20] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+UNIT 128 Soldier Gotthard Level(10,Enemy,1) [3,21] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+
+UNIT 128 Fighter Gotthard Level(12,Enemy,1) [22,10] 0x2 0x0 0x0 0x1 [SteelAxe,DoorKey] AttackInRangeAI
+UNIT 128 Shaman Gotthard Level(11,Enemy,1) [24,14] 0x0 0x0 0x0 0x1 [FluxTome] AttackInRangeAI
+UNIT 128 BowCav_F Gotthard Level(11,Enemy,1) [22,17] 0x2 0x0 0x0 0x1 [ShortBow] AttackInRangeAI
+UNIT 128 Soldier Gotthard Level(12,Enemy,1) [22,13] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 128 Mercenary Gotthard Level(12,Enemy,1) [24,19] 0x0 0x0 0x0 0x1 [Claymore] AttackInRangeAI
+UNIT 128 AxeCav Gotthard Level(12,Enemy,1) [23,22] 0x0 0x0 0x0 0x1 [HandAxe,SteelAxe] AttackInRangeAI
+
+UNIT 128 Mage Gotthard Level(10,Enemy,1) [3,10] 0x0 0x0 0x0 0x1 [ElfireTome] AttackInRangeAI
+UNIT 128 LncCav Gotthard Level(11,Enemy,1) [2,14] 0x2 0x0 0x0 0x1 [SteelLance,HeavySpear] AttackInRangeAI
+UNIT 128 Fighter Gotthard Level(11,Enemy,1) [4,15] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 Archer Gotthard Level(11,Enemy,1) [4,18] 0x0 0x0 0x0 0x1 [SteelBow,KnightCrest] AttackInRangeAI
+
+UNIT 128 AxeKnight Gotthard Level(14,Enemy,1) [10,5] 0x0 0x0 0x0 0x1 [HandAxe] NeverMoveAI
+UNIT 128 Sage Gotthard Level(1,Enemy,1) [15,3] 0x0 0x0 0x0 0x1 [ElfireTome,Sleep] AttackInRangeAI
+UNIT 128 Sage Gotthard Level(1,Enemy,1) [5,3] 0x0 0x0 0x0 0x1 [ElwindTome,Physic] AttackInRangeAI
+UNIT 128 SwdKnight Gotthard Level(14,Enemy,1) [3,7] 0x0 0x0 0x0 0x1 [Greatsword] AttackInRangeAI
+
+UNIT 128 LncCav Gotthard Level(13,Enemy,1) [22,4] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+
+UNIT 128 Mage Gotthard Level(12,Enemy,1) [8,15] 0x0 0x0 0x0 0x1 [ElwindTome] AttackInRangeAI
+UNIT 128 Archer Gotthard Level(13,Enemy,1) [14,16] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+
+UNIT 128 Archer Gotthard Level(13,Enemy,1) [8,11] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 AxeCav Gotthard Level(13,Enemy,1) [13,10] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+
+UNIT 128 Fighter Gotthard Level(12,Enemy,1) [17,11] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 Archer_F Gotthard Level(12,Enemy,1) [19,14] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Mage Gotthard Level(11,Enemy,1) [18,17] 0x0 0x0 0x0 0x1 [ElthunderTome] AttackInRangeAI
+
+UNIT
+
+
+AntiTurtleReinforcements:
+
+UNIT 128 SilverKnight Gotthard Level(1,Enemy,1) [10,26] 0x2 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+
+UNIT 128 SwdCav Gotthard Level(12,Enemy,1) [8,26] 0x0 0x0 0x0 0x1 [GustSaber] AttackInRangeAI
+UNIT 128 LncCav Gotthard Level(11,Enemy,1) [9,26] 0x0 0x0 0x0 0x1 [ShortSpear] AttackInRangeAI
+UNIT 128 AxeCav Gotthard Level(11,Enemy,1) [11,26] 0x0 0x0 0x0 0x1 [Tomahawk] AttackInRangeAI
+UNIT 128 SwdCav Gotthard Level(12,Enemy,1) [12,26] 0x0 0x0 0x0 0x1 [Zanbato] AttackInRangeAI
+
+UNIT
+
+
+EnemyThiefReinforcement1:
+
+UNIT 128 Thief Gotthard Level(10,Enemy,1) [5,10] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] LootingThiefAI
+UNIT
+
+EnemyThiefReinforcement2:
+
+UNIT 128 Thief Gotthard Level(10,Enemy,1) [25,13] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] LootingThiefAI
+UNIT
+
+
+MageReinforcements:
+UNIT 128 Mage Gotthard Level(12,Enemy,1) [5,10] 0x0 0x0 0x1 REDA4R7 [ArcwindTome] AttackInRangeAI
+UNIT 128 Mage Gotthard Level(12,Enemy,1) [5,10] 0x2 0x0 0x1 REDA7R4 [ArcwindTome] AttackInRangeAI
 UNIT
 
 TurnBasedEvents:
+TurnEventPlayer(0,Turn4Reinforcements,5)
+TurnEventPlayer(0,ThiefReinforcement1,3)
+TurnEventPlayer(0,ThiefReinforcement2,7)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Chest(GustSaber,20,2)
+Chest(SecretBook,23,2)
+Chest(KnightCrest,8,14)
+Chest(GuidingRing,12,14)
+Chest(HeroCrest,8,16)
+Chest(Nosferatu,12,16)
+Door(18,3)
+Door(23,7)
+Door(11,12)
+Door(6,15)
+Seize(10,2)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+//AREA 7 AreaReinforcementEvent [0,0] [15,11]
 END_MAIN
+
+
 
 Dunno:
 //DO NOT TOUCH
@@ -43,8 +135,194 @@ WORD $00
 TrapData:
 END_MAIN
 
+CutsceneUnits:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA10R24 NoItems NoAI
+UNIT Jeanne Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA11R24 NoItems NoAI
+UNIT Zo Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA9R24 NoItems NoAI
+UNIT Junpei Forrester 0 Level(0,Ally,0) [10,25] 0x0 0x0 0x1 REDA10R25 NoItems NoAI
+UNIT
+
 BeginningScene:
+MUSC Tension
+LOAD1 0x1 EnemyUnits
+ENUN
+CAM1 [10,25]
+FADU 10
+LOAD2 0x1 CutsceneUnits
+ENUN
+CUMO Ostrava
+STAL 40
+CURE
+Text(Chapter10Intro1)
+CAM1 [10,2]
+ENUN
+CUMO [10,2]
+STAL 40
+CURE
+Text(Chapter10Intro2)
+GotoPrepScreen
+NoFade
 ENDA
 
+EndingUnits:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [10,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Forrester 0 Level(0,Ally,0) [11,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Forrester 0 Level(0,Ally,0) [12,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Zo Forrester 0 Level(0,Ally,0) [12,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Roshal Forrester 0 Level(0,Ally,0) [12,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+EndingUnits2:
+UNIT Gotthard General Gotthard Level(1,Enemy,0) [10,2] 0x2 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+EndingUnits3:
+UNIT Raime Hero 0 Level(0,NPC,0) [3,10] 0x0 0x0 0x1 REDA8R2 NoItems NoAI
+UNIT Orion King 0 Level(0,NPC,0) [3,10] 0x0 0x0 0x1 REDA8R3 NoItems NoAI
+UNIT 128 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA8R4 NoItems NoAI
+UNIT 129 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R2 NoItems NoAI
+UNIT 130 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R3 NoItems NoAI
+UNIT 131 Soldier 0 Level(0,NPC,0) [2,10] 0x0 0x0 0x1 REDA7R4 NoItems NoAI
+UNIT
+
 EndingScene:
+MUSC Victory
+FADI 10
+CLEE 0
+CLEA 0
+CAM1 [10,2]
+LOAD1 0x1 EndingUnits2
+ENUN
+LOAD2 0x1 EndingUnits
+ENUN
+FADU 10
+TEXTSTART
+TEXTSHOW Chapter10Ending1
+TEXTEND
+MUSC 0
+STAL 10
+TEXTCONT
+TEXTEND
+REMA
+LOAD1 0x1 EndingUnits3
+ENUN
+MUSC Song_WithUs
+Text(Chapter10Ending2)
+MOVE 0 Raime [3,10]
+MOVE 0 Gotthard [3,11]
+ENUN
+MOVE 0 129 [3,10]
+MOVE 0 131 [3,11]
+ENUN
+CLEE 0
+Text(Chapter10Ending3)
+MOVE 0 Orion [3,10]
+MOVE 0 Roshal [3,11]
+ENUN
+MOVE 0 128 [3,10]
+MOVE 0 130 [3,11]
+ENUN
+CLEN 0
+CLEA Roshal
+FADI 10
+MUSC Song_OrdonVillage
+CLEA 0
+CLEN 0
+CLEE 0
+LOMA Chapter9ID
+CAM1 [19,5]
+LOAD1 0x1 ArcEndingUnits2
+ENUN
+FADU 10
+LOAD2 0x1 ArcEndingUnits1
+ENUN
+Text(Chapter10Ending4)
+Text(Chapter10Ending5)
+FADI 10
+CLEN 0
+CLEA 0
+LOMA 0x43
+FADU 10
+MUSC 0
+SetBackground($15)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW Chapter10Ending6
+TEXTEND
+MUSC Song_OatSong
+TEXTSTART
+TEXTSHOW Chapter10Ending7
+TEXTEND
+MUSC 0
+STAL 10
+TEXTCONT
+TEXTEND
+FADI 10
+LOMA 0x44
+LOAD2 0 EndCutsceneUnits
+ENUN
+MUSC Advance
+Text(Chapter10Ending8)
+FADI 20
+MUSC 0
+Text(Fort,Chapter10Ending9)
+ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
+STAL 120
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
+ENDA
+
+EndCutsceneUnits:
+UNIT Jeanne Forrester 0 Level(0,Ally,0) [7,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [7,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Zo Forrester 0 Level(0,Ally,0) [6,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Forrester 0 Level(0,Ally,0) [8,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+ArcEndingUnits1:
+UNIT Ostrava Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA19R5 NoItems NoAI
+UNIT Jeanne Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA19R6 NoItems NoAI
+UNIT Zo Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA20R6 NoItems NoAI
+UNIT Ben Forrester 0 Level(0,Ally,0) [23,0] 0x0 0x0 0x1 REDA20R4 NoItems NoAI
+UNIT
+
+ArcEndingUnits2:
+UNIT 128 Civilian 0 Level(0,NPC,0) [17,6] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F 0 Level(0,NPC,0) [18,7] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [16,7] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F_2 0 Level(0,NPC,0) [15,7] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian 0 Level(0,NPC,0) [15,6] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F 0 Level(0,NPC,0) [18,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian 0 Level(0,NPC,0) [19,9] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_F 0 Level(0,NPC,0) [17,8] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+
+
+Turn4Reinforcements:
+CAM1 [10,26]
+LOAD1 0x1 AntiTurtleReinforcements
+ENUN
+NoFade
+ENDA
+
+ThiefReinforcement1:
+CAM1 [5,10]
+LOAD1 0x1 EnemyThiefReinforcement1
+ENUN
+NoFade
+ENDA
+
+ThiefReinforcement2:
+CAM1 [25,13]
+LOAD1 0x1 EnemyThiefReinforcement2
+ENUN
+NoFade
+ENDA
+
+AreaReinforcementEvent:
+CAM1 [5,10]
+LOAD1 0x1 MageReinforcements
+ENUN
+NoFade
 ENDA

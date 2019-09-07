@@ -1,4 +1,4 @@
-[OpenMidRight][LoadBen][OpenFarRight][LoadZorua][OpenMidLeft][LoadOstrava]Are you two okay?[....][NL]
+[OpenMidRight][LoadBen][OpenFarRight][LoadZo][OpenMidLeft][LoadOstrava]Are you two okay?[....][NL]
 
 That got rather dicey.[A]
 
@@ -6,7 +6,7 @@ That got rather dicey.[A]
 
 but I think I overdid it with my magic[ToggleMouthMove]...[ToggleMouthMove][A]
 
-[OpenMidRight]You mages are so strange with[NL]
+[OpenMidRight][ToggleSmile]You mages are so strange with[NL]
 
 your silly spells.[A][NL]
 
@@ -14,7 +14,7 @@ You needlessly exhaust yourselves[NL]
 
 chanting those stupid incantations[A][NL]
 
-that I'm sure are utter gibberish,[NL]
+that I'm sure are just utter gibberish,[NL]
 
 while ones, such as I, cleave[A][NL]
 
@@ -22,7 +22,7 @@ through foes like water without[NL]
 
 breaking a sweat![A]
 
-[OpenFarRight][OpenEyes]Oh, shut up![A][NL]
+[OpenFarRight][ToggleSmile][OpenEyes]Oh, shut up![A][NL]
 
 You were rushing in like a maniac[NL]
 
@@ -36,9 +36,9 @@ You're spoiling the moment![A]
 
 Actually, who even are you?[A]
 
-[OpenFarRight]Unfortunately, yes, but I'll be doing the talking.[NL]
+[OpenFarRight]Unfortunately, yes, but I'll be doing the[NL]
 
-I'm Zo, and this is Ben.[A]
+talking. I'm Zo, and this is Ben.[A]
 
 [OpenMidRight][MoveMidRight][OpenMidRight]Hey, don't shaft me like that![A]
 

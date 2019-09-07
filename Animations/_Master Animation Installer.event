@@ -52,10 +52,10 @@
 #include "DisarmedCav Installer.event"
 }
 {
-#include "EdgySwordmaster Installer.event"
+#include "Neb_Promo Installer.event"
 }
 {
-#include "EdgySwordmasterUnarmed Installer.event"
+#include "Neb_Promo_Unarmed Installer.event"
 }
 {
 #include "EpizonAxe Installer.event"
@@ -77,6 +77,18 @@
 }
 {
 #include "FHeroSword Installer.event" //
+}
+{
+#include "FWarriorAxe Installer.event"
+}
+{
+#include "FWarriorHandAxe Installer.event"
+}
+{
+#include "FWarriorBow Installer.event"
+}
+{
+#include "FWarriorUnarmed Installer.event"
 }
 {
 #include "FireDragon Installer.event" //
@@ -157,7 +169,10 @@
 #include "LancerDis Installer.event"
 }
 {
-#include "LilinaMage Installer.event"
+#include "ZooMage Installer.event"
+}
+{
+#include "NebMyrmidonSword Installer.event"
 }
 {
 #include "RulerDisa Installer.event"
@@ -223,6 +238,9 @@
 //#include "Glazette Unarmed Installer.event"
 }
 {
+#include "Saberman Installer.event"
+}
+{
 #include "LancemanLance Installer.event"
 }
 {
@@ -234,6 +252,18 @@
 {
 #include "ClericUnarmed Installer.event"
 }
+{
+#include "KnightSword Installer.event"
+}
+{
+#include "KnightAxe Installer.event"
+}
+{
+#include "KnightHandaxe Installer.event"
+}
+{
+#include "NebMyrmidonUnarmed Installer.event"
+}
 
 //////////////////////////////////////////////
 
@@ -242,7 +272,7 @@
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE Spears 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation; BYTE ShortAxe 0x00 ; SHORT Animation"
 #define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
 #define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
@@ -775,4 +805,21 @@ WORD 0x0
 LanceBanditAnim:
 LanceAnim(190)
 UnarmedAnim(191)
+WORD 0x0
+
+NebAnim:
+SwordAnim(192)
+UnarmedAnim(188)
+WORD 0x0
+
+SwordBanditAnim:
+SwordAnim(87)
+UnarmedAnim(87)
+WORD 0x0
+
+FemaleWarriorAnim:
+AxeAnim(83)
+HandAxeAnim(84)
+BowAnim(85)
+UnarmedAnim(86)
 WORD 0x0

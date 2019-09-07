@@ -1,0 +1,42 @@
+#include "Extensions/ProcDefinitions.txt"
+#include "Extensions/Hack Installation.txt"
+//MenuCommand(UM_ResetSRAM, 0, NormalText, 0x4F449, 0x1C371)
+PUSH
+ORG 0xA9CA6
+SHORT $1C20 $4B00 $4718
+POIN DeleteSaveProc
+ORG 0xAB90E
+SHORT 0x1C20 0x2120
+BL(0xAB888)
+SHORT 0
+POP
+
+DeleteSaveProc:
+SHORT $B510 $4B07 $F000 $F926 $4B06 $4807 $F000 $F922 $4B06 $0001 $4806 $F000 $F91D $BC10 $BC01 $4700
+BYTE $6D $2D $00 $08 $9D $2E $00 $08 $D4 $16 $59 $08 $E1 $2C $00 $08
+POIN CreditsProcCode
+
+CreditsProcCode:
+
+PROC_SET_NAME(ClearSRAMProcName)
+/*
+PROC_CALL_ROUTINE(LockGameLogic)
+PROC_CALL_ROUTINE_ARG(NewFadeIn, 0x8)
+PROC_WHILE_ROUTINE(FadeInExist)
+PROC_CALL_ROUTINE(ClearOAM)
+PROC_CALL_ROUTINE(ClearPalette)
+PROC_CALL_ROUTINE_ARG(NewFadeOut, 0x8)
+PROC_WHILE_ROUTINE(FadeOutExist)
+*/
+PROC_CALL_ROUTINE(0x1C371)
+
+PROC_END
+
+ClearSRAMProcName:
+String("CLEAR_SRAM")
+
+//DeleteProc(savemenuProc);
+//NewBlockingProc((u32 *)CreditsProcCode, FindProc(0x85916D4));
+
+
+

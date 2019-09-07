@@ -9,9 +9,12 @@
 #ifndef ItemTable
   #define ItemTable 0x809B10
 #endif
+
 #ifndef DebuffTable
-    #define DebuffTable 0x203F100
+  #define DebuffTable     0x0203F100
+  #define DebuffTableSize 0x00000900
 #endif
+
 #ifndef WeaponDebuffTable
     #define WeaponDebuffTable DebuffTable
 #endif
@@ -28,7 +31,7 @@
 
 #define EndConvo "CALL $9EE2C4"
 
-#define GiveItem(item,character) "SVAL 0x3 item; GIVEITEMTO character"
+#define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
 
 //Character Defs
 
@@ -67,35 +70,36 @@
 #define FEier Fei
 #define Alben Alban
 #define Darian Darien
+#define Reno Kat
 
-#define Vass ONeill
+#define Vass 104
 #define Vaas Vass
-#define Odarit Breguet
-#define Pholis Bone
-#define Kendrick Bazba
-#define Thatch 0x49
-#define Perkus Saar
-#define Zygos Novala
-#define Alfred Murray
-#define Sulbahn Tirado
-#define DMarco Binks
-#define Geraht Pablo
-#define Gotthard 0x50
-#define Trident Aias
-#define Doran Carlyle
-#define Randall Caellach
-#define Michael Pablo
-#define Abul 0x54
-#define Kris 0x55
-#define Lance 0x56
-#define Maajal 0x57
-#define Abelus 0x58
-#define Sen 0x59
-#define Belisarius 0x5A
-#define Raime 0x5B
-#define Brandon 0x5C
-#define Orion 0x5D
-#define RoshalBoss 0x5E
+#define Odarit 70
+#define Pholis 71
+#define Kendrick 72
+#define Thatch 73
+#define Perkus 74
+#define Zygos 75
+#define Alfred 76
+#define Sulbahn 77
+#define DMarco 78
+#define Geraht 79
+#define Gotthard 80
+#define Trident 81
+#define Doran 82
+#define Randall 83
+#define Michael 84
+#define Abul 85
+#define Emile 86
+#define Lance 87
+#define Maajal 88
+#define Abelus 89
+#define Sen 90
+#define Belisarius 91
+#define Raime 92
+#define Brandon 93
+#define Orion 94
+#define RoshalBoss 95
 
 //Class Defs
 
@@ -131,6 +135,7 @@
 #define PegasusKnight_F PegasusKnight
 #define Necrodragon 0x65
 #define Falcoknight FalcoKnight
+#define King General //temp
 
 //Item Defs
 
@@ -210,86 +215,7 @@
 
 #define StatBoosts(HP,Str,Skl,Spd,Def,Res,Lck,Mov,Con) "BYTE HP Str Skl Spd Def Res Lck Mov Con 0x00 0x00 0x00"
 
-//updated promotion list sets, works identically to effectiveness lists
 
-HeroCrestPromos:
-BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter 0x00
-
-KnightCrestPromos:
-BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Soldier Soldier_F  0x00
-
-OrionsBoltPromos:
-BYTE Archer Archer_F BowCav BowCav_F 0x00
-
-ElysianWhipPromos:
-BYTE PegasusKnight WyvernRider WyvernRider_F 0x00
-
-GuidingRingPromos:
-BYTE Mage Mage_F Shaman Shaman_F Monk Monk_F Priest Cleric Troubadour 0x00
-
-MasterSealPromos:
-BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F BowCav BowCav_F SwdKnight LncKnight AxeKnight Thief Thief_F Mercenary Mercenary_F Myrmidon Myrmidon_F Archer Archer_F WyvernRider WyvernRider_F Mage Mage_F Shaman Shaman_F Fighter Brigand Pirate Monk Monk_F Priest Cleric PegasusKnight Troubadour Soldier Soldier_F 0x00
-
-LunarBracePromos:
-BYTE Forrester 0x00
-
-SolarBracePromos:
-BYTE Lancer 0x00
-
-OceanSealPromos:
-BYTE Thief Thief_F Brigand Pirate 0x00
-
-HeavenSealPromos:
-BYTE Forrester Lancer 0x00
-
-//updated move costs
-
-ArmoredMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Armored.dmp"
-
-FliersMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Fliers.dmp"
-
-MagicMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Magic.dmp"
-
-NPCMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/NPC.dmp"
-
-PirateMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Pirate.dmp"
-
-PromotedCavalryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/PromotedCavalry.dmp"
-
-PromotedInfantryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/PromotedInfantry.dmp"
-
-ThiefMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/Thief.dmp"
-
-UnpromotedCavalryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/UnpromotedCavalry.dmp"
-
-UnpromotedInfantryMoveCost:
-#incbin "Tables/ClassMoveCosts/ClearSky/UnpromotedInfantry.dmp"
-
-//terrain bonuses
-
-TerrainAvoidBonus:
-#incbin "Tables/ClassMoveCosts/TerrainAvo.dmp"
-
-TerrainDefBonus:
-#incbin "Tables/ClassMoveCosts/TerrainDef.dmp"
-
-TerrainResBonus:
-#incbin "Tables/ClassMoveCosts/TerrainRes.dmp"
-
-//edited class skill level up learnsets
-
-#include "Tables/ClassSkillLists.txt"
-
-//new super weapon effectiveness U deluxe
 
 //Music Definitions
 
@@ -308,6 +234,31 @@ TerrainResBonus:
 #define Song_DragonBattle 0x1F
 #define Song_DragonAppear 0x28
 #define Song_GotohSage 0x2D
+#define Song_FEMainTheme 0x2
+#define Song_AkeniaAnthem 0x1
+#define Song_UndergroundLair 0xA
+#define Song_Verdane 0x14
+#define Song_UnfoundedRevenge 0x1C
+#define Song_GreenThunder 0x2F
+#define Song_WithUs 0x44
+#define Song_VastPoniCanyon 0x45
+#define Song_TPShop 0x46
+#define Song_TPKakariko 0x47
+#define Song_OatSong 0x48
+#define Song_RiversInTheDesert 0x49
+#define Song_OrdonVillage 0x4A
+#define Song_NierBattle 0x4B
+#define Song_Linebeck 0x4C
+#define Song_Bergentruckung 0x4E
+#define Song_BeneathANewLight 0xB
+#define Song_CalamityGanon 0xC
+#define Song_GritzyDesert 0xD
+#define Song_Pelleas 0xE
+#define Song_QuestBattle 0x3
+#define Song_SeaWinds 0x4
+#define Song_Furret 0x5
+#define Song_TRSPrep 0x34
+
 
 //Dumb shit
 
@@ -361,6 +312,8 @@ TerrainResBonus:
 //Spell anim IDs
 #define HandAxeAnim 0x1
 #define ArrowAnim 0x2
+#define JavelinAnim 0x3
+#define BallistaAnim 0x10
 #define FireAnim 0x16
 #define ElfireAnim 0x17
 #define ThunderAnim 0x19
@@ -402,25 +355,8 @@ TerrainResBonus:
 #define WindAnim 0x53
 #define YotsmungandAnim 0x54
 
+#define ChangeWeaponRank(Character,WeaponRank,Value) "SVAL 1 Character; SVAL 2 WeaponRank; SVAL 3 Value; ASMC ChangeWeaponRankASMC|1"
 
-#ifdef __DEBUG__
-  ALIGN 4
-  TxtData0x0D4B:
-    //#incbin "Text/String Workaround/DebugBuild.txt"
-    String("DEBUG BUILD")
-	BYTE 0
-#else
-  ALIGN 4
-  TxtData0x0D4B:
-    //#incbin "Text/String Workaround/DonateToCircles.txt"
-    String("Donate to Circles")
-	BYTE 0
-#endif
-
-
-//prevent enemies from using door keys in chapter 1
-PUSH
-ORG 0xD853C
-BYTE 6
-POP
+#define NightVillageInsideBG 0x6
+#define NightVillageOutsideBG 0x14
 

@@ -1,0 +1,17 @@
+PUSH
+ORG $88638
+POIN StatusBackgroundGraphics
+ORG $88644
+POIN StatusBackgroundTSA
+ORG $88640
+POIN StatusBackgroundPalette
+POP
+
+StatusBackgroundGraphics:
+#incbin "StatScreenImg.dmp"
+
+StatusBackgroundTSA:
+#incbin "StatScreenTSA.dmp"
+
+StatusBackgroundPalette:
+#incbin "StatScreenPal.dmp"

@@ -27,6 +27,27 @@ POP
   ORG $15D66
   BYTE 9
 
+//Prevent Freeze For Unit State Event 0x34.
+//(REMU,REVEAL,CUSA,CUSN,CUSE,SET_HP,SET_ENDTURN,SET_STATE,SET_SOMETHING,DISA_IF,REMU,DISA)
+PUSH
+ORG 0x102D4
+BYTE 0x00 0x20
+POP
+
+//Prevent Freeze For Camera Event 0x26.
+//(CAM1,CAM2)
+PUSH
+ORG 0xF25C
+BYTE 0x00 0x20
+POP
+
+//Prevent Freeze For CUMO Event 0x3B.
+//CUMO
+PUSH
+ORG 0x10804
+BYTE 0x00 0x20
+POP
+
 //Allows MNC2 To jump to any chapter ID.
 ORG 0xBD070
 SHORT 0xE0B8

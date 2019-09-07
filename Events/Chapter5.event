@@ -14,22 +14,58 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
-UNIT
-
-EnemyUnits:
+UNIT Ostrava Forrester Ostrava Level(1,Ally,0) [16,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Lancer Ostrava Level(1,Ally,0) [17,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Junpei Warrior Ostrava Level(1,Ally,0) [18,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [18,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [17,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [17,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [16,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [16,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [15,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [15,3] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 TurnBasedEvents:
+TurnEventPlayer(7,Turn3Event,4)
+TurnEventPlayer(8,Turn4Event,5)
+TurnEventPlayer(9,Turn5Event,6)
+TurnEventPlayer(10,Turn6Event,7)
+TurnEventPlayer(11,Turn7Event,8)
+TurnEventPlayer(0,EndingScene,8) //win on turn 8
+TurnEventPlayer(21,Turn2Event,3)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+LOCA $65 [19,0] 0x20 //game over if house is destroyed
+
+VILL 12 HexHouseEvent [14,11] 0x10
+VILL 15 TopLeftItemHouseEvent [3,1] 0x10
+VILL 16 TopLeftTextHouseEvent [1,1] 0x10
+VILL 17 LeftItemHouseEvent [1,7] 0x10
+VILL 18 LeftTextHouseEvent [10,7] 0x10
+
+Vendor(VendorList,20,10)
+Armory(ArmoryList,14,1)
+Door(17,13)
 END_MAIN
 
+
+ALIGN 4
+VendorList:
+SHLI FireTome ThunderTome WindTome FluxTome Heal Vulnerary Restore //MasterSeal
+
+ALIGN 4
+ArmoryList:
+SHLI IronSword WindSword IronLance Javelin IronAxe HandAxe IronBow ShortBow
+
+ALIGN 4
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AREA 22 LoseConditionEvent [19, 1] [19, 1] 
 END_MAIN
 
 Dunno:
@@ -43,8 +79,345 @@ WORD $00
 TrapData:
 END_MAIN
 
+OpeningUnits:
+UNIT Ostrava Forrester 0x0 Level(1,Ally,0) [5,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Forrester 0x0 Level(1,Ally,0) [6,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Forrester 0x0 Level(1,Ally,0) [5,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Zo Forrester 0x0 Level(1,Ally,0) [6,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningNPC:
+UNIT 127 Civilian 0x0 Level(1,NPC,0) [21,3] 0x0 0x0 0x1 REDA10R2 NoItems NoAI
+UNIT
+
+// Extensions/AI Assembly.txt is broken so let's just define what we need here
+#define InjectAi1(aId, aScr) "PUSH; ORG 0x5A9184+(4*(aId)); POIN (aScr); POP"
+#define InjectAi2(aId, aScr) "PUSH; ORG 0x5A9138+(4*(aId)); POIN (aScr); POP"
+
+#define AiMoveTowardsPoint(aX, aY) "BYTE 0x0C (aX) 0xFF (aY); WORD 0 0 0"
+#define AiRestart "BYTE 0x03 0 0xFF 0; WORD 0 0 0"
+
+InjectAi2(0x10 /* your Ai2 id here */, AiScrMoveToPoint)
+
+ALIGN 4
+AiScrMoveToPoint:
+    AiMoveTowardsPoint(19, 0)
+    AiRestart
+
+EnemyUnits:
+UNIT Perkus WyvernRider Perkus Level(8,Enemy,0) [5,16] 0x2 0x0 0x0 0x1 [IronGreatlance,Javelin,GuidingRing] NeverMoveAI
+UNIT 128 LncCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronSword] AttackInRangeAI
+UNIT 128 Cleric Perkus Level(5,Enemy,1) [2,16] 0x0 0x0 0x0 0x1 [Heal] AttackInRangeAI
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [1,12] 0x0 0x0 0x0 0x1 [IronSword] [0,0x10,0,0]
+UNIT 128 Archer Perkus Level(7,Enemy,1) [0,11] 0x0 0x0 0x0 0x1 [IronBow] [0,0x10,0,0]
+UNIT 128 AxeCav Perkus Level(5,Enemy,1) [3,12] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 128 BowCav Perkus Level(6,Enemy,1) [7,12] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [6,13] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 128 Mercenary Perkus Level(7,Enemy,1) [6,15] 0x0 0x0 0x0 0x1 [SteelSword] [0,0x10,0,0]
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,13] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 128 SwdCav Perkus Level(6,Enemy,1) [5,3] 0x0 0x0 0x0 0x1 [IronBlade] [0,0x10,0,0]
+UNIT 128 Archer Perkus Level(6,Enemy,1) [5,2] 0x0 0x0 0x0 0x1 [IronBow] [0,0x10,0,0]
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [5,4] 0x0 0x0 0x0 0x1 [IronLance] [0,0x10,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [6,3] 0x0 0x0 0x0 0x1 [KillingEdge] [0,0x10,0,0]
+UNIT 128 Soldier Perkus Level(5,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [Javelin] [0,0x10,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [4,15] 0x0 0x0 0x0 0x1 [SteelSword] [0,0x10,0,0]
+UNIT 128 SwdCav Perkus Level(6,Enemy,1) [3,13] 0x0 0x0 0x0 0x1 [IronSword] [0,0x10,0,0]
+UNIT 128 Soldier Perkus Level(6,Enemy,1) [4,13] 0x0 0x0 0x0 0x1 [SteelLance] [0,0x10,0,0]
+UNIT 128 Soldier Perkus Level(6,Enemy,1) [5,9] 0x0 0x0 0x0 0x1 [IronLance] [0,0x10,0,0]
+UNIT 128 Soldier Perkus Level(6,Enemy,1) [6,8] 0x0 0x0 0x0 0x1 [IronLance] [0,0x10,0,0]
+UNIT 128 Archer Perkus Level(6,Enemy,1) [6,10] 0x0 0x0 0x0 0x1 [IronBow] [0,0x10,0,0]
+UNIT 128 Archer Perkus Level(6,Enemy,1) [12,4] 0x0 0x0 0x0 0x1 [IronBow] [0,0x10,0,0]
+UNIT
+
+Turn3Reinforcements:
+UNIT 128 Thief Perkus Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 0x1 [IronSword,Lockpick] [0,0x4,0,0]
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] [0,0x10,0,0]
+UNIT
+
+Turn4Reinforcements:
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,0x10,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,0x10,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,0x10,0,0]
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,0x10,0,0]
+UNIT
+
+Turn5Reinforcements:
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [Javelin] [0,0x10,0,0]
+UNIT 128 AxeCav Perkus Level(7,Enemy,1) [18,16] 0x0 0x0 0x0 0x1 [HandAxe] [0,0x10,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [9,16] 0x0 0x0 0x0 0x1 [IronBlade] [0,0x10,0,0]
+UNIT 128 Mercenary Perkus Level(6,Enemy,1) [10,16] 0x0 0x0 0x0 0x1 [IronBlade] [0,0x10,0,0]
+UNIT
+
+Turn6Reinforcements:
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,0x10,0,0]
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,0x10,0,0]
+UNIT 128 WyvernRider Perkus Level(6,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,0x10,0,0]
+UNIT 128 WyvernRider Perkus Level(5,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [IronGreatlance] [0,0x10,0,0]
+UNIT
+
+Turn7Reinforcements:
+UNIT 128 Myrmidon Perkus Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x1 [IronSword] [0,0x10,0,0]
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [3,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,0x10,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [4,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,0x10,0,0]
+UNIT 128 SwdCav Perkus Level(7,Enemy,1) [6,16] 0x0 0x0 0x0 0x1 [SteelSword] [0,0x10,0,0]
+UNIT 128 LncCav Perkus Level(6,Enemy,1) [7,16] 0x0 0x0 0x0 0x1 [SteelLance] [0,0x10,0,0]
+UNIT
+
+JunpeiGroup:
+UNIT Junpei Warrior Ostrava Level(6,Ally,0) [9,1] 0x0 0x0 0x0 0x1 [SteelAxe,IronBow,HandAxe,BlueGem] NoAI
+UNIT
+
+HexGroup:
+UNIT Hex MageKnight_F Ostrava Level(1,Ally,0) [14,11] 0x0 0x0 0x1 REDA14R12 [FluxTome,Mend,TorchStaff] NoAI
+UNIT
+
+
+
 BeginningScene:
+CAM1 [0,2]
+MUSC Song_OrdonVillage
+LOAD2 0x1 OpeningUnits
+FADU 10
+MOVE 0 Ostrava [6,3]
+ENUN
+MOVE 0 Jeanne [6,4]
+MOVE 0 Ben [5,5]
+MOVE 0 Zo [6,5]
+ENUN
+Text(Chapter5Intro1)
+CAM1 [9,0]
+MOVE 0 Ostrava [9,2]
+MOVE 0 Jeanne [9,3]
+MOVE 0 Ben [10,3]
+MOVE 0 Zo [8,3]
+ENUN
+TEXTSTART
+TEXTSHOW Chapter5Intro2
+TEXTEND
+LOAD1 0x1 JunpeiGroup
+ENUN
+STAL 10
+TEXTCONT
+TEXTEND
+REMA
+MUSC Song_CombatMission
+LOAD1 0x1 OpeningNPC
+ENUN
+Text(Chapter5Intro3)
+MUSC Song_GreenThunder
+CAM1 [5,16]
+CUMO [5,16]
+STAL 40
+CURE
+Text(Chapter5Intro4)
+MUSC 0
+CAM1 [21,0]
+MOVE 0 Ostrava [18,2]
+MOVE 0 Jeanne [20,2]
+MOVE 0 Junpei [19,2]
+ENUN
+MOVE 0 Ben [18,3]
+MOVE 0 Zo [19,3]
+ENUN
+CUMO [19,1]
+STAL 40
+CURE
+Text(Chapter5Intro5)
+FADI 10
+CLEA Ostrava
+CLEA Zo
+CLEA Ben
+CLEA Jeanne
+CLEA Junpei
+CLEN 0x0
+LOAD1 0x1 EnemyUnits
+ENUN
+GotoPrepScreen
+NoFade
 ENDA
 
 EndingScene:
+MUSC Victory
+FADU 10
+CLEA Ostrava
+CLEA Zo
+CLEA Ben
+CLEA Junpei
+CLEA Jeanne
+CLEA Glazette
+CLEA Elizabeth
+CLEA Yanik
+CLEA Juliana
+CLEA Hex
+CLEA Roshal
+CLEE 0x0
+LOAD1 0x1 VictoryScreechBois
+ENUN 
+FADI 10
+CUMO Ostrava
+STAL 40
+CURE
+SetBackground(NightVillageInsideBG)
+Text(Chapter5Ending1)
+FADI 10
+EndConvo
+FADU 10
+CAM1 [5,16]
+CLEA 0x0
+LOAD1 0x1 EndingCutsceneBois
+ENUN
+FADI 10
+MUSC Song_GreenThunder
+Text(Chapter5Ending2)
+FADI 10
+CLEE 0x0
+MUSC Song_OrdonVillage
+CAM1 [19,1]
+SetBackground(9)
+TEXTSTART
+TEXTSHOW Chapter5Ending3
+TEXTEND
+MUSC Song_OatSong
+TEXTCONT
+TEXTEND
+MUSC Song_WithUs
+TEXTCONT
+TEXTEND
+FADI 10
+STAL 10
+//this is where we would switch to daytime map palette
+EndConvo
+FADU 10
+CUMO [19,1]
+STAL 40
+CURE
+MUSC Song_OrdonVillage
+SetBackground(1)
+Text(Chapter5Ending4)
+MNC2 Chapter6ID
+NoFade
 ENDA
+
+
+VictoryScreechBois:
+UNIT Ostrava Forrester Ostrava Level(0,Ally,0) [19,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Jeanne Forrester Ostrava Level(0,Ally,0) [20,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Junpei Forrester Ostrava Level(0,Ally,0) [19,3] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ben Forrester Ostrava Level(0,Ally,0) [17,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Zo Forrester Ostrava Level(0,Ally,0) [18,4] 0x0 0x0 0x0 0x1 NoItems NoAI
+
+EndingCutsceneBois:
+UNIT Perkus WyvernRider Perkus Level(0,Enemy,0) [6,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier Perkus Level(0,Enemy,0) [5,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier Perkus Level(0,Enemy,0) [6,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier Perkus Level(0,Enemy,0) [7,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+
+Turn2Event:
+Text(Chapter5ReinforcementWarning)
+NoFade
+ENDA
+
+
+Turn3Event:
+LOAD1 0x1 Turn3Reinforcements
+ENUN
+NoFade
+ENDA
+
+
+Turn4Event:
+LOAD1 0x1 Turn4Reinforcements
+ENUN
+NoFade
+ENDA
+
+Turn5Event:
+LOAD1 0x1 Turn5Reinforcements
+ENUN
+NoFade
+ENDA
+
+Turn6Event:
+LOAD1 0x1 Turn6Reinforcements
+ENUN
+NoFade
+ENDA
+
+Turn7Event:
+LOAD1 0x1 Turn7Reinforcements
+ENUN
+NoFade
+ENDA
+
+
+HexHouseEvent:
+SetBackground(HouseBG)
+MUSS Song_TogetherWeRide
+CHECK_ACTIVE
+SVAL 1 Ostrava
+BNE 1 1 0xC
+
+Text(HexRecruitOstrava)
+GOTO 2
+
+LABEL 1
+Text(HexReceruitNormal)
+
+LABEL 2
+EndConvo
+LOAD1 0x1 HexGroup
+ENUN
+ChangeWeaponRank(Hex,5,0)
+MURE 0x1
+NoFade
+ENDA
+
+
+TopLeftItemHouseEvent:
+MUSI
+Text(Chapter5Village2)
+EndConvo
+SVAL 3 Wyrmslayer
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+TopLeftTextHouseEvent:
+MUSI
+Text(Chapter5Village1)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+LeftItemHouseEvent:
+MUSI
+Text(Chapter5Village3)
+EndConvo
+SVAL 3 Vulnerary
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+LeftTextHouseEvent:
+MUSI
+Text(Chapter5Village4)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+LoseConditionEvent:
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 1 0 0xC
+CALL 0x592104
+LABEL 1
+ENUF 22
+NoFade
+ENDA
+

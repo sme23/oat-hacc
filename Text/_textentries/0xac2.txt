@@ -1,5 +1,0 @@
-[OpenMidRight][LoadOstrava]
-Oh[ToggleMouthMove]...[ToggleMouthMove][....] no no[NL]
-no no, please![A][NL]
-[CloseEyes]I don't[ToggleMouthMove]...[ToggleMouthMove][....][NL]
-want to[ToggleMouthMove]...[ToggleMouthMove][A][X]

@@ -36,7 +36,6 @@ B elthunder06.png
 O blank.PNG
 B blankbg.PNG
 10
-~~~
 O blank.PNG
 B blankbg.PNG
 1

@@ -1,0 +1,13 @@
+
+UniqueShopMusic:
+#incbin "UniqueShopMusic.dmp"
+WORD 0x36	//ArmorySong
+WORD 0x35	//VendorSong
+WORD Song_TPShop	//SecretSong
+
+PUSH
+ORG 0xB4BF8
+jumpToHack(UniqueShopMusic) //0x8 bytes
+//want to NOP from here to 0xB4C14, is 0x1C bytes here and that takes 8 so 0x14 bytes of NOPs
+WORD 0 0 0 0 0
+POP

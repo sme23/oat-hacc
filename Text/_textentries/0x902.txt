@@ -1,5 +1,0 @@
-[OpenRight][LoadFace][0x30][0x1]'Ooks like we fergot one, boys.[A][NL]
-[OpenLeft][LoadFace][0x4C][0x1]Bu' boss, we already 'ave da--[....][NL]
-[OpenRight]Shadup an' catch dat one![NL]
-Maybe we'll git an extra coin for 'im![A][OpenLeft][ClearFace][OpenRight][ClearFace][NL]
-[OpenMidLeft][LoadOstrava][OpenMidLeft][MoveMidLeft][OpenMidLeft]Dammit! Not now![A][X]

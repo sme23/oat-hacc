@@ -1,4 +1,4 @@
-[OpenMidRight][LoadBen][OpenFarRight][LoadZorua][OpenMidLeft][LoadOstrava][OpenMidLeft]Is everyone alright?[A]
+[OpenMidRight][LoadBen][OpenFarRight][LoadZo][OpenMidLeft][LoadOstrava][OpenMidLeft]Is everyone alright?[A]
 
 [OpenMidRight][CloseEyes][ToggleSmile]But of course, my friend![A][OpenEyes][NL]
 
@@ -12,19 +12,13 @@ much longer we can keep this up.[A][NL]
 
 Be more careful, Ben.[A]
 
-[OpenMidRight][MoveMidRight][OpenMidRight]Pish Posh! The almighty Chaos Bringer[NL]
+[OpenMidRight][MoveMidRight][OpenMidRight][ToggleSmile]Pish Posh! The almighty Chaos Bringer[NL]
 
-has no use for caution. The sounds of[A][NL]
+has no use for caution. These mongrels[A][NL]
 
-my sword strokes are those of heavenly[NL]
+don't stand a chance against my blade![A]
 
-angels engaged in song in the skies up[A][NL]
-
-above, guarding my holy being from[NL]
-
-all harm.[A]
-
-[OpenFarRight][HalfCloseEyes](I don't even want to argue.[NL]
+[OpenFarRight][ToggleSmile][HalfCloseEyes](I don't even want to argue.[NL]
 
 Please keep an eye on him.)[A][OpenEyes]
 
@@ -70,7 +64,7 @@ I'm all for good deeds, but she's just a[NL]
 
 merchant.[A]
 
-[OpenFarLeft][LoadZorua][OpenFarLeft]Ahh[ToggleMouthMove]...[....][ToggleMouthMove] I'm sorry we've been[NL]
+[OpenFarLeft][LoadZo][OpenFarLeft]Ahh[ToggleMouthMove]...[....][ToggleMouthMove] I'm sorry we've been[NL]
 
 dragging you along on this,[A][NL]
 
@@ -100,13 +94,11 @@ Regardless[ToggleMouthMove]...[....][ToggleMouthMove] I think I'll keep helping.
 
 [OpenFarLeft]Thank you[ToggleMouthMove]...[ToggleMouthMove][A]
 
-[OpenFarLeft][ClearFace][OpenFarLeft][LoadBen][OpenFarLeft][ToggleSmile]Now that our fray has reached its[NL]
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadBen][OpenFarLeft][ToggleSmile]Now that the fray is behind us,[NL]
 
-long-awaited end, I cannot help but wonder:[A][NL]
+I must inquire. By what do you[A][NL]
 
-What beautiful name do you call your own,[NL]
-
-my new faint-hearted friend?[A][ToggleSmile]
+go by, my new faint-hearted friend?[A][ToggleSmile]
 
 [OpenMidRight]Oh! Uh, my name's Roshal.[NL]
 
@@ -136,9 +128,9 @@ The choice is yours.[A]
 
 Just please don't make me lead.[A]
 
-[OpenFarLeft]It's no bother, dear Roshal.[A][NL]
+[OpenFarLeft][ToggleSmile]'Tis not a bother, Roshal.[A][NL]
 
-The best of captains need the best of[NL]
+The best of captains need the finest of[NL]
 
 navigators, and I happen to be an[A][NL]
 
@@ -146,11 +138,13 @@ amazing captain and I wager you're[NL]
 
 an amazing navigator. Am I wrong?[A]
 
-[OpenMidRight]Uh[ToggleMouthMove]...[....][ToggleMouthMove] What?[A]
+[OpenMidRight][ToggleSmile]Uh[ToggleMouthMove]...[....][ToggleMouthMove] What?[A]
 
-[OpenFarLeft][ClearFace][OpenFarLeft][LoadZorua][OpenFarLeft]He's saying he trusts you can show[NL]
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadZo][OpenFarLeft]He's saying he trusts you can show[NL]
 
 us where she is.[A]
+
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadBen][OpenFarLeft][MoveFarLeft][OpenFarLeft]Wha--[....] Uh, y-yes. Essentially.[A]
 
 [OpenMidRight]O-Oh,[....] right. I just hope we won't run[NL]
 

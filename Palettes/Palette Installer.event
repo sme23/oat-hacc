@@ -4,9 +4,6 @@
 OstravaForresterPalette:
 	#incbin "./_palettes/OstravaForresterPalette.lzpal" 
 
-BenMyrmPalette:
-	#incbin "./_palettes/BenMyrmPalette.lzpal" 
-
 BenPromotedPalette:
 	#incbin "./_palettes/BenPromotedPalette.lzpal" 
 
@@ -34,8 +31,11 @@ JuliBowCavPalette:
 ElizabethThiefPalette:
 	#incbin "./_palettes/ElizabethThiefPalette.lzpal" 
 
-SalvCav_generics:
-	#incbin "./_palettes/SalvCav_generics.lzpal" 
+SalvCavGenerics:
+	#incbin "./_palettes/SalvCavGenerics.lzpal" 
+
+BrigandMercGenerics:
+	#incbin "./_palettes/BrigandMercGenerics.lzpal" 
 
 GlazetteClericPalette:
 	#incbin "./_palettes/GlazetteClericPalette.lzpal" 
@@ -57,4 +57,79 @@ KendrickBossPalette:
 
 VassBossPalette:
 	#incbin "./_palettes/VassBossPalette.lzpal" 
+
+HexMageKnightPalette:
+	#incbin "./_palettes/HexMageKnightPalette.lzpal" 
+
+JunpeiWarriorPallete:
+	#incbin "./_palettes/JunpeiWarriorPallete.lzpal" 
+
+YanikSilverKnightPalette:
+	#incbin "./_palettes/YanikSilverKnightPalette.lzpal" 
+
+YanikGreatKnightPalette:
+	#incbin "./_palettes/YanikGreatKnightPalette.lzpal" 
+
+JuliSilverKnightPalette:
+	#incbin "./_palettes/JuliSilverKnightPalette.lzpal" 
+
+JuliRangerPalette:
+	#incbin "./_palettes/JuliRangerPalette.lzpal" 
+
+RenoAssassinPalette:
+	#incbin "./_palettes/RenoAssassinPalette.lzpal" 
+
+RenoRoguePalette:
+	#incbin "./_palettes/RenoRoguePalette.lzpal" 
+
+GlazetteBishopPalette:
+	#incbin "./_palettes/GlazetteBishopPalette.lzpal" 
+
+GlazetteValkyriePalette:
+	#incbin "./_palettes/GlazetteValkyriePalette.lzpal" 
+
+CielWyvernRiderPalette:
+	#incbin "./_palettes/CielWyvernRiderPalette.lzpal" 
+
+CielWyvernLordPalette:
+	#incbin "./_palettes/CielWyvernLordPalette.lzpal" 
+
+CielWyvernKnightPalette:
+	#incbin "./_palettes/CielWyvernKnightPalette.lzpal" 
+
+NatsumiShamanPalette:
+	#incbin "./_palettes/NatsumiShamanPalette.lzpal" 
+
+NatsumiDruidPalette:
+	#incbin "./_palettes/NatsumiDruidPalette.lzpal" 
+
+NatsumiSummonerPalette:
+	#incbin "./_palettes/NatsumiSummonerPalette.lzpal" 
+
+DocMercenaryPalette:
+	#incbin "./_palettes/DocMercenaryPalette.lzpal" 
+
+DocHeroPalette:
+	#incbin "./_palettes/DocHeroPalette.lzpal" 
+
+DocRangerPalette:
+	#incbin "./_palettes/DocRangerPalette.lzpal" 
+
+PerkusPalette:
+	#incbin "./_palettes/PerkusPalette.lzpal" 
+
+ZygosPalette:
+	#incbin "./_palettes/ZygosPalette.lzpal" 
+
+AlfredPalette:
+	#incbin "./_palettes/AlfredPalette.lzpal" 
+
+SulbahnPalette:
+	#incbin "./_palettes/SulbahnPalette.lzpal" 
+
+DMarcoPalette:
+	#incbin "./_palettes/DMarcoPalette.lzpal" 
+
+GotthardPalette:
+	#incbin "./_palettes/GotthardPalette.lzpal" 
 

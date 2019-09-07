@@ -28,6 +28,8 @@ Escape[X]
 ##ArriveClearConditionText
 Arrive[X]
 
+##DefendClearConditionText
+Defend[X]
 
 
 
@@ -41,13 +43,28 @@ Escape the prison[X]
 Defeat Pholis[X]
 
 ##Ch3StatusClearText
-DUMMY[X]
+Defeat Kendrick[X]
 
 ##Ch4StatusClearText
-DUMMY[X]
+Seize throne[X]
 
 ##Ch5StatusClearText
-DUMMY[X]
+Defend for 7 turns[X]
+
+##Ch6StatusClearText
+Defeat Zygos[X]
+
+##Ch7StatusClearText
+Defeat Alfred[X]
+
+##Ch8StatusClearText
+Seize gate[X]
+
+##Ch9StatusClearText
+Defeat D'Marco[X]
+
+##Ch10StatusClearText
+Seize throne[X]
 
 
 

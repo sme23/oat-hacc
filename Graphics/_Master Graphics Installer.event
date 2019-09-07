@@ -17,3 +17,27 @@ POP
 NewDifficultyButtons:
 #incext Png2Dmp "Misc/difficulty.png" --lz77
 
+//Night village BGs
+PUSH
+  ORG 0x95DD64 //BG 0x6
+  POIN 0x8DA5A8
+  POIN 0x8DD8F4
+  POIN InsideVillageNightPalette
+  ORG 0x95DE0C //BG 0x14
+  POIN 0x8DDEA8
+  POIN 0x8E0E20
+  POIN OutsideVillageNightPalette
+POP
+
+InsideVillageNightPalette:
+#incbin "Misc/InsideVillageNightPalette.dmp"
+
+OutsideVillageNightPalette:
+#incbin "Misc/OutsideVillageNightPalette.dmp"
+
+
+#include "StatScreen/Stat Screen Installer.event"
+
+#include "BattleScreen/Battle Screen Installer.event"
+
+#include "WorldMap/World Map Installer.event"

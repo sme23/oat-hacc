@@ -1,0 +1,121 @@
+[OpenMidLeft][LoadJeanne][OpenMidRight][LoadOstrava]Jeanne?[A]
+
+[OpenMidLeft]Yes, Ostrava?[A]
+
+[OpenMidRight]Why're you still up? It's pretty[NL]
+
+late already.[A]
+
+[OpenMidLeft]I have been working. Studying maps of[NL]
+
+Irrithyl, attempting to formulate a plan[A][NL]
+
+of action when we arrive.[A]
+
+[OpenMidRight][ToggleMouthMove]...[....][ToggleMouthMove]You don't seriously believe that we[NL]
+
+can do this, do you?[A]
+
+[OpenMidLeft]Whether or not I believe something is[NL]
+
+irrelevant.[A][NL]
+
+I must protect my people and my nation,[NL]
+
+no matter what else happens.[A]
+
+[OpenMidRight][CloseEyes]I get that, I really do.[OpenEyes][NL]
+
+But this is a little absurd.[A][NL]
+
+Breaking out of some backwards prison[NL]
+
+is one thing, but this?[A][NL]
+
+This doesn't seem like something we[NL]
+
+can do.[A]
+
+[OpenMidLeft]Even so, we have a responsibility to do it.[A][NL]
+
+I will not stand by while there are invaders[NL]
+
+in my land.[A]
+
+[OpenMidRight]What about us? I'm all for fighting[NL]
+
+the good fight, but this is punching[A][NL]
+
+above our weight.[NL]
+
+Do you seriously think we can win here?[A]
+
+[OpenMidLeft][ToggleMouthMove]...[....][ToggleMouthMove]No.[NL]
+
+But I do not know what else we can do.[A][NL]
+
+If we do not march on the city, things will[NL]
+
+only get worse for the people there.[A][NL]
+
+[CloseEyes]Assuming it isn't damaged beyond repair[NL]
+
+by the occupiers.[A]
+
+[OpenMidRight]And then what?[A]
+
+[OpenMidLeft][OpenEyes]Once the Norwhickian force has been[NL]
+
+extradited, we shall re-establish order[A][NL]
+
+in the city, and then finally return to the[NL]
+
+capital.[A]
+
+[OpenMidRight][CloseEyes][ToggleMouthMove]...[A][ToggleMouthMove]
+
+[OpenMidLeft]What is it?[A]
+
+[OpenMidRight][OpenEyes]Do you believe in us?[A]
+
+[OpenMidLeft]I believe in how far we have already come.[A][NL]
+
+And if Roshal is to be believed, then[NL]
+
+the worst may yet be behind us.[A]
+
+[OpenMidRight]You're ignoring my question,[NL]
+
+I didn't ask that.[A]
+
+[OpenMidLeft]I do believe in us.[A]
+
+[OpenMidRight]And we're gonna do this, this honestly[NL]
+
+idiotic plan of yours. We're gunna win, ya?[A]
+
+[OpenMidLeft][ToggleSmile]We are going to win.[A]
+
+[OpenMidRight][ToggleSmile][CloseEyes][ToggleMouthMove]...[....][ToggleMouthMove]I hate how confident you are in us.[A]
+
+[OpenMidLeft]I have to be. I have to believe in my[NL]
+
+people.[A][NL]
+
+What is more disheartening than a Princess[NL]
+
+who does not believe her that people[A][NL]
+
+can succeed?[A]
+
+[OpenMidRight][OpenEyes]I suppose you have a point there.[A]
+
+[OpenMidLeft]You should sleep. I will finish[NL]
+
+my plans, and then I will sleep, too.[A]
+
+[OpenMidRight]If you say so.[A]
+
+[OpenMidRight][MoveLeft][OpenLeft][ToggleSmile]Good night, Princess.[A]
+
+[OpenMidLeft]Good night, Ostrava.[A][X]

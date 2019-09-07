@@ -13,6 +13,9 @@
 #include "Chapter1.event"
 }
 {
+#include "Chapter10.event"
+}
+{
 #include "Chapter2.event"
 }
 {
@@ -25,6 +28,12 @@
 #include "Chapter5.event"
 }
 {
+#include "Chapter6.event"
+}
+{
+#include "Chapter7.event"
+}
+{
 #include "Chapter8.event"
 }
 {
@@ -35,6 +44,18 @@
 }
 {
 #include "CutsceneMap2.event"
+}
+{
+#include "CutsceneMap3.event"
+}
+{
+#include "CutsceneMap4.event"
+}
+{
+#include "CutsceneMap5.event"
+}
+{
+#include "CutsceneMap6.event"
 }
 {
 #include "Prologue.event"

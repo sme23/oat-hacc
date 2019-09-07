@@ -1,50 +1,62 @@
-[OpenMidLeft][LoadOstrava][OpenMidRight][LoadBen][OpenMidRight]Hey![A][OpenMidLeft][MoveMidLeft][OpenMidLeft]Gah![....] Stay back![A][OpenMidRight][ToggleSmile]NEVER FEAR, PEDESTRIAN! BEN VON[NL]
+[OpenMidLeft][LoadOstrava][OpenMidRight][LoadBen][OpenMidRight]Hey![A]
+
+[OpenMidLeft][MoveMidLeft][OpenMidLeft]Gah![....] Stay back![A]
+
+[OpenMidRight][ToggleSmile]NEVER FEAR, PEDESTRIAN! BEN VON[NL]
 
 FATASSARU[....] BRINGER OF CHAOS IS HERE[NL]
 
-TO SAVE YOU![A][OpenMidLeft][ToggleSmile][ToggleMouthMove]...[ToggleMouthMove]I'm sorry,[....] what?[A][OpenMidRight]I seem to spot an air of confusion[NL]
+TO SAVE YOU![A]
 
-in your eyes.[A][OpenMidRight][MoveMidRight][OpenMidRight][ToggleSmile] FEAR NOT![....] For we are NOT[....][NL]
+[OpenMidLeft][ToggleSmile][ToggleMouthMove]...[ToggleMouthMove]I'm sorry,[....] what?[A]
 
-here to harm you![A][OpenMidLeft][ToggleSmile]You aren't?[....] Oh, thank goodness.[NL]
+[OpenMidRight]You seemed puzzled.[OpenMidRight][MoveMidRight][OpenMidRight][ToggleSmile] FEAR NOT![NL]
 
-I could really use the help.[A][OpenMidRight]
+We are NOT[....] here to harm you![A]
 
-Er, right. Anyway, [.....][OpenMidRight][MoveMidRight][OpenMidRight]STEP ASIDE![....] MY BLADE[NL]
+[OpenMidLeft][ToggleSmile]You aren't?[....] Oh, thank goodness.[NL]
+
+I could really use the help.[A]
+
+[OpenMidRight]Er, right. Anyway, [....][OpenMidRight][MoveMidRight][OpenMidRight][ToggleSmile]STEP ASIDE![....] MY BLADE[NL]
 
 CANNOT REMAIN SHEATHED ANY LONGER![....][A][NL]
 
 IT YEARNS FOR THE BLOOD OF MY ENEM--[A]
 
-[OpenMidLeft]I get it;[....] I love your help and everything,[NL]
+[OpenMidLeft][ToggleSmile]I get it;[....] I love your help and everything,[NL]
 
-but we need to jam.[A][OpenMidRight]Whoa whoa whoa[OpenMidRight][MoveMidRight][OpenMidRight] WHOA there, sir;[A][NL]
+but we need to jam.[A]
 
-before we part ways, I have a[NL]
+[OpenMidRight]Whoa whoa whoa there, lad; before[NL]
 
-once in a lifetime blessing.[A][NL]
+we part ways, I shall grant you[A][NL]
 
-I present to you a vulnerary with[NL]
+a boon. I present to you a vulnerary[NL]
 
-which to heal your wounds.[A][NL]
+with which to heal your wounds.[A][NL]
 
-A god, such as myself, has[NL]
+[ToggleSmile]A hero such as myself has no need[NL]
 
-no need for such silly trinkets,[A][NL]
+for such silly trinkets, so I think it[A][NL]
 
-so I think it might be better[NL]
+it might be better off with you.[A]
 
-off with you.[A][OpenMidLeft]Uh[ToggleMouthMove]...[ToggleMouthMove][....] thanks, man.[A][NL]
+[OpenMidLeft][ToggleSmile]Uh[ToggleMouthMove]...[ToggleMouthMove][....] thanks, man.[A][NL]
 
 I caught a few nicks earlier,[NL]
 
-so this helps.[A][OpenMidRight]Think nothing of it, dear friend![A][NL]
+so this helps.[A]
 
-[MoveMidRight]Now![....] Back to the fray![A][NL]
+[OpenMidRight]Think nothing of it, dear friend![A][NL]
+
+[MoveMidRight][ToggleSmile]Now![....] Back to the fray![A][NL]
 
 I shall cleave my enemies as a[NL]
 
-chef slices produce![....][OpenMidRight][MoveFarFarLeft][OpenMidLeft][ToggleMouthMove].........[....][NL]
+chef slices produce![....][OpenMidRight][MoveFarFarLeft]
+
+[OpenMidLeft][ToggleSmile][ToggleMouthMove].........[....][NL]
 
 .........[ToggleMouthMove][....][NL]
 

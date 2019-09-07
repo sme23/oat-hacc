@@ -64,7 +64,7 @@
   
   {
   ALIGN 16
-  #include "Spells/Elthunder/Thunder.event"
+  #include "Spells/Elthunder/elthunder.event"
   }
   
   {

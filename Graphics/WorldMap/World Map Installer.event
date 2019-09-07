@@ -1,0 +1,26 @@
+PUSH
+//ORG 0xA99140
+//#incbin "WorldMapImage.dmp"
+//#incext Png2Dmp "WorldMap.png"
+ORG 0xC2044
+POIN WorldMapImage
+ORG 0xA9E4C4
+#incbin "WorldMapPalette.dmp"
+ORG 0xA9DF74
+#incbin "WorldMapTSA.dmp"
+//ORG 0xC204C
+//POIN WorldMapTSA
+ORG 0xA83364
+#incbin "WorldMapBigBlock.dmp"
+ORG 0xBA800
+POIN WorldMapBigTSA
+POP
+
+WorldMapBigTSA:
+#incbin "WorldMapBigTSA.dmp"
+
+WorldMapImage:
+#incbin "WorldMapImage.dmp"
+
+WorldMapTSA: 
+#incbin "WorldMapTSA.dmp"

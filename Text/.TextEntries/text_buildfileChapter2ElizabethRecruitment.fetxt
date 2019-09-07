@@ -1,50 +1,54 @@
-[OpenMidRight][LoadJuli][OpenMidLeft][LoadElizabeth][OpenMidLeft]Pretty[ToggleMouthMove]...[....][ToggleMouthMove] All the better to cut to pieces...[A]
+[OpenMidRight][LoadJuli][OpenMidLeft][LoadElizabeth][ToggleSmile]Howdy-ho, lady![ToggleSmile][NL]
 
-[OpenMidRight]Huh?[....] Who's cutting who up now?[A][NL]
+Question,[....] how would you like to die today?[A]
 
-Are you an elite member of[NL]
+[OpenMidRight]Not at all, preferably![A]
 
-this band of thieves?[A]
+[OpenMidLeft]Truly?[....] I have many different ways of death,[NL]
 
-[OpenMidLeft]Elite? I guess you could say I am.[A][NL]
+each equally more painful than the last![A][NL]
 
-Though it's not like I give a shit about these[NL]
+[ToggleSmile]Ever been disemboweled?[A]
 
-extras anyway. They're a means to an end.[A]
+[OpenMidRight][MoveMidRight][OpenMidRight][ToggleSmile]No, and I'd prefer to keep it that way![NL]
 
-[OpenMidRight]That's awful! Even if they only exist to[NL]
+That shit's messed up![A]
 
-serve a purpose, they're still your comrades![A][NL]
+[OpenMidLeft][MoveMidLeft][OpenMidLeft][ToggleSmile]I KNOW, RIGHT?[NL]
 
-And if not, then you maybe need better[NL]
+That's why it's great![A]
 
-hobbies than killing.[A]
+[OpenMidRight][ToggleSmile]Is that why you're here? Just to get[NL]
 
-[OpenMidLeft]Killing is all I know.[....] It serves my[NL]
+some weird ass killing fix fulfilled?[A]
 
-purpose, and that purpose is revenge.[A]
+[OpenMidLeft]Maybe![A]
 
-[OpenMidRight][MoveMidRight][OpenMidRight]That's even worse![....] Find something else![A]
+[OpenMidRight]There is no "maybe." There is only "yes."[A]
 
-[OpenMidLeft][MoveMidLeft][OpenMidLeft][HalfCloseEyes]Why you![A][NL]
+[OpenMidLeft][CloseEyes]I had a brother, once.[A]
 
-[OpenEyes]What's this? Anger[ToggleMouthMove]...?[....][ToggleMouthMove] I haven't[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+[OpenMidRight]Wait,[....] how did this conversation get[NL]
 
-[CloseEyes]Yet, it's different[ToggleMouthMove]...[ToggleMouthMove][A]
+to here?[A]
 
-[OpenMidRight]Spit it out![A]
+[OpenMidLeft][OpenEyes]He abandoned me[ToggleMouthMove]...[....][ToggleMouthMove] and now I kill[NL]
 
-[OpenMidLeft][OpenEyes]What is your name?[A]
+so that I may find him.[A]
 
-[OpenMidRight]Juliana. What's it to you?[A]
+[OpenMidRight]Well, that sucks[ToggleMouthMove]...[....][ToggleMouthMove] Why[ToggleMouthMove]...[....][ToggleMouthMove][NL]
 
-[OpenMidLeft]I am Elizabeth, and I wish to join you.[A]
+Why don't you come with us?[A][NL]
 
-[OpenMidRight]Fine.[....] Maybe this way you can put[NL]
+You're great at killing, and we need all[NL]
 
-your skills to use and find something to do[A][NL]
+the help we can get.[A][NL]
 
-other than make due on your vendetta.[A]
+You don't seem to hold any allegiance to[NL]
 
-[OpenMidLeft]Maybe[ToggleMouthMove]...[ToggleMouthMove][A][X]
+these people.[A]
+
+[OpenMidLeft]You know[ToggleMouthMove]...[....][ToggleMouthMove] That just might work out in[NL]
+
+my favor.[A][X]
 

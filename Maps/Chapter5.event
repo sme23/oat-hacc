@@ -8,27 +8,12 @@ Map:
 #incbin "Chapter5_data.dmp"
 
 MapChanges:
-TileMap(0,2,0,3,2,Map_Change_0)
-TileMap(1,0,6,3,2,Map_Change_1)
-TileMap(2,13,10,3,2,Map_Change_2)
 TileMap(3,11,18,3,2,Map_Change_3)
 TileMap(4,3,1,1,1,Map_Change_4)
 TileMap(5,1,7,1,1,Map_Change_5)
 TileMap(6,14,11,1,1,Map_Change_6)
 TileMap(7,17,13,1,1,Map_Change_7)
 TileMapEnd
-
-Map_Change_0:
-SHORT 0xb88 0xb94 0xb84 0xc08 0xc14 0xc04 
-ALIGN 4
-
-Map_Change_1:
-SHORT 0xb90 0xb94 0xb84 0xc10 0xc14 0xc04 
-ALIGN 4
-
-Map_Change_2:
-SHORT 0xb90 0xb94 0xc88 0xc10 0xc14 0xd08 
-ALIGN 4
 
 Map_Change_3:
 SHORT 

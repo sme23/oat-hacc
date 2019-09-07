@@ -1,0 +1,31 @@
+BattleScreenGraphic1:
+#incext Png2Dmp "BattleScreenGraphic1.png" --lz77
+
+BattleScreenGraphic2:
+#incext Png2Dmp "BattleScreenGraphic2.png" --lz77
+
+BattleScreenGraphic3:
+#incext Png2Dmp "BattleScreenGraphic3.png" --lz77
+
+BattleScreenGraphic4:
+#incext Png2Dmp "BattleScreenGraphic4.png" --lz77
+
+BattleScreenGraphic5:
+#incext Png2Dmp "BattleScreenGraphic5.png" --lz77
+
+PUSH
+ORG $51F68
+POIN BattleScreenGraphic1
+ORG $51FC8
+POIN BattleScreenGraphic2
+ORG $52028
+POIN BattleScreenGraphic3
+ORG $52088
+POIN BattleScreenGraphic4
+ORG $52164
+POIN BattleScreenGraphic5
+ORG $80210C
+#incbin "BattleScreenTSA.dmp"
+ORG $802558
+#incbin "BattleScreenPalettes.dmp"
+POP
