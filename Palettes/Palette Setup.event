@@ -44,12 +44,15 @@
 	setPalette(0xB,ElizabethThiefPalette)
 	setCBSP(0xB,Elizabeth, 0x1, Thief_F)
 
-// SalvCav_generics
-	setGenericPalette(52,SalvCav_generics)
-	setGenericPalette(53,SalvCav_generics)
-	setGenericPalette(54,SalvCav_generics)
-	setGenericPalette(146,SalvCav_generics)
-	setGenericPalette(147,SalvCav_generics)
+// SalvCavGenerics
+	setGenericPalette(52,SalvCavGenerics)
+	setGenericPalette(53,SalvCavGenerics)
+	setGenericPalette(54,SalvCavGenerics)
+	setGenericPalette(146,SalvCavGenerics)
+	setGenericPalette(147,SalvCavGenerics)
+
+// BrigandMercGenerics
+	setGenericPalette(87,BrigandMercGenerics)
 
 // GlazetteClericPalette
 	setPalette(0xC,GlazetteClericPalette)
@@ -154,3 +157,27 @@
 // DocRangerPalette
 	setPalette(0x25,DocRangerPalette)
 	setCBSP(0x25,Doc,0x4,Ranger)
+
+// PerkusPalette
+	setPalette(0x26,PerkusPalette)
+	setCBSP(0x26,Perkus,0x1,WyvernRider)
+
+// ZygosPalette
+	setPalette(0x27,ZygosPalette)
+	setCBSP(0x27,Zygos,0x1,Mage)
+
+// AlfredPalette
+	setPalette(0x28,AlfredPalette)
+	setCBSP(0x28,Alfred,0x1,SwdCav)
+
+// SulbahnPalette
+	setPalette(0x29,SulbahnPalette)
+	setCBSP(0x29,Sulbahn,0x1,General)
+
+// DMarcoPalette
+	setPalette(0x2A,DMarcoPalette)
+	setCBSP(0x2A,DMarco,0x1,LncCav)
+
+// GotthardPalette
+	setPalette(0x2B,GotthardPalette)
+	setCBSP(0x2B,Gotthard,0x1,General)

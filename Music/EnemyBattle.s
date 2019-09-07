@@ -617,7 +617,6 @@ EnemyBattle_1_B1:
 	.byte	W01
 	.byte	W03
 	.byte	W05
-	.byte		VOICE , 3
 	.byte		VOL   , 100*EnemyBattle_mvl/mxv
 	.byte		PAN   , c_v+10
 	.byte		TIE   , Fn2 , v084

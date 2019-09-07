@@ -31,8 +31,11 @@ JuliBowCavPalette:
 ElizabethThiefPalette:
 	#incbin "./_palettes/ElizabethThiefPalette.lzpal" 
 
-SalvCav_generics:
-	#incbin "./_palettes/SalvCav_generics.lzpal" 
+SalvCavGenerics:
+	#incbin "./_palettes/SalvCavGenerics.lzpal" 
+
+BrigandMercGenerics:
+	#incbin "./_palettes/BrigandMercGenerics.lzpal" 
 
 GlazetteClericPalette:
 	#incbin "./_palettes/GlazetteClericPalette.lzpal" 
@@ -111,4 +114,22 @@ DocHeroPalette:
 
 DocRangerPalette:
 	#incbin "./_palettes/DocRangerPalette.lzpal" 
+
+PerkusPalette:
+	#incbin "./_palettes/PerkusPalette.lzpal" 
+
+ZygosPalette:
+	#incbin "./_palettes/ZygosPalette.lzpal" 
+
+AlfredPalette:
+	#incbin "./_palettes/AlfredPalette.lzpal" 
+
+SulbahnPalette:
+	#incbin "./_palettes/SulbahnPalette.lzpal" 
+
+DMarcoPalette:
+	#incbin "./_palettes/DMarcoPalette.lzpal" 
+
+GotthardPalette:
+	#incbin "./_palettes/GotthardPalette.lzpal" 
 

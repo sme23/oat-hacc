@@ -108,3 +108,11 @@ PUSH
 ORG 0xA188E4
 BYTE 0
 POP
+
+PUSH
+ORG 0x758A8C
+SHORT Song_UnfoundedRevenge
+ORG 0x758AA4
+SHORT Song_BossBattle
+POP
+

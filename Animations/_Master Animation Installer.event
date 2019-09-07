@@ -261,7 +261,9 @@
 {
 #include "KnightHandaxe Installer.event"
 }
-
+{
+#include "NebMyrmidonUnarmed Installer.event"
+}
 
 //////////////////////////////////////////////
 
@@ -805,7 +807,7 @@ WORD 0x0
 
 NebAnim:
 SwordAnim(192)
-UnarmedAnim(192)
+UnarmedAnim(188)
 WORD 0x0
 
 SwordBanditAnim:

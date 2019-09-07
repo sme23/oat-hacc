@@ -618,7 +618,6 @@ EnemyBattle_1_B1:
 	BYTE	W01
 	BYTE	W03
 	BYTE	W05
-	BYTE		VOICE   3
 	BYTE		VOL     100*EnemyBattle_mvl/mxv
 	BYTE		PAN     c_v+10
 	BYTE		TIE     Fn2   v084

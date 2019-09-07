@@ -30,7 +30,7 @@ UNIT Ben Myrmidon Ostrava Level(1,Ally,0) [11,15] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
-UNIT Alfred SwdCav Alfred Level(12,Enemy,0) [10,1] 0x2 0x0 0x0 0x1 [SteelSword,Javelin,KnightCrest] NeverMoveAI
+UNIT Alfred SwdCav Alfred Level(12,Enemy,0) [10,1] 0x2 0x0 0x0 0x1 [SteelSword,WindSword,KnightCrest] NeverMoveAI
 UNIT 128 Archer Alfred Level(7,Enemy,1) [8,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
 UNIT 128 Archer Alfred Level(7,Enemy,1) [12,9] 0x0 0x0 0x0 0x1 [IronBow] AttackInRangeAI
 UNIT 128 Mage Alfred Level(7,Enemy,1) [4,2] 0x2 0x0 0x0 0x1 [ElfireTome,PureWater] AttackInRangeAI

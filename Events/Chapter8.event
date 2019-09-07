@@ -89,7 +89,7 @@ Seize(24,9)
 END_MAIN
 
 MiscBasedEvents:
-AREA 8 AreaReinforcementEvent [15,7] [26,22]
+//AREA 8 AreaReinforcementEvent [15,7] [26,22]
 CauseGameOverIfLordDies
 END_MAIN
 

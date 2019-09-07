@@ -40,7 +40,3 @@ O blank.PNG
 B blankbg.PNG
 1
 C000053
-~~~
-O blank.PNG
-B blankbg.PNG
-1

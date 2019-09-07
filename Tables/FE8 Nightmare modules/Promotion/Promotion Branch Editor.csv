@@ -29,8 +29,8 @@
 "Sniper (F)",0,0
 "Ranger",0,0
 "Ranger (F)",0,0
-"Wyvern Rider","WyvernLord","WyvernLord_F"
-"Wyvern Rider (F)","WyvernKnight","WyvernKnight_F"
+"Wyvern Rider","WyvernLord","WyvernKnight"
+"Wyvern Rider (F)","WyvernLord_F","WyvernKnight_F"
 "Wyvern Lord",0,0
 "Wyvern Lord (F)",0,0
 "Wyvern Knight",0,0

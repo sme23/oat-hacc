@@ -2,6 +2,41 @@
 
 #include eastdlib.event
 
-SetChapterData(Chapter9ID,0xE,0,0xF,0x10,0x2B,Map,0x12,0,0)
+SetChapterData(Chapter9ID,0xE,0,0xF,0x10,0x2B,Map,0x12,0,0x2C)
+EventPointerTable(0x2C, MapChanges)
 Map:
 #incbin "Chapter9_data.dmp"
+
+MapChanges:
+TileMap(0,4,4,1,1,Tile_Layer_2)
+TileMap(1,8,3,1,1,Tile_Layer_3)
+TileMap(2,6,8,1,1,Tile_Layer_4)
+TileMap(3,10,8,1,1,Tile_Layer_5)
+TileMap(4,16,5,1,1,Tile_Layer_6)
+TileMap(5,16,16,1,1,Tile_Layer_7)
+TileMapEnd
+
+Tile_Layer_2:
+SHORT 
+ALIGN 4
+
+Tile_Layer_3:
+SHORT 
+ALIGN 4
+
+Tile_Layer_4:
+SHORT 
+ALIGN 4
+
+Tile_Layer_5:
+SHORT 
+ALIGN 4
+
+Tile_Layer_6:
+SHORT 
+ALIGN 4
+
+Tile_Layer_7:
+SHORT 
+ALIGN 4
+
