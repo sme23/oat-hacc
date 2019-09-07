@@ -55,6 +55,7 @@ Map Design
 -Sammy
 -Shuusuke
 -Kirb
+-A_Reliable_Chair
 
 Character Design
 -Sammy
@@ -84,7 +85,7 @@ Animations
 -Spud
 -Temp
 -Black Mage
--Wan
+-2WB/Eliwan
 -FEGirls
 -Alusq
 -FEier
