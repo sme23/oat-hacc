@@ -37,7 +37,7 @@ Yanik[ToggleMouthMove]...[ToggleMouthMove][....][NL]
 Help me[ToggleMouthMove]...[ToggleMouthMove][....][A][NL]
 It hurts[ToggleMouthMove]...[ToggleMouthMove][....][ToggleMouthMove][A][X]
 
-## ElizabethDeathQuote
+## RenoDeathQuote
 [OpenMidRight][LoadElizabeth][FastPrint]Pft[ToggleMouthMove]...[....][ToggleMouthMove] Retrebution for my[NL]
 sins? Screw you, too gods[ToggleMouthMove]...[A][X]
 
@@ -74,7 +74,7 @@ I deserve this[ToggleMouthMove]...[ToggleMouthMove][A][X]
 [OpenMidRight][LoadNatsumi][CloseEyes]
 Oh, damn it[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 I was hoping I'd live[ToggleMouthMove]...[ToggleMouthMove][A][NL]
-To see the end of this[ToggleMouthMove]...[ToggleMouthMove]A][X]
+To see the end of this[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## DocDeathQuote
 [OpenMidRight][LoadDoc][CloseEyes]
@@ -83,43 +83,78 @@ But[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 Wh-What about my[ToggleMouthMove]...?[ToggleMouthMove][A][X]
 
 ## BlankDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadBlank][CloseEyes]
+N[ToggleMouthMove]...[ToggleMouthMove][.....] No![A][N]
+There were so many things[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I wanted to do[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## SamanthaDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadSamantha][CloseEyes]
+[ToggleMouthMove]...[ToggleMouthMove]What[ToggleMouthMove]...?[ToggleMouthMove][A][N]
+But[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I can't be[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I still have to[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## FleuretteDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadFleurette][CloseEyes]
+Ah[ToggleMouthMove]...[ToggleMouthMove][A][N]
+This pain[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Could it be[ToggleMouthMove]...?[ToggleMouthMove][A][X]
 
 ## FeiDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadFei][CloseEyes]
+My time[ToggleMouthMove]...[ToggleMouthMove][A][N]
+has finally come then[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## SmegbertDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadSmegbert][CloseEyes]
+Ah[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Is this[ToggleMouthMove]...[ToggleMouthMove][A][N]
+the end[ToggleMouthMove]...?[ToggleMouthMove][A][X]
 
 ## GeorgeDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadRaymond][CloseEyes]
+I lived with no regrets[ToggleMouthMove]...[ToggleMouthMove][A][N]
+and I die with none[ToggleMouthMove]...[ToggleMouthMove][A][N]
+goodbye friends[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## AlbanDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadAlban][CloseEyes]
+Mother[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I'm sorry[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I left[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## RamonaDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadRamona][CloseEyes]
+I should've taken[N]
+better care of you[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Alban[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## JamieDeathQuote
+[OpenMidRight][LoadSetanta][CloseEyes]
 Oof[A][X]
 
 ## WilliamDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadEmile][CloseEyes]
+fuck[A][X]
 
 ## SieghardtDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadTrident][CloseEyes]
+I[ToggleMouthMove]...[ToggleMouthMove][A][N]
+just wanted everyone[ToggleMouthMove]...[ToggleMouthMove][A][N]
+to be happy[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## OrvaldDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadCasimir][CloseEyes]
+Ugh[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Sorry you two[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Looks like[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I have to leave you now[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## DarienDeathQuote
-Oof[A][X]
+[OpenMidRight][LoadSuzanne][CloseEyes]
+I suppose[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I wasn't good enough[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## KatCh2DeathQuote
 [OpenMidLeft][LoadElizabeth]D[ToggleMouthMove]...[....][ToggleMouthMove] Dammit! I[ToggleMouthMove]...[....][ToggleMouthMove] never got to[ToggleMouthMove]...[A][X]

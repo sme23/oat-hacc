@@ -55,7 +55,18 @@
 [LoadGotthard] = [LoadFace][0x28][0x1]
 [LoadOrion] = [LoadFace][0x36][0x1]
 [LoadDoc] = [LoadFace][0xE][0x1]
-
+[LoadBlank] = [LoadFace][0x10][0x1]
+[LoadSamantha] = [LoadFace][0x11][0x1]
+[LoadFleurette] = [LoadFace][0x12][0x1]
+[LoadFei] = [LoadFace][0x13][0x1]
+[LoadRaymond] = [LoadFace][0x15][0x1]
+[LoadAlban] = [LoadFace][0x16][0x1]
+[LoadRamona] = [LoadFace][0x17][0x1]
+[LoadSetanta] = [LoadFace][0x18][0x1]
+[LoadEmile] = [LoadFace][0x19][0x1]
+[LoadTrident] = [LoadFace][0x1A][0x1]
+[LoadCasimir] = [LoadFace][0x1B][0x1]
+[LoadSuzanne] = [LoadFace][0x1C][0x1]
 
 
 [N] = [NL]

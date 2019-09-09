@@ -1,0 +1,125 @@
+## OstravaRetreatQuote
+[OpenMidRight][LoadOstrava]
+Oof[A][X]
+
+## ZoruaRetreatQuote
+[OpenMidRight][LoadZorua][CloseEyes]
+N-No[ToggleMouthMove]...[ToggleMouthMove][....] Please[ToggleMouthMove]...[ToggleMouthMove][....][NL]
+Not like this[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+[OpenEyes]Sorry I couldn't help out more[ToggleMouthMove]...[ToggleMouthMove][....][NL]
+but I must withdraw[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+## BenRetreatQuote
+[OpenMidRight][LoadBen]
+[CloseEyes]Hrk[ToggleMouthMove].....[A][ToggleMouthMove][NL]
+[OpenEyes]It seems my all-seeing eye[NL]
+was incapable of foreseeing[A][NL]
+such immense strength.[NL]
+Forgive me,[....] my comrades![A][NL]
+I must fall back![A][X]
+
+## YanikRetreatQuote
+[OpenMidRight][LoadYanik]
+Oof[A][X]
+
+## JuliRetreatQuote
+[OpenMidRight][LoadJuli]
+Oof[A][X]
+
+## RenoRetreatQuote
+[OpenMidRight][LoadReno]
+Oof[A][X]
+
+## RoshalRetreatQuote
+[OpenMidRight][LoadRoshal]Ack![....] Please don't kill me![A][NL]
+Sorry, everyone[ToggleMouthMove]...[....][ToggleMouthMove] I need to[NL]
+retreat.[A][X]
+
+## GlazetteRetreatQuote
+[OpenMidRight][LoadGlazette]
+What is this pain[ToggleMouthMove]..?[ToggleMouthMove][A][N]
+Perhaps I should retreat[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+## JeanneRetreatQuote
+[OpenMidRight][LoadJeanne]
+Oof[A][X]
+
+## HexRetreatQuote
+[OpenMidRight][LoadHex]
+Oof[A][X]
+
+## JunpeiRetreatQuote
+[OpenMidRight][LoadJunpei]
+Oof[A][X]
+
+## CielRetreatQuote
+[OpenMidRight][LoadCiel]
+Oof[A][X]
+
+## NatsumiRetreatQuote
+[OpenMidRight][LoadNatsumi]
+Oof[A][X]
+
+## DocRetreatQuote
+[OpenMidRight][LoadDoc]
+Oof[A][X]
+
+## BlankRetreatQuote
+[OpenMidRight][LoadBlank]
+Oof[A][X]
+
+## SamanthaRetreatQuote
+[OpenMidRight][LoadSamantha]
+Oh damn it![.....] I'm sorry,[N]
+I have to fall back.[A][X]
+
+## FleuretteRetreatQuote
+[OpenMidRight][LoadFleurette]
+Ah, I seem to be injured.[A][N]
+I must flee for the time being.[A][X]
+
+## FeiRetreatQuote
+[OpenMidRight][LoadFei]
+Oof[A][X]
+
+## SmegbertRetreatQuote
+[OpenMidRight][LoadSmegbert]
+Oof[A][X]
+
+## GeorgeRetreatQuote
+[OpenMidRight][LoadRaymond]
+Oof[A][X]
+
+## AlbanRetreatQuote
+[OpenMidRight][LoadAlban]
+Ow ow![A][N]
+I'm not ready for this,[N]
+I need to fall back[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+## RamonaRetreatQuote
+[OpenMidRight][LoadRamona]
+Oh, that's not good.[A][N]
+I need to retreat.[A][X]
+
+## JamieRetreatQuote
+[OpenMidRight][LoadSetanta]
+Oof[A][X]
+
+## WilliamRetreatQuote
+[OpenMidRight][LoadEmile]
+shit[A][X]
+
+## SieghardtRetreatQuote
+[OpenMidRight][LoadTrident]
+Oof[A][X]
+
+## OrvaldRetreatQuote
+[OpenMidRight][LoadCasimir]
+Oof[A][X]
+
+## DarienRetreatQuote
+[OpenMidRight][LoadSuzanne]
+Damn, I can't die here![A][N]
+I gotta go! Sorry![A][X]
+
+

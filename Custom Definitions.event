@@ -71,6 +71,12 @@
 #define Alben Alban
 #define Darian Darien
 #define Reno Kat
+#define Raymond George
+#define Setanta Jamie
+#define Emile William
+#define Casimir Orvald
+#define Suzanne Darien
+#define Trident Sieghardt
 
 #define Vass 104
 #define Vaas Vass
@@ -85,12 +91,12 @@
 #define DMarco 78
 #define Geraht 79
 #define Gotthard 80
-#define Trident 81
+#define TridentBoss 81
 #define Doran 82
 #define Randall 83
 #define Michael 84
 #define Abul 85
-#define Emile 86
+#define EmileBoss 86
 #define Lance 87
 #define Maajal 88
 #define Abelus 89
