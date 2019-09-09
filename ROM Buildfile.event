@@ -40,6 +40,7 @@ ALIGN 4
 #include "Palettes/Palette Setup.event"
 
 //CSV tables
+#include "Events/DeathQuoteEvents.event"
 #include "Tables/MiscTableData.event"
 #include "Tables/Table Installer.event"
 MESSAGE Used table space ends at currentOffset

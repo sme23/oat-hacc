@@ -35,9 +35,29 @@ InsideVillageNightPalette:
 OutsideVillageNightPalette:
 #incbin "Misc/OutsideVillageNightPalette.dmp"
 
+//Misc graphics
+
+/*
+PUSH
+  ORG 0xAB632C
+  #incbin "Misc/SaveMenuCloudsImg.dmp"
+  ORG 0xAB7AC0
+  #incbin "Misc/SaveMenuCloudsTSA.dmp"
+  ORG 0xAB7DB0
+  #incbin "Misc/SaveMenuCloudsPal.dmp"
+  
+POP
+*/
+
+
+
+
 
 #include "StatScreen/Stat Screen Installer.event"
 
 #include "BattleScreen/Battle Screen Installer.event"
 
 #include "WorldMap/World Map Installer.event"
+
+
+
