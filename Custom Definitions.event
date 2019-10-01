@@ -29,6 +29,8 @@
 #define __ESCAPE__
 //Event Helpers
 
+#define _FEE3_
+
 #define EndConvo "CALL $9EE2C4"
 
 #define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"

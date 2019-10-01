@@ -132,7 +132,17 @@ EndingScene:
 MUSC Victory
 SetBackground(3)
 Text(Chapter9Ending)
+#ifdef _FEE3_
+FADI 20
+MUSC 0
+Text(Fort,Chapter10Ending9)
+ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
+STAL 120
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
+#else
 MNC2 Chapter10ID
+#endif
 NoFade
 ENDA
 

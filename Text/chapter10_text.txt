@@ -292,8 +292,10 @@ Take all the time you think you will need.[A]
 
 ##Chapter10Ending9
 [OpenMidRight][LoadOstrava][ToggleSmile]Thank you very much for playing![A][ToggleSmile][NL]
-This concludes our second demo,[NL]
-and we hope you are pleased.[A][NL]
+This concludes our FEE3 demo, but not[NL]
+the entirety of our latest demo.[A][NL]
+To see the rest, you can find the[NL]
+latest demo on our FEU thread.[A][NL]
 Feel free to give us any and all[NL]
 criticism in the thread,[A][NL]
 so we can hopefully make our little[NL]
