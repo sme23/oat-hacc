@@ -1,17 +1,22 @@
 BattleScreenGraphic1:
-#incext Png2Dmp "BattleScreenGraphic1.png" --lz77
+//#incext Png2Dmp "BattleScreenGraphic1.png" --lz77
+#incbin "BattleScreenGraphic1.dmp"
 
 BattleScreenGraphic2:
-#incext Png2Dmp "BattleScreenGraphic2.png" --lz77
+//#incext Png2Dmp "BattleScreenGraphic2.png" --lz77
+#incbin "BattleScreenGraphic2.dmp"
 
 BattleScreenGraphic3:
-#incext Png2Dmp "BattleScreenGraphic3.png" --lz77
+//#incext Png2Dmp "BattleScreenGraphic3.png" --lz77
+#incbin "BattleScreenGraphic3.dmp"
 
 BattleScreenGraphic4:
-#incext Png2Dmp "BattleScreenGraphic4.png" --lz77
+//#incext Png2Dmp "BattleScreenGraphic4.png" --lz77
+#incbin "BattleScreenGraphic4.dmp"
 
 BattleScreenGraphic5:
-#incext Png2Dmp "BattleScreenGraphic5.png" --lz77
+//#incext Png2Dmp "BattleScreenGraphic5.png" --lz77
+#incbin "BattleScreenGraphic5.dmp"
 
 PUSH
 ORG $51F68

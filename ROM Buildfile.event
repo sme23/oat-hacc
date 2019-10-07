@@ -59,7 +59,7 @@ MESSAGE Used hax space ends at currentOffset
 	
 //Music
 #include "Music/_Music Installer.event"
-	
+
 //Events
 #include "Events/Master Event Installer.event"
 #include "Events/World Map Events Installer.event"

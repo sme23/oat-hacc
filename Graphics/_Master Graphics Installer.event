@@ -15,7 +15,8 @@ POP
 
 
 NewDifficultyButtons:
-#incext Png2Dmp "Misc/difficulty.png" --lz77
+//#incext Png2Dmp "Misc/difficulty.png" --lz77
+#incbin "Misc/difficulty.dmp"
 
 //Night village BGs
 PUSH

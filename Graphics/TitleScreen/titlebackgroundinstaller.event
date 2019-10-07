@@ -10,7 +10,8 @@
 	ALIGN 4
 	
 	titlebackgroundpalette:
-	#incext png2dmp "titlebackgroundimage.png" --palette-only
+	//#incext png2dmp "titlebackgroundimage.png" --palette-only
+	#incbin "titlebackgroundimage_pal.dmp"
 	
 	ALIGN 4
 	
@@ -50,11 +51,13 @@ PUSH
 ORG $C5808
 POIN TitleImage
 ORG $AACBA8
-#incext Png2Dmp "Title.png" --palette-only
+//#incext Png2Dmp "Title.png" --palette-only
+#incbin "Title_pal.dmp"
 ORG $C5830
 POIN SubtitleImage
 ORG $AADBC8
-#incext Png2Dmp "Subtitle.png" --palette-only
+//#incext Png2Dmp "Subtitle.png" --palette-only
+#incbin "Subtitle_pal.dmp"
 ORG $C57E4
 POIN DragonsImage
 ORG $C57F4
@@ -64,13 +67,17 @@ POP
 
 ALIGN 4
 TitleImage:
-#incext Png2Dmp "Title.png" --lz77
+//#incext Png2Dmp "Title.png" --lz77
+#incbin "Title.dmp"
 ALIGN 4
 SubtitleImage:
-#incext Png2Dmp "Subtitle.png" --lz77
+//#incext Png2Dmp "Subtitle.png" --lz77
+#incbin "Subtitle.dmp"
 ALIGN 4
 DragonsImage:
-#incext Png2Dmp "Dragons.png" --lz77
+//#incext Png2Dmp "Dragons.png" --lz77
+#incbin "Dragons.dmp"
 ALIGN 4
 DragonsPalette:
-#incext Png2Dmp "Dragons.png" --palette-only
+//#incext Png2Dmp "Dragons.png" --palette-only
+#incbin "Dragons_pal.dmp"

@@ -5,7 +5,8 @@ ALIGN 4
 
 MESSAGE Objects at CURRENTOFFSET
 DesertObjects:
-#incext Png2Dmp "Tileset/BetterDesert.png" --lz77
+//#incext Png2Dmp "Tileset/BetterDesert.png" --lz77
+#incbin "Tileset/BetterDesert.dmp"
 ALIGN 4
 
 MESSAGE Palette at CURRENTOFFSET
@@ -26,7 +27,8 @@ CaveTiles:
 ALIGN 4
 
 CaveObjects:
-#incext Png2Dmp "Tileset/Cave.png" --lz77
+//#incext Png2Dmp "Tileset/Cave.png" --lz77
+#incbin "Tileset/Cave.png"
 ALIGN 4
 
 CavePalette1:
@@ -52,7 +54,8 @@ BridgeTiles:
 ALIGN 4
 
 BridgeObjects:
-#incext Png2Dmp "Tileset/Bridges.png" --lz77
+//#incext Png2Dmp "Tileset/Bridges.png" --lz77
+#incbin "Tileset/Bridges.dmp"
 ALIGN 4
 
 BridgePalette:
@@ -63,22 +66,27 @@ EventPointerTable(0x94, BridgeObjects)
 EventPointerTable(0x95, BridgePalette)
 
 DoubleCastlePalette1:
-#incext Png2Dmp "Tileset/Castle_Tileset_EX.png" --palette-only
+//#incext Png2Dmp "Tileset/Castle_Tileset_EX.png" --palette-only
+#incbin "Tileset/Castle_Tileset_EX_pal.dmp"
 ALIGN 4
 DoubleCastlePalette2:
-#incext Png2Dmp "Tileset/Castle_Tileset_EX_2.png" --palette-only
+//#incext Png2Dmp "Tileset/Castle_Tileset_EX_2.png" --palette-only
+#incbin "Tileset/Castle_Tileset_EX_2_pal.dmp"
 ALIGN 4
 DoubleCastlePalette3:
-#incext Png2Dmp "Tileset/Castle_Tileset_EX_3.png" --palette-only
+//#incext Png2Dmp "Tileset/Castle_Tileset_EX_3.png" --palette-only
+#incbin "Tileset/Castle_Tileset_EX_3_pal.dmp"
 ALIGN 4
 DoubleCastlePalette4:
-#incext Png2Dmp "Tileset/Castle_Tileset_EX_4.png" --palette-only
+//#incext Png2Dmp "Tileset/Castle_Tileset_EX_4.png" --palette-only
+#incbin "Tileset/Castle_Tileset_EX_4_pal.dmp"
 ALIGN 4
 DoubleCastleTiles:
 #incbin "Tileset/Castles_Extra_No_Fog_comp.dmp"
 ALIGN 4
 DoubleCastleObjects:
-#incext Png2Dmp "Tileset/Castle_Tileset_EX.png"
+//#incext Png2Dmp "Tileset/Castle_Tileset_EX.png"
+#incbin "Tileset/Castle_Tileset_EX.dmp"
 ALIGN 4
 EventPointerTable(0x96, DoubleCastleTiles)
 EventPointerTable(0x97, DoubleCastleObjects)

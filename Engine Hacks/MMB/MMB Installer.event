@@ -193,10 +193,12 @@
 			POIN MMBRESLabelGraphic
 			ALIGN 4
 			MMBDEFLabelGraphic:
-			#incext Png2Dmp "Modules/DEFLabel.png"
+			//#incext Png2Dmp "Modules/DEFLabel.png"
+			#incbin "Modules/DEFLabel.dmp"
 			ALIGN 4
 			MMBRESLabelGraphic:
-			#incext Png2Dmp "Modules/RESLabel.png"
+			//#incext Png2Dmp "Modules/RESLabel.png"
+			#incbin "Modules/RESLabel.dmp"
 			#ifndef MMBNumberDrawing
 				#define MMBNumberDrawing
 			#endif // MMBNumberDrawing
@@ -212,10 +214,12 @@
 			POIN MMBDODLabelGraphic
 			ALIGN 4
 			MMBAVOLabelGraphic:
-			#incext Png2Dmp "Modules/AVOLabel.png"
+			//#incext Png2Dmp "Modules/AVOLabel.png"
+			#incbin "Modules/AVOLabel.dmp"
 			ALIGN 4
 			MMBDODLabelGraphic:
-			#incext Png2Dmp "Modules/DODLabel.png"
+			//#incext Png2Dmp "Modules/DODLabel.png"
+			#incbin "Modules/DODLabel.dmp"
 			#inctevent lyn "Modules/MMBAVOGetter.elf" "Internal/Definitions.elf"
 			#inctevent lyn "Modules/MMBDODGetter.elf" "Internal/Definitions.elf"
 			#ifndef MMBNumberDrawing
@@ -272,7 +276,8 @@
 		#ifdef MMBASLabel
 			ALIGN 4
 			MMBASLabelGraphic:
-			#incext Png2Dmp "Modules/ASLabel.png"
+			//#incext Png2Dmp "Modules/ASLabel.png"
+			#incbin "Modules/ASLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -281,7 +286,8 @@
 		#ifdef MMBATKLabel
 			ALIGN 4
 			MMBATKLabelGraphic:
-			#incext Png2Dmp "Modules/ATKLabel.png"
+			//#incext Png2Dmp "Modules/ATKLabel.png"
+			#incbin "Modules/ATKLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -290,7 +296,8 @@
 		#ifdef MMBAVOLabel
 			ALIGN 4
 			MMBAVOLabelGraphic:
-			#incext Png2Dmp "Modules/AVOLabel.png"
+			//#incext Png2Dmp "Modules/AVOLabel.png"
+			#incbin "Modules/AVOLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -299,7 +306,8 @@
 		#ifdef MMBCHRLabel
 			ALIGN 4
 			MMBCHRLabelGraphic:
-			#incext Png2Dmp "Modules/CHRLabel.png"
+			//#incext Png2Dmp "Modules/CHRLabel.png"
+			#incbin "Modules/CHRLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -308,7 +316,8 @@
 		#ifdef MMBCRTLabel
 			ALIGN 4
 			MMBCRTLabelGraphic:
-			#incext Png2Dmp "Modules/CRTLabel.png"
+			//#incext Png2Dmp "Modules/CRTLabel.png"
+			#incbin "Modules/CRTLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -317,7 +326,8 @@
 		#ifdef MMBDEFLabel
 			ALIGN 4
 			MMBDEFLabelGraphic:
-			#incext Png2Dmp "Modules/DEFLabel.png"
+			//#incext Png2Dmp "Modules/DEFLabel.png"
+			#incbin "Modules/DEFLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -326,7 +336,8 @@
 		#ifdef MMBDODLabel
 			ALIGN 4
 			MMBDODLabelGraphic:
-			#incext Png2Dmp "Modules/DODLabel.png"
+			//#incext Png2Dmp "Modules/DODLabel.png"
+			#incbin "Modules/DODLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -335,7 +346,8 @@
 		#ifdef MMBEXPLabel
 			ALIGN 4
 			MMBEXPLabelGraphic:
-			#incext Png2Dmp "Modules/EXPLabel.png"
+			//#incext Png2Dmp "Modules/EXPLabel.png"
+			#incbin "Modules/EXPLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -344,7 +356,8 @@
 		#ifdef MMBHITLabel
 			ALIGN 4
 			MMBHITLabelGraphic:
-			#incext Png2Dmp "Modules/HITLabel.png"
+			//#incext Png2Dmp "Modules/HITLabel.png"
+			#incbin "Modules/HITLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -353,7 +366,8 @@
 		#ifdef MMBLevelLabel
 			ALIGN 4
 			MMBLevelLabelGraphic:
-			#incext Png2Dmp "Modules/LevelLabel.png"
+			//#incext Png2Dmp "Modules/LevelLabel.png"
+			#incbin "Modules/LevelLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -362,7 +376,8 @@
 		#ifdef MMBRESLabel
 			ALIGN 4
 			MMBRESLabelGraphic:
-			#incext Png2Dmp "Modules/RESLabel.png"
+			//#incext Png2Dmp "Modules/RESLabel.png"
+			#incbin "Modules/RESLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
@@ -371,7 +386,8 @@
 		#ifdef MMBRTGLabel
 			ALIGN 4
 			MMBRTGLabelGraphic:
-			#incext Png2Dmp "Modules/RTGLabel.png"
+			//#incext Png2Dmp "Modules/RTGLabel.png"
+			#incbin "Modules/RTGLabel.dmp"
 			#ifndef MMBLabelDrawing
 				#define MMBLabelDrawing
 			#endif // MMBLabelDrawing
