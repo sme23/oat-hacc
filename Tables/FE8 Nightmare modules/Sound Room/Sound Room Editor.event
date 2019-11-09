@@ -38,5 +38,6 @@ csvmacro025(0xE,5248,0,PelleasThemeName)
 csvmacro025(0x3,4074,0,QuestBattleThemeName)
 csvmacro025(0x4,5891,0,SeaWindsThemeName)
 csvmacro025(0x5,1678,0,FurretThemeName)
+csvmacro025(0x34,2373,0,TRSPrepThemeName)
 csvmacro025(0xFFFFFFFF,0,0,0)
 POP
