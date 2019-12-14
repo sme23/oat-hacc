@@ -1,0 +1,27 @@
+
+#include "chapter_text/opening.txt"
+
+#include "chapter_text/narration_text.txt"
+
+#include "chapter_text/prologue_text.txt"
+
+#include "chapter_text/chapter1_text.txt"
+
+#include "chapter_text/chapter2_text.txt"
+
+#include "chapter_text/chapter3_text.txt"
+
+#include "chapter_text/chapter4_text.txt"
+
+#include "chapter_text/chapter5_text.txt"
+
+#include "chapter_text/chapter6_text.txt"
+
+#include "chapter_text/chapter7_text.txt"
+
+#include "chapter_text/chapter8_text.txt"
+
+#include "chapter_text/chapter9_text.txt"
+
+#include "chapter_text/chapter10_text.txt"
+

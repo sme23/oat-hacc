@@ -1,32 +1,79 @@
-cd %~dp0
+@echo off
 
-copy FE8_clean.gba oats.gba
+@rem USAGE: "MAKE HACK_full.cmd" [quick]
+@rem If first argument is "quick", then this will not update text, tables, or generate a patch
+@rem "MACK HACK_quick.cmd" simply calls this but with the quick argument, for convenience
 
-echo: | (AssembleMusic.cmd)
+@rem defining buildfile config
 
-cd "%~dp0Tables"
+set "source_rom=%~dp0FE8_clean.gba"
 
-echo: | (c2ea "%~dp0FE8_clean.gba")
+set "main_event=%~dp0ROM Buildfile.event"
 
-cd "%~dp0Text"
+set "target_rom=%~dp0MoDu.gba"
+set "target_ups=%~dp0MoDu.ups"
 
-echo: | (text-process-classic text_buildfile.txt --parser-exe "%~dp0Event Assembler/Tools/ParseFile.exe")
+@rem defining tools
 
-cd "%~dp0Maps"
+set "c2ea=%~dp0Tools\C2EA\c2ea"
+set "textprocess=%~dp0Tools\TextProcess\text-process-classic"
+set "ups=%~dp0Tools\ups\ups"
+set "parsefile=%~dp0Event Assembler\Tools\ParseFile.exe"
 
-echo: | (tmx2ea -s)
+@rem set %~dp0 into a variable because batch is stupid and messes with it when using conditionals?
 
-cd "%~dp0Palettes"
+set "base_dir=%~dp0"
 
-echo: | (pal2ea "%~dp0Palettes\Palettes.txt")
+@rem do the actual building
 
-cd "%~dp0Event Assembler"
+echo Copying ROM
 
-Core A FE8 "-output:%~dp0oats.gba" "-input:%~dp0ROM Buildfile.event"
+copy "%source_rom%" "%target_rom%"
 
-if exist "%~dp0ups/ups.exe" (
-    cd "%~dp0ups"
-    ups diff -b "%~dp0FE8_clean.gba" -m "%~dp0oats.gba" -o "%~dp0oats.ups"
+if /I not [%1]==[quick] (
+
+  @rem only do the following if this isn't a make hack quick
+
+  echo:
+  echo Processing tables
+
+  cd "%base_dir%Tables"
+  echo: | ("%c2ea%" "%source_rom%")
+
+  echo:
+  echo Processing text
+
+  cd "%base_dir%Text"
+  echo: | ("%textprocess%" text_buildfile.txt --parser-exe "%parsefile%")
+
+
+  echo:
+  echo Processing maps
+  
+  cd "%base_dir%Maps"
+  echo: | (tmx2ea -s)
+
 )
+
+echo:
+echo Assembling
+
+cd "%base_dir%Event Assembler"
+ColorzCore A FE8 "-output:%target_rom%" "-input:%main_event%"
+
+if /I not [%1]==[quick] (
+
+  @rem only do the following if this isn't a make hack quick
+
+  echo:
+  echo Generating patch
+
+  cd "%base_dir%"
+  "%ups%" diff -b "%source_rom%" -m "%target_rom%" -o "%target_ups%"
+
+)
+
+echo:
+echo Done!
 
 pause

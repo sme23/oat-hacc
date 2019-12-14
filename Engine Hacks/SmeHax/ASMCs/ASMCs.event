@@ -1,0 +1,11 @@
+ALIGN 4
+ClearInventory:
+#incbin "ClearInventory.dmp"
+
+ALIGN 4
+ChangeWeaponRankASMC:
+#incbin "ChangeWeaponRankASMC.dmp"
+
+ALIGN 4
+SupplyUsability:
+#incbin "SupplyUsability.dmp"

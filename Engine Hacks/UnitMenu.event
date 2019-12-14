@@ -4,15 +4,12 @@
 #include "Extensions/Hack Installation.txt"
 #include "_UnitMenuDefs.event"
 
-
 PUSH
   // Repoint Unit Menu
 
   ORG $59D1F8
     POIN UnitMenuTable
-	ORG $59D214         
-    MenuBox($01, $02, $08, 0, 0, MainMenuTable)
-
+	
   // Make the unit menu wider (to fit longer words)
 
   ORG $59d1f2
@@ -67,16 +64,15 @@ UnitMenuTable:
   //Use the macro MenuCommand(name,description,colour,usability,effect)
   //Color options: NormalText, GrayText, BlueText, OrangeText, GreenText (flashes), BlackText
   //MenuCommand(DualAtkTxtID,DualAtkDescId,0,DualAtkCheck,DualAtkSelected) 
-
-  #ifndef __ESCAPE__
-  UM_Seize
-  #endif
-  #ifdef __ESCAPE__
-  MenuCommand(0x67A, 0x6CC, BlueText, NewSeizeCheck|IsPointer, $8023021)
-  MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCheck|IsPointer, $8023021)
-  MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeLordUsability|IsPointer, $8023021)
-  MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeGeneralUsability|IsPointer, EscapeGeneralEffect|IsPointer)
-  #endif
+  
+  
+  MenuCommand(0x67A, 0x6CC, BlueText, $08022FDD, $8023021)
+  // UM_Seize
+  #ifdef ESCAPE_ARRIVE
+    MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCheck|IsPointer, $8023021)
+    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeLordUsability|IsPointer, $8023021)
+    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeGeneralUsability|IsPointer, EscapeGeneralEffect|IsPointer)
+  #endif // ESCAPE_ARIVE
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
@@ -94,16 +90,22 @@ UnitMenuTable:
   UM_Ride
   UM_Exit
   UM_Play
-  UM_Dance
+  
+  //UM_Dance
+  MenuCommand(0x67E,0x6C2,NormalText,NewDanceUsability,0x231D0)
+
   UM_Steal
-  UM_Summon
+  
+  //UM_Summon
+  MenuCommand(0x693,0x6DD,NormalText,NewSummonUsability,0x244B8)
+  
   UM_Summon_DK
   UM_Pick
-
+  
   #ifdef __DEBUG__
   MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability, Win_Effect)
   #endif
-  
+
 #ifdef HAX_RALLIES
   // Rally preview conflicts with window semitransparency changes
   // So we only add that in if it is disabled
@@ -121,6 +123,15 @@ UnitMenuTable:
   // UM_Support
   MenuCommand(0x681, 0x6ca, GreenText, 0x23d15, 0x23d65)
   UM_Visit
+  
+  #ifdef RAID
+    MenuCommand(RaidNameText,RaidDescText,NormalText,RaidUsability,RaidEffect)
+  #endif // RAID
+  
+  #ifdef STAIRS_ASM
+	MenuCommand(StairsNameText,StairsDescText,GreenText,StairsUsability,StairsEffect)
+  #endif // STAIRS_ASM
+  
   UM_Chest
   UM_Door
   UM_Armory
@@ -145,41 +156,13 @@ UnitMenuTable:
 
   UM_Item
   UM_Trade
+  
   //UM_Supply
-  MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x8023FB9)
+  MenuCommand(0x68F,0x6D5,GreenText,SupplyUsability,0x23FB8)
+  //MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
+  
   UM_Wait
 
   UM_Separator 
-  
-  MainMenuTable:
-  MM_Unit
-  MM_Status
-  MM_Guide
-  MM_Options
-  MM_Dunno1
-  MM_Dunno2
-  MM_Suspend
-  //#ifdef DEBUG
-  //MenuCommand(UM_Debug, 0, GreenText, 0x4F449, EndEffect)
-  //#endif
-  MM_End
-  MM_Separator
-  
-  /*
-  
-  BootUpScreenMenu:
-  POIN BootUpScreenMenuDefinition
-
-  BootUpScreenMenuDefinition:
-  MenuBoxFull(9, 4, 12, 0, 0, BootUpScreenMenuCommands, 0x1C0FD, 0x1C199, 0, 0, 0, 0)
-
-  BootUpScreenMenuCommands:
-  MenuCommand(UM_BootNormal, 0, NormalText, 0x4F449, 0x1C4B5)
-  MenuCommand(UM_ResumeChp, 0, NormalText, 0x4F449, 0x1C3B5)
-  MenuCommand(UM_ResetSRAM, 0, NormalText, 0x4F449, 0x1C371)
-  MM_Separator
-  
-  */
-  
 
 #endif // UNIT_MENU

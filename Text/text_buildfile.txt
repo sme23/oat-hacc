@@ -1,4 +1,3 @@
-#include "chapter_names.txt"
 
 # 0x0002 textWeaponRankIncreasedTo
  Weapon rank increased to [X]
@@ -13,38 +12,18 @@ Set health bar display[X]
 #first text ID in the free block
 Learned  [X]
 
-#0x208
-Enemies[X]
-
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
 
-#0x903 EscapeName
- Escape[X]
+#include "chapter_names.txt"
 
-## EscapeDesc
-Escape the map.[X]
-
-## ArriveName
- Arrive[X]
-
-## ArriveDesc
-Arrive at a designated point.[X]
-
-## SS_RatingRText
-Added total of unit's stats.[N]
-Does not include HP.[X]
-
-## RatingsTID 
-Rating[X]
-
-## HouseText
+#0xd4c HouseText
 #first text ID in the free block
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
 
 ## VillageText
-[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
 
 ## DV1Desc
 Freeze all enemies[N]
@@ -60,6 +39,38 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[NL]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[NL]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[NL]
+for items and gold.[X]
+
+## EscapeName
+ Escape[X]
+
+## EscapeDesc
+Have this unit[NL]
+leave this chapter.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Complete this chapter[NL]
+by having this unit arrive.[X]
+
 ## UMText_Win
  Win[X]
 
@@ -69,6 +80,9 @@ Win the map.[X]
 ## PlaceholderText
 [OpenMidRight][LoadOstrava]
 This is placeholder text![A][X]
+
+## Mov_Text_ID
+Mov[X]
 
 #include "skilldesc_text.txt"
 
@@ -86,30 +100,7 @@ This is placeholder text![A][X]
 
 #include "music_text.txt"
 
-#include "opening.txt"
-
-#include "narration_text.txt"
-
-#include "prologue_text.txt"
-
-#include "chapter1_text.txt"
-
-#include "chapter2_text.txt"
-
-#include "chapter3_text.txt"
-
-#include "chapter4_text.txt"
-
-#include "chapter5_text.txt"
-
-#include "chapter6_text.txt"
-
-#include "chapter7_text.txt"
-
-#include "chapter8_text.txt"
-
-#include "chapter9_text.txt"
-
-#include "chapter10_text.txt"
+#include "chapter_text.txt"
 
 #include "support_text.txt"
+
