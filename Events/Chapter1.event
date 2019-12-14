@@ -117,11 +117,11 @@ Door(9,11)
 Door(17,11)
 Chest(Rapier,6,7)
 Chest(IronSword,5,0)
-Chest(Fire,0,6)
+Chest(FireTome,0,6)
 Chest(RedGem,20,1)
 Chest(SecretBook,13,7)
 Chest(SteelSword,10,9)
-Seize(1,14)
+Escape(1,14)
 END_MAIN
 
 ALIGN 4
@@ -149,7 +149,6 @@ UNIT
 
 ALIGN 4
 BeginningScene:
-ENUT 0x22
 LOAD2 0x1 PlayerUnits
 LOAD1 0x1 StartUnits
 CAM1 Zorua

@@ -1,8 +1,0 @@
-/*
-PUSH
-ORG 0xA0
-String("FEHACKMASKOD")
-String("0420")
-String("69")
-POP
-*/
