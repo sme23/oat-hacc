@@ -27,8 +27,8 @@ $RECYCLE.BIN/
 __pycache__
 
 # google drive stuff
-.driveupload
-.gsheet
+*.driveupload
+*.gsheet
 
 # =========================
 # Operating System Files
