@@ -18,7 +18,7 @@ YanikPortrait:
 #incext PortraitFormatter "Playables/Yanik.png"
 
 KatPortrait:
-#incext PortraitFormatter "Playables/Elizabeth.png"
+#incext PortraitFormatter "Playables/Reno.png"
 
 RoshalPortrait:
 #incext PortraitFormatter "Playables/Roshal.png"
@@ -60,7 +60,7 @@ SmegbertPortrait:
 #incext PortraitFormatter "Playables/Smegbert.png"
 
 GeorgePortrait:
-#incext PortraitFormatter "Playables/George.png"
+#incext PortraitFormatter "Playables/Raymond.png"
 
 AlbanPortrait:
 #incext PortraitFormatter "Playables/Alban.png"
@@ -69,19 +69,19 @@ RamonaPortrait:
 #incext PortraitFormatter "Playables/Ramona.png"
 
 JamiePortrait:
-#incext PortraitFormatter "Playables/Jamie.png"
+#incext PortraitFormatter "Playables/Setanta.png"
 
 WilliamPortrait:
-#incext PortraitFormatter "Playables/William.png"
+#incext PortraitFormatter "Playables/Emile.png"
 
 SieghardtPortrait:
-#incext PortraitFormatter "Playables/Sieghardt.png"
+#incext PortraitFormatter "Playables/Trident.png"
 
 OrvaldPortrait:
-#incext PortraitFormatter "Playables/Orvald.png"
+#incext PortraitFormatter "Playables/Casimir.png"
 
 DarienPortrait:
-#incext PortraitFormatter "Playables/Darien.png"
+#incext PortraitFormatter "Playables/Suzanne.png"
 
 //BOSSES
 

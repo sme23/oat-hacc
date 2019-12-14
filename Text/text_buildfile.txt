@@ -96,6 +96,8 @@ Mov[X]
 
 #include "death_text.txt"
 
+#include "retreat_text.txt"
+
 #include "escape_text.txt"
 
 #include "music_text.txt"

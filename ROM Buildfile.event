@@ -47,6 +47,7 @@
 	#include "Music/_Music Installer.event"
 
     //Events
+	#include "Events/DeathQuoteEvents.event"
     #include "Events/MasterEventInstaller.event"
     #include "Events/World Map Events Installer.event"
     
