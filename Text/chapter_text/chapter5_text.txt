@@ -152,7 +152,7 @@ Too far from the border for that.[A][NL]
 [CloseEyes]What's this world coming to[ToggleMouthMove]...?[A][X]
 
 ##Chapter5Village2
-[OpenMidLeft][LoadCurrentPortrait][OpenMidRight][LoadOldMan]]A raid?![....] Oh Merroi almighty, thank you for[NL]
+[OpenMidLeft][LoadCurrentPortrait][OpenMidRight][LoadOldMan]A raid?![....] Oh Merroi almighty, thank you for[NL]
 warning us! My sword arm isn't as good[A][NL]
 as it used to be, so I wouldn't be able to[NL]
 protect my family if anyone came looking[A][NL]

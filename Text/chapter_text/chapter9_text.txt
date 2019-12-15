@@ -20,7 +20,7 @@ How big is Lord Gotthard's force anyway?![A]
 [OpenMidLeft][LoadOstrava]Hm[ToggleMouthMove]...[....][ToggleMouthMove] There's a fair bit of[NL]
 horsemen in this gang.[A][NL]
 That could give us some hassle.[A]
-[OpenMidRight][ClearFace][OpenMidRight][LoadRoshal]We[ToggleMouthMove]...[....][ToggleMouthMove] We should go back. The more[NL]
+[OpenMidRight][ClearFace][OpenMidRight][LoadFace][0x108]We[ToggleMouthMove]...[....][ToggleMouthMove] We should go back. The more[NL]
 we look, the less time we have.[A]
 [OpenMidLeft]Alright, let's get going.[A][X]
 
