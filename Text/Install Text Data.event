@@ -110,100 +110,104 @@ __TEXTPROCESS04F:
 setText($4F, __TEXTPROCESS04F)
 
 __TEXTPROCESS050:
-#incbin ".TextEntries\text_buildfileUM_Rally.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWeaponRankDesc.fetxt.dmp"
 setText($50, __TEXTPROCESS050)
 
 __TEXTPROCESS051:
-#incbin ".TextEntries\text_buildfileUM_RallyDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Rally.fetxt.dmp"
 setText($51, __TEXTPROCESS051)
 
 __TEXTPROCESS052:
-#incbin ".TextEntries\text_buildfileUM_Lunge.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_RallyDesc.fetxt.dmp"
 setText($52, __TEXTPROCESS052)
 
 __TEXTPROCESS053:
-#incbin ".TextEntries\text_buildfileUM_LungeDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Lunge.fetxt.dmp"
 setText($53, __TEXTPROCESS053)
 
 __TEXTPROCESS054:
-#incbin ".TextEntries\text_buildfileUM_Mercy.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_LungeDesc.fetxt.dmp"
 setText($54, __TEXTPROCESS054)
 
 __TEXTPROCESS055:
-#incbin ".TextEntries\text_buildfileUM_MercyDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Mercy.fetxt.dmp"
 setText($55, __TEXTPROCESS055)
 
 __TEXTPROCESS056:
-#incbin ".TextEntries\text_buildfileUM_Gamble.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_MercyDesc.fetxt.dmp"
 setText($56, __TEXTPROCESS056)
 
 __TEXTPROCESS057:
-#incbin ".TextEntries\text_buildfileUM_GambleDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Gamble.fetxt.dmp"
 setText($57, __TEXTPROCESS057)
 
 __TEXTPROCESS058:
-#incbin ".TextEntries\text_buildfileUMText_DV.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_GambleDesc.fetxt.dmp"
 setText($58, __TEXTPROCESS058)
 
 __TEXTPROCESS059:
-#incbin ".TextEntries\text_buildfileUMText_DVDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUMText_DV.fetxt.dmp"
 setText($59, __TEXTPROCESS059)
 
 __TEXTPROCESS05A:
-#incbin ".TextEntries\text_buildfileUM_Shove.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUMText_DVDesc.fetxt.dmp"
 setText($5A, __TEXTPROCESS05A)
 
 __TEXTPROCESS05B:
-#incbin ".TextEntries\text_buildfileUM_ShoveDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Shove.fetxt.dmp"
 setText($5B, __TEXTPROCESS05B)
 
 __TEXTPROCESS05C:
-#incbin ".TextEntries\text_buildfileUM_Smite.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_ShoveDesc.fetxt.dmp"
 setText($5C, __TEXTPROCESS05C)
 
 __TEXTPROCESS05D:
-#incbin ".TextEntries\text_buildfileUM_SmiteDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Smite.fetxt.dmp"
 setText($5D, __TEXTPROCESS05D)
 
 __TEXTPROCESS05E:
-#incbin ".TextEntries\text_buildfileUM_Pivot.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_SmiteDesc.fetxt.dmp"
 setText($5E, __TEXTPROCESS05E)
 
 __TEXTPROCESS05F:
-#incbin ".TextEntries\text_buildfileUM_PivotDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Pivot.fetxt.dmp"
 setText($5F, __TEXTPROCESS05F)
 
 __TEXTPROCESS060:
-#incbin ".TextEntries\text_buildfileUM_Reposition.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_PivotDesc.fetxt.dmp"
 setText($60, __TEXTPROCESS060)
 
 __TEXTPROCESS061:
-#incbin ".TextEntries\text_buildfileUM_RepositionDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Reposition.fetxt.dmp"
 setText($61, __TEXTPROCESS061)
 
 __TEXTPROCESS062:
-#incbin ".TextEntries\text_buildfileUM_Swap.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_RepositionDesc.fetxt.dmp"
 setText($62, __TEXTPROCESS062)
 
 __TEXTPROCESS063:
-#incbin ".TextEntries\text_buildfileUM_SwapDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Swap.fetxt.dmp"
 setText($63, __TEXTPROCESS063)
 
 __TEXTPROCESS064:
-#incbin ".TextEntries\text_buildfileUM_Capture.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_SwapDesc.fetxt.dmp"
 setText($64, __TEXTPROCESS064)
 
 __TEXTPROCESS065:
-#incbin ".TextEntries\text_buildfileUM_CaptureDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Capture.fetxt.dmp"
 setText($65, __TEXTPROCESS065)
 
 __TEXTPROCESS066:
-#incbin ".TextEntries\text_buildfileUM_Debug.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_CaptureDesc.fetxt.dmp"
 setText($66, __TEXTPROCESS066)
 
 __TEXTPROCESS067:
-#incbin ".TextEntries\text_buildfileUM_Win.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileUM_Debug.fetxt.dmp"
 setText($67, __TEXTPROCESS067)
+
+__TEXTPROCESS068:
+#incbin ".TextEntries\text_buildfileUM_Win.fetxt.dmp"
+setText($68, __TEXTPROCESS068)
 
 __TEXTPROCESS160:
 #incbin ".TextEntries\text_buildfilePrologueChName.fetxt.dmp"

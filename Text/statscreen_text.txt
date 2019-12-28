@@ -69,3 +69,5 @@ Bad[X]
 ## SS_BiorhythmWorst
 Worst[X]
 
+## WeaponRankDesc
+Proficiencies for each weapon type.[X]
