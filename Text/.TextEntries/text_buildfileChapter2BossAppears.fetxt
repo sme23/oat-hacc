@@ -1,11 +1,22 @@
 [OpenMidLeft][LoadPholis][OpenMidLeft]Oi, Elizabeth![A]
+
 [OpenMidRight][LoadElizabeth][OpenMidRight]Yes?[A]
+
 [OpenMidLeft]That yellow-bellied boy got outta his cell.[NL]
+
 Be a dear and give 'im a shiv.[A]
+
 [OpenMidRight]Aww![....] I wanted to finish making this[NL]
+
 neat bone doll![A]
+
 [OpenMidLeft]Listen pup,[....] either ya do your job[NL]
+
 and put 'im down, or we'll just find[ToggleMouthMove]...[A][ToggleMouthMove][NL]
+
 [ToggleSmile]some other use for you.[A]
+
 [OpenMidRight][ToggleSmile]You're no fun[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+
 [CloseEyes]*sigh*[A][X]
+

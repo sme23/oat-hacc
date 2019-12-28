@@ -1,23 +1,46 @@
 [OpenFarRight][LoadZo][OpenFarLeft][LoadRoshal][OpenRight][LoadBen][OpenLeft][LoadOstrava][CloseEyes]By the gods, my feet are killing me.[A][OpenEyes]
+
 [OpenFarRight]Should we set up camp here?[A]
+
 [OpenFarLeft][ToggleSmile]Oh, if we do, I can hunt game for us.[A]
+
 [OpenRight]And from this game, I will prepare[NL]
+
 the gamiest meal you all have ever tasted.[A]
+
 [OpenFarRight][ToggleSmile][CloseEyes]Ben, that's not a good thing[ToggleMouthMove]...[A][ToggleMouthMove]
+
 [OpenRight]What?[....] Why not?[A]
+
 [OpenFarRight][OpenEyes]Gamey means it's spoiled.[A]
+
 [OpenRight][ToggleSmile]As you all will feel after dining upon my[NL]
+
 decadent game stew![A]
+
 [OpenFarRight][ToggleSmile][HalfCloseEyes]Ms. Junpei, can you cook for us instead?[A]
+
 [OpenFarLeft][ClearFace][OpenFarLeft][LoadJunpei]Aye, I could whip something up.[A]
+
 [OpenLeft][CloseEyes]I hope it's edible this time[ToggleMouthMove]...[A][ToggleMouthMove]
+
 [OpenFarLeft][ClearFace][OpenFarLeft][LoadJeanne]While you all do that, I can pitch tents.[NL]
+
 The only thing I really can do here,[A][NL]
+
 unfortunately.[A]
+
 [OpenLeft][OpenEyes]I'll help ya out with that.[NL]
+
 After dinner, we should probably call this[A][NL]
+
 day over and get some sleep.[A]
+
 [OpenRight][ToggleSmile]Hear, hear![A]
+
 [OpenFarRight][ToggleSmile]Sounds good. I'm getting tired.[A]
+
 [OpenFarLeft]We will march first thing in the morning,[NL]
+
 so be sure you get enough sleep.[A][X]
+

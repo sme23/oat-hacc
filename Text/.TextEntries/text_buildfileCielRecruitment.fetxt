@@ -1,19 +1,38 @@
 [OpenMidLeft][LoadOstrava][OpenMidLeft]Hey, you up there! Down here![A]
+
 [OpenMidRight][LoadCiel]Hm?[....] You don't look like a soldier from[NL]
+
 Norwhick. Are you what they're after?[A]
+
 [OpenMidLeft]Not quite. To be honest, I'm not sure what[NL]
+
 exactly they're after, but they are[A][NL]
+
 attacking us. Are they fighting you too?[A]
+
 [OpenMidRight]Yeah, I just wanted to fly over, but[NL]
+
 they stopped and attacked me.[A]
+
 [OpenMidLeft]Well then, at least for now, we're[NL]
+
 on the same side. Might as well join[A][NL]
+
 forces, don't you think?[A]
+
 [OpenMidRight]I'm sorry?[A]
+
 [OpenMidLeft]Well, we'd have better odds of fighting[NL]
+
 them off together, wouldn't we?[A]
+
 [OpenMidRight]I[OpenMidRight][MoveMidRight][OpenMidRight][ToggleMouthMove]...[....][ToggleMouthMove] I guess? [CloseEyes]I'm not sure[ToggleMouthMove]...[A][ToggleMouthMove]
+
 [OpenMidLeft]At the very least, you would be better[NL]
+
 off in a group rather than alone.[A]
+
 [OpenMidRight][OpenEyes]Yeah, that's true.[....] Okay, I'll bite.[NL]
+
 My lance is yours. For now, anyway.[A][X]
+

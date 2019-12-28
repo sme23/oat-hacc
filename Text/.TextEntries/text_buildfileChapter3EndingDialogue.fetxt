@@ -1,28 +1,55 @@
 [OpenMidLeft][LoadOstrava][OpenMidRight][LoadGlazette][OpenLeft][LoadBen][OpenLeft][MoveLeft][OpenLeft]And that's what you Gib-faced foozlers[NL]
+
 deserve![A]
+
 [OpenMidLeft]Alright Ben, simmer down. Are you alright,[NL]
+
 Glazette? That was quite the battle.[A]
+
 [OpenMidRight]I am unscathed, thanks to all of[NL]
+
 you. What about everyone else?[A]
+
 [OpenMidLeft][ClearFace][OpenMidLeft][LoadZo]Yeah, I'm fine, thanks.[A][NL]
+
 [OpenRight][LoadOstrava][OpenMidLeft]Just please stop charging in like[NL]
+
 that. You're becoming as bad as Ben.[A]
+
 [OpenLeft][ToggleSmile]It is as I've said all along![....] Any man or[NL]
+
 woman whom treats themselves to[A][NL]
+
 quality time spent with yours truly,[NL]
+
 will sooner or later adopt his ways.[A]
+
 [OpenMidRight][ToggleSmile]No, I agree with the young mage.[NL]
+
 I can only heal so much.[A][NL]
+
 Please, be more careful![A]
+
 [OpenRight][MoveFarRight][OpenFarRight]Everything seems to be in[NL]
+
 order. Where to next, Roshal?[A]
+
 [OpenLeft][ClearFace][OpenFarLeft][LoadRoshal]Um[ToggleMouthMove]...[....][ToggleMouthMove] Past this pillar, there's a[NL]
+
 corridor that leads to where I was held.[A][NL]
+
 The bandits call it some sort of throne[NL]
+
 room.[A]
+
 [OpenMidLeft]What kind of bandit hideout has[NL]
+
 a throne room?[A]
+
 [OpenMidRight][ClearFace][OpenMidRight][LoadBen][OpenMidRight][ToggleSmile]Only the best of them![A]
+
 [OpenMidLeft][ToggleSmile][HalfCloseEyes]You wish![A]
+
 [OpenFarRight]Regardless, we should keep moving.[A]
+
 [OpenFarLeft]O-Okay.[....] This way.[A][X]

@@ -1,42 +1,84 @@
 [OpenFarRight][LoadZo][OpenRight][LoadBen][OpenLeft][LoadJeanne][OpenFarLeft][LoadOstrava]Alright, Princess, you've got us all together.[NL]
+
 What do you want?[A]
+
 [OpenLeft]Well, I have a proposition to make of you all.[A]
+
 [OpenRight][ToggleSmile]Are you knighting us all? "Sir Ben,[NL]
+
 Bringer of Chaos" has a nice ring to it![A]
+
 [OpenLeft][ToggleSmile]Not exactly, I have spoken to my father[NL]
+
 about the events of the past few weeks,[A][NL]
+
 and he has seen fit to approve a[NL]
+
 suggestion of mine.[A]
+
 [OpenFarLeft]Well? What's the suggestion?[A]
+
 [OpenLeft]Should you choose to accept,[A][NL]
+
 you will all be added to a new order in[NL]
+
 the Vernish military, to be led by myself.[A][NL]
+
 As an order against future incursions[NL]
+
 and invasions.[A]
+
 [OpenFarRight]So you wish to make us soldiers?[A]
+
 [OpenLeft]Precisely.[A][NL]
+
 You are all quite capable warriors in your own[NL]
+
 rights, and I believe with proper pay and[A][NL]
+
 equipment, you would do well under the[NL]
+
 command of Vernet directly.[A][NL]
+
 What do you all say?[A]
+
 [OpenFarLeft]You want an answer right now?[A]
+
 [OpenLeft]Well[ToggleMouthMove]...[....][ToggleMouthMove] I suppose asking for one right now[NL]
+
 would be asking too much of you.[A][NL]
+
 I do however implore you to consider.[A]
+
 [OpenRight]Lady Jeanne, the mighty Ben Von[NL]
+
 Fatassaru has spent the last three years[A][NL]
+
 roaming Vernet with no purpose.[A][NL]
+
 [ToggleSmile]Perhaps joining your new divine order[NL]
+
 is my purpose in this life.[A][NL]
+
 If you think me worthy, I wholeheartedly[NL]
+
 accept your offer![A][NL]
+
 Zo, I'd be honored if my holy partner[NL]
+
 would join me in this endeavor.[A]
+
 [OpenFarRight][ToggleSmile][OpenFarRight][MoveFarRight][OpenFarRight]I[ToggleMouthMove]...[....][ToggleMouthMove] Well, I'd have to think on that,[NL]
+
 but I'm leaning towards yes.[A]
+
 [OpenFarLeft][ToggleMouthMove]...[....][ToggleMouthMove]I don't know. You're asking[NL]
+
 a lot of me here, Princess.[A]
+
 [OpenLeft]I understand, Ostrava.[NL]
+
 Take all the time you think you will need.[A]
+
 [OpenFarLeft][CloseEyes]Me[ToggleMouthMove]...[....][ToggleMouthMove] A soldier[ToggleMouthMove]...?[A][X]
+

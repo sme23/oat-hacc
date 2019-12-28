@@ -1,8 +1,16 @@
 [OpenLeft][LoadOstrava][OpenFarRight][LoadJunpei][OpenFarFarLeft][LoadYoungMan][OpenFarFarLeft][MoveRight][OpenRight]Junpei please! You must come quickly![NL]
+
 Someone's come to raid the village![A]
+
 [OpenLeft][MoveLeft][OpenLeft]What? Who?[....] Bandits?[A]
+
 [OpenFarLeft][LoadZo]Not them again. I thought we dealt with[NL]
+
 them?[A]
+
 [OpenRight][ClearFace][OpenRight][LoadYoungMan]I don't know! They had wyverns; I can't[NL]
+
 imagine bandits using wyverns![A]
+
 [OpenFarLeft][ClearFace][OpenFarLeft][LoadJeanne]Wyverns?[....] This is not good[ToggleMouthMove]...[A][X]
+

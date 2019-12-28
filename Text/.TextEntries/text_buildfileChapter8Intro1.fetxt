@@ -1,19 +1,38 @@
 [OpenMidLeft][LoadOstrava][OpenFarRight][LoadBen][OpenRight][LoadZo]How long does it take to scout ahead?[NL]
+
 Will Roshal be back soon?[A]
+
 [OpenMidLeft]Let's be patient. He's going on his leggies,[NL]
+
 after all.[A]
+
 [OpenRight][CloseEyes]Yeah, I know.[NL]
+
 I hope he's okay[ToggleMouthMove]...[A][ToggleMouthMove][OpenEyes]
+
 [OpenFarRight]Knowing the lad, I'm sure he's fending[NL]
+
 for himself valiantly; that is if he's been[A][NL]
+
 caught, period. His presence is quite[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+
 minimal, to say the least.[A]
+
 [OpenMidLeft]Still, slip ups happen.[NL]
+
 Maybe they caught him.[A]
+
 [OpenFarRight][ToggleSmile]I highly doubt that our dear Roshal[NL]
+
 has been. He knows what he's doing.[A]
+
 [OpenMidLeft][ToggleSmile][OpenMidLeft][MoveLeft][OpenFarFarLeft][LoadJunpei][OpenFarFarLeft][MoveFarLeft][OpenFarLeft]Ya got that right, boy.[NL]
+
 He's just come in with his report.[A]
+
 [OpenFarRight][ClearFace][OpenRight][ClearFace][OpenMidRight][LoadRoshal]E-Everyone,[....] there's an entire army at[NL]
+
 the bridge! I think Lord Gotthard set up[A][NL]
+
 most of his troops there.[A][X]
+

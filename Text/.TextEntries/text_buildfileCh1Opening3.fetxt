@@ -1,11 +1,22 @@
 [OpenMidRight][LoadJuli][OpenMidLeft][LoadYanik]Ah,[....] there you are, Juliana![NL]
+
 Tell me, have they hurt you?[A][NL]
+
 I'll paint the walls with thei--[A]
+
 [OpenMidRight]It's alright, Yanik. Took you long enough.[A]
+
 [OpenMidLeft][MoveMidLeft][OpenMidLeft]Hey, do you realize how hard it is to[NL]
+
 bust into a bandit's hideout with a lance?[A][NL]
+
 Also, before I forget, I brought you a[NL]
+
 new bow to so you can defend yourself.[A]
+
 [OpenMidRight]Thank you, Yanik. Be safe.[A]
+
 [OpenMidLeft][ToggleSmile]You too. Don't worry, I'll watch[NL]
+
 your back.[A][X]
+

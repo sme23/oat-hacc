@@ -1,13 +1,26 @@
 [OpenMidRight][LoadCiel]The next town should be nearby[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+
 I can see it from here.[OpenMidRight][MoveMidRight][OpenMidRight] Hm?[A][NL]
+
 Valentine, what's wrong?[A]
+
 [OpenMidLeft][LoadRedSoldier]You there![....] Stand down, now![A]
+
 [OpenMidRight]Hey, put your weapons down.[NL]
+
 I'm just passing through.[A]
+
 [OpenMidLeft]This is military territory. Leave now, or[NL]
+
 face the consequences.[A]
+
 [OpenMidRight]Since when?[....][CloseEyes] Ah damn,[OpenEyes] I guess I can't convince[NL]
+
 you to let me go? Hm[ToggleMouthMove]...[A][ToggleMouthMove][NL]
+
 Val, get us out of here![A]
+
 [OpenMidLeft][MoveMidLeft][OpenMidLeft]Men, stop her![A]
+
 [OpenMidRight][ToggleMouthMove]...[A][X]
+

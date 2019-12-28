@@ -1,34 +1,68 @@
 [OpenMidLeft][LoadRoshal][OpenMidRight][LoadOrion]Now for you, Roshal. Why did you fail[NL]
+
 to return to the capital?[A]
+
 [OpenMidLeft][MoveMidLeft][OpenMidLeft]Eep![....] Y-Your Majesty! I'm sorry, I got[NL]
+
 separated from them when I went to go[A][NL]
+
 scout for any threats. Then I was[NL]
+
 surrounded, and captured by bandits.[CloseEyes] I[ToggleMouthMove]...[A][ToggleMouthMove][NL]
+
 [OpenEyes]I was rescued by these Vernish[NL]
+
 people[ToggleMouthMove]...[A][ToggleMouthMove]
+
 [OpenMidRight]I understand.[NL]
+
 I am glad to see you unharmed.[A][NL]
+
 Well come then, we must return home.[A]
+
 [OpenMidLeft]Um[ToggleMouthMove]...[....][ToggleMouthMove] Okay. May[ToggleMouthMove]...[....][ToggleMouthMove][NL]
+
 May I have a moment to say goodbye?[A]
+
 [OpenMidRight]Very well, lad.[A]
+
 [OpenMidRight][ClearFace][OpenMidLeft][ClearFace][OpenFarRight][LoadOstrava][OpenRight][LoadJeanne][OpenFarFarLeft][LoadRoshal][OpenFarFarLeft][MoveMidLeft]
+
 [OpenMidLeft]Princess Jeanne?[....][NL]
+
 I'm sorry, but I have to go.[A][NL]
+
 [ToggleSmile]Thank you, and everyone else, for keeping[NL]
+
 me safe.[A]
+
 [OpenRight][ToggleSmile]I see. It is alright, Roshal.[NL]
+
 Please, stay safe in Norwhick.[A]
+
 [OpenFarRight]Alright then, pack up your things and[NL]
+
 skedaddle. Just try not to get yourself[A][NL]
+
 killed.[A]
+
 [OpenFarRight][ClearFace][OpenRight][ClearFace][OpenFarRight][LoadBen][OpenRight][LoadZo][CloseEyes]Oh, I hate goodbyes.[A][NL]
+
 [OpenEyes]I hope we can see you again[NL]
+
 sometime.[A]
+
 [OpenFarRight]Roshal[ToggleMouthMove]...[....][ToggleMouthMove] I don't know what to say.[A][NL]
+
 [ToggleSmile]Thank you. We couldn't have done[NL]
+
 any of this without you.[A][NL]
+
 Stay safe on your travels, okay,[NL]
+
 navigator?[A]
+
 [OpenMidLeft][ToggleSmile]Ah, o-of course![NL]
+
 Thank you, and goodbye.[A][X]
+

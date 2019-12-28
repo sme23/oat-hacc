@@ -9,7 +9,7 @@ HP Bars[.][X]
 Set health bar display[X]
 
 #0x3A LearnedSkillText
-//#first text ID in the free block
+#first text ID in the free block
 Learned  [X]
 
 #include "statscreen_text.txt"
@@ -19,7 +19,7 @@ Learned  [X]
 #include "chapter_names.txt"
 
 #0xd4c HouseText
-//#first text ID in the free block
+#first text ID in the free block
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
 
 ## VillageText
@@ -30,7 +30,7 @@ Freeze all enemies[N]
 for one turn[X]
 
 ## nameCamus
-//#for identity problems
+#for identity problems
 Camus[X]
 
 ## nameSirius
