@@ -1,25 +1,22 @@
-##DummyTextDootDoot
-#You need to start a text to use comments you can't just do a comment on its own reeeeeeee
+//##DummyTextDootDoot
+//#You need to start a text to use comments you can't just do a comment on its own reeeeeeee
 
-#First comes general goal box ones, then each chapter's detailed Status one
+//#First comes general goal box ones, then each chapter's detailed Status one
 
-#Vanilla IDs to reuse:
-#0x19C is Survive
-#0x19D is Defeat boss
-#0x19E is Defeat enemy
-#0x19F is Seize gate
-#0x1A1 is Seize throne
+//#Vanilla IDs to reuse:
+//#0x19C is Survive
+//#0x19D is Defeat boss
+//#0x19E is Defeat enemy
+//#0x19F is Seize gate
+//#0x1A1 is Seize throne
 
-#the mini box you get is
-#0: Seize
-#1: Rout (shows remaining enemies in box)
-#2: Defend (shows turn countdown in box)
-#3: Defeat Boss
-#4: None (Special)(?)
-# dunno how to make the one be Escape tho
-
-
-[X]
+//#the mini box you get is
+//#0: Seize
+//#1: Rout (shows remaining enemies in box)
+//#2: Defend (shows turn countdown in box)
+//#3: Defeat Boss
+//#4: None (Special)(?)
+//# dunno how to make the one be Escape tho
 
 ##EscapeClearConditionText
 Escape[X]

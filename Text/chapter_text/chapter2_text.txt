@@ -113,7 +113,7 @@ and put 'im down, or we'll just find[ToggleMouthMove]...[A][ToggleMouthMove][NL]
 [OpenMidRight][ToggleSmile]You're no fun[ToggleMouthMove]...[....][ToggleMouthMove][NL]
 [CloseEyes]*sigh*[A][X]
 
-##Chapter2ElizabethRecruitment
+##Chapter2RenoRecruitment
 [OpenMidRight][LoadJuli][OpenMidLeft][LoadElizabeth][ToggleSmile]Howdy-ho, lady![ToggleSmile][NL]
 Question,[....] how would you like to die today?[A]
 [OpenMidRight]Not at all, preferably![A]
@@ -147,7 +147,7 @@ my favor.[A][X]
 Guess I'll have ta kill you[NL]
 lot instead.[A][X]
 
-##Chapter2BossVsElizabeth
+##Chapter2BossVsReno
 [OpenMidLeft][LoadPholis][OpenMidLeft]What in da hell?! What're[NL]
 you doing with 'em?![A]
 [OpenMidLeft][ClearFace][OpenMidRight][LoadElizabeth][OpenMidRight]You see, I run with those[NL]

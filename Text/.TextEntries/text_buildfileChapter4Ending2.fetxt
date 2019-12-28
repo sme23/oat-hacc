@@ -1,170 +1,85 @@
 [OpenMidLeft][LoadRoshal]This is it.[....] This is her cell. Is she[NL]
-
 who you were looking for?[A]
-
 [OpenFarLeft][LoadBen]It appears the fair maiden, whom we[NL]
-
 abandoned our freedoms to dashingly[A][NL]
-
 rescue, is right before our eyes at long[NL]
-
 last![A]
-
 [OpenMidLeft][ClearFace][OpenFarLeft][ClearFace][OpenFarLeft][LoadOstrava][OpenFarLeft][MoveLeft][OpenLeft]Hey there, miss.[A]
-
 [LoadOverworldFaces]
-
 [OpenRight][LoadJeanne][OpenRight][CloseEyes][ToggleMouthMove]...[....][ToggleMouthMove][OpenEyes]Who goes there?[A][NL]
-
 If you have come to kill me, you best[NL]
-
 do it in a single stroke. Otherwise,[A][NL]
-
 I will not go down so easily.[A]
-
 [OpenLeft]I'm Ostrava. You must be the merchant's[NL]
-
 girl, right?[A]
-
 [OpenRight]The[ToggleMouthMove]...[....][ToggleMouthMove] merchant's girl?[A]
-
 [OpenFarLeft][LoadBen][OpenFarLeft][MoveFarLeft][OpenFarLeft](Wait, merchant's girl?! Does he not[NL]
-
 know who the devil she is?!)[A]
-
 [OpenFarRight][LoadZo]Your--[CloseEyes][....][OpenFarRight][MoveFarRight][OpenFarRight][OpenEyes] Ah, I mean[ToggleMouthMove]...[....][ToggleMouthMove] Are you okay?[NL]
-
 Ben and I were hired to come find you.[A]
-
 [OpenFarLeft][ToggleSmile]The lass is correct![A][NL]
-
 The Bringer of Chaos and his charming[NL]
-
 sidekick the Truth Bringer were hand-picked[A][NL]
-
 by a one Godefrey to sneak into this[NL]
-
 despicable highywayman's hideout. [ToggleSmile][A][NL]
-
 [CloseEyes]Granted, we were kidnapped on the way, [OpenEyes]BUT![....][NL]
-
 It was all according to my meticulously[A][NL]
-
 crafted plan, thought up aft--[A]
-
 [OpenRight]Ah, I understand. I am fine, outside of the[NL]
-
 [ToggleMouthMove]...[....][ToggleMouthMove] lack of food and water, I suppose.[A]
-
 [OpenLeft]Let's get you out of there, miss[ToggleMouthMove]...[....][A]
-
 [OpenRight]...[....][ToggleMouthMove]My name is Jeanne. Princess of Vernet.[NL]
-
 And I thank you for coming to my aid.[A]
-
 [OpenLeft][ToggleMouthMove]...[....][ToggleMouthMove]What?[A]
-
 [OpenFarRight][ClearFace][OpenFarRight][LoadRoshal][OpenFarRight][MoveFarRight][OpenFarRight]What?![....] Y-You're the princess?![A]
-
 [OpenFarLeft]"Who?"[....] How dimwitted can you two be?![NL]
-
 You don't know of our Princess?![A]
-
 [OpenFarRight][ClearFace][OpenFarRight][LoadZo]Ben, calm down! You're not making a good[NL]
-
-first impression in front of Her Majesty![A]
-
+first impression in front of Her Highness![A]
 [OpenFarLeft][MoveFarLeft][OpenFarLeft][CloseEyes]Ah![....][OpenEyes] Please forgive my carelessness,[NL]
-
-You Majesty.[A]
-
+You Highness.[A]
 [OpenLeft]We have a princess? Since when?[A]
-
 [OpenRight]Er[ToggleMouthMove]...[....][ToggleMouthMove] Ostrava, was it?[A]
-
 [OpenLeft]Yes, I'm Ostrava.[A]
-
 [OpenRight]I see[ToggleMouthMove]...[....][ToggleMouthMove] Ostrava, and you two are[ToggleMouthMove]...[....]?[A][ToggleMouthMove]
-
 [OpenFarLeft][ToggleSmile][CloseEyes]I thought you'd never ask![A][OpenEyes][NL]
-
 The handsome, cunning warrior you see[NL]
-
 before you is none other than the almighty[A][NL]
-
 Ben Von--[A]
-
 [OpenFarRight][ToggleSmile][CloseEyes]I'm sorry he's like this, Your Highness,[NL]
-
 [....][OpenEyes]but that's Ben and I'm Zo.[A][NL]
-
 As Ben has said before, one of your[NL]
-
 father's guards hired us to save you.[A]
-
 [OpenFarLeft][CloseEyes](I'll never get to say it, will I?)[A]
-
 [OpenRight]Ah, I see. Well, thank you for coming to[NL]
-
 my aid. It would probably be best if we did[A][NL]
-
 not dawdle any longer. I find it unlikely that[NL]
-
 there are no more brigands left in this fort.[A]
-
 [OpenFarRight]Where would we even go?[NL]
-
 Reunere is halfway across the country.[A]
-
 [OpenLeft]I know where. It's a village near here[NL]
-
 called Trisdam.[A]
-
 [OpenRight]A village[ToggleMouthMove]...[....]?[ToggleMouthMove] Yes, that would work well.[NL]
-
 Admittedly, I am quite hungry and thirsty.[A][NL]
-
 A village would be a nice place to stop[NL]
-
 and think of what to do next.[A]
-
 [OpenLeft]There's free room and board, and it's pretty[NL]
-
 secluded. Should be safe enough, yeah?[A]
-
 [OpenRight]Indeed. I take it you know the way?[A]
-
 [OpenLeft]I do. It's a bit of a hike, if you[NL]
-
 don't mind that.[A]
-
 [OpenRight]I can handle a hike. What about the rest[NL]
-
 of you?[A]
-
 [OpenFarRight]I'm fine with that.[A]
-
 [OpenFarLeft][OpenEyes]I would run laps around the world, if Her[NL]
-
-Majesty requested. The very gods above[A][NL]
-
+Highness requested. The very gods above[A][NL]
 have blessed me with the endurance to[NL]
-
 rival even your finest steed.[A]
-
 [OpenRight]Very good. And what about you there,[NL]
-
 archer? I didn't catch your name before.[A]
-
 [OpenFarLeft][ClearFace][OpenFarLeft][LoadRoshal][OpenFarLeft][MoveFarLeft][OpenFarLeft]Ah![....] Who, me? I-I'm Roshal,[NL]
-
 and yes, I can handle a hike.[A]
-
 [OpenRight][ToggleSmile]Well then, it seems we have a destination.[NL]
-
 Lead the way, Sir Ostrava.[A]
-
 [OpenLeft][ToggleSmile]Y-Yeah, sure.[....] Whenever you're all ready[NL]
-
 to go.[A][X]
-

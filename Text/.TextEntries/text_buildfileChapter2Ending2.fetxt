@@ -1,21 +1,11 @@
-[OpenMidRight][LoadOstrava][OpenMidLeft][LoadReno][ToggleSmile]Howdy-hi! You the leader of these people?[A]
-
+[OpenMidRight][LoadOstrava][OpenMidLeft][LoadElizabeth][ToggleSmile]Howdy-hi! You the leader of these people?[A]
 [OpenMidRight][ToggleSmile]I suppose I am.[NL]
-
 Why, did you need something?[A]
-
 [OpenMidLeft]I'm here to stab people for you![A]
-
 [OpenMidRight]O-Oh, okay.[....] You can fight, then?[A]
-
 [OpenMidLeft]That was implied.[A]
-
 [OpenMidRight]I just wanna make sure you aren't[NL]
-
 in any danger while we're searching[A][NL]
-
 for this woman.[A]
-
 [OpenMidLeft]Nope![....] Just point me at who you want dead![A]
-
 [OpenMidRight]Uhh[ToggleMouthMove]...[A][X]

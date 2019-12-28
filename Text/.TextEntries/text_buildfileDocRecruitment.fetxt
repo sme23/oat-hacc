@@ -1,42 +1,21 @@
 [OpenMidRight][LoadDoc][OpenMidLeft][LoadJeanne]You there! I suppose I would not[NL]
-
 be able to convince you to lay[A][NL]
-
 down your arms, would I?[A]
-
 [OpenMidRight]Convince me?[....] With what?[A][NL]
-
 You're not going to ask me to help[NL]
-
 you out of the goodness of my[A][NL]
-
 heart, are you?[A]
-
 [OpenMidLeft]If simple words will not work, what[NL]
-
 might sway you?[A]
-
 [OpenMidRight]Well, a certain object always catches[NL]
-
 my eye[ToggleMouthMove]...[A][ToggleMouthMove]
-
 [OpenMidLeft]You want gold.[A]
-
 [OpenMidRight]I have a little something I'm looking for.[NL]
-
 Money certainly helps me getting there.[A]
-
 [OpenMidLeft]Well, I am a Princess.[A][NL]
-
 I can give you a fairly large sum of gold,[NL]
-
 once the battle is over.[A]
-
 [OpenMidRight][ToggleSmile]A Princess?[....] No shit? You probably bathe[NL]
-
 in the stuff. How much are we talking?[A]
-
 [OpenMidLeft][ToggleSmile]We can talk values after the battle.[A]
-
 [OpenMidRight]Eh, alright. Works for me.[A][X]
-

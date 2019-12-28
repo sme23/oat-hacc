@@ -1,66 +1,33 @@
 [OpenLeft][LoadZo][OpenMidLeft][LoadJeanne][OpenFarLeft][LoadBen]So this is Reunere?[NL]
-
 It feels as though it's missing something.[A]
-
 [OpenLeft][HalfCloseEyes]Describe "something."[A][OpenEyes]
-
 [OpenFarLeft]I dunno![A][NL]
-
 Maybe the spires could be taller, the[NL]
-
 windows more pronnounced, just something.[A]
-
 [OpenMidLeft][ToggleMouthMove]...[....][ToggleMouthMove]Yes, well. Anyway, I will return shortly.[A][NL]
-
 I need to get you all permission to stay[NL]
-
 at the castle.[A]
-
 [OpenMidLeft][MoveFarFarRight][OpenFarFarRight][ClearFace][OpenFarFarRight][LoadBlueSoldier][OpenFarFarRight][MoveMidRight][OpenMidRight]Finally![....][NL]
-
 It's been weeks since I sent you two out.[A][NL]
-
 What took you both so long to find the[NL]
-
 Princess and the merchants?[A]
-
 [LoadOverworldFaces]
-
 [OpenLeft]Oh, well[ToggleMouthMove][CloseEyes]...[....][ToggleMouthMove] I'm sorry, but we were too late[NL]
-
 to save the merchants.[A][NL]
-
 When we arrived, they were all already dead,[NL]
-
 and--[A]
-
 [OpenMidRight][ToggleMouthMove]...[....][ToggleMouthMove][NL]
-
 They're dead[ToggleMouthMove]...?[....][ToggleMouthMove] You[ToggleMouthMove]...[....][ToggleMouthMove] this is a joke, right?[A]
-
-[OpenFarLeft]Theoxia has checked them[N]
-
-all in to the underworld, I'm afraid.[A]
-
+[OpenFarLeft]Theoxia has already checked them all[NL]
+into the underworld, I'm afraid.[A]
 [OpenMidRight]Oh[ToggleMouthMove]...[....][ToggleMouthMove] Oh gods, no[ToggleMouthMove]...[....][ToggleMouthMove][NL]
-
 Christophe[ToggleMouthMove]...[....][ToggleMouthMove] He can't be dead[ToggleMouthMove]...[A][ToggleMouthMove]
-
 [OpenLeft][OpenEyes]I'm sorry, but we tried.[NL]
-
 Are[ToggleMouthMove]...[....][ToggleMouthMove] Will you be okay, sir?[A]
-
 [OpenMidRight][ToggleMouthMove]...[....][ToggleMouthMove]Just go[ToggleMouthMove]...[....][ToggleMouthMove][NL]
-
 You'll[ToggleMouthMove]...[....][ToggleMouthMove] get your pay later[ToggleMouthMove]...[A][ToggleMouthMove]
-
 [OpenLeft]O-Okay[ToggleMouthMove]...[....][ToggleMouthMove] [CloseEyes]Let's go, Ben.[A][OpenEyes]
-
 [OpenMidRight][ClearFace][OpenFarFarRight][LoadJeanne][OpenFarFarRight][MoveMidRight]
-
 [OpenMidRight]My apologies for taking so long. You should[NL]
-
 now have free reign of the castle grounds.[A]
-
 [OpenLeft]Alright[ToggleMouthMove]...[....][ToggleMouthMove] Thanks.[A][X]
-

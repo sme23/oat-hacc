@@ -1,67 +1,34 @@
 [OpenMidLeft][LoadCiel][OpenMidRight][LoadJeanne]Ah, I am sorry, I do not believe I know[NL]
-
 you. How long have you been traveling[A][NL]
-
 with us?[A]
-
 [OpenMidLeft]I just joined today, and I don't know[NL]
-
 if I'm staying.[A]
-
 [OpenMidRight]Why is that?[A]
-
 [OpenMidLeft]I was attacked by the same group as you.[NL]
-
 I was going to leave after the battle,[A][NL]
-
 but my wyvern's exhausted.[A]
-
 [OpenMidRight]Ah, I am sorry to hear that. Is there nothing[NL]
-
 I can do to convince you to stay,[A][NL]
-
 Madame?[A]
-
 [OpenMidLeft][CloseEyes]Erm[ToggleMouthMove]...[....][ToggleMouthMove] Please don't call me that.[A]
-
 [OpenMidRight]Call you what? Madame?[A]
-
 [OpenMidLeft][OpenEyes]Yes,[....] I'm not a woman.[NL]
-
 Or a man, for that matter.[A]
-
 [OpenMidRight]Ah, my apologies.[NL]
-
 What is your name?[A]
-
 [OpenMidLeft][MoveMidLeft][OpenMidLeft]Wait[ToggleMouthMove]...[....][ToggleMouthMove] You're just okay with that?[A]
-
 [OpenMidRight]Yes, of course. Why would I not be?[A][NL]
-
 I have no reason to not respect your[NL]
-
 wishes.[A]
-
 [OpenMidLeft][CloseEyes]No one has ever[ToggleMouthMove]...[....][ToggleMouthMove][OpenEyes][NL]
-
 Um, my name is Ciel.[A][NL]
-
 And[ToggleMouthMove]...[....][ToggleMouthMove] And I wish to stay with you.[A]
-
 [OpenMidRight]Oh, well that is quite pleasing to hear.[A][NL]
-
 Wyvern riders are quite uncommon in Vernet,[NL]
-
 and I am sure your skills will be invaluable.[A][NL]
-
 [ToggleSmile]My name is Jeanne. It is a pleasure[NL]
-
 to meet you, Ciel.[A]
-
 [OpenMidLeft]It's nice to meet you too. And this[NL]
-
 is my wyvern, Valentine.[A]
-
 [OpenMidRight]It is a pleasure to meet you too, Valentine.[A]
-
 [OpenFarFarLeft]Roar![A][X]

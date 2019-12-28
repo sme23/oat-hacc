@@ -21,7 +21,7 @@
 
 	ALIGN 4
 
-	MESSAGE MMB code begins at CURRENTOFFSET
+	//MESSAGE MMB code begins at CURRENTOFFSET
 
 	#include "MMB Configuration.txt"
 	#include "Internal/UI1 Proc Code.event"
@@ -790,6 +790,6 @@
 
 	WORD 0
 
-	MESSAGE MMB code ends at CURRENTOFFSET
+	//MESSAGE MMB code ends at CURRENTOFFSET
 
 #endif // MODULAR_MMB

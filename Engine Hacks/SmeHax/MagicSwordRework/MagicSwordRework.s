@@ -43,7 +43,7 @@ lsr r4,r4,#4
 
 mov r0,#0x1
 tst r3,r0
-bne SetWeaponType
+bne AtRange
 
 b TargetBehavior
 
@@ -53,6 +53,10 @@ AtRange:
 ldrb r0,[r5,#0x14] @halve str
 lsr r0,r0,#1
 strb r0,[r5,#0x14]
+
+mov r0,#0x1
+tst r3,r0
+bne SetWeaponType
 
 lsl r4,r4,#28
 lsr r4,r4,#28
@@ -73,7 +77,14 @@ cmp r4,#0
 beq HitDef
 
 mov r0,r6
-add r0,#0x30 @get defender struct
+ldr r1,=#0x203A438
+cmp r1,r0
+beq Attacker
+sub r0,#0xC7
+b Poster
+Attacker:
+add r0,#0x30
+Poster:
 ldrb r1,[r0,#0x18] @enemy res
 ldrb r0,[r0,#0x17] @enemy def
 cmp r4,#2
@@ -84,12 +95,12 @@ b GoBack
 
 HitLower:
 cmp r0,r1
-blt HitDef
+ble HitDef
 b GoBack
 
 HitHigher:
 cmp r0,r1
-bgt HitDef
+bge HitDef
 b GoBack
 
 HitDef:

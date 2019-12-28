@@ -5,7 +5,7 @@
 
   PUSH
 	ORG $59D214         
-	MenuBox($01, $02, $08, 0, 0, MainMenuTable)
+	MenuBox($01, $02, $07, 0, 0, MainMenuTable)
   POP
 
   MainMenuTable:
@@ -15,10 +15,10 @@
   MM_Options
   MM_Dunno1
   MM_Dunno2
+  #ifdef __DEBUG__
+  MenuCommand(UM_Debug, 0, GreenText, 0x4F449, EndEffect)
+  #endif // __DEBUG__
   MM_Suspend
-  //#ifdef DEBUG
-  //MenuCommand(UM_Debug, 0, GreenText, 0x4F449, EndEffect)
-  //#endif
   MM_End
   MM_Separator
 

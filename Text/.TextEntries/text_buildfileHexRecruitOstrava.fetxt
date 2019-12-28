@@ -1,26 +1,13 @@
 [OpenMidLeft][LoadOstrava]Is anyone still here?[A]
-
 [OpenMidRight][LoadHex]Hello, who's ther--[....] Osty, is that you?[A]
-
 [OpenMidLeft]How did you know my[ToggleMouthMove]...[....][ToggleMouthMove] Wait, is that you,[NL]
-
 Hex?[A]
-
 [OpenMidRight][ToggleSmile]Oh, Osty! I'm so glad to see you again.[NL]
-
 What's going on?[A]
-
 [OpenMidLeft][ToggleSmile]The town is under attack![A]
-
 [OpenMidRight][MoveMidRight][OpenMidRight]Alright Osty, I'll lend you my magic in this[NL]
-
 fight![A]
-
 [OpenMidLeft]Thank you, Hex, but you don't--[A]
-
 [OpenMidRight]Too late. I've made up my mind.[A]
-
 [OpenMidLeft]Alright[ToggleMouthMove]...[....][ToggleMouthMove] Just don't do anything[NL]
-
 that would endanger yourself.[A][X]
-

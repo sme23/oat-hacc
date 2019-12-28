@@ -1,3 +1,5 @@
+#define __DEBUG__
+
 #define FreeSpace 0xb2a610
 #define FreeSpaceBLRange 0x1c1ec0
 
@@ -23,8 +25,6 @@
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
 //#include "Tables/Table Definitions.txt"
 
-// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
-#define __ESCAPE__
 //Event Helpers
 
 #define EndConvo "CALL $9EE2C4"

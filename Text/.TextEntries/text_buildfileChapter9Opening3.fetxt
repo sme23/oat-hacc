@@ -1,84 +1,42 @@
 [OpenLeft][LoadJeanne][OpenRight][LoadOstrava][OpenFarRight][LoadRoshal][OpenFarLeft][LoadJunpei]Well?[....] What'd ya see?[A]
-
 [OpenFarRight][MoveFarRight][OpenFarRight]Really bad. Not as bad as on the[NL]
-
 bridge, but still really bad.[A]
-
 [OpenLeft][ToggleMouthMove]Hmm.[....][ToggleMouthMove] Well, we managed to break[NL]
-
 through the forces on the bridge.[A][NL]
-
 I believe we can take the city back.[A]
-
 [OpenRight]Well[ToggleMouthMove]...[....][ToggleMouthMove] do you have a plan?[A]
-
 [OpenLeft]I do.[A]
-
 [OpenFarRight][ClearFace][OpenFarRight][LoadZo]What did you have in mind?[A]
-
 [OpenLeft]We secure the main entrance of the town,[NL]
-
 before pushing onward to Irrithyl Fortress.[A][NL]
-
 There, we engage Gotthard and strongarm[NL]
-
 him into laying down his arms.[A]
-
 [OpenFarLeft][ClearFace][OpenFarLeft][LoadBen]That plan works, until you consider[NL]
-
 the possibility that we could be flanked[A][NL]
-
 from behind. I propose leaving a small[NL]
-
 portion of our party to stay behind to[A][NL]
-
 stave off any reinforcements.[ToggleSmile] In any[NL]
-
 other situation, I'd volunteer myself[A][NL]
-
 singularly to stay behind,[ToggleSmile] but this is[NL]
-
 an issue that springs far beyond any[A][NL]
-
 superiority I feel I may have.[A]
-
 [OpenFarRight]For once, I can agree with Ben.[A]
-
 [OpenFarLeft][MoveFarLeft][OpenFarLeft]Hey![....] What do you mean "for once?"[A]
-
 [OpenRight]If this is going to work, hitting hard[NL]
-
 once might do the trick.[A]
-
 [OpenLeft]I agree.[NL]
-
 We will all need to be quick and efficient.[A][NL]
-
 If all goes well, Gotthard will have surrendered[NL]
-
 by this afternoon.[A]
-
 [OpenRight][CloseEyes]I really hope we can do this.[NL]
-
 It's not in our favor.[A]
-
 [OpenLeft]Are we all prepared?[A]
-
 [OpenRight][OpenEyes]I'm ready to move.[A]
-
 [OpenFarRight]Of course. I'm ready to go.[A]
-
 [OpenFarLeft][ToggleSmile]I was born ready.[A][NL]
-
 Let's show that bastard Gotthard that[NL]
-
 Vernet means business![A]
-
 [OpenFarLeft][ToggleSmile][ClearFace][OpenFarRight][ClearFace][OpenFarRight][LoadRoshal][OpenFarLeft][LoadJunpei]Ready as I'll ever be for this.[A]
-
 [OpenFarRight]Um, same here[ToggleMouthMove]...[....][ToggleMouthMove] I guess.[A]
-
 [OpenLeft]Then we march. Remember, we must[NL]
-
 move quickly.[A][X]
-

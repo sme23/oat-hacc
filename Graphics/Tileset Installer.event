@@ -1,15 +1,15 @@
-MESSAGE Tiles at CURRENTOFFSET
+//MESSAGE Tiles at CURRENTOFFSET
 DesertTiles:
 #incbin "Tileset/BetterDesert_comp.dmp"
 ALIGN 4
 
-MESSAGE Objects at CURRENTOFFSET
+//MESSAGE Objects at CURRENTOFFSET
 DesertObjects:
 //#incext Png2Dmp "Tileset/BetterDesert.png" --lz77
 #incbin "Tileset/BetterDesert.dmp"
 ALIGN 4
 
-MESSAGE Palette at CURRENTOFFSET
+//MESSAGE Palette at CURRENTOFFSET
 DesertPalette:
 #incbin "Tileset/BetterDesertPalette.dmp"
 ALIGN 4

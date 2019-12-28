@@ -71,3 +71,9 @@ ally.[X]
 ## UM_CaptureDesc
 Strike a fatal blow with reduced[N]
 stats to capture an enemy.[X]
+
+## UM_Debug
+ Debug[X]
+
+## UM_Win
+ Win[X]

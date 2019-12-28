@@ -216,6 +216,7 @@ POP
   
   #include "UnitMenu.event"
   #include "Popups.event"
+  #include "MainMenu.event"
   
   #include "SkillSystem/Internals/CalcLoops/CalcLoops.event"
 
@@ -243,3 +244,20 @@ POP
     #include "SuspendDebuffs/SuspendExpansion.event"
 
   #endif // USE_SAVE_EXPANSION
+  
+  
+  //LOAD2 exemption list
+  PUSH
+  ORG 0x84864
+  POIN DeadLoadExemptionList
+  POP
+  
+  ALIGN 4
+  DeadLoadExemptionList:
+  BYTE Zo Ben Junpei Roshal
+  BYTE 0 //terminator
+  ALIGN 4
+  
+  
+  
+  
