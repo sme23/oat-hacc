@@ -177,6 +177,21 @@ UniversityMagePortrait:
 GenericThiefPortrait:
 #incext PortraitFormatter "NPCs/Generic Thief.png"
 
+Manakete1Portrait:
+#incext PortraitFormatter "NPCs/Manakete 1.png"
+
+Manakete2Portrait:
+#incext PortraitFormatter "NPCs/Manakete 2.png"
+
+Manakete3Portrait:
+#incext PortraitFormatter "NPCs/Manakete 3.png"
+
+Manakete4Portrait:
+#incext PortraitFormatter "NPCs/Manakete 4.png"
+
+Manakete5Portrait:
+#incext PortraitFormatter "NPCs/Manakete 5.png"
+
 
 #ifndef __TROUBLESHOOT__
 setMugEntry(0x2, OstravaPortrait, 3, 6, 3, 4)
@@ -235,11 +250,16 @@ setMugEntry(0x34, RaimePortrait, 2, 5, 3, 3)
 setMugEntry(0x35, BrandonPortrait, 2, 5, 3, 3)
 setMugEntry(0x36, OrionPortrait, 2, 5, 3, 3)
 
-
+// NPCs (vanilla villager mugs start at 0x58
 setMugEntry(0x37, MeiluPortrait, 2, 6, 3, 4)
 setMugEntry(0x38, EmilePortrait, 2, 5, 2, 3)
 setMugEntry(0x39, UniversityMagePortrait, 2, 5, 3, 3)
 setMugEntry(0x3A, GenericThiefPortrait, 2, 6, 2, 3)
+setMugEntry(0x3B, Manakete1Portrait, 2, 6, 3, 4)
+setMugEntry(0x3C, Manakete2Portrait, 2, 7, 3, 5)
+setMugEntry(0x3D, Manakete3Portrait, 2, 5, 3, 3)
+setMugEntry(0x3E, Manakete4Portrait, 2, 6, 3, 4)
+setMugEntry(0x3F, Manakete5Portrait, 2, 5, 3, 3)
 #endif
 
 #define OstravaMug 0x2
@@ -299,3 +319,9 @@ setMugEntry(0x3A, GenericThiefPortrait, 2, 6, 2, 3)
 
 #define EmileMug 55
 #define MeiluMug 56
+#define GenericBanditMug 57
+#define Manakete1Mug 58
+#define Manakete2Mug 59
+#define Manakete3Mug 60
+#define Manakete4Mug 61
+#define Manakete5Mug 62
