@@ -169,7 +169,7 @@ MeiluPortrait:
 #incext PortraitFormatter "NPCs/Meilu.png"
 
 EmilePortrait:
-#incext PortraitFormatter "NPCs/Emile.png"
+#incext PortraitFormatter "Playables/Emile.png"
 
 UniversityMagePortrait:
 #incext PortraitFormatter "NPCs/University Mage.png"
@@ -191,6 +191,12 @@ Manakete4Portrait:
 
 Manakete5Portrait:
 #incext PortraitFormatter "NPCs/Manakete 5.png"
+
+Manakete6Portrait:
+#incext PortraitFormatter "NPCs/Manakete 6.png"
+
+Manakete7Portrait:
+#incext PortraitFormatter "NPCs/Manakete 7.png"
 
 
 #ifndef __TROUBLESHOOT__
@@ -260,6 +266,8 @@ setMugEntry(0x3C, Manakete2Portrait, 2, 7, 3, 5)
 setMugEntry(0x3D, Manakete3Portrait, 2, 5, 3, 3)
 setMugEntry(0x3E, Manakete4Portrait, 2, 6, 3, 4)
 setMugEntry(0x3F, Manakete5Portrait, 2, 5, 3, 3)
+setMugEntry(0x40, Manakete6Portrait, 2, 5, 3, 3)
+setMugEntry(0x41, Manakete7Portrait, 2, 7, 3, 5)
 #endif
 
 #define OstravaMug 0x2
@@ -325,3 +333,6 @@ setMugEntry(0x3F, Manakete5Portrait, 2, 5, 3, 3)
 #define Manakete3Mug 60
 #define Manakete4Mug 61
 #define Manakete5Mug 62
+#define Manakete6Mug 63
+#define Manakete7Mug 64
+
